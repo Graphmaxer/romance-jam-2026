@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://bde4ef1wqhqqx"]
+
+[ext_resource type="Script" uid="uid://dtcb0w2n5ggir" path="res://screens/first_day/first_day.gd" id="1_ifado"]
+[ext_resource type="Texture2D" uid="uid://6krhtnj02fl4" path="res://assets/characters/female/Female_Neutral.png" id="2_ifado"]
+[ext_resource type="Texture2D" uid="uid://2hoy8in1or40" path="res://assets/characters/male/Male_Neutral.png" id="3_p4ckw"]
+
+[node name="FirstDay" type="Control" unique_id=2139466926]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ifado")
+
+[node name="Female" type="TextureRect" parent="." unique_id=1282451861]
+layout_mode = 1
+anchors_preset = 9
+anchor_bottom = 1.0
+offset_right = 288.0
+grow_vertical = 2
+texture = ExtResource("2_ifado")
+expand_mode = 3
+
+[node name="Male" type="TextureRect" parent="." unique_id=1510394416]
+layout_mode = 1
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -356.37085
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("3_p4ckw")
+expand_mode = 3
