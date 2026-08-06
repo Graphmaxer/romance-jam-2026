@@ -1,4 +1,4 @@
 [gd_resource type="Theme" format=3 uid="uid://dvp7v6oxh0ugs"]
 
 [resource]
-Button/font_sizes/font_size = 23
+HBoxContainer/constants/separation = 16

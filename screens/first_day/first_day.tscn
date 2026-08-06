@@ -1,8 +1,12 @@
 [gd_scene format=3 uid="uid://bde4ef1wqhqqx"]
 
 [ext_resource type="Script" uid="uid://dtcb0w2n5ggir" path="res://screens/first_day/first_day.gd" id="1_ifado"]
-[ext_resource type="Texture2D" uid="uid://6krhtnj02fl4" path="res://assets/characters/female/Female_Neutral.png" id="2_ifado"]
-[ext_resource type="Texture2D" uid="uid://2hoy8in1or40" path="res://assets/characters/male/Male_Neutral.png" id="3_p4ckw"]
+[ext_resource type="PackedScene" uid="uid://vwbtlhpab5q" path="res://ui/dialogue/dialogue.tscn" id="2_13tjl"]
+[ext_resource type="PackedScene" uid="uid://bxmnui8xvsga5" path="res://ui/character_card/character_card.tscn" id="2_p4ckw"]
+[ext_resource type="Script" uid="uid://cddw0vxnb1jna" path="res://data/characters/character.gd" id="3_dj0lf"]
+[ext_resource type="Resource" uid="uid://cy7flpa1y68tv" path="res://data/characters/Male.tres" id="3_ifado"]
+[ext_resource type="Resource" uid="uid://c6k05o6l82rxs" path="res://data/characters/Female.tres" id="4_p4ckw"]
+[ext_resource type="Resource" uid="uid://de4mji5sp15hs" path="res://dialogues/dialogue.dialogue" id="6_31f6n"]
 
 [node name="FirstDay" type="Control" unique_id=2139466926]
 layout_mode = 3
@@ -13,23 +17,11 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_ifado")
 
-[node name="Female" type="TextureRect" parent="." unique_id=1282451861]
+[node name="Dialogue" parent="." unique_id=825360668 instance=ExtResource("2_13tjl")]
 layout_mode = 1
-anchors_preset = 9
-anchor_bottom = 1.0
-offset_right = 288.0
-grow_vertical = 2
-texture = ExtResource("2_ifado")
-expand_mode = 3
-
-[node name="Male" type="TextureRect" parent="." unique_id=1510394416]
-layout_mode = 1
-anchors_preset = 11
-anchor_left = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -356.37085
-grow_horizontal = 0
-grow_vertical = 2
-texture = ExtResource("3_p4ckw")
-expand_mode = 3
+characters = Dictionary[String, ExtResource("3_dj0lf")]({
+"female": ExtResource("4_p4ckw"),
+"male": ExtResource("3_ifado")
+})
+dialogue = ExtResource("6_31f6n")
+character_card_scene = ExtResource("2_p4ckw")

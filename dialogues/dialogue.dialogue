@@ -3,6 +3,7 @@ Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
 Nathan: Here are some choices.
 - First one
 	Nathan: You picked the first one.
+	$> change_male_face(Character.Face.ANGRY)
 - Second one
 	Nathan: You picked the second one.
 - Start again => start
