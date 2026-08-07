@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://b10we4ih7e2hh"]
+
+[ext_resource type="Texture2D" uid="uid://c46x1bn656rlh" path="res://assets/backgrounds/game_background_2/game_background_2.png" id="1_1sa42"]
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/location/location.gd" id="1_p4emc"]
+
+[resource]
+script = ExtResource("1_p4emc")
+location_name = "Beach"
+background = ExtResource("1_1sa42")
+metadata/_custom_type_script = "uid://djshq1md8tej7"

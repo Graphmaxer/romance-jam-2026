@@ -2,3 +2,6 @@ root = true
 
 [*]
 charset = utf-8
+
+[*.gd]
+gdscript_formatter_format_on_save = true

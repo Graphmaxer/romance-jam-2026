@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://vwbtlhpab5q"]
+
+[ext_resource type="Script" uid="uid://vhe2pgfad0by" path="res://ui/discussion_screen/discussion_screen.gd" id="1_gbk6d"]
+[ext_resource type="Texture2D" uid="uid://c46x1bn656rlh" path="res://assets/backgrounds/game_background_2/game_background_2.png" id="2_8widw"]
+
+[node name="DiscussionScreen" type="Control" unique_id=825360668]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_gbk6d")
+
+[node name="BackgroundTexRect" type="TextureRect" parent="." unique_id=1959161664]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_8widw")
+expand_mode = 5
+
+[node name="CharactersContainer" type="HBoxContainer" parent="." unique_id=1928782650]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BackgroundStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=821826129]

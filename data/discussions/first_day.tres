@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Discussion" format=3 uid="uid://boljmunvmop7k"]
+
+[ext_resource type="Script" uid="uid://cddw0vxnb1jna" path="res://data/characters/character.gd" id="1_irl0c"]
+[ext_resource type="Script" uid="uid://dup8lne0k4b2o" path="res://data/discussions/discussion.gd" id="2_cebpl"]
+[ext_resource type="Resource" uid="uid://cy7flpa1y68tv" path="res://data/characters/male.tres" id="2_tcqod"]
+[ext_resource type="Resource" uid="uid://c6k05o6l82rxs" path="res://data/characters/female.tres" id="3_ymsl1"]
+[ext_resource type="Resource" uid="uid://de4mji5sp15hs" path="res://dialogues/dialogue.dialogue" id="4_gthkr"]
+[ext_resource type="Resource" uid="uid://b10we4ih7e2hh" path="res://data/location/Beach.tres" id="5_ymsl1"]
+
+[resource]
+script = ExtResource("2_cebpl")
+location = ExtResource("5_ymsl1")
+characters = Array[ExtResource("1_irl0c")]([ExtResource("2_tcqod"), ExtResource("3_ymsl1")])
+dialogue = ExtResource("4_gthkr")
+metadata/_custom_type_script = "uid://dup8lne0k4b2o"

@@ -1,12 +1,15 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
+Male: [[Hi|Hello|Howdy]], this is some dialogue.
+Male: Here are some choices.
+Test
+Female: Hello World
+Male: Foo Bar
 - First one
-	Nathan: You picked the first one.
-	$> change_male_face(Character.Face.ANGRY)
+	Male: You picked the first one.
+	$> change_face("Male", Character.Face.ANGRY)
 - Second one
-	Nathan: You picked the second one.
+	Male: You picked the second one.
 - Start again => start
 - End the conversation => END
-Nathan: For more information see the online documentation.
+Male: For more information see the online documentation.
 => END
