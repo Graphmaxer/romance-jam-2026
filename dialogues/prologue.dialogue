@@ -1,0 +1,73 @@
+# Prologue
+
+# Début de l'été - matin -
+~ appartement
+# Lieu : appartement protagoniste, remplie de cartons ; elle finit de faire sa valise
+$> set_location("Appartement")
+$> add_character("Steve")
+
+Protagoniste: J'ai fini ma valise ! Il n'y plus qu'à attendre que Steve arrive et nous pourrons partir
+
+*quelqu'un sonne à la porte, elle se dirige vers la porte et l'ouvre*
+Protagoniste: Justement, je t'attendais ! Prêt à partir ? Bah… Où est ta valise ?
+
+Steve: Écoute {{pseudo}}... Je ne viens pas avec toi…
+
+Protagoniste: Quoi !? Mais pourquoi !?
+
+Steve: J'ai rencontré quelqu'un au travail. Et je l'aime plus que toi.
+
+Protagoniste: Mais ça fait 4 ans qu'on est ensemble ! On allait emménager ensemble, comment peux-tu me faire ça ? J'ai déjà mis fin au bail de mon appartement et mes cartons sont prêts. *commence à pleurer*
+
+Steve: Je suis désolée {{pseudo}}. Je te souhaite bon courage. *commence à partir*
+
+Protagoniste: 
+- Pleurer en le regardant
+	Protagoniste: Tu es horrible… Comment peux-tu me faire ça après tout ce qu’on a partagé ensemble…
+- Lui courir après pour se venger
+	Protagoniste: Espèce de *** !!! Reviens que je puisse t'étriper ! *il commence à courir et une fois qu'il arrive à sa voiture s'en va avant qu'elle puisse le rattraper, elle serre les poing de rage, retourne à son appartement, prends sa valise et attends le bus en ayant les larmes aux yeux*
+
+~ quai_bateau
+# Lieu : sur le quai d'un bateau
+$> set_location("Quai bateau")
+
+Protagoniste: *sort un miroir* à cause de cet abruti j'ai les yeux rouges… Je le déteste ! En plus c'est moi qui lui ai trouvé ce travail. Heureusement que j'ai prévenu ma mère pour qu'elle récupère mes cartons chez elle en attendant que je trouve un nouveau logement… Je te maudis Steve… *présente son ticket avant de monter dans le bateau*
+
+$> show_transition("Plusieurs heures plus tard")
+
+~ quai_ile
+# Lieu : quai de l'île - midi -
+$> set_location("Quai ile")
+$> add_character("Irma")
+
+Protagoniste: *descend du bateau avec sa valise*
+
+Irma: {{pseudo}} !!! *se jette sur la protagoniste et lui fais un câlin avant de s'écarter et regarde autour* Alors, où est ton fameux copain ? Tu m'as tellement parlé de lui que j'ai hâte.
+
+Protagoniste: Finalement serai seule… On peut rentrer Tatie… ? Je ne me sens pas bien…
+
+Irma: Oh ma chérie… *lui fait un câlin puis l'emmène avec elle jusqu'à la voiture* Je vais te faire une tasse de thé et te lire les cartes, ça va te permettre de te changer les idées.
+
+Protagoniste: Merci.
+
+$> show_transition("Plusieurs minutes plus tard")
+
+~ divination
+# Lieu : salle de divination de la tante Irma dans son hôtel
+$> set_location("Divination")
+$> add_character("Irma")
+
+Irma: Comment est ton thé ma chérie ?
+
+Protagoniste: Très bien. Merci. *bois sa tasse*
+
+Irma: *sors son jeu de carte de tarot* Est-ce que ça te tenterait de jouer aux cartes pour te changer les idées ?
+
+Protagoniste: Tu es sûre que c'est bien le moment ? *regarde sa tante d'un regard dubitative*
+
+Irma: *mélange ses cartes* Bien sûr ! Et tu sais que mes prédictions se réalisent à 95% !
+
+Protagoniste: *réfléchi* Il est vrai que tes prédictions sont souvent justes… Très bien ! Je vais jouer !
+
+# -Fin Chapitre 1-
+=> END

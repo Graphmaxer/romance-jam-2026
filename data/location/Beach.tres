@@ -1,10 +1,16 @@
 [gd_resource type="Resource" script_class="Location" format=3 uid="uid://b10we4ih7e2hh"]
 
-[ext_resource type="Texture2D" uid="uid://c46x1bn656rlh" path="res://assets/backgrounds/game_background_2/game_background_2.png" id="1_1sa42"]
+[ext_resource type="Texture2D" uid="uid://dob3cbpuj04ys" path="res://assets/backgrounds/beach/beach_daytime.jpg" id="1_8h7bg"]
 [ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/location/location.gd" id="1_p4emc"]
+[ext_resource type="Texture2D" uid="uid://b6cu5q3b5b68" path="res://assets/backgrounds/beach/beach_evening.jpg" id="2_1rh0e"]
+[ext_resource type="Texture2D" uid="uid://cn6a4ckrbvqld" path="res://assets/backgrounds/beach/beach_night.jpg" id="3_j8ffp"]
 
 [resource]
 script = ExtResource("1_p4emc")
 location_name = "Beach"
-background = ExtResource("1_1sa42")
+backgrounds = Dictionary[String, Texture2D]({
+"daytime": ExtResource("1_8h7bg"),
+"evening": ExtResource("2_1rh0e"),
+"night": ExtResource("3_j8ffp")
+})
 metadata/_custom_type_script = "uid://djshq1md8tej7"

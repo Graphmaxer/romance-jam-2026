@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://c0k08mshqoaeu"]
+
+[ext_resource type="Script" uid="uid://det2tlep1uvm8" path="res://dialogues/dialogue_test_scene/dialogue_test_scene.gd" id="1_mibxc"]
+[ext_resource type="PackedScene" uid="uid://vwbtlhpab5q" path="res://ui/discussion/discussion.tscn" id="2_6bk4m"]
+[ext_resource type="Resource" uid="uid://cnk3p8pqg5o4m" path="res://data/story/main.tres" id="3_mibxc"]
+
+[node name="DialogueTestScene" type="Node2D" unique_id=1975599640]
+script = ExtResource("1_mibxc")
+metadata/_custom_type_script = "uid://c8e16qdgu40wo"
+
+[node name="Discussion" parent="." unique_id=825360668 instance=ExtResource("2_6bk4m")]
+size_flags_horizontal = 3
+size_flags_vertical = 3
+story = ExtResource("3_mibxc")

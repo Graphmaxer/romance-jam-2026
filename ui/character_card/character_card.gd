@@ -38,6 +38,5 @@ func _modulate_character(color: Color, scale_vec: Vector2) -> void:
 		character_tween.kill()
 	character_tween = create_tween()
 	character_tween.set_parallel()
-	character_tween.set_ease(Tween.EASE_IN_OUT)
 	character_tween.tween_property(character_tex_rect, "self_modulate", color, 0.15)
 	character_tween.tween_property(character_tex_rect, "offset_transform_scale", scale_vec, 0.1)

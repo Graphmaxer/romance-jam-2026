@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://vwbtlhpab5q"]
+
+[ext_resource type="Script" uid="uid://vhe2pgfad0by" path="res://ui/discussion/discussion.gd" id="1_g7loq"]
+[ext_resource type="Texture2D" uid="uid://bsw7vpl5uuiu6" path="res://assets/placeholders/wide.png" id="2_g7loq"]
+[ext_resource type="PackedScene" uid="uid://cc05yaumj1ack" path="res://ui/transition/transition.tscn" id="3_flpty"]
+
+[node name="Discussion" type="Control" unique_id=825360668]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_g7loq")
+
+[node name="BackgroundTexRect" type="TextureRect" parent="." unique_id=1959161664]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_g7loq")
+expand_mode = 5
+
+[node name="CharactersContainer" type="HBoxContainer" parent="." unique_id=1928782650]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BackgroundStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=821826129]
+
+[node name="Transition" parent="." unique_id=1818611459 instance=ExtResource("3_flpty")]

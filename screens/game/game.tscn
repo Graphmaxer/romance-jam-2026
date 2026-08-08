@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bde4ef1wqhqqx"]
+
+[ext_resource type="Script" uid="uid://dtcb0w2n5ggir" path="res://screens/game/game.gd" id="1_8ilvi"]
+[ext_resource type="PackedScene" uid="uid://vwbtlhpab5q" path="res://ui/discussion/discussion.tscn" id="2_0iheo"]
+[ext_resource type="Resource" uid="uid://cnk3p8pqg5o4m" path="res://data/story/main.tres" id="3_yflor"]
+
+[node name="Game" type="Control" unique_id=2139466926]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_8ilvi")
+
+[node name="Discussion" parent="." unique_id=825360668 instance=ExtResource("2_0iheo")]
+layout_mode = 1
+story = ExtResource("3_yflor")

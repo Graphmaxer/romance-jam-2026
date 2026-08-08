@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://b6blptr16xph4"]
+
+[ext_resource type="Texture2D" uid="uid://ry2uuox7v2l6" path="res://assets/backgrounds/sea_island/island_daytime.jpg" id="1_6omss"]
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/location/location.gd" id="4_yy0kl"]
+
+[resource]
+script = ExtResource("4_yy0kl")
+location_name = "Island"
+backgrounds = Dictionary[String, Texture2D]({
+"daytime": ExtResource("1_6omss")
+})
+metadata/_custom_type_script = "uid://djshq1md8tej7"
