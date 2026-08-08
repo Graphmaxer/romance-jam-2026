@@ -25,7 +25,7 @@ func _on_pseudo_input_text_submitted(new_text: String) -> void:
 
 
 func _on_pseudo_input_text_changed(new_text: String) -> void:
-	GameState.pseudo = new_text
+	GameState.pseudo = new_text.strip_edges()
 	if new_text.strip_edges().length() > 0:
 		new_game_button.disabled = false
 	else:

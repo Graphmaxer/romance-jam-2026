@@ -90,6 +90,10 @@ func end_transition() -> void:
 	await transition.fade_out()
 
 
+func get_reputation(firstname: String) -> int:
+	return GameState.get_reputation(firstname)
+
+
 func gain_reputation(firstname: String, points: int) -> void:
 	_update_reputation(firstname, +points)
 

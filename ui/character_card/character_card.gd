@@ -29,7 +29,7 @@ func unfocus_character() -> void:
 
 
 func update_reputation(points: int) -> void:
-	var reputation: int = clampi(_get_reputation() + points, 0, 100)
+	var reputation: int = clampi(GameState.get_reputation(name) + points, 0, 100)
 	GameState.reputations[name] = reputation
 
 	if reputation_tween and reputation_tween.is_valid():
@@ -40,16 +40,10 @@ func update_reputation(points: int) -> void:
 	reputation_tween.tween_property(reputation_bar, "value", reputation, 0.4)
 
 
-func _get_reputation() -> int:
-	if GameState.reputations.has(name):
-		return GameState.reputations[name]
-	return 0
-
-
 func _refresh_character() -> void:
 	if character:
 		reputation_bar.visible = character.is_love_interest
-		reputation_bar.value = _get_reputation()
+		reputation_bar.value = GameState.get_reputation(name)
 		character_tex_rect.texture = character.get_face_tex()
 
 
