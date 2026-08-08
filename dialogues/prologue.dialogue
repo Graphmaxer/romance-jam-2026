@@ -1,73 +1,101 @@
 # Prologue
+~ start
 
 # Début de l'été - matin -
-~ appartement
 # Lieu : appartement protagoniste, remplie de cartons ; elle finit de faire sa valise
 $> set_location("Appartement")
 $> add_character("Steve")
 
-Protagoniste: J'ai fini ma valise ! Il n'y plus qu'à attendre que Steve arrive et nous pourrons partir
+{{pseudo}}: J'ai fini ma valise ! Il n'y plus qu'à attendre que Steve arrive et nous pourrons partir
 
-*quelqu'un sonne à la porte, elle se dirige vers la porte et l'ouvre*
-Protagoniste: Justement, je t'attendais ! Prêt à partir ? Bah… Où est ta valise ?
+Pendant que je termine de fermer ma valise, quelqu'un sonne à la porte. Je me dirige vers la porte, empoigne la poignée et ouvre en affichant mon plus beau sourire.
 
-Steve: Écoute {{pseudo}}... Je ne viens pas avec toi…
+{{pseudo}}: Justement, je t'attendais ! Prêt à partir ? 
 
-Protagoniste: Quoi !? Mais pourquoi !?
+Je le regarde et remarque qu’il n’y a aucune valise dans sa main
 
-Steve: J'ai rencontré quelqu'un au travail. Et je l'aime plus que toi.
+{{pseudo}}:Bah… Où est ta valise?
 
-Protagoniste: Mais ça fait 4 ans qu'on est ensemble ! On allait emménager ensemble, comment peux-tu me faire ça ? J'ai déjà mis fin au bail de mon appartement et mes cartons sont prêts. *commence à pleurer*
+Mon regard se dirige vers son visage et je remarque qu’il a un air grave, il a une main derrière sa tête et évite de croiser mon regard.
 
-Steve: Je suis désolée {{pseudo}}. Je te souhaite bon courage. *commence à partir*
+Steve: Écoute {{pseudo}}... Il faut que je te dise quelque chose….
 
-Protagoniste: 
+Il finit par soupirer et me regarde enfin dans les yeux
+
+Steve: Je ne viens pas avec toi.
+
+Attends… Comment ça?! Ce voyage est prévu depuis 2 mois et il m’abandonne comme ça?! Je serre mes poings et me retiens de lui en coller une.
+
+{{pseudo}}: Quoi !? Mais pourquoi !?
+
+Il détourne le regard, comme s’il refusait de me l’avouer. Mais ça faisait 4 ans que l’on se connaissait il savait que je ne le laisserai pas partir sans connaître la réponse.
+
+Steve: J'ai rencontré quelqu'un au travail. Je la fréquente depuis quelques semaines maintenant et j’ai plus de points communs avec elle. Et puis tu aurais dû t'en douter, on se voyait et on se parlait de moins en moins. Elle est tellement géniale…
+
+Comment ça il a rencontré quelqu’un au travail..? Dans le travail dans lequel je l’ai aidé à trouver il y a 2 mois?! Je suis tellement choqué que même s’il continue de parler je n’arrive pas à tout entendre, j’essaie de garder mon calme puis mon regard se porte sur mes cartons qui sont déjà prêts. Je finis par lui coupe la parole
+
+{{pseudo}}: On allait emménager ensemble, comment peux-tu me faire ça ?! J'ai déjà mis fin au bail de mon appartement et mes cartons sont prêts.
+
+Je serre tellement fort mes poings que mon ongles pourraient me transpercer la peau, des larmes commencent à me monter aux yeux.
+
+Steve: Je suis désolée {{pseudo}}. Je te souhaite bon courage. Et dis à ta tante que je suis désolée de lui faire faux bond. Elle avait l’air sympas.
+
+Il commence à partir.
+
+{{pseudo}}: 
 - Pleurer en le regardant
 	Protagoniste: Tu es horrible… Comment peux-tu me faire ça après tout ce qu’on a partagé ensemble…
-- Lui courir après pour se venger
-	Protagoniste: Espèce de *** !!! Reviens que je puisse t'étriper ! *il commence à courir et une fois qu'il arrive à sa voiture s'en va avant qu'elle puisse le rattraper, elle serre les poing de rage, retourne à son appartement, prends sa valise et attends le bus en ayant les larmes aux yeux*
+	*Steve s’en va sans se retourner, je tends la main pour essayer de le retenir mais il est déjà trop tard, je baisse la tête, prends ma valise et ferme la porte de mon appartement avant d’aller prendre le bus*
 
-~ quai_bateau
+- Lui courir après pour se venger
+	Protagoniste: Espèce de *** !!! Reviens que je puisse t'étriper ! *il commence à courir et une fois qu'il arrive à sa voiture s'en va avant que je ne puisse le rattraper, je serre les poing de rage, retourne à mon appartement, prends ma valise et attends le bus en ayant les larmes aux yeux*
+
+$> set_location("Arrêt de bus devant immeuble")
+
 # Lieu : sur le quai d'un bateau
 $> set_location("Quai bateau")
 
-Protagoniste: *sort un miroir* à cause de cet abruti j'ai les yeux rouges… Je le déteste ! En plus c'est moi qui lui ai trouvé ce travail. Heureusement que j'ai prévenu ma mère pour qu'elle récupère mes cartons chez elle en attendant que je trouve un nouveau logement… Je te maudis Steve… *présente son ticket avant de monter dans le bateau*
+{{pseudo}}: *sort mon miroir* à cause de cet abruti j'ai les yeux rouges… Je le déteste ! En plus c'est moi qui lui ai trouvé ce travail. Heureusement que j'ai prévenu ma mère pour qu'elle récupère mes cartons chez elle en attendant que je trouve un nouveau logement… Je te maudis Steve… *présente son ticket avant de monter dans le bateau*
 
-$> show_transition("Plusieurs heures plus tard")
+$> start_transition("Plusieurs heures plus tard")
 
-~ quai_ile
 # Lieu : quai de l'île - midi -
 $> set_location("Quai ile")
+
+$> end_transition()
+
+{{pseudo}}: *je descend du bateau avec ma valise et léve la tête pour voir si ma tante est à l’heure*
+
 $> add_character("Irma")
 
-Protagoniste: *descend du bateau avec sa valise*
+Irma: {{pseudo}} !!!
 
-Irma: {{pseudo}} !!! *se jette sur la protagoniste et lui fais un câlin avant de s'écarter et regarde autour* Alors, où est ton fameux copain ? Tu m'as tellement parlé de lui que j'ai hâte.
+Elle se jette sur moi et me fais un câlin avant de s'écarter et regarder derrière moi 
+Irma: Alors, où est ton fameux copain ? Tu m'as tellement parlé de lui que j'ai hâte.
 
-Protagoniste: Finalement serai seule… On peut rentrer Tatie… ? Je ne me sens pas bien…
+{{pseudo}}: Finalement je serai seule… On peut rentrer Tatie… ? Je ne me sens pas bien… *je tente du mieux que je peux de retenir mes larmes*
 
 Irma: Oh ma chérie… *lui fait un câlin puis l'emmène avec elle jusqu'à la voiture* Je vais te faire une tasse de thé et te lire les cartes, ça va te permettre de te changer les idées.
 
-Protagoniste: Merci.
+{{pseudo}}: Merci.
 
 $> show_transition("Plusieurs minutes plus tard")
 
-~ divination
 # Lieu : salle de divination de la tante Irma dans son hôtel
 $> set_location("Divination")
 $> add_character("Irma")
 
 Irma: Comment est ton thé ma chérie ?
 
-Protagoniste: Très bien. Merci. *bois sa tasse*
+{{pseudo}}: Très bien. Merci. *bois sa tasse*
 
 Irma: *sors son jeu de carte de tarot* Est-ce que ça te tenterait de jouer aux cartes pour te changer les idées ?
 
-Protagoniste: Tu es sûre que c'est bien le moment ? *regarde sa tante d'un regard dubitative*
+{{pseudo}}: Tu es sûre que c'est bien le moment ? *regarde sa tante d'un regard dubitative*
 
 Irma: *mélange ses cartes* Bien sûr ! Et tu sais que mes prédictions se réalisent à 95% !
 
-Protagoniste: *réfléchi* Il est vrai que tes prédictions sont souvent justes… Très bien ! Je vais jouer !
+{{pseudo}}: *réfléchi* Il est vrai que tes prédictions sont souvent justes… Très bien ! Je vais jouer !
 
 # -Fin Chapitre 1-
 => END

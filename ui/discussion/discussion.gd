@@ -9,19 +9,22 @@ const CHARACTER_CARD: PackedScene = preload("res://ui/character_card/character_c
 @export var story: Story
 
 @onready var characters_container: HBoxContainer = $CharactersContainer
-@onready var background_tex_rect: TextureRect = $BackgroundTexRect
+@onready var background_stack: BackgroundStack = $BackgroundStack
 @onready var background_stream_player: AudioStreamPlayer = $BackgroundStreamPlayer
-@onready var transition: CanvasLayer = $Transition
+@onready var transition: Transition = $Transition
 
-var pseudo = "Test"
+var pseudo = "Max"
 
 var current_dialogue: DialogueResource
 
 
 func _ready() -> void:
-	DialogueManager.connect("passed_title", _on_passed_title)
 	DialogueManager.connect("got_dialogue", _on_got_dialogue)
 	DialogueManager.connect("dialogue_ended", _on_dialogue_ended)
+
+	if story and Engine.is_editor_hint():
+		for character in story.characters:
+			add_character(character)
 
 
 func start(dialogue: DialogueResource, dialogue_title: String) -> void:
@@ -31,9 +34,13 @@ func start(dialogue: DialogueResource, dialogue_title: String) -> void:
 
 func set_location(location_name: String, time: String = "daytime"):
 	if story and story.locations.has(location_name):
+		_clean_characters()
 		var location: Location = story.locations[location_name]
 		if location.backgrounds.has(time):
-			background_tex_rect.texture = location.backgrounds[time]
+			await background_stack.update_background(
+				location.backgrounds[time],
+				transition.is_transitioning(),
+			)
 		else:
 			push_warning("%s background at %s time not found" % [location_name, time])
 		if location.music:
@@ -74,7 +81,31 @@ func change_face(firstname: String, face: Character.Face) -> void:
 
 
 func show_transition(text: String) -> void:
-	transition.start_transition(text)
+	await transition.play(text)
+
+
+func start_transition(text: String) -> void:
+	await transition.fade_in(text)
+
+
+func end_transition() -> void:
+	await transition.fade_out()
+
+
+func gain_reputation(firstname: String, points: int) -> void:
+	_update_reputation(firstname, +points)
+
+
+func lose_reputation(firstname: String, points: int) -> void:
+	_update_reputation(firstname, -points)
+
+
+func _update_reputation(firstname: String, points: int) -> void:
+	var character_card = _find_character_card(firstname)
+	if character_card:
+		character_card.update_reputation(points)
+	else:
+		push_warning("Character to update reputation not present: %s" % firstname)
 
 
 func _clean_characters() -> void:
@@ -94,10 +125,6 @@ func _update_focus(firstname: String) -> void:
 
 func _find_character_card(firstname: String) -> CharacterCard:
 	return characters_container.get_node_or_null(firstname)
-
-
-func _on_passed_title(_title: String) -> void:
-	_clean_characters()
 
 
 func _on_got_dialogue(line: DialogueLine) -> void:

@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://4ltg3abrc8ik"]
+
+[ext_resource type="Script" uid="uid://dp3wowjhd7i78" path="res://ui/background_stack/background_stack.gd" id="1_tfst4"]
+
+[node name="BackgroundStack" type="Control" unique_id=141859266]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_tfst4")
+
+[node name="Background" type="TextureRect" parent="." unique_id=1328254083]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 5
+
+[node name="NextBackground" type="TextureRect" parent="Background" unique_id=447883942]
+self_modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 5

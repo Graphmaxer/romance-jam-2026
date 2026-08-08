@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://c4s4iy7gl5t8q"]
+
+[ext_resource type="Texture2D" uid="uid://naewo0ordub6" path="res://assets/backgrounds/building/building_daytime.jpg" id="1_mclfd"]
+[ext_resource type="Texture2D" uid="uid://do3gfqittafd1" path="res://assets/backgrounds/building/building_evening.jpg" id="2_7ccgy"]
+[ext_resource type="Texture2D" uid="uid://r57nejidbqfe" path="res://assets/backgrounds/building/building_night.jpg.jpg" id="3_sfiab"]
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/location/location.gd" id="4_pvmrh"]
+
+[resource]
+script = ExtResource("4_pvmrh")
+location_name = "Building"
+backgrounds = Dictionary[String, Texture2D]({
+"daytime": ExtResource("1_mclfd"),
+"evening": ExtResource("2_7ccgy"),
+"night": ExtResource("3_sfiab")
+})
+metadata/_custom_type_script = "uid://djshq1md8tej7"

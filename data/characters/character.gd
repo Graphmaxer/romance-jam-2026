@@ -10,6 +10,7 @@ enum Face {
 @export var firstname: String
 @export var neutral_face: Texture2D
 @export var angry_face: Texture2D
+@export var is_love_interest: bool = false
 
 var face: Face = Face.NEUTRAL
 var reputation: int = 0

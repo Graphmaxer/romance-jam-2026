@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://cox18yc44pfp4"]
+
+[ext_resource type="Texture2D" uid="uid://40fivuqkrkk7" path="res://assets/backgrounds/single_room/single_room_daytime.jpg" id="1_slyfw"]
+[ext_resource type="Texture2D" uid="uid://cdunkxemhouft" path="res://assets/backgrounds/single_room/single_room_evening.jpg" id="2_otia8"]
+[ext_resource type="Texture2D" uid="uid://wvvwpv8id37h" path="res://assets/backgrounds/single_room/single_room_night_light_off.jpg" id="3_88r3d"]
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/location/location.gd" id="4_u6v3m"]
+
+[resource]
+script = ExtResource("4_u6v3m")
+location_name = "Single room"
+backgrounds = Dictionary[String, Texture2D]({
+"daytime": ExtResource("1_slyfw"),
+"evening": ExtResource("2_otia8"),
+"night": ExtResource("3_88r3d")
+})
+metadata/_custom_type_script = "uid://djshq1md8tej7"
