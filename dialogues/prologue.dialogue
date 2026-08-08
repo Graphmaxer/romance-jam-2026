@@ -46,7 +46,7 @@ Il commence à partir.
 	{{pseudo}}: Tu es horrible… Comment peux-tu me faire ça après tout ce qu’on a partagé ensemble…
 	Steve s’en va sans se retourner, je tends la main pour essayer de le retenir mais il est déjà trop tard, je baisse la tête, prends ma valise et ferme la porte de mon appartement avant d’aller prendre le bus. 
 	$> set_location("Arrêt de bus devant immeuble")
-Des larmes coulent le long de mes joues, je les essuie tant bien que mal mais des nouvelles arrivent. Le bus finit par arriver au bout de quelques minutes et je monte à bord. 
+	Des larmes coulent le long de mes joues, je les essuie tant bien que mal mais des nouvelles arrivent. Le bus finit par arriver au bout de quelques minutes et je monte à bord. 
 
 - Lui courir après pour se venger de cette trahison
 	{{pseudo}}: Espèce de *** !!! Reviens que je puisse t'étriper !
@@ -66,10 +66,12 @@ Je descends du bus puis me dirige vers le quai du bâteau. Des voyageurs sont d�
 J’attends que ce soit à mon tour d’embarquer. En attendant je sors mon téléphone afin d’envoyer un message à ma mère pour lui faire un bref résumé de la situation et lui demander de récupérer les cartons à l’appartement dans mon ancienne chambre. Le temps d’échanger quelques messages et c’est à mon tour de monter sur le bateau. 
 
 
-$> show_transition("Plusieurs heures plus tard")
+$> start_transition("Plusieurs heures plus tard")
 
 # Lieu : quai de l'île - midi -
 $> set_location("Quai ile")
+
+$> end_transition()
 
 Je descend du bâteau avec ma valise et léve la tête pour voir si ma tante est à l’heure. Même s’il s’est écoulé plusieurs heures, mes yeux sont encore un peu rouges. 
 
