@@ -48,6 +48,7 @@ text = "Nouvelle partie"
 
 [node name="ContinueButton" type="Button" parent="MarginContainer/VBoxContainer" unique_id=642851325]
 layout_mode = 2
+disabled = true
 text = "Continuer"
 
 [node name="QuitButton" type="Button" parent="MarginContainer/VBoxContainer" unique_id=1459792557]

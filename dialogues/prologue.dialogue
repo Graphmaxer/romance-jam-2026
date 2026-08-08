@@ -13,7 +13,7 @@ Pendant que je termine de fermer ma valise, quelqu'un sonne à la porte. Je me d
 
 Je le regarde et remarque qu’il n’y a aucune valise dans sa main
 
-{{pseudo}}:Bah… Où est ta valise?
+{{pseudo}}: Bah… Où est ta valise?
 
 Mon regard se dirige vers son visage et je remarque qu’il a un air grave, il a une main derrière sa tête et évite de croiser mon regard.
 
@@ -44,25 +44,26 @@ Il commence à partir.
 {{pseudo}}: 
 - Pleurer en le regardant
 	{{pseudo}}: Tu es horrible… Comment peux-tu me faire ça après tout ce qu’on a partagé ensemble…
-	Steve s’en va sans se retourner, je tends la main pour essayer de le retenir mais il est déjà trop tard, je baisse la tête, prends ma valise et ferme la porte de mon appartement avant d’aller prendre le bus. Des larmes coulent le long de mes joues, je les essuie tant bien que mal mais des nouvelles arrivent.
+	Steve s’en va sans se retourner, je tends la main pour essayer de le retenir mais il est déjà trop tard, je baisse la tête, prends ma valise et ferme la porte de mon appartement avant d’aller prendre le bus. 
+	$> set_location("Arrêt de bus devant immeuble")
+Des larmes coulent le long de mes joues, je les essuie tant bien que mal mais des nouvelles arrivent. Le bus finit par arriver au bout de quelques minutes et je monte à bord. 
 
 - Lui courir après pour se venger de cette trahison
 	{{pseudo}}: Espèce de *** !!! Reviens que je puisse t'étriper !
 	Il commence à courir et une fois qu'il arrive à sa voiture s'en va avant que je ne puisse le rattraper, je serre les poings de rage. 
 	{{pseudo}}: Espèce de lâche !
-	Je retourne à mon appartement, prends ma valise et attends le bus en ayant les larmes aux yeux, j’essaie de les essayer avec ma main mais de nouvelles larmes continuent de couler.
-
-$> set_location("Arrêt de bus devant immeuble")
+	Je retourne à mon appartement, prends ma valise et attends le bus en ayant les larmes aux yeux. 
+	$> set_location("Arrêt de bus devant immeuble")
+	J’essaie de les essayer avec ma main mais de nouvelles larmes continuent de couler. Le bus finit par arriver au bout de quelques minutes et je monte à bord. 
 
 # Lieu : sur le quai d'un bateau
 $> set_location("Quai bateau")
 
-Je sors mon miroir de mon sac à bandoulière et regarde mon visage qui est légèrement bouffi par les larmes.
+Je descends du bus puis me dirige vers le quai du bâteau. Des voyageurs sont déjà arrivés. J’attends dans la file et en profite pour sortir mon miroir de mon sac à bandoulière. Mon visage est légèrement bouffi par les larmes.
 
 {{pseudo}}: A cause de cet abruti j'ai les yeux rouges… Je le déteste ! En plus c'est moi qui lui ai trouvé ce travail. Je te maudis Steve… 
 
 J’attends que ce soit à mon tour d’embarquer. En attendant je sors mon téléphone afin d’envoyer un message à ma mère pour lui faire un bref résumé de la situation et lui demander de récupérer les cartons à l’appartement dans mon ancienne chambre. Le temps d’échanger quelques messages et c’est à mon tour de monter sur le bateau. 
-
 
 
 $> show_transition("Plusieurs heures plus tard")
@@ -121,7 +122,7 @@ Je réfléchis quelques minutes, je repense à ma rupture et me demande s’il s
 {{pseudo}}: 
 - Jouer aux cartes et aller de l’avant 
 # Fin du chapitre, sauvegarde et affiche les différents love interest, qui est le choix du joueur
-=> END
+	=> END
 - Refuser de jouer, le temps fera son oeuvre 
 	{{pseudo}}: Désolée Tatie, je crois que je vais passer mon tour. Je pense que cet été je vais surtout m’occuper de moi et avancer sur un projet dans ma chambre à l’hôtel. 
 	Irma: Eh bien. C’est dommage mais c’est comme tu le sens ma chérie. 
