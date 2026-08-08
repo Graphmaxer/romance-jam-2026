@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://r57nejidbqfe"
-path="res://.godot/imported/building_night.jpg.jpg-d48287aaf3416819043b94bd95e6633b.ctex"
+path="res://.godot/imported/building_night.jpg-17874329558275b462a466b32ffce15c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/building/building_night.jpg.jpg"
-dest_files=["res://.godot/imported/building_night.jpg.jpg-d48287aaf3416819043b94bd95e6633b.ctex"]
+source_file="res://assets/backgrounds/building/building_night.jpg"
+dest_files=["res://.godot/imported/building_night.jpg-17874329558275b462a466b32ffce15c.ctex"]
 
 [params]
 

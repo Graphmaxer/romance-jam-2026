@@ -1,6 +1,5 @@
 # Prologue
 ~ start
-
 # Début de l'été - matin -
 # Lieu : appartement protagoniste, remplie de cartons ; elle finit de faire sa valise
 $> set_location("Appartement")
@@ -32,9 +31,9 @@ Il détourne le regard, comme s’il refusait de me l’avouer. Mais ça faisait
 
 Steve: J'ai rencontré quelqu'un au travail. Je la fréquente depuis quelques semaines maintenant et j’ai plus de points communs avec elle. Et puis tu aurais dû t'en douter, on se voyait et on se parlait de moins en moins. Elle est tellement géniale…
 
-Comment ça il a rencontré quelqu’un au travail..? Dans le travail dans lequel je l’ai aidé à trouver il y a 2 mois?! Je suis tellement choqué que même s’il continue de parler je n’arrive pas à tout entendre, j’essaie de garder mon calme puis mon regard se porte sur mes cartons qui sont déjà prêts. Je finis par lui coupe la parole
+Comment ça il a rencontré quelqu’un au travail..? Dans le travail que je l’ai aidé à décrocher il y a 2 mois?! Je suis tellement choqué que même s’il continue de parler je n’arrive pas à tout entendre, j’essaie de garder mon calme puis mon regard se porte sur mes cartons qui sont déjà prêts. Je finis par lui coupe la parole
 
-{{pseudo}}: On allait emménager ensemble, comment peux-tu me faire ça ?! J'ai déjà mis fin au bail de mon appartement et mes cartons sont prêts.
+{{pseudo}}: On allait emménager ensemble… Comment peux-tu me faire ça ?! J'ai déjà mis fin au bail de mon appartement et mes cartons sont prêts.
 
 Je serre tellement fort mes poings que mon ongles pourraient me transpercer la peau, des larmes commencent à me monter aux yeux.
 
@@ -44,38 +43,53 @@ Il commence à partir.
 
 {{pseudo}}: 
 - Pleurer en le regardant
-	Protagoniste: Tu es horrible… Comment peux-tu me faire ça après tout ce qu’on a partagé ensemble…
-	*Steve s’en va sans se retourner, je tends la main pour essayer de le retenir mais il est déjà trop tard, je baisse la tête, prends ma valise et ferme la porte de mon appartement avant d’aller prendre le bus*
+	{{pseudo}}: Tu es horrible… Comment peux-tu me faire ça après tout ce qu’on a partagé ensemble…
+	Steve s’en va sans se retourner, je tends la main pour essayer de le retenir mais il est déjà trop tard, je baisse la tête, prends ma valise et ferme la porte de mon appartement avant d’aller prendre le bus. Des larmes coulent le long de mes joues, je les essuie tant bien que mal mais des nouvelles arrivent.
 
-- Lui courir après pour se venger
-	Protagoniste: Espèce de *** !!! Reviens que je puisse t'étriper ! *il commence à courir et une fois qu'il arrive à sa voiture s'en va avant que je ne puisse le rattraper, je serre les poing de rage, retourne à mon appartement, prends ma valise et attends le bus en ayant les larmes aux yeux*
+- Lui courir après pour se venger de cette trahison
+	{{pseudo}}: Espèce de *** !!! Reviens que je puisse t'étriper !
+	Il commence à courir et une fois qu'il arrive à sa voiture s'en va avant que je ne puisse le rattraper, je serre les poings de rage. 
+	{{pseudo}}: Espèce de lâche !
+	Je retourne à mon appartement, prends ma valise et attends le bus en ayant les larmes aux yeux, j’essaie de les essayer avec ma main mais de nouvelles larmes continuent de couler.
 
 $> set_location("Arrêt de bus devant immeuble")
 
 # Lieu : sur le quai d'un bateau
 $> set_location("Quai bateau")
 
-{{pseudo}}: *sort mon miroir* à cause de cet abruti j'ai les yeux rouges… Je le déteste ! En plus c'est moi qui lui ai trouvé ce travail. Heureusement que j'ai prévenu ma mère pour qu'elle récupère mes cartons chez elle en attendant que je trouve un nouveau logement… Je te maudis Steve… *présente son ticket avant de monter dans le bateau*
+Je sors mon miroir de mon sac à bandoulière et regarde mon visage qui est légèrement bouffi par les larmes.
 
-$> start_transition("Plusieurs heures plus tard")
+{{pseudo}}: A cause de cet abruti j'ai les yeux rouges… Je le déteste ! En plus c'est moi qui lui ai trouvé ce travail. Je te maudis Steve… 
+
+J’attends que ce soit à mon tour d’embarquer. En attendant je sors mon téléphone afin d’envoyer un message à ma mère pour lui faire un bref résumé de la situation et lui demander de récupérer les cartons à l’appartement dans mon ancienne chambre. Le temps d’échanger quelques messages et c’est à mon tour de monter sur le bateau. 
+
+
+
+$> show_transition("Plusieurs heures plus tard")
 
 # Lieu : quai de l'île - midi -
 $> set_location("Quai ile")
 
-$> end_transition()
-
-{{pseudo}}: *je descend du bateau avec ma valise et léve la tête pour voir si ma tante est à l’heure*
+Je descend du bâteau avec ma valise et léve la tête pour voir si ma tante est à l’heure. Même s’il s’est écoulé plusieurs heures, mes yeux sont encore un peu rouges. 
 
 $> add_character("Irma")
 
 Irma: {{pseudo}} !!!
 
 Elle se jette sur moi et me fais un câlin avant de s'écarter et regarder derrière moi 
+
 Irma: Alors, où est ton fameux copain ? Tu m'as tellement parlé de lui que j'ai hâte.
 
-{{pseudo}}: Finalement je serai seule… On peut rentrer Tatie… ? Je ne me sens pas bien… *je tente du mieux que je peux de retenir mes larmes*
+{{pseudo}}: Finalement je serai seule… On peut rentrer Tatie… ? Je ne me sens pas bien… 
 
-Irma: Oh ma chérie… *lui fait un câlin puis l'emmène avec elle jusqu'à la voiture* Je vais te faire une tasse de thé et te lire les cartes, ça va te permettre de te changer les idées.
+J’essaye de lui sourire mais je me sens toujours amer après ce qu’il s’est passé ce matin. Je tente au mieux de retenir mes larmes mais voir ma tante me met tellement à l’aise que mes nerfs ne tienne pas le coup.
+
+Irma: Oh ma chérie… 
+
+Elle me serre très fort dans ses bras. Je suis tellement heureuse de la revoir. Je la vois tous les ans chaque été et elle a toujours été chaleureuse et aimante depuis ma plus tendre enfance.
+Elle m'emmène à sa voiture, je pose ma valise dans le coffre et monte à l’avant côté passager. Elle s’installe, nous mettons nos ceintures et c’est parti.
+
+Irma: Une fois arrivée à la maison je vais te faire une bonne tasse de thé bien chaude.
 
 {{pseudo}}: Merci.
 
@@ -85,17 +99,41 @@ $> show_transition("Plusieurs minutes plus tard")
 $> set_location("Divination")
 $> add_character("Irma")
 
+Nous nous sommes installées dans sa salle de divination. Celle-ci n’a pas changé, il y a toujours un côté mystique lorsque je viens dans cette pièce. Les couleurs dominantes de cette pièce ont toujours été violettes et l’argenté. 
+
 Irma: Comment est ton thé ma chérie ?
 
-{{pseudo}}: Très bien. Merci. *bois sa tasse*
+Je tiens la tasse entre mes mains. Elle est chaude et sens la menthe. Je bois une petite gorgée et sens qu’elle a également mis une cuillère de miel, comme je l’aime. Cela me réchauffe le cœur, j’arrive à esquisser un léger sourire.
 
-Irma: *sors son jeu de carte de tarot* Est-ce que ça te tenterait de jouer aux cartes pour te changer les idées ?
+{{pseudo}}: Ton thé est parfait Tatie.
+Elle sort son jeu de cartes de tarot qui est toujours en aussi bon état, ce qui me surprend parce que d'habitude les jeux de cartes qui sont autant utilisés ont un aspect plus abimé. 
 
-{{pseudo}}: Tu es sûre que c'est bien le moment ? *regarde sa tante d'un regard dubitative*
+Irma: Est-ce que ça te tenterait de jouer aux cartes pour te changer les idées ?
 
-Irma: *mélange ses cartes* Bien sûr ! Et tu sais que mes prédictions se réalisent à 95% !
+{{pseudo}}: Es-tu sûre que ce soit bien le moment ? Je me sens encore un peu chamboulée. 
 
-{{pseudo}}: *réfléchi* Il est vrai que tes prédictions sont souvent justes… Très bien ! Je vais jouer !
+Je la regarde de manière dubitative. Ma tante ne se laisse pas perturbée et mélange ses cartes avec une grande agilité. Elle me sourit et affiche une mine ravie. 
 
-# -Fin Chapitre 1-
+Irma: Bien sûr ! Et tu sais que mes prédictions se réalisent à 95% !
+
+Je réfléchis quelques minutes, je repense à ma rupture et me demande s’il s’agit vraiment d’une bonne idée. 
+
+{{pseudo}}: 
+- Jouer aux cartes et aller de l’avant 
+# Fin du chapitre, sauvegarde et affiche les différents love interest, qui est le choix du joueur
+=> END
+- Refuser de jouer, le temps fera son oeuvre 
+	{{pseudo}}: Désolée Tatie, je crois que je vais passer mon tour. Je pense que cet été je vais surtout m’occuper de moi et avancer sur un projet dans ma chambre à l’hôtel. 
+	Irma: Eh bien. C’est dommage mais c’est comme tu le sens ma chérie. 
+	Elle est un peu déçue mais je ne me sens vraiment pas en état d’ouvrir mon coeur de sitôt. Je sors de la pièce et monte dans ma chambre. 
+
+$> show_transition("Des semaines plus tard, à la fin de l’été")
+
+Je suis restée tout l’été dans ma chambre à jouer à des visual novel sur mon ordinateur portable pour oublier la peine qui ne m’a pas quitté durant ce voyage. Je vais un peu mieux mais j’ai le sentiment d’être passé à côté d’une belle histoire.
+J’embarque dans le bateau pour retourner chez mes parents le temps de trouver un nouveau logement et je regarde l’île s’éloigner de plus en plus. 
+
+# Bad ending ; mettre un message à l’attention du joueur : “Vivre une rupture est difficile mais ne fermer pas votre coeur” puis fin de partie, retour à l’écran titre
+
+$> start_transition("Vivre une rupture est difficile mais une nouvelle histoire pourrait vous aider à tout surmonter")
+
 => END
