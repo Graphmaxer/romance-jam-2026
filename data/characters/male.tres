@@ -9,4 +9,3 @@ script = ExtResource("2_ltcek")
 firstname = "Male"
 neutral_face = ExtResource("1_8qaem")
 angry_face = ExtResource("1_ltcek")
-is_love_interest = true

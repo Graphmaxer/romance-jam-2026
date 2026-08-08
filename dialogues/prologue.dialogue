@@ -96,11 +96,13 @@ Irma: Une fois arrivée à la maison je vais te faire une bonne tasse de thé bi
 
 {{pseudo}}: Merci.
 
-$> show_transition("Plusieurs minutes plus tard")
+$> start_transition("Plusieurs minutes plus tard")
 
 # Lieu : salle de divination de la tante Irma dans son hôtel
 $> set_location("Divination")
 $> add_character("Irma")
+
+$> end_transition()
 
 Nous nous sommes installées dans sa salle de divination. Celle-ci n’a pas changé, il y a toujours un côté mystique lorsque je viens dans cette pièce. Les couleurs dominantes de cette pièce ont toujours été violettes et l’argenté. 
 

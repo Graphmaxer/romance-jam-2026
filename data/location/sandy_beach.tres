@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://326wnl7rqcaw"]
+
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/location/location.gd" id="1_3ewnj"]
+[ext_resource type="Texture2D" uid="uid://dk4odx2dce35t" path="res://assets/backgrounds/sandy_beach/sandy_beach_daytime.jpg" id="1_m8il3"]
+[ext_resource type="Texture2D" uid="uid://7fs5e75fywyp" path="res://assets/backgrounds/sandy_beach/sandy_beach_evening.jpg" id="2_m3kua"]
+[ext_resource type="Texture2D" uid="uid://cdrg13nk2ecnc" path="res://assets/backgrounds/sandy_beach/sandy_beach_night.jpg" id="3_fw3qd"]
+
+[resource]
+script = ExtResource("1_3ewnj")
+location_name = "Sandy Beach"
+backgrounds = Dictionary[String, Texture2D]({
+"daytime": ExtResource("1_m8il3"),
+"evening": ExtResource("2_m3kua"),
+"night": ExtResource("3_fw3qd")
+})
+metadata/_custom_type_script = "uid://djshq1md8tej7"

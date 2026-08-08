@@ -22,7 +22,7 @@ func update_background(new_background: Texture2D, skip_transition: bool = false)
 	background_tween = create_tween()
 	background_tween.set_trans(Tween.TRANS_SINE)
 	background_tween.set_ease(Tween.EASE_IN_OUT)
-	background_tween.tween_property(next_background, "self_modulate:a", 1, 0.4)
+	background_tween.tween_property(next_background, "self_modulate:a", 1, 1.0)
 	await background_tween.finished
 
 	background.texture = new_background
