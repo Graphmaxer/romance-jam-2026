@@ -1,11 +1,6 @@
 class_name Transition
 extends CanvasLayer
 
-var background_tween: Tween
-
-@onready var background: ColorRect = $Background
-@onready var transition_text: Label = $Background/TransitionText
-
 enum State {
 	INACTIVE,
 	FADING_IN,
@@ -13,7 +8,12 @@ enum State {
 	FADING_OUT,
 }
 
+var background_tween: Tween
+
 var state: State = State.INACTIVE
+
+@onready var background: ColorRect = $Background
+@onready var transition_text: Label = $Background/TransitionText
 
 
 func play(text: String) -> void:

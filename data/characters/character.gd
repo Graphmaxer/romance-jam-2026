@@ -13,7 +13,6 @@ enum Face {
 @export var is_love_interest: bool = false
 
 var face: Face = Face.NEUTRAL
-var reputation: int = 0
 
 
 func get_face_tex() -> Texture2D:

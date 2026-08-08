@@ -18,11 +18,13 @@ config/icon="res://icon.svg"
 [autoload]
 
 DialogueManager="*uid://c3rodes2l3gxb"
+GameState="*uid://rle3tpmjvmu7"
 
 [dialogue_manager]
 
 runtime/balloon_path="uid://c68vyr8gkflvu"
 editor/advanced/custom_test_scene_path="uid://c0k08mshqoaeu"
+runtime/state_autoload_shortcuts=["GameState"]
 
 [display]
 

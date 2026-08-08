@@ -2,20 +2,18 @@
 class_name Discussion
 extends Control
 
-signal discussion_ended
+signal ended
 
 const CHARACTER_CARD: PackedScene = preload("res://ui/character_card/character_card.tscn")
 
 @export var story: Story
 
+var current_dialogue: DialogueResource
+
 @onready var characters_container: HBoxContainer = $CharactersContainer
 @onready var background_stack: BackgroundStack = $BackgroundStack
 @onready var background_stream_player: AudioStreamPlayer = $BackgroundStreamPlayer
 @onready var transition: Transition = $Transition
-
-var pseudo = "Max"
-
-var current_dialogue: DialogueResource
 
 
 func _ready() -> void:
@@ -134,4 +132,4 @@ func _on_got_dialogue(line: DialogueLine) -> void:
 func _on_dialogue_ended(dialogue_ended: DialogueResource) -> void:
 	if current_dialogue == dialogue_ended:
 		_clean_characters()
-		discussion_ended.emit()
+		ended.emit()

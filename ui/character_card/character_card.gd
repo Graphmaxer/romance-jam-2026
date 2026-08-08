@@ -29,14 +29,15 @@ func unfocus_character() -> void:
 
 
 func update_reputation(points: int) -> void:
-	character.reputation = clampi(character.reputation + points, 0, 100)
+	var reputation: int = clampi(character.reputation + points, 0, 100)
+	GameState.reputations[character.firstname] = reputation
 
 	if reputation_tween and reputation_tween.is_valid():
 		reputation_tween.kill()
 	reputation_tween = create_tween()
 	reputation_tween.set_trans(Tween.TRANS_CUBIC)
 	reputation_tween.set_ease(Tween.EASE_OUT)
-	reputation_tween.tween_property(reputation_bar, "value", character.reputation, 0.4)
+	reputation_tween.tween_property(reputation_bar, "value", reputation, 0.4)
 
 
 func _refresh_character() -> void:
