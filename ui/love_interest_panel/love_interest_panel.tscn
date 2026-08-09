@@ -1,7 +1,8 @@
 [gd_scene format=3 uid="uid://65l8l7vxaijq"]
 
 [ext_resource type="Script" uid="uid://c53gujcqghksv" path="res://ui/love_interest_panel/love_interest_panel.gd" id="1_pjeh4"]
-[ext_resource type="Texture2D" uid="uid://jk7lx5edte4b" path="res://assets/placeholders/square.png" id="2_kafd8"]
+[ext_resource type="Resource" uid="uid://0yjvxu057fqg" path="res://data/characters/mael.tres" id="2_x387c"]
+[ext_resource type="Texture2D" uid="uid://2hoy8in1or40" path="res://assets/characters/male/Male_Neutral.png" id="3_x387c"]
 
 [node name="LoveInterestPanel" type="Control" unique_id=945331029]
 layout_mode = 3
@@ -10,39 +11,52 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
 script = ExtResource("1_pjeh4")
+character = ExtResource("2_x387c")
 
-[node name="MarginContainer" type="MarginContainer" parent="." unique_id=947898453]
+[node name="Panel" type="Panel" parent="." unique_id=1121587726]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_constants/margin_left = 32
-theme_override_constants/margin_top = 32
-theme_override_constants/margin_right = 32
-theme_override_constants/margin_bottom = 32
 
-[node name="Panel" type="Panel" parent="MarginContainer" unique_id=1121587726]
-layout_mode = 2
-
-[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/Panel" unique_id=1512706377]
+[node name="PanelMargin" type="MarginContainer" parent="Panel" unique_id=947898453]
 layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -300.0
-offset_top = -300.0
-offset_right = 300.0
-offset_bottom = 300.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
 
-[node name="CharacterTexRect" type="TextureRect" parent="MarginContainer/Panel/MarginContainer" unique_id=2145622796]
+[node name="VBox" type="VBoxContainer" parent="Panel/PanelMargin" unique_id=1059651411]
+layout_mode = 2
+alignment = 1
+
+[node name="ChooseButton" type="Button" parent="Panel/PanelMargin/VBox" unique_id=1370176265]
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-texture = ExtResource("2_kafd8")
+text = "Choisir"
+
+[node name="InfosLabel" type="Label" parent="Panel/PanelMargin/VBox" unique_id=1698632239]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Prénom: Maël
+Âge: 26 ans
+Anniversaire: 10 février
+Taille: 1m80"
+
+[node name="CharacterTexRect" type="TextureRect" parent="Panel/PanelMargin/VBox" unique_id=2145622796]
+propagate_maximum_size = true
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("3_x387c")
+expand_mode = 1
+stretch_mode = 5

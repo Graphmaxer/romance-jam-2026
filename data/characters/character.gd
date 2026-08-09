@@ -8,6 +8,9 @@ enum Face {
 }
 
 @export var firstname: String
+@export var age: int
+@export var birthday: String
+@export var height: String
 @export var neutral_face: Texture2D
 @export var angry_face: Texture2D
 @export var is_love_interest: bool = false

@@ -5,8 +5,12 @@
 [ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/location/location.gd" id="2_qlgxn"]
 [ext_resource type="Script" uid="uid://cv6gh8hv7dau2" path="res://data/story/story.gd" id="3_aco0b"]
 [ext_resource type="Resource" uid="uid://c6k05o6l82rxs" path="res://data/characters/female.tres" id="3_y1qif"]
+[ext_resource type="Resource" uid="uid://0yjvxu057fqg" path="res://data/characters/mael.tres" id="4_y75km"]
+[ext_resource type="Resource" uid="uid://dx3vnrd0m510m" path="res://data/characters/kathy.tres" id="5_fdc10"]
 [ext_resource type="Resource" uid="uid://cox18yc44pfp4" path="res://data/location/single_room.tres" id="5_kiidk"]
 [ext_resource type="Resource" uid="uid://b10we4ih7e2hh" path="res://data/location/beach.tres" id="5_y1qif"]
+[ext_resource type="Resource" uid="uid://i71kks5x6nbm" path="res://data/characters/tristan.tres" id="6_b13bv"]
+[ext_resource type="Resource" uid="uid://208gxrw0a8av" path="res://data/characters/lazuli.tres" id="7_lwkx1"]
 [ext_resource type="Resource" uid="uid://branlkgfa6csk" path="res://data/location/fortune_teller.tres" id="7_p4ehm"]
 [ext_resource type="Resource" uid="uid://326wnl7rqcaw" path="res://data/location/sandy_beach.tres" id="8_p4ehm"]
 [ext_resource type="Resource" uid="uid://c4s4iy7gl5t8q" path="res://data/location/building.tres" id="8_vfptj"]
@@ -15,7 +19,11 @@
 script = ExtResource("3_aco0b")
 characters = Dictionary[String, ExtResource("1_xn7qw")]({
 "Irma": ExtResource("3_y1qif"),
-"Steve": ExtResource("2_aco0b")
+"Kathy": ExtResource("5_fdc10"),
+"Lazuli": ExtResource("7_lwkx1"),
+"Maël": ExtResource("4_y75km"),
+"Steve": ExtResource("2_aco0b"),
+"Tristan": ExtResource("6_b13bv")
 })
 locations = Dictionary[String, ExtResource("2_qlgxn")]({
 "Appartement": ExtResource("5_kiidk"),

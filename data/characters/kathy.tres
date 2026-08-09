@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Character" format=3 uid="uid://dx3vnrd0m510m"]
+
+[ext_resource type="Texture2D" uid="uid://6krhtnj02fl4" path="res://assets/characters/female/Female_Neutral.png" id="1_kkc2d"]
+[ext_resource type="Script" uid="uid://cddw0vxnb1jna" path="res://data/characters/character.gd" id="2_5w1ni"]
+
+[resource]
+script = ExtResource("2_5w1ni")
+firstname = "Kathy"
+age = 24
+birthday = "12 avril"
+height = "1m60"
+neutral_face = ExtResource("1_kkc2d")
+is_love_interest = true
+metadata/_custom_type_script = "uid://cddw0vxnb1jna"

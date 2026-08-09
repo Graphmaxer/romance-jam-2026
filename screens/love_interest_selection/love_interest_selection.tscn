@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://4adhsfyh5yhw"]
 
 [ext_resource type="Script" uid="uid://d1y2ga2m5gnwo" path="res://screens/love_interest_selection/love_interest_selection.gd" id="1_ub026"]
+[ext_resource type="Resource" uid="uid://cnk3p8pqg5o4m" path="res://data/story/main.tres" id="2_6akg2"]
+[ext_resource type="Texture2D" uid="uid://b8lum42lrrjtx" path="res://assets/backgrounds/sea_island/empty_island_daytime.jpg" id="3_ftiye"]
 
 [node name="LoveInterestSelection" type="Control" unique_id=1849107451]
 layout_mode = 3
@@ -10,3 +12,29 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_ub026")
+story = ExtResource("2_6akg2")
+
+[node name="BackgroundTexRect" type="TextureRect" parent="." unique_id=665483063]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_ftiye")
+expand_mode = 5
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=966467980]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 32
+theme_override_constants/margin_top = 86
+theme_override_constants/margin_right = 32
+theme_override_constants/margin_bottom = 86
+
+[node name="PanelsContainer" type="HBoxContainer" parent="MarginContainer" unique_id=2034147586]
+layout_mode = 2
