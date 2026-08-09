@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Route" format=3 uid="uid://b0r0pfav6asul"]
+
+[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_vtbuk"]
+[ext_resource type="Resource" uid="uid://bvkrma5dobfpi" path="res://dialogues/kathy/chapter1.dialogue" id="2_vtbuk"]
+[ext_resource type="Resource" uid="uid://dx3vnrd0m510m" path="res://data/characters/kathy.tres" id="3_plwnt"]
+[ext_resource type="Script" uid="uid://c0ilmrags67cm" path="res://data/routes/route.gd" id="4_jcufv"]
+
+[resource]
+script = ExtResource("4_jcufv")
+character = ExtResource("3_plwnt")
+chapters = Array[ExtResource("1_vtbuk")]([ExtResource("2_vtbuk")])
+metadata/_custom_type_script = "uid://c0ilmrags67cm"

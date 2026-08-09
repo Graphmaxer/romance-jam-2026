@@ -7,7 +7,7 @@
 
 [resource]
 script = ExtResource("1_p4emc")
-location_name = "Beach"
+aliases = Array[String](["Quai bateau"])
 backgrounds = Dictionary[String, Texture2D]({
 "daytime": ExtResource("1_8h7bg"),
 "evening": ExtResource("2_1rh0e"),

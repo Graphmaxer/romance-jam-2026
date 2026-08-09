@@ -2,6 +2,9 @@
 
 [ext_resource type="Script" uid="uid://dtcb0w2n5ggir" path="res://screens/game/game.gd" id="1_8ilvi"]
 [ext_resource type="PackedScene" uid="uid://vwbtlhpab5q" path="res://ui/discussion/discussion.tscn" id="2_0iheo"]
+[ext_resource type="Script" uid="uid://c0ilmrags67cm" path="res://data/routes/route.gd" id="2_yflor"]
+[ext_resource type="Resource" uid="uid://b0r0pfav6asul" path="res://data/routes/mael_route.tres" id="3_g1ktd"]
+[ext_resource type="Resource" uid="uid://bmngbdq2vbis0" path="res://data/routes/kathy_route.tres" id="3_npd5f"]
 
 [node name="Game" type="Control" unique_id=2139466926]
 layout_mode = 3
@@ -11,6 +14,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_8ilvi")
+routes = Array[ExtResource("2_yflor")]([ExtResource("3_g1ktd"), ExtResource("3_npd5f")])
 
 [node name="Discussion" parent="." unique_id=825360668 instance=ExtResource("2_0iheo")]
 layout_mode = 1

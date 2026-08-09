@@ -21,4 +21,4 @@ func _ready() -> void:
 
 
 func _on_choose_button_pressed() -> void:
-	chosen.emit(name)
+	chosen.emit(character.firstname)

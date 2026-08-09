@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://4adhsfyh5yhw"]
 
 [ext_resource type="Script" uid="uid://d1y2ga2m5gnwo" path="res://screens/love_interest_selection/love_interest_selection.gd" id="1_ub026"]
-[ext_resource type="Resource" uid="uid://cnk3p8pqg5o4m" path="res://data/story/main.tres" id="2_6akg2"]
+[ext_resource type="Resource" uid="uid://cnk3p8pqg5o4m" path="res://data/story/story.tres" id="2_6akg2"]
 [ext_resource type="Texture2D" uid="uid://b8lum42lrrjtx" path="res://assets/backgrounds/sea_island/empty_island_daytime.jpg" id="3_ftiye"]
 
 [node name="LoveInterestSelection" type="Control" unique_id=1849107451]

@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bxmnui8xvsga5"]
 
 [ext_resource type="Script" uid="uid://brtoy6gryeqvx" path="res://ui/character_card/character_card.gd" id="1_7qkde"]
-[ext_resource type="Resource" uid="uid://cy7flpa1y68tv" path="res://data/characters/male.tres" id="2_hhbiw"]
+[ext_resource type="Resource" uid="uid://cy7flpa1y68tv" path="res://data/characters/steve.tres" id="2_hhbiw"]
 [ext_resource type="Texture2D" uid="uid://2hoy8in1or40" path="res://assets/characters/male/Male_Neutral.png" id="3_hhbiw"]
 
 [node name="CharacterCard" type="Control" unique_id=2018544471]
