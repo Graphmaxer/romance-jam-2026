@@ -12,8 +12,8 @@ func get_character(firstname: String) -> Character:
 	return null
 
 
-func get_location(name: String) -> Location:
+func get_location(alias: String) -> Location:
 	for location: Location in locations:
-		if location.aliases.has(name):
+		if location.aliases.has(alias):
 			return location
 	return null

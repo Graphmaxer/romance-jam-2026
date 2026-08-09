@@ -30,8 +30,8 @@ func start(dialogue: DialogueResource, dialogue_title: String) -> void:
 	DialogueManager.show_dialogue_balloon(dialogue, dialogue_title, [self])
 
 
-func set_location(name: String, time: String = "daytime"):
-	var location = story.get_location(name)
+func set_location(alias: String, time: String = "daytime"):
+	var location = story.get_location(alias)
 	if location:
 		_clean_characters()
 		if location.backgrounds.has(time):
@@ -40,7 +40,7 @@ func set_location(name: String, time: String = "daytime"):
 				transition.is_transitioning(),
 			)
 		else:
-			push_warning("%s background at %s time not found" % [name, time])
+			push_warning("%s background at %s time not found" % [alias, time])
 		if location.music:
 			background_stream_player.stream = location.music
 			background_stream_player.play()
