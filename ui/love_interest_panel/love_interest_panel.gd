@@ -1,4 +1,4 @@
-class_name LoveInterestCard
+class_name LoveInterestPanel
 extends Control
 
 
