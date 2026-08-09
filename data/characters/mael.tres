@@ -8,7 +8,9 @@ script = ExtResource("1_pgqed")
 firstname = "Maël"
 age = 26
 birthday = "10 février"
-height = "1m80"
+description = "Ami d’enfance
+Travaille à la guinguette près de la plage qui n’est ouverte qu'en été
+Tempérament calme et discret mais il ne se laisse pas marcher dessus pour autant"
 neutral_face = ExtResource("1_tcvan")
 is_love_interest = true
 metadata/_custom_type_script = "uid://cddw0vxnb1jna"

@@ -8,7 +8,9 @@ script = ExtResource("2_5w1ni")
 firstname = "Kathy"
 age = 24
 birthday = "12 avril"
-height = "1m60"
+description = "Cliente régulière du restaurant près de l’hôtel d’Irma
+Vient d’une famille aisée
+Toujours de bonne humeur mais a un petit côté espiègle"
 neutral_face = ExtResource("1_kkc2d")
 is_love_interest = true
 metadata/_custom_type_script = "uid://cddw0vxnb1jna"

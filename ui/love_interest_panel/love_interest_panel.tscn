@@ -45,13 +45,26 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 text = "Choisir"
 
+[node name="FirstnameLabel" type="Label" parent="Panel/PanelMargin/VBox" unique_id=1385444149]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 22
+text = "Maël"
+
 [node name="InfosLabel" type="Label" parent="Panel/PanelMargin/VBox" unique_id=1698632239]
 layout_mode = 2
 size_flags_horizontal = 4
-text = "Prénom: Maël
-Âge: 26 ans
-Anniversaire: 10 février
-Taille: 1m80"
+text = "26 ans
+Anniversaire le 10 février"
+
+[node name="DescriptionLabel" type="Label" parent="Panel/PanelMargin/VBox" unique_id=1336418959]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Ami d’enfance
+Travaille à la guinguette près de la plage qui n’est ouverte qu'en été
+Tempérament calme et discret mais il ne se laisse pas marcher dessus pour autant"
+autowrap_mode = 3
 
 [node name="CharacterTexRect" type="TextureRect" parent="Panel/PanelMargin/VBox" unique_id=2145622796]
 propagate_maximum_size = true
@@ -60,3 +73,5 @@ size_flags_vertical = 3
 texture = ExtResource("3_x387c")
 expand_mode = 1
 stretch_mode = 5
+
+[connection signal="pressed" from="Panel/PanelMargin/VBox/ChooseButton" to="." method="_on_choose_button_pressed"]

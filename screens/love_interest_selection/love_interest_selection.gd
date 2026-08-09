@@ -1,6 +1,8 @@
 @tool
 extends Control
 
+signal choosed
+
 const LOVE_INTEREST_PANEL: PackedScene = preload(
 	"res://ui/love_interest_panel/love_interest_panel.tscn"
 )
@@ -18,4 +20,10 @@ func _ready() -> void:
 			var panel: LoveInterestPanel = LOVE_INTEREST_PANEL.instantiate()
 			panel.name = character_name
 			panel.character = character
+			panel.connect("choosed", _on_love_interest_choosed)
 			panels_container.add_child(panel)
+
+
+func _on_love_interest_choosed(character_name: String) -> void:
+	GameState.love_interest = character_name
+	choosed.emit()

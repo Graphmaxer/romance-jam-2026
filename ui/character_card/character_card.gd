@@ -43,7 +43,8 @@ func update_reputation(points: int) -> void:
 func _refresh_character() -> void:
 	if character:
 		reputation_bar.visible = character.is_love_interest
-		reputation_bar.value = GameState.get_reputation(name)
+		if not Engine.is_editor_hint():
+			reputation_bar.value = GameState.get_reputation(name)
 		character_tex_rect.texture = character.get_face_tex()
 
 
