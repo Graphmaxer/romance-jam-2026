@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bwch5hn2hb6ra"
+path="res://.godot/imported/neutral.dialogue-7be2893891d48c56c3871768f7d853e1.tres"
+
+[deps]
+
+source_file="res://dialogues/kathy/endings/neutral.dialogue"
+dest_files=["res://.godot/imported/neutral.dialogue-7be2893891d48c56c3871768f7d853e1.tres"]
+
+[params]
+
+defaults=true

@@ -18,7 +18,10 @@ func _start_discussion() -> void:
 	if GameState.love_interest and GameState.chapter_number:
 		var route: Route = _get_route(GameState.love_interest)
 		if route:
-			dialogue = route.chapters[GameState.chapter_number - 1]
+			if GameState.chapter_number == route.chapters.size():
+				dialogue = _get_ending(route)
+			else:
+				dialogue = route.chapters[GameState.chapter_number - 1]
 	discussion.start(dialogue, dialogue.first_title)
 
 
@@ -27,6 +30,15 @@ func _get_route(character_firstname: String) -> Route:
 		if route.character.firstname == character_firstname:
 			return route
 	return null
+
+
+func _get_ending(route: Route) -> DialogueResource:
+	var love_interest_reputation: int = GameState.get_reputation(GameState.love_interest)
+	if love_interest_reputation == 100:
+		return route.good_ending
+	if love_interest_reputation >= 50:
+		return route.neutral_ending
+	return route.bad_ending
 
 
 func _get_chapter_transition_text() -> String:
@@ -47,11 +59,16 @@ func _on_discussion_ended(dialogue: DialogueResource) -> void:
 		love_interest_selection_tween.set_trans(Tween.TRANS_SINE)
 		love_interest_selection_tween.set_ease(Tween.EASE_IN_OUT)
 		love_interest_selection_tween.tween_property(love_interest_selection, "modulate:a", 1, 1.0)
-	elif GameState.chapter_number < route.chapters.size():
-		GameState.chapter_number += 1
-		await discussion.show_transition(_get_chapter_transition_text())
+	elif GameState.chapter_number > 0 and GameState.chapter_number <= route.chapters.size():
+		if GameState.chapter_number == route.chapters.size():
+			await discussion.show_transition("%: Fin" % GameState.love_interest)
+		else:
+			GameState.chapter_number += 1
+			await discussion.show_transition(_get_chapter_transition_text())
 		_start_discussion()
 	else:
+		GameState.chapter_number = 0
+		GameState.love_interest = ""
 		get_tree().change_scene_to_file("res://main.tscn")
 
 

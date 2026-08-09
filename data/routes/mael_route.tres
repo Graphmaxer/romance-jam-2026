@@ -1,12 +1,18 @@
 [gd_resource type="Resource" script_class="Route" format=3 uid="uid://b0r0pfav6asul"]
 
+[ext_resource type="Resource" uid="uid://cj0gs6rexhmfo" path="res://dialogues/mael/endings/bad.dialogue" id="1_jcufv"]
 [ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_vtbuk"]
-[ext_resource type="Resource" uid="uid://bvkrma5dobfpi" path="res://dialogues/kathy/chapter1.dialogue" id="2_vtbuk"]
-[ext_resource type="Resource" uid="uid://dx3vnrd0m510m" path="res://data/characters/kathy.tres" id="3_plwnt"]
+[ext_resource type="Resource" uid="uid://gb7yu36cm7ku" path="res://dialogues/mael/chapter1.dialogue" id="3_xumyh"]
+[ext_resource type="Resource" uid="uid://0yjvxu057fqg" path="res://data/characters/mael.tres" id="4_av1jx"]
 [ext_resource type="Script" uid="uid://c0ilmrags67cm" path="res://data/routes/route.gd" id="4_jcufv"]
+[ext_resource type="Resource" uid="uid://c2o6wqkiaj7xw" path="res://dialogues/mael/endings/good.dialogue" id="5_d2i81"]
+[ext_resource type="Resource" uid="uid://bk87si2v2xchh" path="res://dialogues/mael/endings/neutral.dialogue" id="6_dsxnx"]
 
 [resource]
 script = ExtResource("4_jcufv")
-character = ExtResource("3_plwnt")
-chapters = Array[ExtResource("1_vtbuk")]([ExtResource("2_vtbuk")])
+character = ExtResource("4_av1jx")
+chapters = Array[ExtResource("1_vtbuk")]([ExtResource("3_xumyh")])
+bad_ending = ExtResource("1_jcufv")
+neutral_ending = ExtResource("6_dsxnx")
+good_ending = ExtResource("5_d2i81")
 metadata/_custom_type_script = "uid://c0ilmrags67cm"

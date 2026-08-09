@@ -1,11 +1,11 @@
 [gd_resource type="Resource" script_class="Character" format=3 uid="uid://cy7flpa1y68tv"]
 
 [ext_resource type="Texture2D" uid="uid://ss6pf5h4ygq8" path="res://assets/characters/male/Male_Angry.png" id="1_o7oie"]
-[ext_resource type="Texture2D" uid="uid://2hoy8in1or40" path="res://assets/characters/male/Male_Neutral.png" id="2_yy27v"]
+[ext_resource type="Texture2D" uid="uid://c5d4o76r116ew" path="res://assets/characters/steve/Steve-neutre.png" id="2_o7oie"]
 [ext_resource type="Script" uid="uid://cddw0vxnb1jna" path="res://data/characters/character.gd" id="3_dy5x3"]
 
 [resource]
 script = ExtResource("3_dy5x3")
 firstname = "Steve"
-neutral_face = ExtResource("2_yy27v")
+neutral_face = ExtResource("2_o7oie")
 angry_face = ExtResource("1_o7oie")

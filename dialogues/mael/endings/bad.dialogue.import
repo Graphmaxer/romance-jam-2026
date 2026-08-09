@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cj0gs6rexhmfo"
+path="res://.godot/imported/bad.dialogue-f8be5259f06f063986f5e3044c88d164.tres"
+
+[deps]
+
+source_file="res://dialogues/mael/endings/bad.dialogue"
+dest_files=["res://.godot/imported/bad.dialogue-f8be5259f06f063986f5e3044c88d164.tres"]
+
+[params]
+
+defaults=true

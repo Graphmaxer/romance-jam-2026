@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://mxb5ecnocqkg"
+path="res://.godot/imported/bad.dialogue-e6dff33edbd29978414a1b77011e5ca2.tres"
+
+[deps]
+
+source_file="res://dialogues/kathy/endings/bad.dialogue"
+dest_files=["res://.godot/imported/bad.dialogue-e6dff33edbd29978414a1b77011e5ca2.tres"]
+
+[params]
+
+defaults=true
