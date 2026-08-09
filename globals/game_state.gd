@@ -2,7 +2,7 @@ extends Node
 
 var pseudo: String
 var reputations: Dictionary[String, int]
-var progression: String
+var chapter_number: int
 var love_interest: String
 
 

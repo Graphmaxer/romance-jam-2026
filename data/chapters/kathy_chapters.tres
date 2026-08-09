@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Chapters" format=3 uid="uid://rj1vjwudfe6b"]
+
+[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_i5enl"]
+[ext_resource type="Resource" uid="uid://bvkrma5dobfpi" path="res://dialogues/kathy/chapter1.dialogue" id="2_lokda"]
+[ext_resource type="Script" uid="uid://c0ilmrags67cm" path="res://data/chapters/chapters.gd" id="3_81psi"]
+
+[resource]
+script = ExtResource("3_81psi")
+character_name = "Kathy"
+dialogues = Array[ExtResource("1_i5enl")]([ExtResource("2_lokda")])
+metadata/_custom_type_script = "uid://c0ilmrags67cm"

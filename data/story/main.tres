@@ -30,6 +30,7 @@ locations = Dictionary[String, ExtResource("2_qlgxn")]({
 "Arrêt de bus devant immeuble": ExtResource("8_vfptj"),
 "Divination": ExtResource("7_p4ehm"),
 "Quai bateau": ExtResource("5_y1qif"),
-"Quai ile": ExtResource("8_p4ehm")
+"Quai ile": ExtResource("8_p4ehm"),
+"Salle de divination d'Irma": ExtResource("7_p4ehm")
 })
 metadata/_custom_type_script = "uid://cv6gh8hv7dau2"

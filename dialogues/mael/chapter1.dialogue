@@ -1,0 +1,20 @@
+~ start
+
+$> set_location("Salle de divination d'Irma")
+$> add_character("Irma")
+
+Ma tante joue au cartes de tarot depuis qu’elle est 
+
+Irma: Ne t’inquiète de rien ma chérie. Une bonne étoile veille sur toi depuis longtemps. Tu trouveras le réconfort qu’il te faut sur cette île. *lui sourit*
+
+{{pseudo}}: Merci mais tu pourrais être plus précise? 
+
+$> add_character("Maël")
+
+Maël: Bonjour. Excuse-moi de te déranger Irma mais je n’ai pas trouvé ton mari et je voudrais savoir si je pouvais mettre quelques-unes de ses affiches dans ton hôtel. *tient des affiches pour l’ouvertures de la guinguette près de la plage* 
+
+Irma: Bonjour Maël ! Bien sûr que tu peux les afficher ! Quel est la date d’ouverture? 
+
+Maël: Dans une semaine, je m'occupe des derniers préparatifs. 
+
+=> END

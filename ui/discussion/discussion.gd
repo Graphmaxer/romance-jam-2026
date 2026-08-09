@@ -136,4 +136,4 @@ func _on_got_dialogue(line: DialogueLine) -> void:
 func _on_dialogue_ended(dialogue_ended: DialogueResource) -> void:
 	if current_dialogue == dialogue_ended:
 		_clean_characters()
-		ended.emit()
+		ended.emit(dialogue_ended)

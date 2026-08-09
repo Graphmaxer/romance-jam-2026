@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://gb7yu36cm7ku"
+path="res://.godot/imported/chapter1.dialogue-973e01eff59684e0b6fb3b0a4d757d13.tres"
+
+[deps]
+
+source_file="res://dialogues/mael/chapter1.dialogue"
+dest_files=["res://.godot/imported/chapter1.dialogue-973e01eff59684e0b6fb3b0a4d757d13.tres"]
+
+[params]
+
+defaults=true

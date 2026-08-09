@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bvkrma5dobfpi"
+path="res://.godot/imported/chapter1.dialogue-8c256ebca499438823d6c83d00ea0dab.tres"
+
+[deps]
+
+source_file="res://dialogues/kathy/chapter1.dialogue"
+dest_files=["res://.godot/imported/chapter1.dialogue-8c256ebca499438823d6c83d00ea0dab.tres"]
+
+[params]
+
+defaults=true

@@ -2,7 +2,7 @@
 class_name LoveInterestPanel
 extends Control
 
-signal choosed
+signal chosen
 
 @export var character: Character
 
@@ -21,4 +21,4 @@ func _ready() -> void:
 
 
 func _on_choose_button_pressed() -> void:
-	choosed.emit(name)
+	chosen.emit(name)
