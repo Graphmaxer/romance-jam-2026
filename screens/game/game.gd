@@ -22,7 +22,7 @@ func _start_discussion() -> void:
 	discussion.start(dialogue, dialogue.first_title)
 
 
-func _get_route(character_firstname) -> Route:
+func _get_route(character_firstname: String) -> Route:
 	for route: Route in routes:
 		if route.character.firstname == character_firstname:
 			return route

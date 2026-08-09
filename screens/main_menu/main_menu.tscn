@@ -20,42 +20,49 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.38265815, 0.33444262, 0.4441308, 1)
 
-[node name="MarginContainer" type="MarginContainer" parent="." unique_id=229026067]
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1394489636]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -64.5
-offset_top = -64.0
-offset_right = 64.5
-offset_bottom = 64.0
+offset_left = -168.5
+offset_top = -95.5
+offset_right = 168.5
+offset_bottom = 95.5
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_constants/separation = 32
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=613098700]
+[node name="Label" type="Label" parent="VBoxContainer" unique_id=1895439000]
 layout_mode = 2
+theme_override_font_sizes/font_size = 37
+text = "Romance Jam 2026"
 
-[node name="PseudoInput" type="LineEdit" parent="MarginContainer/VBoxContainer" unique_id=2137679322]
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer" unique_id=613098700]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="PseudoInput" type="LineEdit" parent="VBoxContainer/VBoxContainer" unique_id=2137679322]
 layout_mode = 2
 placeholder_text = "Pseudo"
 
-[node name="NewGameButton" type="Button" parent="MarginContainer/VBoxContainer" unique_id=1111990290]
+[node name="NewGameButton" type="Button" parent="VBoxContainer/VBoxContainer" unique_id=1111990290]
 layout_mode = 2
 disabled = true
 text = "Nouvelle partie"
 
-[node name="ContinueButton" type="Button" parent="MarginContainer/VBoxContainer" unique_id=642851325]
+[node name="ContinueButton" type="Button" parent="VBoxContainer/VBoxContainer" unique_id=642851325]
 layout_mode = 2
 disabled = true
 text = "Continuer"
 
-[node name="QuitButton" type="Button" parent="MarginContainer/VBoxContainer" unique_id=1459792557]
+[node name="QuitButton" type="Button" parent="VBoxContainer/VBoxContainer" unique_id=1459792557]
 layout_mode = 2
 text = "Quitter"
 
-[connection signal="text_changed" from="MarginContainer/VBoxContainer/PseudoInput" to="." method="_on_pseudo_input_text_changed"]
-[connection signal="text_submitted" from="MarginContainer/VBoxContainer/PseudoInput" to="." method="_on_pseudo_input_text_submitted"]
-[connection signal="pressed" from="MarginContainer/VBoxContainer/NewGameButton" to="." method="_on_new_game_button_pressed"]
-[connection signal="pressed" from="MarginContainer/VBoxContainer/QuitButton" to="." method="_on_quit_button_pressed"]
+[connection signal="text_changed" from="VBoxContainer/VBoxContainer/PseudoInput" to="." method="_on_pseudo_input_text_changed"]
+[connection signal="text_submitted" from="VBoxContainer/VBoxContainer/PseudoInput" to="." method="_on_pseudo_input_text_submitted"]
+[connection signal="pressed" from="VBoxContainer/VBoxContainer/NewGameButton" to="." method="_on_new_game_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/VBoxContainer/QuitButton" to="." method="_on_quit_button_pressed"]

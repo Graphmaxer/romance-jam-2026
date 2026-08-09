@@ -1,6 +1,6 @@
 extends Control
 
-@onready var new_game_button: Button = $MarginContainer/VBoxContainer/NewGameButton
+@onready var new_game_button: Button = $VBoxContainer/VBoxContainer/NewGameButton
 
 
 func _ready() -> void:
