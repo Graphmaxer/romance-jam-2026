@@ -1,0 +1,130 @@
+~ start
+$> set_location("Rue avec superette")
+$> add_character("Kathy")
+
+Une nekomusume ! Ou une fille chat couramment appelé dans le folklore japonais. Elle a vraiment de magnifique yeux vairon. On dirait une jeune femme de bonne famille. 
+
+Nekomusume: Mademoiselle? 
+
+Elle s’est approchée de moi, je crois que ça fait trop longtemps que je la regarde sans dire un mot. Il faut que je réponde ! 
+- En quoi puis-je vous aider? 
+	$> gain_reputation("Kathy", 10)
+	{{pseudo}}: Ah oui. Désolée. En quoi puis-je vous aider?
+	Elle me sourit et hocha la tête.
+- Désolée, vous êtes trop mignonne. 
+	$> lose_reputation("Kathy", 15)
+	{{pseudo}}: Désolée, vous êtes tellement mignonne que j’en ai perdu mes mots. Comment puis-je vous aider?
+	Au mot “mignonne” elle affiche un air gêné avec un léger sourire en coin qui laisse à penser que ce mot ne lui plaît pas. 
+
+Nekomusume: Merci. En fait j’ai perdu mon ruban blanc. Je le portais au poignet tout à l’heure et j’ai quelques difficultées à le retrouver. 
+
+{{pseudo}}: Pas de soucis. Je vais vous aidez. 
+
+Je l’aide à chercher. Je jette des petits coups d'œil vers elle. Je remarque qu’elle porte un bracelet de cheville. Il me dit étrangement quelque chose…
+Je me dirige vers la muraille et fouille au niveau des buissons. Je finis par retrouver le ruban sous des feuilles, accroché à des branche. 
+
+{{pseudo}}: Je crois que je l’ai trouvé. Est-ce que c’est bien votre ruban? 
+
+Nekomusume: Faites voir ! 
+
+Elle s’approche de moi et regarde le ruban. Je sentis son odeur. Elle sentait une agréable odeur de rose. Elle prit le ruban de ma main et l’examina. 
+
+Nekomusume: Oui, c’est lui. Merci beaucoup.
+
+Elle me fit un grand sourire et essaya de remettre le ruban à son poignet gauche. 
+
+- L’aider à mettre son ruban 
+	$> gain_reputation("Kathy", 10)
+	{{pseudo}}: Attendez, je vais vous aider. 
+	Elle me tend le ruban puis me montre son poignet gauche. Je l’attache du mieux que je peux en lui faisant un joli nœud. 
+- La regarder faire 
+	$> lose_reputation("Kathy", 0)
+
+Nekomusume: Au fait, je ne me suis pas présentée. Je m'appelle Kathy. Je suis enchantée de faire votre connaissance. 
+
+{{pseudo}}: Je m'appelle {{pseudo}}. Enchantée également. 
+
+Kathy: Puis-je vous inviter à dîner ce soir? Je souhaiterai vous remercier. 
+
+- Accepter avec grand plaisir
+	$> gain_reputation("Kathy", 10)
+	{{pseudo}}: Merci mais ce n’était vraiment pas grand chose.  
+- Accepter mais insister pour payer sa part 
+	$> gain_reputation("Kathy", 15)
+	{{pseudo}}: Mais ce n’était rien. Je veux bien vous accompagner mais j’insiste pour payer ma part. 
+	Kathy: Je tiens vraiment à vous remercier, ce ruban est important pour moi. Laissez-moi vous offrir un dîner et on sera quitte. 
+- Refuser
+	$> lose_reputation("Kathy", 15)
+	{{pseudo}}: Je suis désolée mais on m’attends déjà ce soir. 
+	Kathy: S’il vous plaît ! Je n’aime pas avoir de dette envers quelqu’un. 
+	{{pseudo}}:Si vous insistez… D’accord.
+
+$> set_location("Restaurant un peu chic")
+
+Comment ai-je pu me retrouver dans un restaurant chic? En plus je ne suis pas habillé pour l’occasion. Et Kathy a vraiment l’air dans son élément. Et les prix ne sont pas vraiment donnés. Je n’ai pas de difficulté financière mais si j’allais trop souvent dans ce genre d’endroit, j’aurai rapidement plus rien. 
+
+J’ai envoyé un message à ma tante discretement puis je regarde à nouveau la carte. Un serveur finit par arriver. 
+
+Kathy: Je prendrai le cabillaud et moules de bouchot servie avec aubergine blanche, courgette violon citronnée, jus de moules au safran et écume de lait de coco à la verveine. Avez-vous choisi {{pseudo}}? 
+
+- Prendre le plat le moins cher
+	$> gain_reputation("Kathy", 15)
+	{{pseudo}}: Je vais vous prendre l’onglet de bœuf rôti au thym avec carotte orange, chou pointu grillé, piment padrón et jus corsé aux pickles de graines de moutarde.  
+- Prendre le plat le plus cher
+	$> lose_reputation("Kathy", 15)
+	{{pseudo}}: Je vais vous prendre le filet de bœuf Black Angus rôti au binchotan avec la fricassée de girolles et maïs, oignon caramélisé aux épices et condiment à la groseille 
+
+Une fois nos commandes notées, le serveur s’en va. Kathy me sourit. 
+
+Kathy: Merci d’avoir accepté mon invitation. J’ai horreur d’avoir des dettes envers les autres. 
+
+{{pseudo}}: Je vous comprends. 
+
+Je regarde le ruban à son poignet. 
+
+{{pseudo}}: Pourriez-vous m’expliquez pourquoi vous tenez tant à ce ruban s’il vous plaît? 
+
+Kathy: Oui bien sûr. Il s’agit d’un cadeau de mon grand frère. Je le vois rarement. La plupart du temps il est en voyage d’affaires dans le royaume des esprits. Il revient trois à quatre fois par an dans le monde des humains. Ce ruban a été fait avec un tissu que l’on ne trouve que là-bas. Il est impossible de le déchirer. 
+
+{{pseudo}}: Je comprends mieux pourquoi vous vouliez absolument le retrouver. 
+
+Kathy: Je sais qu’il m’en aurait ramené un autre si je lui avais demandé mais il aurait fallu que j’attende qu’il revienne pour lui demander et attendre à nouveau avant qu’il m’en ramène un. 
+
+{{pseudo}}: Vous ne pouvez pas l’appeler? 
+
+Kathy: Les communications sont difficiles entre le monde des esprits et celui des humains, sinon il faudrait que je lui envoie une lettre mais je n’aime pas le déranger. 
+
+Le serveur nous sert nos plats. Nous nous souhaitons un bon appétit avant d’attaquer le plat. C’est vraiment exquis. Je ne peux pas m'empêcher de sourire en mangeant mon plat. 
+
+Kathy: Je vois à votre sourire que le plat vous plaît. Cela me fait plaisir. 
+
+{{pseudo}}: Effectivement, c’est vraiment délicieux. 
+
+Je savoure chacune des bouchés du plat. 
+
+Une fois le plat terminé, je m'essuie la bouche. 
+
+Kathy: Voulez-vous prendre un dessert? 
+
+{{pseudo}}: Non merci, je pense que j’ai assez mangé pour ce soir. 
+
+Kathy: D’accord. Allons-y alors. 
+Kathy se dirige vers la caisse pour régler puis nous sommes sorties. 
+
+$> set_location("Rue avec vue sur la mer")
+
+{{pseudo}}: Je vous remercie encore pour ce délicieux repas. C’était vraiment délicieux. 
+
+Kathy: De rien. Vous m’avez aidé à retrouver un objet qui m’est cher donc c’est normal. Je vous souhaite une bonne soirée. 
+
+{{pseudo}}: Merci, à vous aussi. 
+
+Kathy fait quelques pas puis se retourne en souriant. 
+
+Kathy: Est-ce la prochaine fois que l’on se verra, je peux vous tutoyer? 
+ 
+{{pseudo}}: Bien sûr ! Je serais ravie de vous revoir ! 
+
+Kathy partie le sourire au lèvre et je marche vers l’hôtel de tante Irma en ayant à l’esprit d’avoir passé une bonne soirée. 
+
+=> END

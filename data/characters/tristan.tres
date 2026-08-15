@@ -9,6 +9,8 @@ firstname = "Tristan"
 age = 28
 birthday = "?"
 description = "Prof de sport, enseigne le surf durant l’été"
-neutral_face = ExtResource("1_ld434")
+variants = Dictionary[String, Texture2D]({
+"neutral": ExtResource("1_ld434")
+})
 is_love_interest = true
 metadata/_custom_type_script = "uid://cddw0vxnb1jna"

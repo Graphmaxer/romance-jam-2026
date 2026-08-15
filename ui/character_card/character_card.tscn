@@ -1,15 +1,47 @@
 [gd_scene format=3 uid="uid://bxmnui8xvsga5"]
 
 [ext_resource type="Script" uid="uid://brtoy6gryeqvx" path="res://ui/character_card/character_card.gd" id="1_7qkde"]
-[ext_resource type="Resource" uid="uid://0yjvxu057fqg" path="res://data/characters/mael.tres" id="2_hhbiw"]
-[ext_resource type="Texture2D" uid="uid://2hoy8in1or40" path="res://assets/characters/male/Male_Neutral.png" id="3_hhbiw"]
+[ext_resource type="Resource" uid="uid://dx3vnrd0m510m" path="res://data/characters/kathy.tres" id="2_2afhe"]
+[ext_resource type="Texture2D" uid="uid://7noko8w7fs68" path="res://assets/characters/animals/Cat/cat smile.png" id="3_2afhe"]
+[ext_resource type="Texture2D" uid="uid://cwfcedx4ol36j" path="res://assets/hearts/Royal Heart.png" id="4_2afhe"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8h0mb"]
+atlas = ExtResource("4_2afhe")
+region = Rect2(0, 0, 20, 21)
+
+[sub_resource type="Gradient" id="Gradient_2afhe"]
+interpolation_mode = 2
+offsets = PackedFloat32Array(0, 0.5, 1)
+colors = PackedColorArray(1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_g4eyy"]
+gradient = SubResource("Gradient_2afhe")
 
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_ihi2j"]
 lifetime_randomness = 0.5
-emission_shape_offset = Vector3(0, 20, 0)
 emission_shape = 3
 emission_box_extents = Vector3(115, 280, 0)
 gravity = Vector3(0, -126, 0)
+color_ramp = SubResource("GradientTexture1D_g4eyy")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2afhe"]
+atlas = ExtResource("4_2afhe")
+region = Rect2(42, 0, 20, 21)
+
+[sub_resource type="Gradient" id="Gradient_smkpk"]
+interpolation_mode = 2
+offsets = PackedFloat32Array(0, 0.5, 1)
+colors = PackedColorArray(1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_r41by"]
+gradient = SubResource("Gradient_smkpk")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_3dale"]
+lifetime_randomness = 0.5
+emission_shape = 3
+emission_box_extents = Vector3(115, 280, 0)
+gravity = Vector3(0, 126, 0)
+color_ramp = SubResource("GradientTexture1D_r41by")
 
 [node name="CharacterCard" type="Control" unique_id=2018544471]
 layout_mode = 3
@@ -21,17 +53,14 @@ grow_vertical = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 script = ExtResource("1_7qkde")
-character = ExtResource("2_hhbiw")
+character = ExtResource("2_2afhe")
+variant = "cat"
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=957569691]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 89.0
-offset_top = 51.0
-offset_right = 89.0
-offset_bottom = 51.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
@@ -51,13 +80,23 @@ layout_mode = 2
 size_flags_horizontal = 6
 size_flags_vertical = 3
 offset_transform_enabled = true
-texture = ExtResource("3_hhbiw")
+texture = ExtResource("3_2afhe")
 expand_mode = 3
 
-[node name="GPUParticles2D" type="GPUParticles2D" parent="." unique_id=1111035327]
-position = Vector2(662, 350)
+[node name="GainReputationParticles" type="GPUParticles2D" parent="." unique_id=1111035327]
+position = Vector2(570, 370)
+emitting = false
 amount = 20
-visibility_rect = Rect2(-125, -300, 250, 600)
-trail_enabled = true
-trail_lifetime = 0.01
+texture = SubResource("AtlasTexture_8h0mb")
+lifetime = 2.0
+visibility_rect = Rect2(-126.94177, -477.79138, 257.98975, 776.8344)
 process_material = SubResource("ParticleProcessMaterial_ihi2j")
+
+[node name="LoseReputationParticles" type="GPUParticles2D" parent="." unique_id=2042229542]
+position = Vector2(570, 280)
+emitting = false
+amount = 20
+texture = SubResource("AtlasTexture_2afhe")
+lifetime = 2.0
+visibility_rect = Rect2(-133.79248, -282.85886, 269.31165, 673.3585)
+process_material = SubResource("ParticleProcessMaterial_3dale")

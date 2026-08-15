@@ -61,12 +61,13 @@ func _on_discussion_ended(dialogue_ended: DialogueResource) -> void:
 		love_interest_selection_tween.tween_property(love_interest_selection, "modulate:a", 1, 1.0)
 	elif GameState.chapter_number > 0 and GameState.chapter_number <= route.chapters.size():
 		if GameState.chapter_number == route.chapters.size():
-			GameState.chapter_number = 0
 			await discussion.show_transition("%s: Fin" % GameState.love_interest)
+			_start_discussion()
+			GameState.chapter_number = 0
 		else:
 			GameState.chapter_number += 1
 			await discussion.show_transition(_get_chapter_transition_text())
-		_start_discussion()
+			_start_discussion()
 	else:
 		GameState.love_interest = ""
 		get_tree().change_scene_to_file("res://main.tscn")

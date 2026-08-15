@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://2oyvgn32ib6c"]
+
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="1_ibqws"]
+[ext_resource type="Texture2D" uid="uid://bwn6d71q0id00" path="res://assets/backgrounds/convenience_store/convenience_store_daytime.jpg" id="1_ygf0n"]
+[ext_resource type="Texture2D" uid="uid://bve1a1yc0qal0" path="res://assets/backgrounds/convenience_store/convenience_store_evening.jpg" id="2_54b61"]
+[ext_resource type="Texture2D" uid="uid://crw1bn1hya5xc" path="res://assets/backgrounds/convenience_store/convenience_store_night.jpg" id="3_a3nmg"]
+
+[resource]
+script = ExtResource("1_ibqws")
+aliases = Array[String](["Rue avec superette"])
+backgrounds = Dictionary[String, Texture2D]({
+"daytime": ExtResource("1_ygf0n"),
+"evening": ExtResource("2_54b61"),
+"night": ExtResource("3_a3nmg")
+})
+metadata/_custom_type_script = "uid://djshq1md8tej7"

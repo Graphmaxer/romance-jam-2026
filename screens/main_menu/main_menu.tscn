@@ -5,24 +5,9 @@
 [ext_resource type="Texture2D" uid="uid://esblajuukx0x" path="res://assets/gui/main_menu_midground.png" id="3_ux20d"]
 [ext_resource type="Texture2D" uid="uid://cg2w8og70nrtx" path="res://assets/gui/main_menu_foreground.png" id="4_tldqp"]
 
-[sub_resource type="Animation" id="Animation_ux20d"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Midground:self_modulate")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Color(1, 1, 1, 1)]
-}
-
 [sub_resource type="Animation" id="Animation_ay84d"]
 resource_name = "main_menu_beach"
-length = 6.0
+length = 7.0
 loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -31,10 +16,10 @@ tracks/0/path = NodePath("Foreground:offset_transform_position")
 tracks/0/interp = 2
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 2.5, 6),
+"times": PackedFloat32Array(0, 2.5, 7),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
-"values": [Vector2(0, 390), Vector2(0, 0), Vector2(0, 390)]
+"values": [Vector2(0, 390), Vector2(0, 15), Vector2(0, 390)]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -43,7 +28,7 @@ tracks/1/path = NodePath("Midground:self_modulate")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
-"times": PackedFloat32Array(2.4666667, 2.5, 6),
+"times": PackedFloat32Array(2.7666667, 2.8, 7),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
 "values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
@@ -51,7 +36,6 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_ux20d"]
 _data = {
-&"RESET": SubResource("Animation_ux20d"),
 &"main_menu_beach": SubResource("Animation_ay84d")
 }
 
@@ -79,6 +63,7 @@ texture = ExtResource("2_ay84d")
 expand_mode = 5
 
 [node name="Midground" type="TextureRect" parent="." unique_id=146860270]
+self_modulate = Color(1, 1, 1, 0)
 layout_mode = 1
 anchors_preset = 12
 anchor_top = 1.0
@@ -88,7 +73,7 @@ offset_top = -382.8
 grow_horizontal = 2
 grow_vertical = 0
 offset_transform_enabled = true
-offset_transform_position = Vector2(0, 34)
+offset_transform_position = Vector2(0, 36)
 texture = ExtResource("3_ux20d")
 expand_mode = 5
 
@@ -102,7 +87,7 @@ offset_top = -715.8
 grow_horizontal = 2
 grow_vertical = 0
 offset_transform_enabled = true
-offset_transform_position = Vector2(0, 390)
+offset_transform_position = Vector2(0, 88.26432)
 texture = ExtResource("4_tldqp")
 expand_mode = 5
 

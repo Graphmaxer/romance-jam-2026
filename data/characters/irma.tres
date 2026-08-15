@@ -1,11 +1,11 @@
 [gd_resource type="Resource" script_class="Character" format=3 uid="uid://c6k05o6l82rxs"]
 
-[ext_resource type="Texture2D" uid="uid://baiytj8gb45c3" path="res://assets/characters/female/Female_Angry.png" id="1_ltdkd"]
 [ext_resource type="Texture2D" uid="uid://6krhtnj02fl4" path="res://assets/characters/female/Female_Neutral.png" id="2_tebt0"]
 [ext_resource type="Script" uid="uid://cddw0vxnb1jna" path="res://data/characters/character.gd" id="3_lpive"]
 
 [resource]
 script = ExtResource("3_lpive")
 firstname = "Irma"
-neutral_face = ExtResource("2_tebt0")
-angry_face = ExtResource("1_ltdkd")
+variants = Dictionary[String, Texture2D]({
+"neutral": ExtResource("2_tebt0")
+})

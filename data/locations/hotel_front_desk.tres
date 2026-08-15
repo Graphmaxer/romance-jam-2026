@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://bdncph31847pp"]
+
+[ext_resource type="Texture2D" uid="uid://iny1dyg6ct2j" path="res://assets/backgrounds/hotel_front_desk/hotel_front_desk_daytime.jpg" id="1_uma5o"]
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="1_vu3gr"]
+[ext_resource type="Texture2D" uid="uid://do3at3jsnt0gq" path="res://assets/backgrounds/hotel_front_desk/hotel_front_desk_night.jpg" id="2_uma5o"]
+[ext_resource type="Texture2D" uid="uid://gru1g5k4uy1v" path="res://assets/backgrounds/hotel_front_desk/hotel_front_desk_night_light_on.jpg" id="3_ukiuj"]
+
+[resource]
+script = ExtResource("1_vu3gr")
+aliases = Array[String](["Salle de réception de l’hôtel", "Salle de réception de l'hôtel"])
+backgrounds = Dictionary[String, Texture2D]({
+"daytime": ExtResource("1_uma5o"),
+"night": ExtResource("2_uma5o"),
+"night_light_on": ExtResource("3_ukiuj")
+})
+metadata/_custom_type_script = "uid://djshq1md8tej7"
