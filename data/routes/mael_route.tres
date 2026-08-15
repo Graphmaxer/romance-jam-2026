@@ -5,13 +5,14 @@
 [ext_resource type="Resource" uid="uid://gb7yu36cm7ku" path="res://dialogues/mael/chapter1.dialogue" id="3_xumyh"]
 [ext_resource type="Resource" uid="uid://0yjvxu057fqg" path="res://data/characters/mael.tres" id="4_av1jx"]
 [ext_resource type="Script" uid="uid://c0ilmrags67cm" path="res://data/routes/route.gd" id="4_jcufv"]
+[ext_resource type="Resource" uid="uid://c2s3mwhjlf0g7" path="res://dialogues/mael/chapter2.dialogue" id="4_xumyh"]
 [ext_resource type="Resource" uid="uid://c2o6wqkiaj7xw" path="res://dialogues/mael/endings/good.dialogue" id="5_d2i81"]
 [ext_resource type="Resource" uid="uid://bk87si2v2xchh" path="res://dialogues/mael/endings/neutral.dialogue" id="6_dsxnx"]
 
 [resource]
 script = ExtResource("4_jcufv")
 character = ExtResource("4_av1jx")
-chapters = Array[ExtResource("1_vtbuk")]([ExtResource("3_xumyh")])
+chapters = Array[ExtResource("1_vtbuk")]([ExtResource("3_xumyh"), ExtResource("4_xumyh")])
 bad_ending = ExtResource("1_jcufv")
 neutral_ending = ExtResource("6_dsxnx")
 good_ending = ExtResource("5_d2i81")

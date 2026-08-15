@@ -18,7 +18,7 @@ func _start_discussion() -> void:
 	if GameState.love_interest and GameState.chapter_number:
 		var route: Route = _get_route(GameState.love_interest)
 		if route:
-			if GameState.chapter_number == route.chapters.size():
+			if GameState.chapter_number - 1 == route.chapters.size():
 				dialogue = _get_ending(route)
 			else:
 				dialogue = route.chapters[GameState.chapter_number - 1]
