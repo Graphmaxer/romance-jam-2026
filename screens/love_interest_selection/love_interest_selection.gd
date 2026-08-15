@@ -19,7 +19,7 @@ func _ready() -> void:
 			var panel: LoveInterestPanel = LOVE_INTEREST_PANEL.instantiate()
 			panel.name = character.firstname
 			panel.character = character
-			panel.connect("chosen", _on_love_interest_choosed)
+			panel.chosen.connect(_on_love_interest_choosed)
 			panels_container.add_child(panel)
 
 

@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="Location" format=3 uid="uid://branlkgfa6csk"]
 
-[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/location/location.gd" id="1_6gyhe"]
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="1_6gyhe"]
 [ext_resource type="Texture2D" uid="uid://btbx1wvwp05p6" path="res://assets/backgrounds/fortune_teller/fortune_teller.jpg" id="1_mqnd6"]
 
 [resource]

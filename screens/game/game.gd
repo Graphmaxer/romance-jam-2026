@@ -34,7 +34,7 @@ func _get_route(character_firstname: String) -> Route:
 
 func _get_ending(route: Route) -> DialogueResource:
 	var love_interest_reputation: int = GameState.get_reputation(GameState.love_interest)
-	if love_interest_reputation == 100:
+	if love_interest_reputation >= 90:
 		return route.good_ending
 	if love_interest_reputation >= 50:
 		return route.neutral_ending
@@ -45,12 +45,12 @@ func _get_chapter_transition_text() -> String:
 	return "%s: Chapitre %s" % [GameState.love_interest, GameState.chapter_number]
 
 
-func _on_discussion_ended(dialogue: DialogueResource) -> void:
+func _on_discussion_ended(dialogue_ended: DialogueResource) -> void:
 	var route: Route = _get_route(GameState.love_interest)
-	if dialogue == prologue:
+	if dialogue_ended == prologue:
 		var love_interest_selection: Control = love_interest_selection_scene.instantiate()
 		love_interest_selection.modulate.a = 0
-		love_interest_selection.connect("chosen", _on_love_interest_selection_chosen)
+		love_interest_selection.chosen.connect(_on_love_interest_selection_chosen)
 		add_child(love_interest_selection)
 
 		if love_interest_selection_tween and love_interest_selection_tween.is_valid():
@@ -61,13 +61,13 @@ func _on_discussion_ended(dialogue: DialogueResource) -> void:
 		love_interest_selection_tween.tween_property(love_interest_selection, "modulate:a", 1, 1.0)
 	elif GameState.chapter_number > 0 and GameState.chapter_number <= route.chapters.size():
 		if GameState.chapter_number == route.chapters.size():
-			await discussion.show_transition("%: Fin" % GameState.love_interest)
+			GameState.chapter_number = 0
+			await discussion.show_transition("%s: Fin" % GameState.love_interest)
 		else:
 			GameState.chapter_number += 1
 			await discussion.show_transition(_get_chapter_transition_text())
 		_start_discussion()
 	else:
-		GameState.chapter_number = 0
 		GameState.love_interest = ""
 		get_tree().change_scene_to_file("res://main.tscn")
 
@@ -82,4 +82,4 @@ func _on_love_interest_selection_chosen(firstname: String) -> void:
 		remove_child(love_interest_selection)
 		love_interest_selection.queue_free()
 	_start_discussion()
-	discussion.end_transition()
+	await discussion.end_transition()

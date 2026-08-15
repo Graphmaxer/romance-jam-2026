@@ -20,6 +20,11 @@ config/icon="res://icon.svg"
 DialogueManager="*uid://c3rodes2l3gxb"
 GameState="*uid://rle3tpmjvmu7"
 
+[debug]
+
+gdscript/warnings/untyped_declaration=1
+gdscript/warnings/missing_await=1
+
 [dialogue_manager]
 
 runtime/balloon_path="uid://c68vyr8gkflvu"

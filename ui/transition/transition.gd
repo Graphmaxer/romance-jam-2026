@@ -17,11 +17,11 @@ var state: State = State.INACTIVE
 
 
 func play(text: String) -> void:
-	await fade_in(text)
+	await fade_in_and_wait(text)
 	await fade_out()
 
 
-func fade_in(text: String) -> void:
+func fade_in_and_wait(text: String) -> void:
 	if state != State.INACTIVE:
 		push_warning("Invalid state: %s" % State.keys()[state])
 		return

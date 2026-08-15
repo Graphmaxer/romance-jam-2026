@@ -2,7 +2,7 @@
 class_name Discussion
 extends Control
 
-signal ended
+signal ended(dialogue: DialogueResource)
 
 const CHARACTER_CARD: PackedScene = preload("res://ui/character_card/character_card.tscn")
 
@@ -17,12 +17,9 @@ var current_dialogue: DialogueResource
 
 
 func _ready() -> void:
-	DialogueManager.connect("got_dialogue", _on_got_dialogue)
-	DialogueManager.connect("dialogue_ended", _on_dialogue_ended)
-
-	if story and Engine.is_editor_hint():
-		for character: Character in story.characters:
-			add_character(character.firstname)
+	if not Engine.is_editor_hint():
+		DialogueManager.got_dialogue.connect(_on_got_dialogue)
+		DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
 
 
 func start(dialogue: DialogueResource, dialogue_title: String) -> void:
@@ -30,8 +27,8 @@ func start(dialogue: DialogueResource, dialogue_title: String) -> void:
 	DialogueManager.show_dialogue_balloon(dialogue, dialogue_title, [self])
 
 
-func set_location(alias: String, time: String = "daytime"):
-	var location = story.get_location(alias)
+func set_location(alias: String, time: String = "daytime") -> void:
+	var location: Location = story.get_location(alias)
 	if location:
 		_clean_characters()
 		if location.backgrounds.has(time):
@@ -45,11 +42,11 @@ func set_location(alias: String, time: String = "daytime"):
 			background_stream_player.stream = location.music
 			background_stream_player.play()
 	else:
-		push_warning("Location to set not found: %s" % name)
+		push_warning("Location to set not found: %s" % alias)
 
 
 func add_character(firstname: String) -> void:
-	var character = story.get_character(firstname)
+	var character: Character = story.get_character(firstname)
 	if character:
 		if _find_character_card(firstname):
 			push_warning("Character already present: %s" % firstname)
@@ -72,7 +69,7 @@ func remove_character(firstname: String) -> void:
 
 
 func change_face(firstname: String, face: Character.Face) -> void:
-	var character_card = _find_character_card(firstname)
+	var character_card: CharacterCard = _find_character_card(firstname)
 	if character_card:
 		character_card.change_face(face)
 	else:
@@ -84,7 +81,7 @@ func show_transition(text: String) -> void:
 
 
 func start_transition(text: String) -> void:
-	await transition.fade_in(text)
+	await transition.fade_in_and_wait(text)
 
 
 func end_transition() -> void:
@@ -104,7 +101,7 @@ func lose_reputation(firstname: String, points: int) -> void:
 
 
 func _update_reputation(firstname: String, points: int) -> void:
-	var character_card = _find_character_card(firstname)
+	var character_card: CharacterCard = _find_character_card(firstname)
 	if character_card:
 		character_card.update_reputation(points)
 	else:
@@ -118,8 +115,8 @@ func _clean_characters() -> void:
 
 
 func _update_focus(firstname: String) -> void:
-	var character_card_to_focus = _find_character_card(firstname)
-	for character_card in characters_container.get_children():
+	var character_card_to_focus: CharacterCard = _find_character_card(firstname)
+	for character_card: CharacterCard in characters_container.get_children():
 		if not firstname or character_card == character_card_to_focus:
 			character_card.focus_character()
 		else:
