@@ -41,7 +41,7 @@ func update_reputation(points: int) -> void:
 	else:
 		reputation_particles = lose_reputation_particles
 
-	reputation_particles.emitting = true
+	reputation_particles.restart()
 
 	if reputation_tween and reputation_tween.is_valid():
 		reputation_tween.kill()
@@ -49,9 +49,6 @@ func update_reputation(points: int) -> void:
 	reputation_tween.set_trans(Tween.TRANS_CUBIC)
 	reputation_tween.set_ease(Tween.EASE_OUT)
 	reputation_tween.tween_property(reputation_bar, "value", reputation, 0.4)
-	await reputation_tween.finished
-
-	reputation_particles.emitting = false
 
 
 func _refresh_character() -> void:

@@ -89,6 +89,7 @@ emitting = false
 amount = 20
 texture = SubResource("AtlasTexture_8h0mb")
 lifetime = 2.0
+one_shot = true
 visibility_rect = Rect2(-126.94177, -477.79138, 257.98975, 776.8344)
 process_material = SubResource("ParticleProcessMaterial_ihi2j")
 
@@ -98,5 +99,6 @@ emitting = false
 amount = 20
 texture = SubResource("AtlasTexture_2afhe")
 lifetime = 2.0
+one_shot = true
 visibility_rect = Rect2(-133.79248, -282.85886, 269.31165, 673.3585)
 process_material = SubResource("ParticleProcessMaterial_3dale")
