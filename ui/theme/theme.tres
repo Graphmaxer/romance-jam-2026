@@ -62,4 +62,5 @@ LineEdit/colors/caret_color = Color(0, 0, 0, 1)
 LineEdit/colors/font_color = Color(0.5409909, 0.5409904, 0.5409905, 1)
 LineEdit/styles/focus = SubResource("StyleBoxTexture_41ywq")
 LineEdit/styles/normal = SubResource("StyleBoxTexture_1apww")
+RichTextLabel/colors/default_color = Color(0, 0, 0, 1)
 VBoxContainer/constants/separation = 8

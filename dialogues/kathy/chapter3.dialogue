@@ -1,0 +1,137 @@
+$> set_location("Chambre du personnage")
+
+Il s’est écoulé quelques jours depuis le dîner avec Kathy. Je ne l'ai pas croisée depuis. 
+
+Je decide de descendre voir ma tante une fois habillée. 
+
+# Lieu : Réception de l’hôtel
+$> set_location("Salle de réception de l’hôtel")
+
+$> add_character("Irma")
+
+Irma: Bonjour ma chérie. Bien dormis?
+
+{{pseudo}}: Oui, merci. Est-ce que tu aurais besoin d’aide pour quoi que ce soit? 
+
+Tante Irma réfléchis puis me répond avec un grand sourire. 
+
+Irma: Je n’ai pas besoin d’aide. Mais merci d’avoir demandé. 
+
+Je soupire et me dirige vers ma chambre, je pourrai aller prendre un bouquin et aller le lire à la plage. 
+
+Irma: Au fait ma puce, je ne sais pas si tu es au courant mais Maël a ouvert la guinguette près de la plage. Au cas où tu voudrais prendre ton repas là-bas. Et puis cela te permettra de revoir ton ami d’enfance. Tu n'es pas allée le voir une seule fois depuis ton retour. 
+
+Je me retourne vers ma tante, l’air surprise. 
+
+{{pseudo}}: Maël tient une guinguette? 
+
+Irma: Tu n’as pas vu les affiches à l’entrée de l’hôtel? Pourtant on les voit bien. Je te reconnais bien. Tu as vraiment la tête dans les nuages. 
+
+Je vais voir à l’entrée de l’hôtel et remarque effectivement l’affiche qui indique l’ouverture de la guinguette tout l’été. 
+
+{{pseudo}}: Tu as raison Tatie, je vais aller faire un tour à cette fameuse guinguette. Je vais d’abord prendre mon livre et m’habiller en conséquence au cas où je voudrai aller me baigner ensuite. 
+
+Irma: Super ! Amuse-toi bien ! 
+
+$> remove_character("Irma")
+
+$> set_location("Guinguette près de la plage")
+
+Une fois arrivée à la guinguette je me suis installée à une table sur la terrasse, j’ai commandé un thé glacé à la pêche et je lis tranquillement mon bouquin. 
+
+Je n’ai pas croisé Maël. Il est sûrement débordé avec le monde qu’il y a. Heureusement que je suis arrivée pile avant tout ce monde. 
+
+$> show_transition("Une heure plus tard")
+
+J’ai presque fini mon chapitre. Il ne me reste que quelques lignes…
+
+Kathy: Laissez-moi tranquille ! 
+
+Je lève la tête et vois deux hommes avec Kathy. L’un d’eux tient son poignet droit.
+
+$> add_character("Kathy")
+
+Homme 1: Viens t’amuser avec nous. 
+
+Kathy: Je ne peux pas. J’attends quelqu’un. Donc lâchez-moi. 
+
+Homme 2: Cela fait 20 minutes que tu es toute seule. 
+
+Elle a vraiment l’air embêtée. 
+
+- Se lever et intervenir
+	$> gain_reputation("Kathy", 20)
+	{{pseudo}}: Kathy ! Désolée je suis en retard, tu ne m’a pas trop attendu j’espère. 
+	Je repousse la main de l’homme qui enlaçait le poignet de Kathy. Je tourne le dos aux deux hommes. Elle est un peu surprise et soupire de soulagement. 
+	Kathy: Non, ça ne fait pas très longtemps…
+	{{pseudo}}: Viens, je nous ai pris une table. Mon livre est posé dessus. 
+	Nous partons vers la table de la guinguette. Je lance un regard assassin aux hommes qui partent en ayant un air gêné. Nous nous installons à la table.
+- Regarder si elle va s’en sortir
+	$> lose_reputation("Kathy", 30)
+	Elle repousse la main de l’homme qui lui tient le poignet et marche sur le pied de l’un d’eux. Puis leur lance un regard assassin. 
+	Kathy: Si vous ne me laissez pas tranquille…
+	Elle crée une boule de feu dans sa main. Les deux hommes ayant peur des représailles s'enfuient. 
+	Elle se retourne et me vois à la table, elle vient vers moi et s'assoit sur la chaise libre en face de moi. 
+	Kathy: Bonjour, le spectacle t’a plu? 
+	Elle avait l’air fâchée et déçue que je ne sois pas intervenu. 
+	{{pseudo}}: Je suis désolée Kathy, je ne savais pas quoi faire…
+	Kathy: Tant pis, au moins je suis saine et sauve. Et puis je sais me défendre en cas de besoin. 
+	Elle me sourit mais je sens qu’elle m'en veut toujours un peu.
+
+Je tends la carte des boissons à Kathy qui la prend. Elle le feuillette . 
+{{pseudo}}: Ça fait longtemps qu’on ne s’est pas vu. Je peux t’inviter? 
+
+Kathy: C’est vrai? Merci c’est gentil. Je prendrai un lait à la fraise et une tartelette aux fraises. 
+
+{{pseudo}}: C’est noté, je vais au comptoir prendre ta commande, je reviens. 
+
+Je me lève et m’approche du comptoir pour prendre la commande. Je crois apercevoir Maël au loin au niveau de la cuisine. 
+On me donne ma commande et je retourne voir Kathy qui regarde le dos du livre que je lisais. Je dépose le plateau, elle repose mon livre. 
+
+Kathy: Merci beaucoup. 
+
+Elle commence à boire sa boisson et prend une bouchée de la tartelette. Ses yeux brillent plus que lorsque nous étions au restaurant la dernière fois. Je crois qu’elle préfère les choses sucrées. Cela me fait sourire. 
+
+{{pseudo}}: Je n’ai même pas besoin de te demander ce que tu penses de la nourriture de la guinguette. 
+
+Kathy: Pourquoi? 
+
+{{pseudo}}: Parce que cela se voit rien qu’à tes yeux et aux mouvements de tes oreilles. 
+
+Elle rougit un peu, gênée d'être aussi transparente. 
+
+Kathy: Ah oui. Ce sont des réactions que j’ai un peu de mal à contrôler. 
+
+{{pseudo}}: C’est mignon. 
+
+Elle se raidit un peu à ce mot.
+
+{{pseudo}}: J’ai dit quelque chose de mal? 
+
+Kathy: Non, c’est juste que j’ai un petit problème avec ce mot. “Mignon” est un mot qui me donne l’impression de ne pas être prise au sérieux. 
+
+{{pseudo}}: Pourquoi cela? 
+
+Kathy: Parce que dans ma famille tout le monde me le dit mais la conséquence de cela c’est qu’ils sont plus occupés à voir mon apparence plutôt que les choses que je dis. Mais bon, au moins c’est pas méchant mais cela me dérange un peu. 
+
+{{pseudo}}: Je peux comprendre. Est-ce que le mot “jolie” te conviendrait mieux?
+
+Kathy: “Jolie”... C’est d’accord mais n’en abuse pas. 
+
+Elle termine sa tartelette et sa boisson. 
+
+Kathy: Est-ce que tu as quelque chose de prévu cet après-midi? 
+
+{{pseudo}}: Non, je passais juste le temps sur la terrasse avec mon livre. 
+
+Kathy: Serais-tu d’accord pour passer ton temps avec moi? Comme ça je ne serai plus seule et personne ne viendra m’embêter. 
+
+{{pseudo}}: Pourquoi pas. Cela me fera plaisir de passer du temps avec toi. 
+
+Kathy: Super ! 
+
+Elle me prend la main et nous partons de la guinguette ensemble. 
+
+=> END
+
+

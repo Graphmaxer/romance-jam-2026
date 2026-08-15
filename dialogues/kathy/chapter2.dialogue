@@ -60,6 +60,7 @@ Kathy: Puis-je vous inviter à dîner ce soir? Je souhaiterai vous remercier.
 	{{pseudo}}:Si vous insistez… D’accord.
 
 $> set_location("Restaurant un peu chic")
+$> add_character("Kathy")
 
 Comment ai-je pu me retrouver dans un restaurant chic? En plus je ne suis pas habillé pour l’occasion. Et Kathy a vraiment l’air dans son élément. Et les prix ne sont pas vraiment donnés. Je n’ai pas de difficulté financière mais si j’allais trop souvent dans ce genre d’endroit, j’aurai rapidement plus rien. 
 
@@ -111,7 +112,8 @@ Kathy: Voulez-vous prendre un dessert?
 Kathy: D’accord. Allons-y alors. 
 Kathy se dirige vers la caisse pour régler puis nous sommes sorties. 
 
-$> set_location("Rue avec vue sur la mer")
+$> set_location("Rue avec vue sur la mer", "evening")
+$> add_character("Kathy")
 
 {{pseudo}}: Je vous remercie encore pour ce délicieux repas. C’était vraiment délicieux. 
 

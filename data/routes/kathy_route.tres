@@ -6,13 +6,14 @@
 [ext_resource type="Resource" uid="uid://dx3vnrd0m510m" path="res://data/characters/kathy.tres" id="3_6oock"]
 [ext_resource type="Resource" uid="uid://en345hg2v5on" path="res://dialogues/kathy/chapter2.dialogue" id="4_6350o"]
 [ext_resource type="Script" uid="uid://c0ilmrags67cm" path="res://data/routes/route.gd" id="4_u1udv"]
+[ext_resource type="Resource" uid="uid://542v08b7qjte" path="res://dialogues/kathy/chapter3.dialogue" id="5_8bdod"]
 [ext_resource type="Resource" uid="uid://d0kyl8reovkmm" path="res://dialogues/kathy/endings/good.dialogue" id="5_6350o"]
 [ext_resource type="Resource" uid="uid://bwch5hn2hb6ra" path="res://dialogues/kathy/endings/neutral.dialogue" id="6_8bdod"]
 
 [resource]
 script = ExtResource("4_u1udv")
 character = ExtResource("3_6oock")
-chapters = Array[ExtResource("1_66kkm")]([ExtResource("2_66kkm"), ExtResource("4_6350o")])
+chapters = Array[ExtResource("1_66kkm")]([ExtResource("2_66kkm"), ExtResource("4_6350o"), ExtResource("5_8bdod")])
 bad_ending = ExtResource("1_u1udv")
 neutral_ending = ExtResource("6_8bdod")
 good_ending = ExtResource("5_6350o")

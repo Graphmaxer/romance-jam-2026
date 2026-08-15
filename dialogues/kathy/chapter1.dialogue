@@ -47,10 +47,10 @@ Je décide donc
 
 $> remove_character("Kathy")
 
-$> start_transition("quelques minutes plus tard")
+$> start_transition("Quelques minutes plus tard")
 
 # Lieu : Réception de l’hôtel
-$> set_location("Salle de réception de l'hôtel")
+$> set_location("Salle de réception de l’hôtel")
 
 $> end_transition()
 

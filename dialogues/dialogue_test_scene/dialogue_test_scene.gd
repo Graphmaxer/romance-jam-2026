@@ -9,4 +9,5 @@ func _ready() -> void:
 	discussion.size = viewport_rect.size
 	if not Engine.is_editor_hint():
 		GameState.pseudo = "Protagoniste"
+		DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
 		discussion.start(resource, title if not title.is_empty() else resource.first_title)

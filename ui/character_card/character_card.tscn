@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://bxmnui8xvsga5"]
 
 [ext_resource type="Script" uid="uid://brtoy6gryeqvx" path="res://ui/character_card/character_card.gd" id="1_7qkde"]
-[ext_resource type="Resource" uid="uid://dx3vnrd0m510m" path="res://data/characters/kathy.tres" id="2_2afhe"]
-[ext_resource type="Texture2D" uid="uid://7noko8w7fs68" path="res://assets/characters/animals/Cat/cat smile.png" id="3_2afhe"]
+[ext_resource type="Resource" uid="uid://cy7flpa1y68tv" path="res://data/characters/steve.tres" id="2_2afhe"]
+[ext_resource type="Texture2D" uid="uid://cxx7f4vbexrnf" path="res://assets/characters/steve/Steve-neutre.png" id="3_2afhe"]
 [ext_resource type="Texture2D" uid="uid://cwfcedx4ol36j" path="res://assets/hearts/Royal Heart.png" id="4_2afhe"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8h0mb"]
@@ -72,6 +72,7 @@ size_flags_horizontal = 4
 theme_override_constants/margin_top = 8
 
 [node name="ReputationBar" type="ProgressBar" parent="VBoxContainer/MarginContainer" unique_id=2067384786]
+visible = false
 layout_mode = 2
 size_flags_vertical = 4
 
@@ -80,6 +81,7 @@ layout_mode = 2
 size_flags_horizontal = 6
 size_flags_vertical = 3
 offset_transform_enabled = true
+offset_transform_position = Vector2(0, 30)
 texture = ExtResource("3_2afhe")
 expand_mode = 3
 
@@ -89,7 +91,6 @@ emitting = false
 amount = 20
 texture = SubResource("AtlasTexture_8h0mb")
 lifetime = 2.0
-one_shot = true
 visibility_rect = Rect2(-126.94177, -477.79138, 257.98975, 776.8344)
 process_material = SubResource("ParticleProcessMaterial_ihi2j")
 
@@ -99,6 +100,5 @@ emitting = false
 amount = 20
 texture = SubResource("AtlasTexture_2afhe")
 lifetime = 2.0
-one_shot = true
 visibility_rect = Rect2(-133.79248, -282.85886, 269.31165, 673.3585)
 process_material = SubResource("ParticleProcessMaterial_3dale")
