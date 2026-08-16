@@ -19,10 +19,12 @@
 [ext_resource type="Resource" uid="uid://2oyvgn32ib6c" path="res://data/locations/convenience_store.tres" id="15_vi0yb"]
 [ext_resource type="Resource" uid="uid://bdncph31847pp" path="res://data/locations/hotel_front_desk.tres" id="16_rpxeb"]
 [ext_resource type="Resource" uid="uid://0frgj2qvmv8w" path="res://data/locations/restaurant.tres" id="17_56e74"]
+[ext_resource type="Resource" uid="uid://dv6ugr6mrxokh" path="res://data/locations/living_room.tres" id="20_h4yfd"]
 [ext_resource type="Resource" uid="uid://c42ojenlqnajn" path="res://data/locations/hotel_entrance.tres" id="21_gt6cx"]
+[ext_resource type="Resource" uid="uid://db51psib3ppe4" path="res://data/locations/house.tres" id="21_tsnoo"]
 
 [resource]
 script = ExtResource("15_svq1r")
 characters = Array[ExtResource("1_fx1h1")]([ExtResource("2_vi0yb"), ExtResource("3_rpxeb"), ExtResource("4_56e74"), ExtResource("5_xarb6"), ExtResource("6_arh45"), ExtResource("7_ltaft"), ExtResource("8_tsnoo")])
-locations = Array[ExtResource("8_h4yfd")]([ExtResource("9_tsnoo"), ExtResource("10_gt6cx"), ExtResource("11_3j56a"), ExtResource("12_vkytg"), ExtResource("13_hl670"), ExtResource("14_6w1uv"), ExtResource("15_vi0yb"), ExtResource("16_rpxeb"), ExtResource("17_56e74"), ExtResource("21_gt6cx")])
+locations = Array[ExtResource("8_h4yfd")]([ExtResource("9_tsnoo"), ExtResource("10_gt6cx"), ExtResource("11_3j56a"), ExtResource("12_vkytg"), ExtResource("13_hl670"), ExtResource("14_6w1uv"), ExtResource("15_vi0yb"), ExtResource("16_rpxeb"), ExtResource("17_56e74"), ExtResource("21_gt6cx"), ExtResource("20_h4yfd"), ExtResource("21_tsnoo")])
 metadata/_custom_type_script = "uid://cv6gh8hv7dau2"
