@@ -7,13 +7,30 @@ extends Control
 var love_interest_selection_tween: Tween
 
 @onready var discussion: Discussion = %Discussion
+@onready var auto_save: Control = %AutoSave
+
+var auto_save_tween: Tween
 
 
 func _ready() -> void:
-	_start_discussion(prologue)
+	if GameState.love_interest:
+		var route: Route = _get_route(GameState.love_interest)
+		if GameState.chapter_number > 0:
+			_start_discussion(route.get_chapter(GameState.chapter_number))
+		else:
+			_start_discussion(route.ending)
+	else:
+		_start_discussion(prologue)
 
 
 func _start_discussion(dialogue: DialogueResource) -> void:
+	if auto_save_tween and auto_save_tween.is_running():
+		auto_save_tween.kill()
+	auto_save_tween = create_tween()
+	auto_save_tween.set_trans(Tween.TRANS_CUBIC)
+	auto_save_tween.set_ease(Tween.EASE_IN_OUT)
+	auto_save_tween.tween_property(auto_save, "modulate:a", 1, 1)
+	auto_save_tween.tween_property(auto_save, "modulate:a", 0, 1)
 	GameState.save_game()
 	discussion.start(dialogue, dialogue.first_cue)
 
@@ -25,17 +42,8 @@ func _get_route(character_firstname: String) -> Route:
 	return null
 
 
-func _get_ending(route: Route) -> DialogueResource:
-	var love_interest_reputation: int = GameState.get_reputation(GameState.love_interest)
-	if love_interest_reputation == 100:
-		return route.good_ending
-	if love_interest_reputation >= 50:
-		return route.neutral_ending
-	return route.bad_ending
-
-
 func _get_chapter_transition_text() -> String:
-	return "%s: Chapitre %s" % [GameState.love_interest, GameState.chapter_number]
+	return "%s: Chapitre %d" % [GameState.love_interest, GameState.chapter_number]
 
 
 func _on_discussion_ended(dialogue_ended: DialogueResource) -> void:
@@ -56,7 +64,7 @@ func _on_discussion_ended(dialogue_ended: DialogueResource) -> void:
 		if route.is_last_chapter(GameState.chapter_number):
 			GameState.chapter_number = 0
 			await discussion.show_transition("%s: Fin" % GameState.love_interest)
-			_start_discussion(_get_ending(route))
+			_start_discussion(route.ending)
 		else:
 			GameState.chapter_number += 1
 			await discussion.show_transition(_get_chapter_transition_text())

@@ -4,6 +4,10 @@
 [ext_resource type="Texture2D" uid="uid://duh4eu88y6daj" path="res://assets/gui/button/choice_hover_background.png" id="3_bipdn"]
 [ext_resource type="Texture2D" uid="uid://r6o4krws8tvi" path="res://assets/gui/overlay/game_menu.png" id="3_q67kw"]
 [ext_resource type="Texture2D" uid="uid://ce4xf3lj3fo4" path="res://assets/gui/textbox.png" id="4_bipdn"]
+[ext_resource type="Texture2D" uid="uid://y23qv0lhwblb" path="res://assets/gui/slider/horizontal_idle_bar.png" id="5_1apww"]
+[ext_resource type="FontFile" uid="uid://dpqyu8bhbjbf5" path="res://assets/fonts/SummerBeach-Regular.ttf" id="5_4v5r2"]
+[ext_resource type="Texture2D" uid="uid://bpj2w2nx755pe" path="res://assets/gui/slider/horizontal_hover_bar.png" id="6_4v5r2"]
+[ext_resource type="FontFile" uid="uid://bp5lumob7qij2" path="res://assets/fonts/Sand Beach Demo.ttf" id="6_yhl4s"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_cni3f"]
 content_margin_left = 32.0
@@ -73,6 +77,19 @@ expand_margin_top = 144.0
 expand_margin_right = 125.0
 expand_margin_bottom = 24.0
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_1tu1e"]
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+texture = ExtResource("5_1apww")
+region_rect = Rect2(0, 32, 993, 64)
+modulate_color = Color(0.8992584, 0.8992584, 0.8992584, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8qd52"]
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+texture = ExtResource("6_4v5r2")
+region_rect = Rect2(0, 32, 993, 64)
+
 [resource]
 Button/colors/font_color = Color(0, 0, 0, 1)
 Button/colors/font_disabled_color = Color(0, 0, 0, 0.5019608)
@@ -80,6 +97,8 @@ Button/colors/font_focus_color = Color(0, 0, 0, 1)
 Button/colors/font_hover_color = Color(0.3328804, 0.3328807, 0.33288142, 1)
 Button/colors/font_hover_pressed_color = Color(0, 0, 0, 1)
 Button/colors/font_pressed_color = Color(0, 0, 0, 1)
+Button/font_sizes/font_size = 28
+Button/fonts/font = ExtResource("5_4v5r2")
 Button/styles/disabled = SubResource("StyleBoxTexture_cni3f")
 Button/styles/focus = SubResource("StyleBoxTexture_qw2bh")
 Button/styles/hover = SubResource("StyleBoxTexture_q67kw")
@@ -87,12 +106,19 @@ Button/styles/normal = SubResource("StyleBoxTexture_ay84d")
 Button/styles/pressed = SubResource("StyleBoxTexture_bipdn")
 HBoxContainer/constants/separation = 16
 Label/colors/font_color = Color(0, 0, 0, 1)
+Label/font_sizes/font_size = 24
+Label/fonts/font = ExtResource("5_4v5r2")
 LineEdit/colors/caret_color = Color(0, 0, 0, 1)
 LineEdit/colors/font_color = Color(0.5409909, 0.5409904, 0.5409905, 1)
 LineEdit/styles/focus = SubResource("StyleBoxTexture_41ywq")
 LineEdit/styles/normal = SubResource("StyleBoxTexture_1apww")
 Panel/styles/panel = SubResource("StyleBoxTexture_2afhe")
 PanelContainer/styles/panel = SubResource("StyleBoxTexture_ndxql")
+ProgressBar/colors/font_color = Color(0.40594175, 0.26683006, 0.07293668, 1)
+ProgressBar/font_sizes/font_size = 37
+ProgressBar/fonts/font = ExtResource("6_yhl4s")
+ProgressBar/styles/background = SubResource("StyleBoxTexture_1tu1e")
+ProgressBar/styles/fill = SubResource("StyleBoxTexture_8qd52")
 RichTextLabel/colors/default_color = Color(0, 0, 0, 1)
 TextboxMarginContainer/base_type = &"MarginContainer"
 TextboxMarginContainer/constants/margin_bottom = 32

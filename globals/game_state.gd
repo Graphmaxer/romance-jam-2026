@@ -1,13 +1,13 @@
 extends Node
 
 var pseudo: String
-var reputations: Dictionary[String, int]
-var chapter_number: int
+var reputations: Dictionary[String, float]
+var chapter_number: float
 var love_interest: String
 var save_datetime: String
 
 
-func get_reputation(firstname: String) -> int:
+func get_reputation(firstname: String) -> float:
 	if reputations.has(firstname):
 		return reputations[firstname]
 	return 0
@@ -31,11 +31,14 @@ func has_save() -> bool:
 	return FileAccess.file_exists("user://savegame.save")
 
 
-func get_save_datetime() -> String:
+func get_save_preview() -> String:
 	var json_dict: Dictionary = _parse_save()
 	print(json_dict)
-	if json_dict and json_dict.has('save_datetime'):
-		return json_dict['save_datetime']
+	if json_dict and json_dict.has('chapter_number'):
+		var saved_chapter_number: float = json_dict['chapter_number']
+		if saved_chapter_number:
+			return "Chapitre %d" % json_dict['chapter_number']
+		return "Prologue"
 	return ''
 
 
@@ -51,7 +54,7 @@ func load_game() -> void:
 				else:
 					push_warning(
 						"Invalid key %s type, expected %s, got %s"
-						% [key, typeof(self[key]), typeof(json_dict[key])]
+						% [key, type_string(typeof(self[key])), type_string(typeof(json_dict[key]))]
 					)
 			else:
 				push_warning("Unkown key %s in save" % key)

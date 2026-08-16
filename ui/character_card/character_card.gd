@@ -31,8 +31,8 @@ func unfocus_character() -> void:
 	_modulate_character(Color.WHITE.darkened(0.25), Vector2.ONE)
 
 
-func update_reputation(points: int) -> void:
-	var reputation: int = clampi(GameState.get_reputation(name) + points, 0, 100)
+func update_reputation(points: float) -> void:
+	var reputation: float = clamp(GameState.get_reputation(name) + points, 0, 100)
 	GameState.reputations[name] = reputation
 
 	var reputation_particles: GPUParticles2D

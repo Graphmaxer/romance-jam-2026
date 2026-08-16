@@ -50,7 +50,7 @@ theme/custom="uid://dvp7v6oxh0ugs"
 
 [internationalization]
 
-locale/translations_pot_files=PackedStringArray("res://dialogues/prologue.dialogue", "res://dialogues/kathy/chapter1.dialogue", "res://dialogues/mael/chapter1.dialogue", "res://dialogues/mael/endings/good.dialogue", "res://dialogues/mael/endings/neutral.dialogue", "res://dialogues/mael/endings/bad.dialogue", "res://dialogues/kathy/endings/good.dialogue", "res://dialogues/kathy/endings/bad.dialogue", "res://dialogues/kathy/endings/neutral.dialogue", "res://dialogues/kathy/chapter2.dialogue", "res://dialogues/mael/chapter2.dialogue", "res://dialogues/kathy/chapter3.dialogue", "res://dialogues/mael/chapter3.dialogue", "res://dialogues/kathy/chapter4.dialogue", "res://dialogues/kathy/chapter5.dialogue", "res://dialogues/kathy/chapter6.dialogue", "res://dialogues/mael/chapter4.dialogue", "res://dialogues/mael/chapter5.dialogue", "res://dialogues/mael/chapter6.dialogue")
+locale/translations_pot_files=PackedStringArray("res://dialogues/prologue.dialogue", "res://dialogues/kathy/chapter1.dialogue", "res://dialogues/mael/chapter1.dialogue", "res://dialogues/kathy/chapter2.dialogue", "res://dialogues/mael/chapter2.dialogue", "res://dialogues/kathy/chapter3.dialogue", "res://dialogues/mael/chapter3.dialogue", "res://dialogues/kathy/chapter4.dialogue", "res://dialogues/kathy/chapter5.dialogue", "res://dialogues/kathy/chapter6.dialogue", "res://dialogues/mael/chapter4.dialogue", "res://dialogues/mael/chapter5.dialogue", "res://dialogues/mael/chapter6.dialogue", "res://dialogues/mael/ending.dialogue", "res://dialogues/kathy/ending.dialogue")
 
 [physics]
 

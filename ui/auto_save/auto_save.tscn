@@ -1,0 +1,152 @@
+[gd_scene format=3 uid="uid://bllup75vihhpy"]
+
+[ext_resource type="Texture2D" uid="uid://df7qr6gxl2m23" path="res://assets/Spinning-Floppy-Disk.png" id="1_6e22r"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fek0b"]
+atlas = ExtResource("1_6e22r")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ml0mg"]
+atlas = ExtResource("1_6e22r")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gdm2w"]
+atlas = ExtResource("1_6e22r")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oghrl"]
+atlas = ExtResource("1_6e22r")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_giqvj"]
+atlas = ExtResource("1_6e22r")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dxw45"]
+atlas = ExtResource("1_6e22r")
+region = Rect2(80, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6earu"]
+atlas = ExtResource("1_6e22r")
+region = Rect2(96, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eki4l"]
+atlas = ExtResource("1_6e22r")
+region = Rect2(112, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_28kgc"]
+atlas = ExtResource("1_6e22r")
+region = Rect2(128, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dhy77"]
+atlas = ExtResource("1_6e22r")
+region = Rect2(144, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8jddw"]
+atlas = ExtResource("1_6e22r")
+region = Rect2(160, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t4leq"]
+atlas = ExtResource("1_6e22r")
+region = Rect2(176, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qvobq"]
+atlas = ExtResource("1_6e22r")
+region = Rect2(192, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q20hg"]
+atlas = ExtResource("1_6e22r")
+region = Rect2(208, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3ms46"]
+atlas = ExtResource("1_6e22r")
+region = Rect2(224, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_25icf"]
+atlas = ExtResource("1_6e22r")
+region = Rect2(240, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s6o6m"]
+atlas = ExtResource("1_6e22r")
+region = Rect2(256, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_37bsk"]
+atlas = ExtResource("1_6e22r")
+region = Rect2(272, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_h6m2q"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fek0b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ml0mg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gdm2w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oghrl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_giqvj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dxw45")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6earu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eki4l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_28kgc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dhy77")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8jddw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t4leq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qvobq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q20hg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3ms46")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_25icf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s6o6m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_37bsk")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 15.0
+}]
+
+[node name="AutoSave" type="Control" unique_id=405684017]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=849211235]
+position = Vector2(1101, 593)
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_h6m2q")
+autoplay = "default"
+frame_progress = 0.19391021

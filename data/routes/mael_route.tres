@@ -1,23 +1,19 @@
 [gd_resource type="Resource" script_class="Route" format=3 uid="uid://b0r0pfav6asul"]
 
-[ext_resource type="Resource" uid="uid://cj0gs6rexhmfo" path="res://dialogues/mael/endings/bad.dialogue" id="1_jcufv"]
 [ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_vtbuk"]
 [ext_resource type="Resource" uid="uid://gb7yu36cm7ku" path="res://dialogues/mael/chapter1.dialogue" id="3_xumyh"]
 [ext_resource type="Resource" uid="uid://0yjvxu057fqg" path="res://data/characters/mael.tres" id="4_av1jx"]
 [ext_resource type="Script" uid="uid://c0ilmrags67cm" path="res://data/routes/route.gd" id="4_jcufv"]
 [ext_resource type="Resource" uid="uid://c2s3mwhjlf0g7" path="res://dialogues/mael/chapter2.dialogue" id="4_xumyh"]
 [ext_resource type="Resource" uid="uid://chhnmp2t2e4os" path="res://dialogues/mael/chapter3.dialogue" id="5_av1jx"]
-[ext_resource type="Resource" uid="uid://c2o6wqkiaj7xw" path="res://dialogues/mael/endings/good.dialogue" id="5_d2i81"]
-[ext_resource type="Resource" uid="uid://bk87si2v2xchh" path="res://dialogues/mael/endings/neutral.dialogue" id="6_dsxnx"]
 [ext_resource type="Resource" uid="uid://c74ti7utwm2vn" path="res://dialogues/mael/chapter4.dialogue" id="6_nrocv"]
 [ext_resource type="Resource" uid="uid://c1yrqgem0t8bl" path="res://dialogues/mael/chapter5.dialogue" id="7_b81xm"]
 [ext_resource type="Resource" uid="uid://w0oagi40bqvc" path="res://dialogues/mael/chapter6.dialogue" id="8_bqi7w"]
+[ext_resource type="Resource" uid="uid://cj0gs6rexhmfo" path="res://dialogues/mael/ending.dialogue" id="9_d2i81"]
 
 [resource]
 script = ExtResource("4_jcufv")
 character = ExtResource("4_av1jx")
 chapters = Array[ExtResource("1_vtbuk")]([ExtResource("3_xumyh"), ExtResource("4_xumyh"), ExtResource("5_av1jx"), ExtResource("6_nrocv"), ExtResource("7_b81xm"), ExtResource("8_bqi7w")])
-bad_ending = ExtResource("1_jcufv")
-neutral_ending = ExtResource("6_dsxnx")
-good_ending = ExtResource("5_d2i81")
+ending = ExtResource("9_d2i81")
 metadata/_custom_type_script = "uid://c0ilmrags67cm"

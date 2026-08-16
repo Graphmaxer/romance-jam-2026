@@ -7,6 +7,7 @@
 [ext_resource type="Resource" uid="uid://b0r0pfav6asul" path="res://data/routes/mael_route.tres" id="3_g1ktd"]
 [ext_resource type="Resource" uid="uid://bmngbdq2vbis0" path="res://data/routes/kathy_route.tres" id="3_npd5f"]
 [ext_resource type="PackedScene" uid="uid://4adhsfyh5yhw" path="res://screens/love_interest_selection/love_interest_selection.tscn" id="3_uain1"]
+[ext_resource type="PackedScene" uid="uid://bllup75vihhpy" path="res://ui/auto_save/auto_save.tscn" id="8_cpxdg"]
 
 [node name="Game" type="Control" unique_id=2139466926]
 layout_mode = 3
@@ -22,6 +23,11 @@ routes = Array[ExtResource("2_yflor")]([ExtResource("3_g1ktd"), ExtResource("3_n
 
 [node name="Discussion" parent="." unique_id=825360668 instance=ExtResource("2_0iheo")]
 unique_name_in_owner = true
+layout_mode = 1
+
+[node name="AutoSave" parent="." unique_id=405684017 instance=ExtResource("8_cpxdg")]
+unique_name_in_owner = true
+modulate = Color(1, 1, 1, 0)
 layout_mode = 1
 
 [connection signal="ended" from="Discussion" to="." method="_on_discussion_ended"]

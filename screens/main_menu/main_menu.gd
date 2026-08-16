@@ -7,7 +7,7 @@ extends Control
 func _ready() -> void:
 	if GameState.has_save():
 		continue_button.disabled = false
-		continue_button.text = "Continuer\n(%s)" % GameState.get_save_datetime()
+		continue_button.text = "Continuer\n(%s)" % GameState.get_save_preview()
 
 
 func start_game() -> void:

@@ -3,14 +3,12 @@ extends Resource
 
 @export var character: Character
 @export var chapters: Array[DialogueResource]
-@export var bad_ending: DialogueResource
-@export var neutral_ending: DialogueResource
-@export var good_ending: DialogueResource
+@export var ending: DialogueResource
 
 
-func is_last_chapter(chapter_number: int) -> bool:
+func is_last_chapter(chapter_number: float) -> bool:
 	return chapter_number == chapters.size()
 
 
-func get_chapter(chapter_number: int) -> DialogueResource:
+func get_chapter(chapter_number: float) -> DialogueResource:
 	return chapters[chapter_number - 1]

@@ -92,7 +92,7 @@ func end_transition() -> void:
 	await transition.fade_out()
 
 
-func get_reputation(firstname: String) -> int:
+func get_reputation(firstname: String) -> float:
 	return GameState.get_reputation(firstname)
 
 
@@ -107,7 +107,7 @@ func lose_reputation(firstname: String, points: int) -> void:
 func _update_reputation(firstname: String, points: int) -> void:
 	var character_card: CharacterCard = _find_character_card(firstname)
 	if character_card:
-		character_card.update_reputation(points)
+		await character_card.update_reputation(points)
 	else:
 		push_warning("Character to update reputation not present: %s" % firstname)
 
