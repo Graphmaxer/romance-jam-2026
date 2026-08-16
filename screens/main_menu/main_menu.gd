@@ -15,6 +15,8 @@ func start_game() -> void:
 
 
 func _on_new_game_button_pressed() -> void:
+	GameState.love_interest = ""
+	GameState.chapter_number = 0
 	start_game()
 
 

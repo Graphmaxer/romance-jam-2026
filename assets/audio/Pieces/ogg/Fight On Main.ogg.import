@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bhr7r0gv3nxnv"
+path="res://.godot/imported/Fight On Main.ogg-a4a86f5030608bff57666209682d596a.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/Pieces/ogg/Fight On Main.ogg"
+dest_files=["res://.godot/imported/Fight On Main.ogg-a4a86f5030608bff57666209682d596a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cynveml73x1lj"
+path="res://.godot/imported/Piano Jingle 6.ogg-b3f3e77076d98020d8b913e520685f52.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/Transitions/ogg/Piano Jingle 6.ogg"
+dest_files=["res://.godot/imported/Piano Jingle 6.ogg-b3f3e77076d98020d8b913e520685f52.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

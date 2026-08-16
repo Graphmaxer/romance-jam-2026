@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://isjkc0gy7w6s"
+path="res://.godot/imported/In Legends.ogg-0632089879d73287a1b47eeff3839dcc.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/Pieces/ogg/In Legends.ogg"
+dest_files=["res://.godot/imported/In Legends.ogg-0632089879d73287a1b47eeff3839dcc.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

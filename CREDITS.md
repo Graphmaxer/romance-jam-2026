@@ -25,6 +25,10 @@
 - Fortune Teller (https://www.deviantart.com/rialynkv/art/Fortune-Teller-Room-962240921)
 - Mansion (https://ebbasuke.itch.io/gloomy-mansion-background-pack)
 
+### Audio
+
+- Music (https://fulminisictus.itch.io/visual-novel-audio-pack)
+
 ## Tools
 
 ### Engine/Addons

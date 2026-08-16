@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bnemk6prik5so"
+path="res://.godot/imported/UI Bell 2.wav-992dbadcb852db85946e8ac57d32522e.sample"
+
+[deps]
+
+source_file="res://assets/audio/UI SFX/UI Bell 2.wav"
+dest_files=["res://.godot/imported/UI Bell 2.wav-992dbadcb852db85946e8ac57d32522e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

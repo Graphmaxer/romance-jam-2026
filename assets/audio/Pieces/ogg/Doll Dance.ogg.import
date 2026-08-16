@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://4revnj7hyvli"
+path="res://.godot/imported/Doll Dance.ogg-ecd93b060f1f1024b140b1a4cc9ca22a.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/Pieces/ogg/Doll Dance.ogg"
+dest_files=["res://.godot/imported/Doll Dance.ogg-ecd93b060f1f1024b140b1a4cc9ca22a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
