@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/island_daytime.jpg-2f0b650524fe99a3c14c0e8840
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

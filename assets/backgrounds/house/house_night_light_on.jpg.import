@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/house_night_light_on.jpg-e44c6e12fa8fa63c381d
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

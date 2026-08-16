@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/sandy_beach_evening.jpg-c0aa2818bf5294fa1d760
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

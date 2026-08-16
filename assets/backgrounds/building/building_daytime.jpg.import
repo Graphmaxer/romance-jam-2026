@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/building_daytime.jpg-50173e708ba79d43e2288d60
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

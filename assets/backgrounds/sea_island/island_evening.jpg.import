@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/island_evening.jpg-89e71d52948b0471dba113de8a
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

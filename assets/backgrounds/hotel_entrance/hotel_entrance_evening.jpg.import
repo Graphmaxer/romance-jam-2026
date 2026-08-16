@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/hotel_entrance_evening.jpg-af0c8ea7ffb1139032
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0
