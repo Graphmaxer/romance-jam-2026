@@ -46,18 +46,21 @@ size_flags_vertical = 4
 text = "Choisir"
 
 [node name="FirstnameLabel" type="Label" parent="Panel/PanelMargin/VBox" unique_id=1385444149]
+unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 4
 theme_override_font_sizes/font_size = 22
 text = "Maël"
 
 [node name="InfosLabel" type="Label" parent="Panel/PanelMargin/VBox" unique_id=1698632239]
+unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 4
 text = "26 ans
 Anniversaire le 10 février"
 
 [node name="DescriptionLabel" type="Label" parent="Panel/PanelMargin/VBox" unique_id=1336418959]
+unique_name_in_owner = true
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 theme_override_font_sizes/font_size = 12
@@ -67,6 +70,7 @@ Tempérament calme et discret mais il ne se laisse pas marcher dessus pour autan
 autowrap_mode = 3
 
 [node name="CharacterTexRect" type="TextureRect" parent="Panel/PanelMargin/VBox" unique_id=2145622796]
+unique_name_in_owner = true
 propagate_maximum_size = true
 layout_mode = 2
 size_flags_vertical = 3

@@ -1,7 +1,7 @@
 @tool
 extends BaseDialogueTestScene
 
-@onready var discussion: Discussion = $Discussion
+@onready var discussion: Discussion = %Discussion
 
 
 func _ready() -> void:
@@ -10,4 +10,4 @@ func _ready() -> void:
 	if not Engine.is_editor_hint():
 		GameState.pseudo = "Protagoniste"
 		DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
-		discussion.start(resource, title if not title.is_empty() else resource.first_title)
+		discussion.start(resource, key if not key.is_empty() else resource.first_cue)

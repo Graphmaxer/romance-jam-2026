@@ -8,10 +8,10 @@ extends Control
 var character_tween: Tween
 var reputation_tween: Tween
 
-@onready var reputation_bar: ProgressBar = $VBoxContainer/MarginContainer/ReputationBar
-@onready var character_tex_rect: TextureRect = $VBoxContainer/CharacterTexRect
-@onready var gain_reputation_particles: GPUParticles2D = $GainReputationParticles
-@onready var lose_reputation_particles: GPUParticles2D = $LoseReputationParticles
+@onready var reputation_bar: ProgressBar = %ReputationBar
+@onready var character_tex_rect: TextureRect = %CharacterTexRect
+@onready var gain_reputation_particles: GPUParticles2D = %GainReputationParticles
+@onready var lose_reputation_particles: GPUParticles2D = %LoseReputationParticles
 
 
 func _ready() -> void:

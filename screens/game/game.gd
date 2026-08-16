@@ -6,7 +6,7 @@ extends Control
 
 var love_interest_selection_tween: Tween
 
-@onready var discussion: Discussion = $Discussion
+@onready var discussion: Discussion = %Discussion
 
 
 func _ready() -> void:
@@ -22,7 +22,7 @@ func _start_discussion() -> void:
 				dialogue = _get_ending(route)
 			else:
 				dialogue = route.chapters[GameState.chapter_number - 1]
-	discussion.start(dialogue, dialogue.first_title)
+	discussion.start(dialogue, dialogue.first_cue)
 
 
 func _get_route(character_firstname: String) -> Route:

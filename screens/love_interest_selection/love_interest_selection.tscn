@@ -37,4 +37,5 @@ theme_override_constants/margin_right = 32
 theme_override_constants/margin_bottom = 86
 
 [node name="PanelsContainer" type="HBoxContainer" parent="MarginContainer" unique_id=2034147586]
+unique_name_in_owner = true
 layout_mode = 2

@@ -7,6 +7,7 @@ layer = 101
 script = ExtResource("1_1tu1e")
 
 [node name="Background" type="ColorRect" parent="." unique_id=2085269406]
+unique_name_in_owner = true
 visible = false
 modulate = Color(1, 1, 1, 0)
 anchors_preset = 15
@@ -17,6 +18,7 @@ grow_vertical = 2
 color = Color(0.06469653, 0.06469653, 0.06469653, 1)
 
 [node name="TransitionText" type="Label" parent="Background" unique_id=1720838468]
+unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5

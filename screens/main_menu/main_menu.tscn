@@ -124,6 +124,7 @@ layout_mode = 2
 placeholder_text = "Pseudo"
 
 [node name="NewGameButton" type="Button" parent="VBoxContainer/VBoxContainer" unique_id=1111990290]
+unique_name_in_owner = true
 layout_mode = 2
 disabled = true
 text = "Nouvelle partie"

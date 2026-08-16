@@ -10,10 +10,10 @@ const CHARACTER_CARD: PackedScene = preload("res://ui/character_card/character_c
 
 var current_dialogue: DialogueResource
 
-@onready var characters_container: HBoxContainer = $CharactersContainer
-@onready var background_stack: BackgroundStack = $BackgroundStack
-@onready var background_stream_player: AudioStreamPlayer = $BackgroundStreamPlayer
-@onready var transition: Transition = $Transition
+@onready var background_stack: BackgroundStack = %BackgroundStack
+@onready var characters_container: HBoxContainer = %CharactersContainer
+@onready var background_stream_player: AudioStreamPlayer = %BackgroundStreamPlayer
+@onready var transition: Transition = %Transition
 
 
 func _ready() -> void:
@@ -25,9 +25,9 @@ func _ready() -> void:
 			add_character(character.firstname)
 
 
-func start(dialogue: DialogueResource, dialogue_title: String) -> void:
+func start(dialogue: DialogueResource, dialogue_cue: String) -> void:
 	current_dialogue = dialogue
-	DialogueManager.show_dialogue_balloon(dialogue, dialogue_title, [self])
+	DialogueManager.show_dialogue_balloon(dialogue, dialogue_cue, [self])
 
 
 func set_location(alias: String, time: String = "default") -> void:

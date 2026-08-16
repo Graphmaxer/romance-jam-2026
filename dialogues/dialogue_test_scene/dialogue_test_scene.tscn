@@ -8,10 +8,11 @@ script = ExtResource("1_mibxc")
 metadata/_custom_type_script = "uid://c8e16qdgu40wo"
 
 [node name="Discussion" parent="." unique_id=825360668 instance=ExtResource("2_6bk4m")]
+unique_name_in_owner = true
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
-offset_right = 1195.0
-offset_bottom = 631.0
+offset_right = 1191.0
+offset_bottom = 845.0
 grow_horizontal = 1
 grow_vertical = 1

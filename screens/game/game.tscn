@@ -21,6 +21,7 @@ love_interest_selection_scene = ExtResource("3_uain1")
 routes = Array[ExtResource("2_yflor")]([ExtResource("3_g1ktd"), ExtResource("3_npd5f")])
 
 [node name="Discussion" parent="." unique_id=825360668 instance=ExtResource("2_0iheo")]
+unique_name_in_owner = true
 layout_mode = 1
 
 [connection signal="ended" from="Discussion" to="." method="_on_discussion_ended"]

@@ -9,7 +9,7 @@ const LOVE_INTEREST_PANEL: PackedScene = preload(
 
 @export var story: Story
 
-@onready var panels_container: HBoxContainer = $MarginContainer/PanelsContainer
+@onready var panels_container: HBoxContainer = %PanelsContainer
 
 
 # Called when the node enters the scene tree for the first time.

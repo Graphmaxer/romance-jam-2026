@@ -12,8 +12,8 @@ var background_tween: Tween
 
 var state: State = State.INACTIVE
 
-@onready var background: ColorRect = $Background
-@onready var transition_text: Label = $Background/TransitionText
+@onready var background: ColorRect = %Background
+@onready var transition_text: Label = %TransitionText
 
 
 func play(text: String) -> void:

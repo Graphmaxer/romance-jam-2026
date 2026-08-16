@@ -3,8 +3,8 @@ extends Control
 
 var background_tween: Tween
 
-@onready var background: TextureRect = $Background
-@onready var next_background: TextureRect = $Background/NextBackground
+@onready var background: TextureRect = %Background
+@onready var next_background: TextureRect = %NextBackground
 
 
 func update_background(new_background: Texture2D, skip_transition: bool = false) -> void:

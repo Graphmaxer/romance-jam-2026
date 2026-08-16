@@ -17,8 +17,8 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-DialogueManager="*uid://c3rodes2l3gxb"
 GameState="*uid://rle3tpmjvmu7"
+DialogueManager="*uid://c3rodes2l3gxb"
 
 [debug]
 
@@ -26,7 +26,7 @@ gdscript/warnings/untyped_declaration=1
 
 [dialogue_manager]
 
-runtime/balloon_path="uid://c68vyr8gkflvu"
+runtime/balloon_path="uid://ds7f863wnj4n2"
 editor/advanced/custom_test_scene_path="uid://c0k08mshqoaeu"
 runtime/state_autoload_shortcuts=["GameState"]
 

@@ -6,10 +6,10 @@ signal chosen
 
 @export var character: Character
 
-@onready var firstname_label: Label = $Panel/PanelMargin/VBox/FirstnameLabel
-@onready var infos_label: Label = $Panel/PanelMargin/VBox/InfosLabel
-@onready var description_label: Label = $Panel/PanelMargin/VBox/DescriptionLabel
-@onready var character_tex_rect: TextureRect = $Panel/PanelMargin/VBox/CharacterTexRect
+@onready var firstname_label: Label = %FirstnameLabel
+@onready var infos_label: Label = %InfosLabel
+@onready var description_label: Label = %DescriptionLabel
+@onready var character_tex_rect: TextureRect = %CharacterTexRect
 
 
 func _ready() -> void:
