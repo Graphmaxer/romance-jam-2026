@@ -1,10 +1,13 @@
 extends Control
 
 @onready var new_game_button: Button = %NewGameButton
+@onready var continue_button: Button = %ContinueButton
 
 
 func _ready() -> void:
-	pass
+	if GameState.has_save():
+		continue_button.disabled = false
+		continue_button.text = "Continuer\n(%s)" % GameState.get_save_datetime()
 
 
 func start_game() -> void:
@@ -30,3 +33,8 @@ func _on_pseudo_input_text_changed(new_text: String) -> void:
 		new_game_button.disabled = false
 	else:
 		new_game_button.disabled = true
+
+
+func _on_continue_button_pressed() -> void:
+	GameState.load_game()
+	start_game()

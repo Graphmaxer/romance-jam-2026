@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://db51psib3ppe4"]
+
+[ext_resource type="Texture2D" uid="uid://bboimq5ndh4vd" path="res://assets/backgrounds/house/house_daytime.jpg" id="1_d7rak"]
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="1_mris7"]
+[ext_resource type="Texture2D" uid="uid://b584vl7okatrw" path="res://assets/backgrounds/house/house_evening.jpg" id="2_o6hln"]
+[ext_resource type="Texture2D" uid="uid://n7h06u4wkdti" path="res://assets/backgrounds/house/house_night.jpg" id="3_f4tfw"]
+
+[resource]
+script = ExtResource("1_mris7")
+aliases = Array[String](["Entrée d’une villa"])
+backgrounds = Dictionary[String, Texture2D]({
+"default": ExtResource("1_d7rak"),
+"jour": ExtResource("1_d7rak"),
+"nuit": ExtResource("3_f4tfw"),
+"soir": ExtResource("2_o6hln")
+})
+metadata/_custom_type_script = "uid://djshq1md8tej7"

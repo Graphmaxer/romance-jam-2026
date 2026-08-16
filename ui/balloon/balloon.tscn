@@ -62,10 +62,7 @@ anchor_bottom = 1.0
 offset_top = -219.0
 grow_horizontal = 2
 grow_vertical = 0
-theme_override_constants/margin_left = 128
-theme_override_constants/margin_top = 0
-theme_override_constants/margin_right = 128
-theme_override_constants/margin_bottom = 32
+theme_type_variation = &"TextboxMarginContainer"
 
 [node name="PanelContainer" type="PanelContainer" parent="Balloon/MarginContainer" unique_id=2145270309]
 clip_children = 2

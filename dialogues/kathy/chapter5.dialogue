@@ -27,7 +27,7 @@ Elle m’ouvre la porte puis je m’installe.
 
 Elle prend s’installe dans sa voiture. Nous mettons nos ceintures de sécurité puis nous partons. 
 
-$> set_location("Entrée d’un manoir")
+$> set_location("Entrée d’une villa")
 $> add_character("Kathy")
 
 Kathy m'avait prévenu que sa famille était riche. Mais c’est quand même très impressionnant. Je suis vraiment stressée. 
@@ -35,7 +35,7 @@ Kathy me prend la main et me souris.
 
 Kathy: Ne t’inquiète pas, ça va bien se passer. Viens on va aller dans la salle des invités. 
 
-$> set_location("Salon des invités au manoir")
+$> set_location("Salon des invités à la villa")
 
 Kathy: Tient, elle n’est pas encore arrivée. Installe-toi, je vais la chercher. Elle est peut-être encore dans son bureau et elle n’a pas vu l’heure. Ou alors ça l’ennuie de passer du temps avec moi…
 $> remove_character("Kathy")

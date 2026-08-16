@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://dv6ugr6mrxokh"]
+
+[ext_resource type="Texture2D" uid="uid://co8ui3rr2deiq" path="res://assets/backgrounds/living_room/living_room_daytime.jpg" id="1_3ttev"]
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="1_xoeoi"]
+[ext_resource type="Texture2D" uid="uid://dht58o1wytnqr" path="res://assets/backgrounds/living_room/living_room_evening.jpg" id="2_2jiq0"]
+[ext_resource type="Texture2D" uid="uid://b08asiauxhwwp" path="res://assets/backgrounds/living_room/living_room_night.jpg" id="3_6ysyw"]
+
+[resource]
+script = ExtResource("1_xoeoi")
+aliases = Array[String](["Salon des invités à la villa"])
+backgrounds = Dictionary[String, Texture2D]({
+"default": ExtResource("1_3ttev"),
+"jour": ExtResource("1_3ttev"),
+"nuit": ExtResource("3_6ysyw"),
+"soir": ExtResource("2_2jiq0")
+})
+metadata/_custom_type_script = "uid://djshq1md8tej7"

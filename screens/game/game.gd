@@ -14,6 +14,7 @@ func _ready() -> void:
 
 
 func _start_discussion(dialogue: DialogueResource) -> void:
+	GameState.save_game()
 	discussion.start(dialogue, dialogue.first_cue)
 
 
