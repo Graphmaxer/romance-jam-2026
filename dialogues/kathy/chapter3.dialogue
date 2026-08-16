@@ -34,7 +34,6 @@ Je vais voir à l’entrée de l’hôtel et remarque effectivement l’affiche 
 
 Irma: Super ! Amuse-toi bien ! 
 
-$> remove_character("Irma")
 
 $> set_location("Guinguette près de la plage")
 

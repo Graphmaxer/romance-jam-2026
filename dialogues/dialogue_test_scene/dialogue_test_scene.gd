@@ -9,5 +9,8 @@ func _ready() -> void:
 	discussion.size = viewport_rect.size
 	if not Engine.is_editor_hint():
 		GameState.pseudo = "Protagoniste"
+		for character: Character in discussion.story.characters:
+			if character.is_love_interest:
+				GameState.reputations[character.firstname] = 0
 		DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
 		discussion.start(resource, key if not key.is_empty() else resource.first_cue)

@@ -127,8 +127,8 @@ $> add_character("Kathy")
 Une fois Kathy revenue, nous avons conversé sur nos différents hobby ainsi que des livres et des séries que nous regardons ensemble. Une fois l’après-midi presque terminé, Amélia proposa que je reste dîner mais j’ai poliment refusé car je ne me sentais pas encore prête à rencontrer toute la famille de Kathy ce soir. 
 Kathy me raccompagna devant l’hôtel de ma tante. 
 
-$> remove_character("Amélia")
 $> set_location("Parking de l’hôtel", "soir")
+$> add_character("Kathy")
 
 Nous sommes sorties de la voiture. Puis nous avons commencé à discuter sur le parking. 
 

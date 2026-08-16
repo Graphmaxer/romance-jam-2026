@@ -24,8 +24,6 @@ Irma: Cela fait trois jours que je te vois avec un air inquiet qui passe sur ton
 
 Irma: A tout à l’heure ma puce. 
 
-$> remove_character("Irma")
-
 $> set_location("Rue avec superette")
 
 Et voilà, je vérifie une dernière fois que j’ai bien tout. Je n’aimerai pas devoir refaire un aller-retour comme la dernière fois. 
@@ -61,10 +59,12 @@ Je tiens mon téléphone dans mes mains. Cela fait plusieurs minutes que j'hési
 	Kathy: “Bonjour {{pseudo}} est-ce qu’on peut déjeuner ensemble ce midi? J’ai plein de choses à te dire.” 
 	{{pseudo}}: D’accord, à tout à l’heure. 
 
-$> show_transition("A l’heure du déjeuner")
+$> start_transition("A l’heure du déjeuner")
 
 $> set_location("Guinguette près de la plage")
 $> add_character("Kathy")
+
+$> end_transition()
 
 Nous nous sommes installés à la même table que la dernière fois, sur la terrasse de la guinguette. Nous avons commandé et commençons à manger.
 
@@ -99,7 +99,6 @@ Nous avons donc été ensemble s’acheter des yukata assortis, la voir aussi he
 
 La journée est passée à une vitesse folle et il était déjà l’heure de rentrer. J’étais un peu triste de me séparer de Kathy mais j’allais bientôt la revoir le jour du festival
 
-$> remove_character("Kathy") 
 $> set_location("Chambre du personnage", "soir") 
 
 J’avais encore le cœur qui battait la chamade. Je me demandais si je n’avais pas un petit problème car je ne m’en suis rendu compte qu’après qu’elle m'ait fait câlin et qu’on a passé cette journée ensemble. 

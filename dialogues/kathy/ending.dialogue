@@ -95,8 +95,6 @@ if reputations['Kathy'] < 50
 
 	Je pars en essayant de retenir au maximum mes larmes. Je crois entendre Kathy m’appeler mais je n’ai pas encore le courage de lui faire face. 
 
-	$> remove_character("Kathy") 
-
 	$> set_location("Chambre du personnage")
 
 	Cela faisait plusieurs jours que j’évitais Kathy. 
@@ -123,7 +121,6 @@ Kathy: Moi aussi je t’aime {{pseudo}}.
 
 Nous nous faisons un câlin puis nous nous embrassons tendrement sous les feux d’artifices. 
 
-$> remove_character("Kathy") 
 $> start_transition("Fin des vacances")
 $> set_location("Quai ile")
 $> end_transition()
