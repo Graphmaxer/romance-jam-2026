@@ -30,7 +30,7 @@ func start(dialogue: DialogueResource, dialogue_title: String) -> void:
 	DialogueManager.show_dialogue_balloon(dialogue, dialogue_title, [self])
 
 
-func set_location(alias: String, time: String = "daytime") -> void:
+func set_location(alias: String, time: String = "default") -> void:
 	var location: Location = story.get_location(alias)
 	if location:
 		_clean_characters()

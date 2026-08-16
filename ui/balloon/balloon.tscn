@@ -5,26 +5,13 @@
 [ext_resource type="Theme" uid="uid://dvp7v6oxh0ugs" path="res://ui/theme/theme.tres" id="2_qw2bh"]
 [ext_resource type="Script" uid="uid://bb52rsfwhkxbn" path="res://addons/dialogue_manager/dialogue_responses_menu.gd" id="3_72ixx"]
 [ext_resource type="Texture2D" uid="uid://ce4xf3lj3fo4" path="res://assets/gui/textbox.png" id="3_cwbbk"]
+[ext_resource type="Texture2D" uid="uid://dcevrd4je0o48" path="res://assets/gui/ctc.png" id="5_g33ab"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_cwbbk"]
 texture = ExtResource("3_cwbbk")
 expand_margin_top = 140.0
 expand_margin_right = 120.0
 expand_margin_bottom = 20.0
-
-[sub_resource type="Animation" id="Animation_nlsx6"]
-length = 0.001
-tracks/0/type = "bezier"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Progress:position:y")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"handle_modes": PackedInt32Array(0),
-"points": PackedFloat32Array(0, -0.25, 0, 0.25, 0),
-"times": PackedFloat32Array(0)
-}
 
 [sub_resource type="Animation" id="Animation_qkmqt"]
 resource_name = "progress"
@@ -44,7 +31,6 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_1337t"]
 _data = {
-&"RESET": SubResource("Animation_nlsx6"),
 &"progress": SubResource("Animation_qkmqt")
 }
 
@@ -60,6 +46,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+offset_transform_enabled = true
 theme = ExtResource("2_qw2bh")
 
 [node name="MarginContainer" type="MarginContainer" parent="Balloon" unique_id=1011109179]
@@ -83,10 +70,10 @@ theme_override_styles/panel = SubResource("StyleBoxTexture_cwbbk")
 
 [node name="MarginContainer" type="MarginContainer" parent="Balloon/MarginContainer/PanelContainer" unique_id=1030936092]
 layout_mode = 2
-theme_override_constants/margin_left = 50
-theme_override_constants/margin_top = 32
-theme_override_constants/margin_right = 50
-theme_override_constants/margin_bottom = 70
+theme_override_constants/margin_left = 48
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_right = 26
+theme_override_constants/margin_bottom = 50
 
 [node name="HBoxContainer" type="HBoxContainer" parent="Balloon/MarginContainer/PanelContainer/MarginContainer" unique_id=1428277592]
 layout_mode = 2
@@ -98,6 +85,7 @@ size_flags_horizontal = 3
 [node name="CharacterLabel" type="RichTextLabel" parent="Balloon/MarginContainer/PanelContainer/MarginContainer/HBoxContainer/VBoxContainer" unique_id=507199029]
 unique_name_in_owner = true
 modulate = Color(1, 1, 1, 0.501961)
+clip_contents = false
 layout_mode = 2
 mouse_filter = 1
 bbcode_enabled = true
@@ -116,9 +104,15 @@ custom_minimum_size = Vector2(20, 10)
 layout_mode = 2
 size_flags_vertical = 8
 
-[node name="Progress" type="Polygon2D" parent="Balloon/MarginContainer/PanelContainer/MarginContainer/HBoxContainer/Control" unique_id=821575988]
+[node name="Progress" type="TextureRect" parent="Balloon/MarginContainer/PanelContainer/MarginContainer/HBoxContainer/Control" unique_id=593724590]
 unique_name_in_owner = true
-polygon = PackedVector2Array(0, 0, 10, 10, 20, 0)
+custom_minimum_size = Vector2(17, 16)
+layout_mode = 0
+offset_right = 17.0
+offset_bottom = 16.0
+texture = ExtResource("5_g33ab")
+expand_mode = 1
+stretch_mode = 5
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Balloon/MarginContainer/PanelContainer/MarginContainer/HBoxContainer/Control" unique_id=452325722]
 libraries/ = SubResource("AnimationLibrary_1337t")

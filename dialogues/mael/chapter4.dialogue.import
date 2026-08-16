@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://c74ti7utwm2vn"
+path="res://.godot/imported/chapter4.dialogue-e9e96bf3623beb9d235951e8c3006f2a.tres"
+
+[deps]
+
+source_file="res://dialogues/mael/chapter4.dialogue"
+dest_files=["res://.godot/imported/chapter4.dialogue-e9e96bf3623beb9d235951e8c3006f2a.tres"]
+
+[params]
+
+defaults=true

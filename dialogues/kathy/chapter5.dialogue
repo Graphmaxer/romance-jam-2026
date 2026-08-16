@@ -1,0 +1,180 @@
+~ start
+$> set_location("Chambre du personnage - début après-midi")
+
+Il s’était écoulé une semaine depuis que Kathy m’a demandé de l’aide pour mieux s’entendre avec sa belle-sœur, Amélia. 
+On s’était retrouvé quelques fois à différents salons de thé pour discuter de ce qu’on allait faire ensemble lors du thé qui a lieu chez elle aujourd’hui. 
+La veille nous sommes allées dans un magasin pour acheter un cadeau pour Amélia, un collier avec une fleur de la même couleur que les cheveux de Kathy. 
+Je me prépare puis je sens mon téléphone vibré. 
+
+Kathy: “Je suis arrivée devant l’hôtel. Je t’attends sur le parking.”
+
+{{pseudo}}: “J’arrive”
+
+Je descends et me dirige sur le parking de l’hôtel. 
+
+$> set_location("Parking de l’hôtel")
+$> add_character("Kathy")
+
+Kathy est devant sa voiture sur son téléphone. Je m’approche d’elle. Elle range son téléphone dans son sac.  
+
+{{pseudo}}: Bonjour Kathy. Comment vas-tu? 
+
+Kathy: Je me sens un peu stressée mais maintenant que tu es là, ça va un peu mieux. Tu peux monter sur le siège passager. 
+
+Elle m’ouvre la porte puis je m’installe. 
+
+{{pseudo}}: Merci Kathy. 
+
+Elle prend s’installe dans sa voiture. Nous mettons nos ceintures de sécurité puis nous partons. 
+
+$> set_location("Entrée d’un manoir")
+$> add_character("Kathy")
+
+Kathy m'avait prévenu que sa famille était riche. Mais c’est quand même très impressionnant. Je suis vraiment stressée. 
+Kathy me prend la main et me souris. 
+
+Kathy: Ne t’inquiète pas, ça va bien se passer. Viens on va aller dans la salle des invités. 
+
+$> set_location("Salon des invités au manoir")
+
+Kathy: Tient, elle n’est pas encore arrivée. Installe-toi, je vais la chercher. Elle est peut-être encore dans son bureau et elle n’a pas vu l’heure. Ou alors ça l’ennuie de passer du temps avec moi…
+$> remove_character("Kathy")
+
+Kathy part. Je m’installe sur le canapé qui est très confortable. Il s’écoule plusieurs minutes avant que Kathy ne revienne avec Amélia. 
+
+$> add_character("Kathy")
+$> add_character("Amélia")
+
+Kathy s’installe à côté de moi et Amélia se met sur le canapé en face de nous. 
+
+Amélia: Bonjour, je suis enchantée de faire votre connaissance. Je m’appelle Amélia. Je suis la future belle-sœur de Kathy. 
+
+- Répondre amicalement
+	$> gain_reputation("Kathy", 10)
+	{{pseudo}}: Enchantée, je m’appelle {{pseudo}}. Je suis ravie de faire votre connaissance. 
+- Etre froide
+	$> lose_reputation("Kathy", 20)
+	{{pseudo}}: Bonjour. Je suis {{pseudo}}. J’ai entendu parler de vous. 
+	Kathy me regarde surprise, l’air de dire : “Qu’est-ce qui te prend d’être froide?”
+
+Un employé du manoir arrive avec du thé et un plateau contenant des sucreries avant de repartir. 
+
+Kathy: Puis-je te servir une tasse de thé belle-sœur? 
+
+Amélia: Oui, je te remercie. 
+
+Elle lui répondit en détournant les yeux et de manière un peu froide. C’est comme si elle essayait d’éviter de regarder Kathy. Une fois le thé servi, Amélia bu une gorgée. Puis me regarde. 
+
+Amélia: Comment avez-vous rencontré Kathy ?
+
+{{pseudo}}: Je l’ai aidée à retrouver un ruban qu’elle avait perdu près d’une supérette. 
+
+Amélia: Tu avais perdu le ruban offert par ton frère? Heureusement que vous étiez là. Elle tient tellement à ce ruban, ça fait des années qu’elle l’a et qu’elle ne veut pas s’en séparer. 
+
+{{pseudo}}: Vous êtes au courant? 
+
+Amélia: Bien sûr, en réalité, c’est moi qui lui avait suggéré à son frère de lui offrir un cadeau en revenant du travail. Nous n’étions pas encore ensemble à ce moment mais je crois que l’avoir vu chercher un cadeau qui fera plaisir à sa sœur m’a un peu ému. 
+Amélia: Étant sa secrétaire depuis ses débuts dans le monde du travail, je l’ai toujours vu être très sérieux mais il perd tous ses moyens quand il s’agit de sa sœur. 
+
+Elle sourit tout du long et Kathy est un peu surprise, elle me murmure de sorte à ce que moi seule l’entende. 
+
+Kathy: C’est la première fois qu’elle m’en parle. 
+
+{{pseudo}}: Ah bon? 
+
+Kathy veut se resservir du thé mais remarque que l’eau a refroidi.
+
+Kathy: Je retourne en chercher, je reviens. 
+
+Elle me chuchota discrètement d’essayer de me rapprocher d’Amélia avant de partir. 
+
+$> remove_character("Kathy")
+
+- Parler la première
+	{{pseudo}}: Kathy m’a un peu parlé de vous. 
+	Amélia a l’air surpris puis elle affiche un air un peu triste
+	Amélia: Je suppose que ce n’était pas en bien…
+	{{pseudo}}: Pourquoi dites-vous cela? 
+	Amélia: Parce que j’ai dû mal à lui faire face et à discuter avec elle. De ce fait, son frère pense qu’on ne s’entends pas…
+	{{pseudo}}: Mais pourquoi avez-vous autant de mal à lui faire face
+	Elle met ses mains devant son visage en étant très embarrassée
+	Amélia: Je ne sais pas si je peux en parler devant une personne que je ne connais pas depuis longtemps. Cependant Kathy à l’air de vous faire confiance et j’aimerai vraiment mieux m’entendre avec elle. 
+	{{pseudo}}: Je vous écoute. 
+	Amélia: Ne vous moquez pas. 
+	{{pseudo}}: Promis. 
+	Amélia: En réalité… Je l’adore, elle est tellement mignonne. Je ne sais pas comment faire. Mon fiancé m’a bien dit de ne pas lui dire en face mais dès que je la regarde, je n’ai qu’une envie, c’est la serrer dans mes bras et lui dire comment je la trouve mignonne ! 
+	Ah. Je ne m’attendais pas du tout à cela. Il faut vraiment que je me retiens de rire, sinon ça ne va pas le faire. 
+- Attendre que Amélia par en premier
+	Après quelques minutes de silence, Amélia pris la parole, un peu embarrassée. 
+	Est-ce que Kathy vous a déjà un peu parlé de moi? 
+	{{pseudo}}: Eh bien, oui. 
+	Est-ce qu’elle t’a dit que notre relation était un peu tendue? 
+	{{pseudo}}: Effectivement…
+	Elle soupira et pris un macaron sur le plateau. Elle le mâcha lentement puis me regarda avec un regard un peu fuyant. 
+	En réalité, j’aime beaucoup Kathy. C’est la petite sœur de mon fiancé. Cependant j’ai un problème…
+	{{pseudo}}: Quel est-il? 
+	Amélia: Promettez-moi de ne pas vous moquez. 
+	{{pseudo}}: Je vous le promets. 
+	Amélia: J’ai un faible pour tout ce qui est mignon. 
+	Ah, je ne m’attendais pas à cette réponse. 
+	{{pseudo}}: Et donc? 
+	Amélia: Et donc… Vous avez vu comment Kathy est trop mignonne? J’ai dû mal à me retenir à chaque fois que je la vois. Cependant son frère m’a dit qu’elle faisait toujours un air renfrogné quand on le lui dit et je ne voudrais pas qu’elle me déteste. 
+
+La porte de la pièce s’ouvre à nouveau et Kathy revient avec une théière avec de l’eau chaude. Je regarde Amélia qui a de suite repris son sérieux. 
+
+$> add_character("Kathy")
+
+Une fois Kathy revenue, nous avons conversé sur nos différents hobby ainsi que des livres et des séries que nous regardons ensemble. Une fois l’après-midi presque terminé, Amélia proposa que je reste dîner mais j’ai poliment refusé car je ne me sentais pas encore prête à rencontrer toute la famille de Kathy ce soir. 
+Kathy me raccompagna devant l’hôtel de ma tante. 
+
+$> remove_character("Amélia")
+$> set_location("Parking de l’hôtel", "soir")
+
+Nous sommes sorties de la voiture. Puis nous avons commencé à discuter sur le parking. 
+
+Kathy: Alors, qu’à-t-elle dit durant le laps de temps où je me suis absentée? 
+
+{{pseudo}}: Promets-moi de ne pas lui dire. 
+
+Kathy: Évidemment! 
+
+{{pseudo}}: En réalité, elle t’adore. 
+
+Kathy: Comment!? Mais elle n’arrête pas d’éviter de me regarder et faire comme si je ne l'intéressait pas ! 
+
+{{pseudo}}: Je sais, c’est surprenant non? 
+
+Kathy: Comment cela se fait-il? 
+
+{{pseudo}}: C’est parce qu’elle te trouve trop mignonne mais ton frère l’a prévenu que tu n’aimais pas qu’on te le dise donc elle se retient pour éviter que tu ne la déteste. 
+
+Kathy est très choquée et n’ose pas parler pendant quelques minutes. Puis elle se mit à réfléchir. 
+
+Kathy: Je comprends mieux la situation. Je vais essayer de lui en parler. 
+
+{{pseudo}}: Mais si tu lui dis, elle saura que je t’en ai parlé. 
+
+Kathy: Pas faux. Je vais juste lui demander pourquoi elle m’évite et comme je sais que c’est parce qu’elle m’apprécie, je n'aurai aucun mal à lui en parler. 
+
+Elle me sauta dans les bras, ce geste me surprit un peu. 
+
+Kathy: Merci d’avoir pu obtenir cette information. Je vais pouvoir mieux m’entendre avec elle et mon frère sera ravi lors de son retour. 
+
+{{pseudo}}: Je suis heureuse d'avoir pu t’aider.
+
+Elle me sert fort dans ses bras et mon coeur commence à tambouriner dans ma poitrine. Puis elle se détache de moi, je crois voir qu’elle rougit un peu et elle évite un peu mon regard. 
+
+Kathy: Je vais y aller. Passe une bonne soirée. 
+
+{{pseudo}}: Merci, à toi aussi. 
+ 
+$> remove_character("Kathy")
+
+Elle monte dans sa voiture et repart. 
+
+$> set_location("Chambre du personnage", "nuit") 
+
+Je rentra prendre le dîner avec ma tante et son mari avant d’aller prendre un bain et d’aller me coucher. 
+
+=> END
+

@@ -6,7 +6,7 @@ Je viens tout juste de sortir de l’hypermarché. J’ai pris son panier en osi
 
 Je me suis même pris des briques de lait à la fraise et des bonbons au chocolat en extra.  
 
-$> add_character("Kathy", "cat")
+$> add_character("Kathy", "chat")
 
 Je lève la tête de mon panier et vois un chat de la couleur de la barbe à papa en train de se faire embêter par trois enfants. L’un d’eux tient une sorte de bracelet dans ses mains. Il a le bras en hauteur comme s’il narguait ce pauvre chat. 
 

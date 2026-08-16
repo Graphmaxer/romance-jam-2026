@@ -112,7 +112,7 @@ Kathy: Voulez-vous prendre un dessert?
 Kathy: D’accord. Allons-y alors. 
 Kathy se dirige vers la caisse pour régler puis nous sommes sorties. 
 
-$> set_location("Rue avec vue sur la mer", "evening")
+$> set_location("Rue avec vue sur la mer", "soir")
 $> add_character("Kathy")
 
 {{pseudo}}: Je vous remercie encore pour ce délicieux repas. C’était vraiment délicieux. 
@@ -126,6 +126,8 @@ Kathy fait quelques pas puis se retourne en souriant.
 Kathy: Est-ce la prochaine fois que l’on se verra, je peux vous tutoyer? 
  
 {{pseudo}}: Bien sûr ! Je serais ravie de vous revoir ! 
+
+$> remove_character("Kathy")
 
 Kathy partie le sourire au lèvre et je marche vers l’hôtel de tante Irma en ayant à l’esprit d’avoir passé une bonne soirée. 
 

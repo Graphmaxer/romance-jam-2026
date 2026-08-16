@@ -66,7 +66,7 @@ var _locale: String = TranslationServer.get_locale()
 @onready var responses_menu: DialogueResponsesMenu = %ResponsesMenu
 
 ## Indicator to show that player can progress dialogue.
-@onready var progress: Polygon2D = %Progress
+@onready var progress: TextureRect = %Progress
 
 
 func _ready() -> void:

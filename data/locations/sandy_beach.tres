@@ -9,8 +9,9 @@
 script = ExtResource("1_3ewnj")
 aliases = Array[String](["Quai bateau", "Rue avec vue sur la mer"])
 backgrounds = Dictionary[String, Texture2D]({
-"daytime": ExtResource("1_m8il3"),
-"evening": ExtResource("2_m3kua"),
-"night": ExtResource("3_fw3qd")
+"default": ExtResource("1_m8il3"),
+"jour": ExtResource("1_m8il3"),
+"nuit": ExtResource("3_fw3qd"),
+"soir": ExtResource("2_m3kua")
 })
 metadata/_custom_type_script = "uid://djshq1md8tej7"

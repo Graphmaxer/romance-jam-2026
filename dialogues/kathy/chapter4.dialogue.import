@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://0betclkg6fm3"
+path="res://.godot/imported/chapter4.dialogue-d2ff5096a8e6a3bd618cfd622290c207.tres"
+
+[deps]
+
+source_file="res://dialogues/kathy/chapter4.dialogue"
+dest_files=["res://.godot/imported/chapter4.dialogue-d2ff5096a8e6a3bd618cfd622290c207.tres"]
+
+[params]
+
+defaults=true
