@@ -9,11 +9,14 @@
 [ext_resource type="Resource" uid="uid://542v08b7qjte" path="res://dialogues/kathy/chapter3.dialogue" id="5_8bdod"]
 [ext_resource type="Resource" uid="uid://d0kyl8reovkmm" path="res://dialogues/kathy/endings/good.dialogue" id="5_6350o"]
 [ext_resource type="Resource" uid="uid://bwch5hn2hb6ra" path="res://dialogues/kathy/endings/neutral.dialogue" id="6_8bdod"]
+[ext_resource type="Resource" uid="uid://0betclkg6fm3" path="res://dialogues/kathy/chapter4.dialogue" id="6_opbok"]
+[ext_resource type="Resource" uid="uid://m78qb30fwqws" path="res://dialogues/kathy/chapter5.dialogue" id="7_1j74i"]
+[ext_resource type="Resource" uid="uid://bd53keokk4eil" path="res://dialogues/kathy/chapter6.dialogue" id="8_7ilcy"]
 
 [resource]
 script = ExtResource("4_u1udv")
 character = ExtResource("3_6oock")
-chapters = Array[ExtResource("1_66kkm")]([ExtResource("2_66kkm"), ExtResource("4_6350o"), ExtResource("5_8bdod")])
+chapters = Array[ExtResource("1_66kkm")]([ExtResource("2_66kkm"), ExtResource("4_6350o"), ExtResource("5_8bdod"), ExtResource("6_opbok"), ExtResource("7_1j74i"), ExtResource("8_7ilcy")])
 bad_ending = ExtResource("1_u1udv")
 neutral_ending = ExtResource("6_8bdod")
 good_ending = ExtResource("5_6350o")
