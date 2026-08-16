@@ -49,6 +49,10 @@ func _get_chapter_transition_text() -> String:
 func _on_discussion_ended(dialogue_ended: DialogueResource) -> void:
 	var route: Route = _get_route(GameState.love_interest)
 	if dialogue_ended == prologue:
+		if GameState.bad_prologue_ending:
+			GameState.bad_prologue_ending = false
+			get_tree().change_scene_to_file("res://main.tscn")
+			return
 		var love_interest_selection: Control = love_interest_selection_scene.instantiate()
 		love_interest_selection.modulate.a = 0
 		love_interest_selection.chosen.connect(_on_love_interest_selection_chosen)

@@ -5,6 +5,7 @@ var reputations: Dictionary[String, float]
 var chapter_number: float
 var love_interest: String
 var save_datetime: String
+var bad_prologue_ending: bool = false
 
 
 func get_reputation(firstname: String) -> float:
@@ -33,7 +34,6 @@ func has_save() -> bool:
 
 func get_save_preview() -> String:
 	var json_dict: Dictionary = _parse_save()
-	print(json_dict)
 	if json_dict and json_dict.has('chapter_number'):
 		var saved_chapter_number: float = json_dict['chapter_number']
 		if saved_chapter_number:

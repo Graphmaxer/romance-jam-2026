@@ -16,12 +16,17 @@ var state: State = State.INACTIVE
 @onready var transition_text: Label = %TransitionText
 
 
-func play(text: String) -> void:
-	await fade_in_and_wait(text)
+func _ready() -> void:
+	background.modulate.a = 0
+	background.visible = false
+
+
+func play(text: String, wait: float = 1.0) -> void:
+	await fade_in_and_wait(text, wait)
 	await fade_out()
 
 
-func fade_in_and_wait(text: String) -> void:
+func fade_in_and_wait(text: String, wait: float = 1.0) -> void:
 	if state != State.INACTIVE:
 		push_warning("Invalid state: %s" % State.keys()[state])
 		return
@@ -35,7 +40,7 @@ func fade_in_and_wait(text: String) -> void:
 	background_tween.tween_property(background, "modulate:a", 1, 0.5)
 	await background_tween.finished
 	state = State.ACTIVE
-	await get_tree().create_timer(1.0).timeout
+	await get_tree().create_timer(wait).timeout
 
 
 func fade_out() -> void:

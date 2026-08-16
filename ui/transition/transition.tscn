@@ -8,8 +8,6 @@ script = ExtResource("1_1tu1e")
 
 [node name="Background" type="ColorRect" parent="." unique_id=2085269406]
 unique_name_in_owner = true
-visible = false
-modulate = Color(1, 1, 1, 0)
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -19,6 +17,7 @@ color = Color(0.06469653, 0.06469653, 0.06469653, 1)
 
 [node name="TransitionText" type="Label" parent="Background" unique_id=1720838468]
 unique_name_in_owner = true
+custom_minimum_size = Vector2(800, 0)
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -33,4 +32,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 72
-text = "Transition"
+text = "Very long text for a very long transition that is really important"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3

@@ -139,6 +139,8 @@ J’embarque dans le bateau pour retourner chez mes parents le temps de trouver 
 
 # Bad ending ; mettre un message à l’attention du joueur : “Vivre une rupture est difficile mais ne fermer pas votre coeur” puis fin de partie, retour à l’écran titre
 
-$> start_transition("Vivre une rupture est difficile mais une nouvelle histoire pourrait vous aider à tout surmonter")
+$> show_transition("Vivre une rupture est difficile mais une nouvelle histoire pourrait vous aider à tout surmonter")
+
+$> bad_prologue_ending = true
 
 => END

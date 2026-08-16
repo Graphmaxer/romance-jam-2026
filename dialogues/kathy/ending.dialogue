@@ -1,11 +1,176 @@
-~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
-=> END
+$> set_location("Chambre du personnage") 
+
+Le jour est enfin arrivé ! C’est le dernier jour du festival. Je finis de mettre mon yukata. 
+Avec Kathy nous avons prévu de faire le tour des stands et de se retrouver d’abord à la guinguette. Je lui envoie un message pour lui dire que je suis sur le départ. 
+
+{{pseudo}}: “Coucou Kathy, j’arrive à la guinguette dans 15 minutes, à tout de suite !”
+
+Kathy: “D’accord, je ne suis pas loin, à tout de suite”
+
+$> start_transition("Quinze minutes plus tard")
+$> set_location("Guinguette près de la plage")
+$> end_transition()
+
+Je crois que je suis arrivée en avance. Je vais m’installer à une table sur la terrasse en buvant un thé glacé. 
+$> show_transition("Cinq minutes plus tard")
+Elle met du temps, j’espère que tout va bien. Je sors mon téléphone. Quand une voix m’interpelle. 
+
+Kathy: Hey {{pseudo}} ! Je suis là, désolée, j’ai mis un peu de temps, j’avais un truc à faire en urgence. 
+Kathy: On peut y aller. 
+
+$> add_character("Kathy")
+
+Je sais que je l’ai déjà vu en yukata quand on essayait d’en chercher un ensemble mais là elle est vraiment adorable. En plus elle s’est fait un chignon, c’est la première fois que je la vois coiffée comme ça. Elle rougit et a un peu transpiré vu qu’elle est venue en courant. 
+
+Kathy: On y va ou tu continues de me dévisager? 
+
+{{pseudo}}: Ah oui ! Allons-y. 
+
+Elle me prit la main et nous partîmes vers les différents stands qui se trouvaient à 10 minutes de la guinguette. 
+
+$> set_location("Festival style japonais avec plusieurs stand")
+
+Nous avons commencé à faire en premier le stand du chamboule-tout, le panier de basket et la pêche au canard. Nous nous sommes arrêtés devant le stand sur le tir à la carabine. 
+
+Kathy: Et si on faisait un pari sur le tir à la carabine? 
+
+{{pseudo}}: A quoi penses-tu? 
+
+Kathy: La perdante devra acheter ce que nous allons manger. Et je suis très forte dans ce jeu. 
+
+{{pseudo}}: C’est d’accord. 
+
+Nous nous mettons côte à côte et nous commençons à jouer. 
+
+- Ce n’est pas la première fois que je joue, je gère
+	{{pseudo}}: J’ai gagné ! 
+	Kathy: Bravo ! Mais je suis surprise que tu sois aussi forte.  
+	{{pseudo}}: J’y joue souvent lorsque je vais dans des fêtes foraines ! 
+	Kathy: Tu ne me l’avais pas dit ça ! 
+	{{pseudo}}: Et oui ! Allons acheter à manger ! 
+	Je lui prends la main et nous nous dirigeons vers les stands de nourriture. 
+- J'y joue pour la première fois, c’est difficile
+	Kathy: J’ai réussi ! 
+	{{pseudo}}: Félicitations ! Je ne suis pas aussi doué que toi…
+	Kathy: Ce n’est pas grave, viens on va manger. 
+	Elle me prend la main et nous nous dirigeons vers les stands de nourriture. 
+
+Nous avons pris un peu de tout sur les stands \: des takoyaki, des nouilles sautées, des karaages, des okonomiyakis. Nous nous sommes installées à une table dans un parc et avons mangé tout ce que nous avions pris. 
+
+$> start_transition("Plusieurs heures plus tard, dans la soirée")
+$> set_location("Plage", "nuit")
+$> end_transition()
+
+Nous marchons le long de la plage. Pour chercher un banc afin de regarder les feux d’artifices. 
+Plusieurs minutes plus tard nous trouvons un banc puis nous avons décidé d’utiliser des senko hanabi. Ce sont des feux d'artifice en bâton d'encens. Nous les avons achetées avant d’aller sur la plage. 
+
+Kathy: Est-ce que c’est la première fois que tu utilises ce genre de feux d’artifices? 
+
+{{pseudo}}: Oui, je trouve que c’est joli. J’en avais vu pas mal dans les anime et les mangas mais je n’ai jamais osé en acheter. 
+
+Nous nous sommes allumées quelques senko hanabi puis quand vient le moment où les feux d’artifices, nous levons nos têtes et les regardons. Je lui prends la main et j’essaye de la regarder dans les yeux, je sens mes joues devenir toutes rouges. 
+
+{{pseudo}}: Kathy, j’ai quelque chose à te dire…
+
+Kathy: Oui? 
+
+{{pseudo}}: J’ai passé de super moment avec toi. J’ai appris à te connaître à travers nos différentes rencontres. Découvrir des salons de thé en ta compagnie et avoir pu l’occasion de t’aider m’a fait beaucoup plaisir. 
+{{pseudo}}: Et quand nous n’étions pas ensemble, cela m'angoissait de ne pas avoir de tes nouvelles car je voulais être près de toi. 
+
+J'ai pris une petite pause puis j'ai eu le courage de la regarder dans les yeux. 
+
+{{pseudo}}: Pour faire simplement, je t’aime Kathy. 
+
+#Si affection < 50
+if reputations['Kathy'] < 50
+
+	Kathy est un peu surprise, elle écarte sa main de la mienne puis détourne le regard. 
+
+	Kathy: Je suis désolée  je te vois surtout comme une bonne amie en qui j’ai confiance. Je ne ressens pas la même chose… Je suis désolée…
+
+	Ah, donc je me suis fourvoyée. Je croyais qu’elle avait des sentiments pour moi après notre câlin et le fait que nous nous tenions la main. Mais finalement, elle ne me voyais que comme une amie…
+
+	{{pseudo}}: Ce n’est pas grave, je crois que je me suis imaginée des choses… 
+	{{pseudo}}: Si tu veux bien m’excuser, je crois que je vais y aller…
+
+	Je pars en essayant de retenir au maximum mes larmes. Je crois entendre Kathy m’appeler mais je n’ai pas encore le courage de lui faire face. 
+
+	$> remove_character("Kathy") 
+
+	$> set_location("Chambre du personnage")
+
+	Cela faisait plusieurs jours que j’évitais Kathy. 
+	Il me restait une semaine avant de partir de cette île. Je décide de donner rendez-vous à Kathy. Je ne voulais pas partir avant de lui dire que son amitié était importante pour moi mais elle m’a répondu qu’elle préférait attendre que l’on se voit l’an prochain une fois que mes sentiments amoureux ne seront plus un problème entre nous. 
+
+	# Bad end
+	=> END
+
+
+
+
+
+# Communs au 2 autres fins
+
+Kathy est un peu surprise, elle me sourit. Je vois ses joues rougir un peu. Elle enlace ma main. 
+
+Kathy: Je suis heureuse que tu me fasses une telle déclaration. J’y pensais un peu mais je pensais que je me faisais des idées. 
+
+{{pseudo}}: Tu veux dire que…
+
+Elle me fait un grand sourire. 
+
+Kathy: Moi aussi je t’aime {{pseudo}}. 
+
+Nous nous faisons un câlin puis nous nous embrassons tendrement sous les feux d’artifices. 
+
+$> remove_character("Kathy") 
+$> start_transition("Fin des vacances")
+$> set_location("Quai ile")
+$> end_transition()
+
+
+#Si affection > 50
+if reputations['Kathy'] > 50
+
+	J’ai passé tout le reste de l’été avec Kathy. Nous avons fait tellement d’activités ensemble. 
+	Mais l’été touche à sa fin et je dois retourner chez moi, enfin plutôt, je dois me trouver un nouveau chez moi pas loin de mon travail. 
+	J’attends encore un peu, elle m’avait dit qu’elle serait là avant que je parte. 
+
+	$> add_character("Kathy")
+
+	Kathy: {{pseudo}} !!!
+
+	Elle court et me saute dans les bras. 
+
+	Kathy: Tu vas tellement me manquer. Surtout n’oublie pas de me contacter le plus souvent possible. 
+
+	Je la sers dans mes bras. 
+
+	{{pseudo}}: N’oublie pas que tu peux aussi me voir aussi souvent que tu veux. 
+
+	Kathy: Bien évidemment ! 
+
+	Nous nous embrassons une dernière fois puis j’embarque. Elle a un peu les larmes aux yeux mais elle se retient pour m’offrir son plus beau sourire. 
+
+# Normal end
+	=> END
+
+
+#Si affection = 100
+if reputations['Kathy'] == 100
+
+	Après plusieurs discussions ensemble, Kathy et moi avons décidé de vivre ensemble en dehors de l’île. Comme elle n’est presque jamais partie, elle a hâte de découvrir tout ce qui se trouve en dehors de l’île. 
+
+	$> add_character("Kathy")
+
+	Kathy: Je pense que j’ai tout ce qui faut dans mes valises. 
+
+	{{pseudo}}: Tu as quand même pris 5 valises avec toi…
+
+	Kathy: C’est la première fois que je pars, je veux être sûre d’avoir un maximum d’affaires avec moi. 
+
+	Elle est toute fière avec ses valises Je n’ose pas lui dire que ça va être un peu compliqué de nous déplacer avec.
+	Elle me prend la main et nous embarquons pour notre nouvelle vie ensemble. 
+
+	#Perfect end
+	=> END

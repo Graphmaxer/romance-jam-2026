@@ -55,7 +55,7 @@ Amélia: Bonjour, je suis enchantée de faire votre connaissance. Je m’appelle
 - Etre froide
 	$> lose_reputation("Kathy", 20)
 	{{pseudo}}: Bonjour. Je suis {{pseudo}}. J’ai entendu parler de vous. 
-	Kathy me regarde surprise, l’air de dire : “Qu’est-ce qui te prend d’être froide?”
+	Kathy me regarde surprise, l’air de dire \: “Qu’est-ce qui te prend d’être froide?”
 
 Un employé de la villa arrive avec du thé et un plateau contenant des sucreries avant de repartir. 
 

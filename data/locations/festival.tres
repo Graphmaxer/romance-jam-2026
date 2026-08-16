@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://e4q6iyod3qqw"]
+
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="1_4i78p"]
+[ext_resource type="Texture2D" uid="uid://b7q5qb2bar1uc" path="res://assets/backgrounds/festival/festival_daytime.jpg" id="1_rmg6m"]
+[ext_resource type="Texture2D" uid="uid://bjv3ipb4pt0n4" path="res://assets/backgrounds/festival/festival_evening.jpg" id="2_me1ih"]
+[ext_resource type="Texture2D" uid="uid://boqw5gmg7xp6v" path="res://assets/backgrounds/festival/festival_night.jpg" id="3_bapcj"]
+
+[resource]
+script = ExtResource("1_4i78p")
+aliases = Array[String](["Festival style japonais avec plusieurs stand"])
+backgrounds = Dictionary[String, Texture2D]({
+"default": ExtResource("1_rmg6m"),
+"jour": ExtResource("1_rmg6m"),
+"nuit": ExtResource("3_bapcj"),
+"soir": ExtResource("2_me1ih")
+})
+metadata/_custom_type_script = "uid://djshq1md8tej7"
