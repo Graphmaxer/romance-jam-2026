@@ -16,11 +16,6 @@ var state: State = State.INACTIVE
 @onready var transition_text: Label = %TransitionText
 
 
-func _ready() -> void:
-	background.modulate.a = 0
-	background.visible = false
-
-
 func play(text: String, wait: float) -> void:
 	await fade_in_and_wait(text, wait)
 	await fade_out()
