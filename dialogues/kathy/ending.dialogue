@@ -128,9 +128,29 @@ $> start_transition("Fin des vacances")
 $> set_location("Quai ile")
 $> end_transition()
 
+#Si affection = 100
+if reputations['Kathy'] == 100
 
-#Si affection > 50
-if reputations['Kathy'] > 50
+	Après plusieurs discussions ensemble, Kathy et moi avons décidé de vivre ensemble en dehors de l’île. Comme elle n’est presque jamais partie, elle a hâte de découvrir tout ce qui se trouve en dehors de l’île. 
+
+	$> add_character("Kathy")
+
+	Kathy: Je pense que j’ai tout ce qui faut dans mes valises. 
+
+	{{pseudo}}: Tu as quand même pris 5 valises avec toi…
+
+	Kathy: C’est la première fois que je pars, je veux être sûre d’avoir un maximum d’affaires avec moi. 
+
+	Elle est toute fière avec ses valises Je n’ose pas lui dire que ça va être un peu compliqué de nous déplacer avec.
+	Elle me prend la main et nous embarquons pour notre nouvelle vie ensemble. 
+
+	#Perfect end
+	=> END
+
+
+
+#Si affection >= 50
+if reputations['Kathy'] >= 50
 
 	J’ai passé tout le reste de l’été avec Kathy. Nous avons fait tellement d’activités ensemble. 
 	Mais l’été touche à sa fin et je dois retourner chez moi, enfin plutôt, je dois me trouver un nouveau chez moi pas loin de mon travail. 
@@ -156,21 +176,3 @@ if reputations['Kathy'] > 50
 	=> END
 
 
-#Si affection = 100
-if reputations['Kathy'] == 100
-
-	Après plusieurs discussions ensemble, Kathy et moi avons décidé de vivre ensemble en dehors de l’île. Comme elle n’est presque jamais partie, elle a hâte de découvrir tout ce qui se trouve en dehors de l’île. 
-
-	$> add_character("Kathy")
-
-	Kathy: Je pense que j’ai tout ce qui faut dans mes valises. 
-
-	{{pseudo}}: Tu as quand même pris 5 valises avec toi…
-
-	Kathy: C’est la première fois que je pars, je veux être sûre d’avoir un maximum d’affaires avec moi. 
-
-	Elle est toute fière avec ses valises Je n’ose pas lui dire que ça va être un peu compliqué de nous déplacer avec.
-	Elle me prend la main et nous embarquons pour notre nouvelle vie ensemble. 
-
-	#Perfect end
-	=> END
