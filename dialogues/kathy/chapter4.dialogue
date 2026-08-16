@@ -79,7 +79,7 @@ Elle me supplie du regard.
 
 Nous avons continué à marcher le long de la plage, les pieds dans l’eau. Puis quand vient l’heure du goûter, nous sommes retournés à la guinguette. Nous avons pris notre goûter en discutant. 
 
-$> set_location("Guinguette près de la plage - fin d’après-midi")
+$> set_location("Guinguette près de la plage", "soir")
 
 Kathy: Je te propose que nous nous voyons dans les prochains jours afin de discuter des détails de notre plan pour ma future belle-soeur. 
 

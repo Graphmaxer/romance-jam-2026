@@ -1,5 +1,5 @@
 ~ start
-$> set_location("Chambre du personnage", "matin") 
+$> set_location("Chambre du personnage") 
 
 Cela faisait trois jours que je n’avais plus de nouvelles de Kathy depuis le thé avec sa belle-sœur. J’espère que tout se passe bien. 
 Je décide de descendre voir ma tante une fois que j’ai finis de m’habiller. 
@@ -46,7 +46,7 @@ $> remove_character("Irma")
 
 Je remonte vers ma chambre.
 
-$> set_location("Chambre du personnage", "matin")
+$> set_location("Chambre du personnage")
 
 Je tiens mon téléphone dans mes mains. Cela fait plusieurs minutes que j'hésite. 
 

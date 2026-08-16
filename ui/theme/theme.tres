@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://suvcqabe1l4x" path="res://assets/gui/button/choice_idle_background.png" id="1_t6c4b"]
 [ext_resource type="Texture2D" uid="uid://duh4eu88y6daj" path="res://assets/gui/button/choice_hover_background.png" id="3_bipdn"]
 [ext_resource type="Texture2D" uid="uid://r6o4krws8tvi" path="res://assets/gui/overlay/game_menu.png" id="3_q67kw"]
+[ext_resource type="Texture2D" uid="uid://ce4xf3lj3fo4" path="res://assets/gui/textbox.png" id="4_bipdn"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_cni3f"]
 content_margin_left = 32.0
@@ -55,6 +56,9 @@ axis_stretch_horizontal = 1
 axis_stretch_vertical = 1
 modulate_color = Color(1, 1, 1, 0.75000006)
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ndxql"]
+texture = ExtResource("4_bipdn")
+
 [resource]
 Button/colors/font_color = Color(0, 0, 0, 1)
 Button/colors/font_disabled_color = Color(0, 0, 0, 0.5019608)
@@ -71,5 +75,6 @@ LineEdit/colors/font_color = Color(0.5409909, 0.5409904, 0.5409905, 1)
 LineEdit/styles/focus = SubResource("StyleBoxTexture_41ywq")
 LineEdit/styles/normal = SubResource("StyleBoxTexture_1apww")
 Panel/styles/panel = SubResource("StyleBoxTexture_2afhe")
+PanelContainer/styles/panel = SubResource("StyleBoxTexture_ndxql")
 RichTextLabel/colors/default_color = Color(0, 0, 0, 1)
 VBoxContainer/constants/separation = 8

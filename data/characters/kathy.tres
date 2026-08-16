@@ -14,8 +14,9 @@ description = "Cliente régulière du restaurant près de l’hôtel d’Irma
 Vient d’une famille aisée
 Toujours de bonne humeur mais a un petit côté espiègle"
 variants = Dictionary[String, Texture2D]({
-"cat": ExtResource("3_5w1ni"),
-"neutral": ExtResource("1_kkc2d")
+"chat": ExtResource("3_5w1ni"),
+"default": ExtResource("1_kkc2d"),
+"neutre": ExtResource("1_kkc2d")
 })
 is_love_interest = true
 metadata/_custom_type_script = "uid://cddw0vxnb1jna"

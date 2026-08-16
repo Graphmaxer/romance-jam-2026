@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://c47laqilupg6t"]
+
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="1_k1h0p"]
+[ext_resource type="Texture2D" uid="uid://y4jmr8kli5we" path="res://assets/backgrounds/mansion/bbg_bedroom1.jpg" id="1_muwiu"]
+
+[resource]
+script = ExtResource("1_k1h0p")
+aliases = Array[String](["Salon des invités au manoir"])
+backgrounds = Dictionary[String, Texture2D]({
+"default": ExtResource("1_muwiu"),
+"jour": ExtResource("1_muwiu")
+})
+metadata/_custom_type_script = "uid://djshq1md8tej7"

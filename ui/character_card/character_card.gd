@@ -59,7 +59,11 @@ func _refresh_character() -> void:
 		reputation_bar.visible = character.is_love_interest
 		if not Engine.is_editor_hint():
 			reputation_bar.value = GameState.get_reputation(name)
-		character_tex_rect.texture = character.get_variant_tex(variant)
+		var variant_tex: Texture2D = character.get_variant_tex(variant)
+		if variant_tex:
+			character_tex_rect.texture = variant_tex
+		else:
+			push_warning("Character variant %s not found for %s" % [variant, name])
 
 
 func _modulate_character(color: Color, scale_vec: Vector2) -> void:

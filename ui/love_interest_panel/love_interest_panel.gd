@@ -17,7 +17,7 @@ func _ready() -> void:
 		firstname_label.text = character.firstname
 		infos_label.text = "%d ans\nAnniversaire le %s" % [character.age, character.birthday]
 		description_label.text = character.description
-		character_tex_rect.texture = character.get_variant_tex("neutral")
+		character_tex_rect.texture = character.get_variant_tex()
 
 
 func _on_choose_button_pressed() -> void:

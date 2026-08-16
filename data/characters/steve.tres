@@ -7,5 +7,6 @@
 script = ExtResource("3_dy5x3")
 firstname = "Steve"
 variants = Dictionary[String, Texture2D]({
-"neutral": ExtResource("2_o7oie")
+"default": ExtResource("2_o7oie"),
+"neutre": ExtResource("2_o7oie")
 })

@@ -10,7 +10,8 @@ age = 28
 birthday = "?"
 description = "Prof de sport, enseigne le surf durant l’été"
 variants = Dictionary[String, Texture2D]({
-"neutral": ExtResource("1_ld434")
+"default": ExtResource("1_ld434"),
+"neutre": ExtResource("1_ld434")
 })
 is_love_interest = true
 metadata/_custom_type_script = "uid://cddw0vxnb1jna"

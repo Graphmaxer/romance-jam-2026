@@ -48,7 +48,7 @@ func set_location(alias: String, time: String = "default") -> void:
 		push_warning("Location to set not found: %s" % alias)
 
 
-func add_character(firstname: String, variant: String = "neutral") -> void:
+func add_character(firstname: String, variant: String = "default") -> void:
 	var character: Character = story.get_character(firstname)
 	if character:
 		if _find_character_card(firstname):

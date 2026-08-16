@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://c42ojenlqnajn"]
+
+[ext_resource type="Texture2D" uid="uid://ovlgkefe05ol" path="res://assets/backgrounds/hotel_entrance/hotel_entrance_daytime.jpg" id="1_6owby"]
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="1_u8qbw"]
+[ext_resource type="Texture2D" uid="uid://b75vh35imqr2t" path="res://assets/backgrounds/hotel_entrance/hotel_entrance_evening.jpg" id="2_rqh7f"]
+[ext_resource type="Texture2D" uid="uid://civo8sesp6gxf" path="res://assets/backgrounds/hotel_entrance/hotel_entrance_night.jpg" id="3_tu8sp"]
+
+[resource]
+script = ExtResource("1_u8qbw")
+aliases = Array[String](["Parking de l’hôtel", "Parking de l'hôtel"])
+backgrounds = Dictionary[String, Texture2D]({
+"default": ExtResource("1_6owby"),
+"jour": ExtResource("1_6owby"),
+"nuit": ExtResource("3_tu8sp"),
+"soir": ExtResource("2_rqh7f")
+})
+metadata/_custom_type_script = "uid://djshq1md8tej7"
