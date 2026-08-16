@@ -80,12 +80,12 @@ func change_variant(firstname: String, variant: String) -> void:
 		push_warning("Character to change variant not present: %s" % firstname)
 
 
-func show_transition(text: String) -> void:
-	await transition.play(text)
+func show_transition(text: String, wait: float = 1.0) -> void:
+	await transition.play(text, wait)
 
 
-func start_transition(text: String) -> void:
-	await transition.fade_in_and_wait(text)
+func start_transition(text: String, wait: float = 1.0) -> void:
+	await transition.fade_in_and_wait(text, wait)
 
 
 func end_transition() -> void:

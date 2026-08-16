@@ -21,12 +21,12 @@ func _ready() -> void:
 	background.visible = false
 
 
-func play(text: String, wait: float = 1.0) -> void:
+func play(text: String, wait: float) -> void:
 	await fade_in_and_wait(text, wait)
 	await fade_out()
 
 
-func fade_in_and_wait(text: String, wait: float = 1.0) -> void:
+func fade_in_and_wait(text: String, wait: float) -> void:
 	if state != State.INACTIVE:
 		push_warning("Invalid state: %s" % State.keys()[state])
 		return
