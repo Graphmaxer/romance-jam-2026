@@ -13,6 +13,13 @@ content_margin_bottom = 26.0
 texture = ExtResource("1_t6c4b")
 modulate_color = Color(0.9297146, 0.9297147, 0.9297146, 1)
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qw2bh"]
+content_margin_left = 32.0
+content_margin_top = 26.0
+content_margin_right = 32.0
+content_margin_bottom = 26.0
+texture = ExtResource("1_t6c4b")
+
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_q67kw"]
 content_margin_left = 32.0
 content_margin_top = 26.0
@@ -57,21 +64,24 @@ axis_stretch_vertical = 1
 modulate_color = Color(1, 1, 1, 0.75000006)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ndxql"]
-content_margin_left = 69.0
-content_margin_top = 17.0
+content_margin_left = 50.0
+content_margin_top = 24.0
 content_margin_right = 39.0
 content_margin_bottom = 69.0
 texture = ExtResource("4_bipdn")
-expand_margin_top = 142.0
+expand_margin_top = 144.0
 expand_margin_right = 125.0
 expand_margin_bottom = 24.0
 
 [resource]
 Button/colors/font_color = Color(0, 0, 0, 1)
 Button/colors/font_disabled_color = Color(0, 0, 0, 0.5019608)
+Button/colors/font_focus_color = Color(0, 0, 0, 1)
 Button/colors/font_hover_color = Color(0.3328804, 0.3328807, 0.33288142, 1)
+Button/colors/font_hover_pressed_color = Color(0, 0, 0, 1)
 Button/colors/font_pressed_color = Color(0, 0, 0, 1)
 Button/styles/disabled = SubResource("StyleBoxTexture_cni3f")
+Button/styles/focus = SubResource("StyleBoxTexture_qw2bh")
 Button/styles/hover = SubResource("StyleBoxTexture_q67kw")
 Button/styles/normal = SubResource("StyleBoxTexture_ay84d")
 Button/styles/pressed = SubResource("StyleBoxTexture_bipdn")

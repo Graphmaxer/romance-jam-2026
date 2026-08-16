@@ -43,9 +43,18 @@ func load_game() -> void:
 	var json_dict: Dictionary = _parse_save()
 	if json_dict:
 		for key: String in json_dict.keys():
-			if key in self and typeof(self[key]) == typeof(json_dict[key]):
-				print(json_dict[key])
-				self[key] = json_dict[key]
+			if key in self:
+				if typeof(self[key]) == TYPE_DICTIONARY:
+					self[key].assign(json_dict[key])
+				elif typeof(self[key]) == typeof(json_dict[key]):
+					self[key] = json_dict[key]
+				else:
+					push_warning(
+						"Invalid key %s type, expected %s, got %s"
+						% [key, typeof(self[key]), typeof(json_dict[key])]
+					)
+			else:
+				push_warning("Unkown key %s in save" % key)
 
 
 func _parse_save() -> Dictionary:

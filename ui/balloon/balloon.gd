@@ -19,9 +19,6 @@ extends CanvasLayer
 ## The action to use to skip typing the dialogue
 @export var skip_action: StringName = &"ui_cancel"
 
-## A sound player for voice lines (if they exist).
-@onready var audio_stream_player: AudioStreamPlayer = %AudioStreamPlayer
-
 ## Temporary game states
 var temporary_game_states: Array = []
 
@@ -33,8 +30,6 @@ var will_hide_balloon: bool = false
 
 ## A dictionary to store any ephemeral variables
 var locals: Dictionary = { }
-
-var _locale: String = TranslationServer.get_locale()
 
 ## The current line
 var dialogue_line: DialogueLine:
@@ -53,6 +48,10 @@ var dialogue_line: DialogueLine:
 
 ## A cooldown timer for delaying the balloon hide when encountering a mutation.
 var mutation_cooldown: Timer = Timer.new()
+var _locale: String = TranslationServer.get_locale()
+
+## A sound player for voice lines (if they exist).
+@onready var audio_stream_player: AudioStreamPlayer = %AudioStreamPlayer
 
 ## The base balloon anchor
 @onready var balloon: Control = %Balloon
@@ -68,6 +67,8 @@ var mutation_cooldown: Timer = Timer.new()
 
 ## Indicator to show that player can progress dialogue.
 @onready var progress: Polygon2D = %Progress
+
+@onready var name_box: TextureRect = %NameBox
 
 
 func _ready() -> void:
@@ -145,6 +146,7 @@ func apply_dialogue_line() -> void:
 	balloon.focus_mode = Control.FOCUS_ALL
 	balloon.grab_focus()
 
+	name_box.visible = not dialogue_line.character.is_empty()
 	character_label.visible = not dialogue_line.character.is_empty()
 	character_label.text = tr(dialogue_line.character, "dialogue")
 
@@ -173,9 +175,13 @@ func apply_dialogue_line() -> void:
 		balloon.focus_mode = Control.FOCUS_NONE
 		responses_menu.show()
 	elif dialogue_line.time != "":
-		var time: float = dialogue_line.text.length() * 0.02 if dialogue_line.time == "auto" else dialogue_line \
-				.time \
-				.to_float()
+		var time: float = (
+			dialogue_line.text.length() * 0.02
+			if dialogue_line.time == "auto"
+			else dialogue_line \
+					.time \
+					.to_float()
+		)
 		await get_tree().create_timer(time).timeout
 		next(dialogue_line.next_id)
 	else:
@@ -189,7 +195,6 @@ func next(next_id: String) -> void:
 	dialogue_line = await dialogue_resource.get_next_dialogue_line(next_id, temporary_game_states)
 
 #region Signals
-
 func _on_mutation_cooldown_timeout() -> void:
 	if will_hide_balloon:
 		will_hide_balloon = false
@@ -235,5 +240,4 @@ func _on_balloon_gui_input(event: InputEvent) -> void:
 
 func _on_responses_menu_response_selected(response: DialogueResponse) -> void:
 	next(response.next_id)
-
 #endregion
