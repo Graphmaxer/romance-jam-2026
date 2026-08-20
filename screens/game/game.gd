@@ -24,11 +24,7 @@ func _ready() -> void:
 
 
 func _start_discussion(dialogue: DialogueResource) -> void:
-	if auto_save_tween and auto_save_tween.is_running():
-		auto_save_tween.kill()
-	auto_save_tween = create_tween()
-	auto_save_tween.set_trans(Tween.TRANS_CUBIC)
-	auto_save_tween.set_ease(Tween.EASE_IN_OUT)
+	auto_save_tween = TweenUtils.setup_tween(self, auto_save_tween, Tween.TRANS_CUBIC)
 	auto_save_tween.tween_property(auto_save, "modulate:a", 1, 1)
 	auto_save_tween.tween_property(auto_save, "modulate:a", 0, 1)
 	GameState.save_game()
@@ -58,11 +54,11 @@ func _on_discussion_ended(dialogue_ended: DialogueResource) -> void:
 		love_interest_selection.chosen.connect(_on_love_interest_selection_chosen)
 		add_child(love_interest_selection)
 
-		if love_interest_selection_tween and love_interest_selection_tween.is_valid():
-			love_interest_selection_tween.kill()
-		love_interest_selection_tween = create_tween()
-		love_interest_selection_tween.set_trans(Tween.TRANS_SINE)
-		love_interest_selection_tween.set_ease(Tween.EASE_IN_OUT)
+		love_interest_selection_tween = TweenUtils.setup_tween(
+			self,
+			love_interest_selection_tween,
+			Tween.TRANS_SINE,
+		)
 		love_interest_selection_tween.tween_property(love_interest_selection, "modulate:a", 1, 1.0)
 	elif GameState.chapter_number > 0 and GameState.chapter_number <= route.chapters.size():
 		if route.is_last_chapter(GameState.chapter_number):

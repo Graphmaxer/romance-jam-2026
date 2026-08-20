@@ -31,8 +31,8 @@ func unfocus_character() -> void:
 	_modulate_character(Color.WHITE.darkened(0.25), Vector2.ONE)
 
 
-func update_reputation(points: float) -> void:
-	var reputation: float = clamp(GameState.get_reputation(name) + points, 0, 100)
+func update_reputation(points: int) -> void:
+	var reputation: int = clampi(GameState.get_reputation(name) + points, 0, 100)
 	GameState.reputations[name] = reputation
 
 	var reputation_particles: GPUParticles2D
@@ -43,11 +43,12 @@ func update_reputation(points: float) -> void:
 
 	reputation_particles.emitting = true
 
-	if reputation_tween and reputation_tween.is_valid():
-		reputation_tween.kill()
-	reputation_tween = create_tween()
-	reputation_tween.set_trans(Tween.TRANS_CUBIC)
-	reputation_tween.set_ease(Tween.EASE_OUT)
+	reputation_tween = TweenUtils.setup_tween(
+		self,
+		reputation_tween,
+		Tween.TRANS_CUBIC,
+		Tween.EASE_OUT,
+	)
 	reputation_tween.tween_property(reputation_bar, "value", reputation, 0.4)
 	await reputation_tween.finished
 
@@ -67,11 +68,12 @@ func _refresh_character() -> void:
 
 
 func _modulate_character(color: Color, scale_vec: Vector2) -> void:
-	if character_tween and character_tween.is_valid():
-		character_tween.kill()
-	character_tween = create_tween()
-	character_tween.set_trans(Tween.TRANS_SINE)
-	character_tween.set_ease(Tween.EASE_OUT)
+	character_tween = TweenUtils.setup_tween(
+		self,
+		character_tween,
+		Tween.TRANS_SINE,
+		Tween.EASE_OUT,
+	)
 	character_tween.set_parallel()
 	character_tween.tween_property(character_tex_rect, "self_modulate", color, 0.15)
 	character_tween.tween_property(character_tex_rect, "offset_transform_scale", scale_vec, 0.1)
