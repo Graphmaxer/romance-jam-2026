@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dx5ptsfa2ixun"
+path="res://.godot/imported/5. Moonlight Lullaby.wav-282393fd5e47a857b3961391c3326143.sample"
+
+[deps]
+
+source_file="res://assets/audio/Lo-Fi Music Pack/5. Moonlight Lullaby.wav"
+dest_files=["res://.godot/imported/5. Moonlight Lullaby.wav-282393fd5e47a857b3961391c3326143.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

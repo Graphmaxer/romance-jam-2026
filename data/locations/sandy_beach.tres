@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://dk4odx2dce35t" path="res://assets/backgrounds/sandy_beach/sandy_beach_daytime.jpg" id="1_m8il3"]
 [ext_resource type="Texture2D" uid="uid://7fs5e75fywyp" path="res://assets/backgrounds/sandy_beach/sandy_beach_evening.jpg" id="2_m3kua"]
 [ext_resource type="Texture2D" uid="uid://cdrg13nk2ecnc" path="res://assets/backgrounds/sandy_beach/sandy_beach_night.jpg" id="3_fw3qd"]
+[ext_resource type="AudioStream" uid="uid://cie3ft1tvg45f" path="res://assets/audio/Lo-Fi Music Pack/12. Winning with a Sacrifice.wav" id="4_exeva"]
 
 [resource]
 script = ExtResource("1_3ewnj")
@@ -14,4 +15,5 @@ backgrounds = Dictionary[String, Texture2D]({
 "nuit": ExtResource("3_fw3qd"),
 "soir": ExtResource("2_m3kua")
 })
+music = ExtResource("4_exeva")
 metadata/_custom_type_script = "uid://djshq1md8tej7"

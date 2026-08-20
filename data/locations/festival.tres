@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://b7q5qb2bar1uc" path="res://assets/backgrounds/festival/festival_daytime.jpg" id="1_rmg6m"]
 [ext_resource type="Texture2D" uid="uid://bjv3ipb4pt0n4" path="res://assets/backgrounds/festival/festival_evening.jpg" id="2_me1ih"]
 [ext_resource type="Texture2D" uid="uid://boqw5gmg7xp6v" path="res://assets/backgrounds/festival/festival_night.jpg" id="3_bapcj"]
+[ext_resource type="AudioStream" uid="uid://bcb5481ygvv84" path="res://assets/audio/Lo-Fi Music Pack/4. Piano beside the Firewood.wav" id="4_me1ih"]
 
 [resource]
 script = ExtResource("1_4i78p")
@@ -14,4 +15,5 @@ backgrounds = Dictionary[String, Texture2D]({
 "nuit": ExtResource("3_bapcj"),
 "soir": ExtResource("2_me1ih")
 })
+music = ExtResource("4_me1ih")
 metadata/_custom_type_script = "uid://djshq1md8tej7"

@@ -4,6 +4,7 @@
 [ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="1_u8qbw"]
 [ext_resource type="Texture2D" uid="uid://b75vh35imqr2t" path="res://assets/backgrounds/hotel_entrance/hotel_entrance_evening.jpg" id="2_rqh7f"]
 [ext_resource type="Texture2D" uid="uid://civo8sesp6gxf" path="res://assets/backgrounds/hotel_entrance/hotel_entrance_night.jpg" id="3_tu8sp"]
+[ext_resource type="AudioStream" uid="uid://btesg4hma3ut3" path="res://assets/audio/Lo-Fi Music Pack/6. Road to the Morning.wav" id="4_rqh7f"]
 
 [resource]
 script = ExtResource("1_u8qbw")
@@ -14,4 +15,5 @@ backgrounds = Dictionary[String, Texture2D]({
 "nuit": ExtResource("3_tu8sp"),
 "soir": ExtResource("2_rqh7f")
 })
+music = ExtResource("4_rqh7f")
 metadata/_custom_type_script = "uid://djshq1md8tej7"

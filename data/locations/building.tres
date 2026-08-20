@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://naewo0ordub6" path="res://assets/backgrounds/building/building_daytime.jpg" id="1_mclfd"]
 [ext_resource type="Texture2D" uid="uid://do3gfqittafd1" path="res://assets/backgrounds/building/building_evening.jpg" id="2_7ccgy"]
 [ext_resource type="Texture2D" uid="uid://r57nejidbqfe" path="res://assets/backgrounds/building/building_night.jpg" id="3_sfiab"]
+[ext_resource type="AudioStream" uid="uid://c2nqxrnd4lsqn" path="res://assets/audio/Lo-Fi Music Pack/2. The '80s Train.wav" id="4_cxkyj"]
 [ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="4_pvmrh"]
 
 [resource]
@@ -14,4 +15,5 @@ backgrounds = Dictionary[String, Texture2D]({
 "nuit": ExtResource("3_sfiab"),
 "soir": ExtResource("2_7ccgy")
 })
+music = ExtResource("4_cxkyj")
 metadata/_custom_type_script = "uid://djshq1md8tej7"

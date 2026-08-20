@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://40fivuqkrkk7" path="res://assets/backgrounds/single_room/single_room_daytime.jpg" id="1_slyfw"]
 [ext_resource type="Texture2D" uid="uid://cdunkxemhouft" path="res://assets/backgrounds/single_room/single_room_evening.jpg" id="2_otia8"]
 [ext_resource type="Texture2D" uid="uid://wvvwpv8id37h" path="res://assets/backgrounds/single_room/single_room_night_light_off.jpg" id="3_88r3d"]
+[ext_resource type="AudioStream" uid="uid://bpsonbwep3ken" path="res://assets/audio/Lo-Fi Music Pack/13. Nocturnal Confrontation.wav" id="4_pn0x8"]
 [ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="4_u6v3m"]
 
 [resource]
@@ -14,4 +15,5 @@ backgrounds = Dictionary[String, Texture2D]({
 "nuit": ExtResource("3_88r3d"),
 "soir": ExtResource("2_otia8")
 })
+music = ExtResource("4_pn0x8")
 metadata/_custom_type_script = "uid://djshq1md8tej7"

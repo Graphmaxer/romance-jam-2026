@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cie3ft1tvg45f"
+path="res://.godot/imported/12. Winning with a Sacrifice.wav-7a384a3f7bdf9c699787e2577d2405ef.sample"
+
+[deps]
+
+source_file="res://assets/audio/Lo-Fi Music Pack/12. Winning with a Sacrifice.wav"
+dest_files=["res://.godot/imported/12. Winning with a Sacrifice.wav-7a384a3f7bdf9c699787e2577d2405ef.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

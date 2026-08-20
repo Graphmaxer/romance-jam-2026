@@ -29,6 +29,7 @@
 ### Audio
 
 - Music (https://fulminisictus.itch.io/visual-novel-audio-pack)
+- BGM (https://void1gaming.itch.io/lo-fi-music-pack)
 
 ## Tools
 

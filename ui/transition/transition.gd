@@ -56,6 +56,4 @@ func is_transitioning() -> bool:
 
 
 func _init_background_tween() -> void:
-	background_tween = create_tween()
-	background_tween.set_trans(Tween.TRANS_SINE)
-	background_tween.set_ease(Tween.EASE_IN_OUT)
+	background_tween = TweenUtils.setup_tween(self, background_tween, Tween.TRANS_SINE)

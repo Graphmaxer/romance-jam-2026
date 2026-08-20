@@ -2,12 +2,15 @@ extends Control
 
 @onready var new_game_button: Button = %NewGameButton
 @onready var continue_button: Button = %ContinueButton
+@onready var quit_button: Button = %QuitButton
 
 
 func _ready() -> void:
 	if GameState.has_save():
 		continue_button.disabled = false
 		continue_button.text = "Continuer\n(%s)" % GameState.get_save_preview()
+	if OS.has_feature("web"):
+		quit_button.visible = false
 
 
 func start_game() -> void:

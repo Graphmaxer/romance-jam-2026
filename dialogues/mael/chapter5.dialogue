@@ -1,11 +1,111 @@
-~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+$> set_location("Rue donnant vue sur la plage")
+$> add_character("Maël")
+
+La pâtissière de la guinguette ! J’ai eu du mal à la reconnaître du premier coup vu qu’elle a un style douce lolita. Et ça lui va vraiment bien, en même temps c’est un ange donc c’est pas si étonnant. 
+Si elle ne portait pas d’artefact on verrait ses ailes mais on voit juste ses oreilles en formes d’ailes. 
+
+Maël: Bonjour Irène, tu profites bien de ton lundi? 
+
+Irène: Bonjour Maël, il fait vraiment beau donc je profite du beau temps. Je vois que tu as un rencard. 
+
+Attends… Il a dit Irène!? Mais alors, c’est son ex ! 
+Je ne l’ai pas reconnu les fois d’avant parce qu’elle avait un style gothique plus jeune et elle mettait pas mal de maquillage. Je n'arrive pas à croire que Maël travaille avec son ex. 
+
+Maël: {{pseudo}}, Irène t’as posé une question…
+
+{{pseudo}}: Hein ! Ah oui, quelle est la question? 
+
+Irène: Tu es venu très souvent à la guinguette et je t’ai vu goûter presque tous les gâteaux. Est-ce qu’ils t'ont plu? 
+
+- Ils étaient plutôt moyen
+	$> lose_reputation("Maël", 10)
+	{{pseudo}}: Pour une pâtissière professionnelle, ils sont dans la moyenne.
+	Mon ton était plus sec que ce que j’avais prévu mais j’ai eu du mal à être agréable. 
+	Irène: Je vois, il faut que je m’entraîne encore… Merci de ton avis. 
+- C’était délicieux
+	$> gain_reputation("Maël", 10)
+	{{pseudo}}: Ils sont tellement bons que je n’ai pas pu m’empêcher de vouloir goûter toute la carte. 
+	Irène: J’en suis ravie, c’est un vrai plaisir. 
+
+Irène: Je vais vous laisser tranquille, j’ai un planning un peu chargé et je suppose que vous avez plein de choses à faire. 
+Irène: J’espère qu’on se reverra à la guinguette {{pseudo}}. A bientôt.
+
+Elle part en étant de bonne humeur. 
+Je me tourne vers Maël. 
+
+{{pseudo}}: Je n’avais pas du  tout reconnu Irène…
+
+Maël: Je me disais bien que tu ne l’avais pas reconnu.
+{{pseudo}}: Ah oui? 
+
+Maël: Oui, tu n’as fait aucune remarque sur le fait que je travaillais avec mon ex. 
+
+{{pseudo}}: Alors pourquoi tu ne me l’a pas dit clairement? 
+
+Maël: Parce qu’en l’état actuel des choses, je n’ai aucun compte à te rendre et puis Irène et moi, en plus de n’avoir pas duré longtemps, ça fait des années maintenant. 
+
+{{pseudo}}: Mais quand même ! 
+
+Maël: C’est une très bonne pâtissière, elle innove souvent ce qu’elle fait, ce qui attire pleins de clients. Je n’ai pas trop le choix. 
+Maël: Et puis si tu te rappelles bien, je n’ai pas beaucoup d’amis dans mon entourage.
+
+{{pseudo}}: Je vois… 
+
+On a continué de nous promener mais j’avais moins la tête à m’amuser. 
+
+$> show_transition("Fin de l’après-midi")
+$> set_location("Parking de l’hôtel")
+{{pseudo}}: Merci de m’avoir raccompagné. Tu n’étais pas obligé. 
+
+Maël: C’est normal de s’assurer que la personne qui a passé la journée avec moi rentre saine et sauve. Et puis ça nous a permis d’avoir un supplément pour passer du temps ensemble.
+Maël: Même si tu affiches un mauvaise tête depuis le début de l’après-midi. 
+
+Évidemment qu’il l’avait remarqué, il connait chacune de mes expressions faciales avec les humeurs qui vont avec. 
+
+{{pseudo}}: Oui, j’en suis désolée, j’ai l’impression d’avoir gâché notre journée. 
+
+Maël: Mais non, et puis on s’est quand même bien amusé. 
+
+{{pseudo}}: Merci de me réconforter. 
+
+- Lui faire un câlin
+	$> gain_reputation("Maël", 10)
+	{{pseudo}}: On se revoit bientôt? 
+	Maël: Tu peux passer quand tu veux à mon travail. 
+	Sa réponse me fait sourire. On se détache l’un de l’autre puis il part.  
+- L’embrasser sur la joue
+	$> gain_reputation("Maël", 20)
+	{{pseudo}}: Merci encore pour cette superbe journée. On se revoit à ton travail? 
+	Maël: Avec plaisir. 
+	Il m’embrasse sur le front puis s’en va. 
+$> set_location("Chambre du personnage")
+
+Après avoir dîner avec ma tante, je suis partie me coucher. 
+J’ai du mal à me dire que Maël travaille avec son ex. En plus ils leur arrivent de passer du temps ensemble après le travail parce que Maël veut savoir faire des cookies. 
+Pourquoi veut-il savoir en faire d’ailleurs? 
+Pour passer plus de temps avec elle? 
+
+$> show_transition("Le lendemain")
+$> set_location("Guinguette près de la plage")
+
+J’ai très peu dormi… J’ai mis des lunettes de soleil pour que ça ne se voit pas trop…
+Je ne peux pas m'empêcher de soupirer. 
+J’ai pris un livre avec moi mais j’ai dû mal à me concentrer. Je n’arrête pas de jeter des coups d'œil pour regarder les interactions entre Irène et Maël. 
+Et la seule chose que j’ai retenu c’est… Qu’ils sont très professionnels dans leurs échanges et que ce n’est pas du tout comme je l’imaginais. 
+Je crois que je me suis fait peur pour rien. 
+
+Un serveur m’apporte un gâteau que je n’ai pas commandé. J’essaie de le prévenir mais il est déjà parti. 
+
+Il y a un mot avec ce gâteau : 
+“Coucou, 
+Il faut que je te parle. On se voit se soir après mon service. 
+Signé : Irène”
+
 => END
+
+
+
+
+
+
+

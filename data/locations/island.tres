@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://ry2uuox7v2l6" path="res://assets/backgrounds/sea_island/island_daytime.jpg" id="1_6omss"]
 [ext_resource type="Texture2D" uid="uid://d16eddkk17vpn" path="res://assets/backgrounds/sea_island/island_evening.jpg" id="2_6omss"]
 [ext_resource type="Texture2D" uid="uid://ckpst6f34b5oq" path="res://assets/backgrounds/sea_island/island_night.jpg" id="3_e788b"]
+[ext_resource type="AudioStream" uid="uid://cn4c4uavdu5ew" path="res://assets/audio/Lo-Fi Music Pack/9. Uncertainty.wav" id="4_6stpc"]
 [ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="4_yy0kl"]
 
 [resource]
@@ -14,4 +15,5 @@ backgrounds = Dictionary[String, Texture2D]({
 "nuit": ExtResource("3_e788b"),
 "soir": ExtResource("2_6omss")
 })
+music = ExtResource("4_6stpc")
 metadata/_custom_type_script = "uid://djshq1md8tej7"
