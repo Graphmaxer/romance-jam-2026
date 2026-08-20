@@ -1,14 +1,14 @@
 extends Node
 
 var pseudo: String
-var reputations: Dictionary[String, float]
-var chapter_number: float
+var reputations: Dictionary[String, int]
+var chapter_number: int
 var love_interest: String
 var save_datetime: String
 var bad_prologue_ending: bool = false
 
 
-func get_reputation(firstname: String) -> float:
+func get_reputation(firstname: String) -> int:
 	if reputations.has(firstname):
 		return reputations[firstname]
 	return 0
@@ -35,7 +35,7 @@ func has_save() -> bool:
 func get_save_preview() -> String:
 	var json_dict: Dictionary = _parse_save()
 	if json_dict and json_dict.has('chapter_number'):
-		var saved_chapter_number: float = json_dict['chapter_number']
+		var saved_chapter_number: int = json_dict['chapter_number']
 		if saved_chapter_number:
 			return "Chapitre %d" % json_dict['chapter_number']
 		return "Prologue"
@@ -49,6 +49,8 @@ func load_game() -> void:
 			if key in self:
 				if typeof(self[key]) == TYPE_DICTIONARY:
 					self[key].assign(json_dict[key])
+				elif typeof(self[key]) == TYPE_INT and typeof(json_dict[key]) == TYPE_FLOAT:
+					self[key] = int(json_dict[key])
 				elif typeof(self[key]) == typeof(json_dict[key]):
 					self[key] = json_dict[key]
 				else:

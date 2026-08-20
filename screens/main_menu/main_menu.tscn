@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://qhlhxnxox7hy" path="res://assets/gui/main_menu_background.png" id="2_ay84d"]
 [ext_resource type="Script" uid="uid://sgo5eg1u36cl" path="res://screens/main_menu/main_menu.gd" id="2_kud6f"]
+[ext_resource type="AudioStream" uid="uid://d2xn40sm3awml" path="res://assets/audio/Pieces/ogg/Relax.ogg" id="2_ux20d"]
 [ext_resource type="Texture2D" uid="uid://esblajuukx0x" path="res://assets/gui/main_menu_midground.png" id="3_ux20d"]
 [ext_resource type="Texture2D" uid="uid://cg2w8og70nrtx" path="res://assets/gui/main_menu_foreground.png" id="4_tldqp"]
 
@@ -47,6 +48,11 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("2_kud6f")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=941780252]
+stream = ExtResource("2_ux20d")
+autoplay = true
+parameters/looping = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1503259333]
 libraries/ = SubResource("AnimationLibrary_ux20d")

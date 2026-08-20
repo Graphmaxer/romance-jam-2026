@@ -6,9 +6,9 @@ extends Resource
 @export var ending: DialogueResource
 
 
-func is_last_chapter(chapter_number: float) -> bool:
+func is_last_chapter(chapter_number: int) -> bool:
 	return chapter_number == chapters.size()
 
 
-func get_chapter(chapter_number: float) -> DialogueResource:
+func get_chapter(chapter_number: int) -> DialogueResource:
 	return chapters[chapter_number - 1]
