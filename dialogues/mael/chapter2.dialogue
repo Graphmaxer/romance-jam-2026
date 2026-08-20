@@ -1,11 +1,116 @@
-~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+$> set_location("Plage")
+
+{{pseudo}} Enfant: Regarde Maël, j’ai encore ramassé un coquillage ! 
+
+$> add_character("Maël enfant")
+
+Maël enfant: Il est très joli ! Je crois que c’est un coquillage patelle. 
+
+{{pseudo}} Enfant: C’est rigolo, on dirait un chapeau. 
+
+Nous rigolons ensemble, puis je vois le temps filer. Nous voilà à l’adolescence.
+
+$> set_location("Rue donnant vue sur la plage")
+$> add_character("Maël adolescent")
+
+{{pseudo}} Ado: Mais reviens ! Pourquoi tu marches à toute vitesse devant moi?
+
+Maël Ado: Je t’ai entendu dire auprès des autres que je t’empêche d’avoir de potentielles relations de couple. Alors je te laisse de l’espace. 
+
+Il le dit de façon calme et réfléchie mais ces paroles me font mal. 
+
+{{pseudo}} Ado: Mais… Ce n’est pas ce que tu crois…
+
+Ma voix se faisant petite, je crois qu’il ne m’a pas entendu, je le vois s'éloigner.
+
+{{pseudo}} Ado: Maël, attends-moi…
+
+Je commence à pleurer. 
+
+$> set_location("Chambre du personnage")
+
+{{pseudo}}: Reviens, c’est un malentendu…
+
+Je me réveille les larmes aux yeux puis je me lève avant de prendre un mouchoir. 
+C’est bizarre, ça fait des années que je n’avais plus pensé à notre première dispute. Surtout que l’année d’après, on a fait comme si rien ne s’était passé. 
+C’est sûrement dû au fait qu’on ne s’est pas revu depuis une semaine depuis la dernière fois où on s’est fait un câlin. 
+Mon visage s'empourpre rien que d’y penser. 
+Je m’habille et descend voir ma tante. 
+
+$> set_location("Salle de réception de l’hôtel")
+$> add_character("Irma")
+
+{{pseudo}}: Bonjour Tatie, bien dormis? 
+
+Irma: J’ai passé une excellente nuit. Malheureusement je vois que ça n’a pas été ton cas. 
+{{pseudo}}: Mais si, j’ai juste fait un mauvais rêve. 
+
+Irma: Ma puce, la guinguette a officiellement ouvert, et si tu allais y faire un tour? Prends un livre et détends-toi en écoutant le son des vagues en buvant un thé glacé. 
+
+{{pseudo}}: C’est vrai que dis comme ça, ça donne vraiment envie. 
+
+En plus je vais pouvoir voir Maël, je n’ai pas pu le voir pendant une semaine car il s’occupait des derniers préparatifs. Je commence à rougir en y pensant. 
+
+Irma: Ma chérie, tu commences à rougir, est-ce que tu es malade? 
+
+Elle met sa main sur mon front. Je suis très gênée. 
+
+{{pseudo}}: Mais pas du tout ! Je vais chercher mes affaires et y jeter un coup d'œil à cette guinguette. 
+
+Je m’éloigne d’elle et pars chercher mes affaires avant de partir en trombe. 
+
+$> set_location("Guinguette près de la plage")
+$> add_character("Maël - travail")
+
+Je n’arrive pas à en croire mes yeux ! 
+
+Femme 1: Excusez-moi, pourriez-vous m’apporter un cola s’il vous plaît?
+
+Femme 2: Et moi j’aimerai une glace pillé.
+
+Femme 3: Si possible c’est vous que j’aimerai commander…
+
+Les deux autres femmes fusillent la dernière du regard. En même temps je les comprends, quelle garce ! 
+Maël leur répond en souriant et en étant le plus agréable possible. Lui qui sourit rarement d’habitude !
+
+Maël: Je vous apporte tout ça au plus vite. Par contre mademoiselle, je crains ne pouvoir répondre à votre demande. Puis-je vous proposer une tartelette à la framboise à la place? 
+
+Elle se mit à rougir. 
+
+Femme 3: Tout ce que vous me servirez sera bien, merci. 
+
+Il part chercher les commandes et les 3 femmes se mettent à glousser et à parler de lui. 
+
+- S’installer en les regardant de travers discrètement
+	$> lose_reputation("Maël", 15)
+	Je n’ai pas pu m’empêcher de les regarder de travers.
+	Sauf que l’une des femme l’a remarqué. 
+	Femme 2: Qu’est ce qu tu as. T’as un problème petite? 
+	Petite?! Je fais tout de même 1m65, je suis dans la moyenne ! 
+	{{pseudo}}: Non, rien. Désolée d’avoir dérangé votre conversation. 
+- Les ignorer et m’installer
+	$> gain_reputation("Maël", 20)
+	
+
+Je m’installe à une table sur la terrasse et je le regarde. 
+Il travaille vraiment dur. Il fait de son mieux pour diriger son équipe et être présent pour les clients. 
+
+Au bout de 5 minutes, Maël est venu me voir. 
+
+Maël: Bonjour {{pseudo}}, est-ce que tu veux boire quelque chose? 
+
+Je sais que son sourire est là juste parce qu’il travaille mais il n’en reste pas moins charmant. Je me cache un peu derrière la carte des boissons pour ne pas qu’il me voit rougir, la scène du câlin me revient encore en tête. 
+
+{{pseudo}}: Je veux bien un thé glacé à la pêche stp? 
+
+Maël: C’est noté. Je reviens de suite. 
+
+Il s’éloigne chercher ma commande. Je soupire. 
+Il faut vraiment que je me calme ! En plus je suis sûr que ça n’avait aucune signification. Il voulait juste me réconforter en tant qu’ami, c’est tout. 
+J’étais tellement dans mes pensées que je ne l’ai pas vu revenir me déposer ma commande, elle est déjà en face de moi. 
+Je n’ai pas pu lui dire merci… En même temps il est très demandé…
+Je prends mon bouquin et commence à le lire en prenant de temps en temps une gorgée de mon thé glacé que je trouve délicieux. 
+
 => END
+
+

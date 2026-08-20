@@ -1,11 +1,108 @@
-~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+$> set_location("Rue donnant vue sur la plage")
+
+Je suis arrivée 30 minutes en avance. 
+J’ai très peu dormi ces derniers jours à cause de mon imagination qui a fait des siennes. J’ai mis du maquillage afin de cacher mes cernes et me faire belle pour notre rendez-vous. 
+Mais je suis arrivée trop en avance, je soupire en regardant ma montre. 
+
+$> add_character("Maël")
+
+Maël: Bonjour {{pseudo}}, tu es arrivée en avance, je ne t’attendais pas de sitôt. 
+
+{{pseudo}}: Bonjour Maël. Tu dis ça mais tu es toi aussi en avance. 
+
+Il fait un léger sourire. Il est trop craquant. Il me regarde et approche sa main de ma joue. 
+
+Maël: Tu as du mal à dormir ces derniers temps? 
+
+{{pseudo}}: Hein… Non, je vais bien, merci de t’en inquiéter. On y va? 
+
+Maël: Je lui tourne le dos, j’ai le visage en feu. Il faut que je me calme. 
+
+$> set_location("Restaurant un peu chic")
+$> add_character("Maël")
+
+On fait le tour des magasins ensemble. Puis on décide d’aller 
+
+- A la bibliothèque
+	$> gain_reputation("Maël", 30)
+	{{pseudo}}: Est-ce que tu lis des livres en ce moment? 
+	Oui, j’ai commencé une trilogie. Il me manque le dernier tome, c’est l’occasion de l’acheter
+	Il chercher dans les étagère et trouve ce qu’il cherche
+	Et toi, tu lis toujours des mangas? 
+- Oui, j’aime toujours ça
+	{{pseudo}}: Il n’y a aucune raison pour que je n’en lise plus, il y a tellement de genres différents, c’est difficile de s’en lasser. 
+	Maël: Tu n’as pas changé, ça a un côté rassurant. 
+	{{pseudo}}: Je peux t’en conseiller. Comme lorsqu'on était jeune. 
+		Maël: Avec plaisir. 
+- Non, je préfère les romans maintenant
+	{{pseudo}}: Non, je me suis mise à lire des romans, j’aime faire travailler mon imagination. 
+	Maël: Je pourrai t’en prêter si tu veux. 
+	{{pseudo}}: J’en serai ravie. 
+	On continue de parcourir la librairie avant de se rendre compte qu’il est bientôt midi. On passe en caisse puis nous sortons. 
+- Dans une boutique de vêtement
+	$> lose_reputation("Maël", 15)
+	{{pseudo}}: Ça fait longtemps que je n’ai pas fait les magasins de vêtements, en plus il y a des soldes. 
+	Maël: Si cela te fait plaisir. 
+	Je crois voir qu’il est un peu ennuyé mais il m’accompagne quand même. Il s'assit dans un coin pendant que je regardais, je fais quelques essayages et lui demande son avis. 
+	Mais j’ai l’impression que je pourrai porter n’importe quoi, il dirait toujours que c’est OK. 
+	Je ne vois pas le temps passer et il est déjà midi. Je prends les quelques vêtements qui me plaisent puis nous sortons. 
+- Dans un cybercafé
+	$> gain_reputation("Maël", 20)
+	{{pseudo}}: Ça fait longtemps qu’on a pas passé de temps dans un cybercafé. 
+	Maël: C’est vrai, je crois que la dernière fois qu’on a joué ensemble, je t’ai battu. 
+	Alors là, ce n’est pas vrai ! J’avais gagné ! 
+	Maël: Je te propose de faire une revanche. Tu veux jouer à un jeu de course ou un jeu de combat? 
+	Maël est plus fort sur un jeu de course plutôt qu’à un jeu de combat. Quoi que ça lui arrivait de me battre aussi… Je choisis
+	- Jeu de combat
+	Maël: Ah, j’ai perdu
+	{{pseudo}}: Je te l’avais dit, je suis trop forte pour toi. 
+		Maël: Je veux bien une revanche
+		{{pseudo}}: Autant que tu veux
+	- Jeu de course
+	{{pseudo}}: Oh non, j’ai perdu… Comment ça se fait… 
+	Maël: C’est le talent.
+	{{pseudo}}: Frimeur. Je veux ma revanche. 
+		Maël: C’est d’accord.  
+		Nous avons continué à jouer jusqu’à ce qu’il soit l’heure de déjeuner. Nous sommes sorties en rigolant de nos parties. 
+
+Maël: J’ai pris l’initiative de réserver un restaurant pour étudier leur cartes et ce qu’il fait leur succès. J’espère que ça ne te dérange pas? 
+
+{{pseudo}}: Pas du tout, du moment qu’on y mange bien. 
+
+Maël: Super, allons-y. 
+
+$> set_location("Restaurant un peu chic")
+$> add_character("Maël")
+
+Une serveuse nous a installés à une table près de la fenêtre. Maël regarde avec attention le restaurant. Il analyse l’ambiance et le décor. Il regarde attentivement la carte. 
+
+{{pseudo}}: Et si nous prenions des plats différents? Ainsi à nous deux on pourra goûter plus de plat. 
+
+Maël: C’est une bonne idée. Faisons ça. 
+
+On commande un menu complet chacun. L’un de nous a pris de la viande et l’autre le poisson. 
+Nous mangeons et nous nous faisons goûter le plat de l’autre. 
+Arriver au dessert, je décide
+- de le nourrir avec ma cuillère
+	$> gain_reputation("Maël", 10)
+	{{pseudo}}: Maël…
+	Je lui tends ma cuillère. Je lui fait un sourire malicieux.
+	{{pseudo}}: Fais “Aaahh” 
+	A ma grande surprise, il me fait un sourire charmeur et prend une bouchée de ma cuillère. 
+	Maël: C’est très bon, merci. 
+	Je deviens toute rouge, je ne m’attendais pas à cette réaction. 
+- d’échanger nos assiettes une fois arrivée à la moitié
+
+Une fois le repas terminé, nous allons à la caisse régler notre déjeuner. J’allais payer mais Maël avait déjà tout payer. 
+Nous sortons du restaurant. 
+
+$> set_location("Rue donnant vue sur la plage")
+$> add_character("Maël")
+
+{{pseudo}}: Merci de m’avoir invité mais j’aurai pu payer. 
+
+Maël: Je ne pouvais pas te laisser régler en sachant que c’est moi qui ai choisi le restaurant. Et puis, tu m’as beaucoup aidé. 
+
+Nous marchons côte à côte puis nous croisons la pâtissière qui travaille à la guinguette.
+
 => END

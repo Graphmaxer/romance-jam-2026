@@ -1,11 +1,132 @@
-~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+$> set_location("Guinguette près de la plage" , “soir”)
+
+J’ai presque fini mon livre. Mais il n’y a plus beaucoup de lumière. 
+Je lève la tête et finit par me rendre compte que la nuit commence à tomber. 
+D’ailleurs il ne reste plus aucun client. Je crois que j’étais vraiment plongée dans mon livre. 
+Je me lève et voit qu’il reste de la lumière en cuisine, je m’approche discrètement pour voir qui il reste. 
+
+$> add_character("Maël - travail")
+
+Je vois une femme en tenue de chef collée à Maël par derrière!!! 
+J’essaie d’avancer discrètement sans faire de bruit pour écouter leur conversation. 
+
+Pâtissière: C’est fou à quelle point tu es doué pour cuisiner des plats salés mais tout ce qui concerne les gâteaux, c’est une catastrophe. 
+
+Maël reste silencieux et soupire. 
+
+Pâtissière: Je ne sais pas ce qui t’arrives depuis une semaine mais ça m’a vraiment surprise que tu veuilles que je t’apprenne à faire des cookies soudainement alors que tu m’a embauché justement parce que tu ne pouvais pas gérer cette partie. 
+
+Maël murmure quelque chose mais je n’entends rien. 
+J’essaie de m’approcher encore…
+
+BOUM !!!
+
+OH NON ! J’ai fait tomber une chaise. 
+Maël et la Pâtissière sortent et me vois accroupie, je me sens vraiment embarrassé. 
+Mon visage doit être cramoisi tellement j’ai honte. 
+
+Maël: Tu étais encore là {{pseudo}}? 
+
+{{pseudo}}: Euh… oui…
+
+Il faut que je rentre. Je suis attendue. On se revoit demain matin avant l’ouverture. 
+
+Elle prend son sac à main et s’en va. 
+Je me relève. Je n’ose pas le regarder dans les yeux. 
+
+Maël: Tu veux bien attendre le temps que je ferme tout? 
+
+Je hoche la tête. 
+$> remove_character("Maël - travail")
+Je l’attends dehors. J’essaie de reprendre mon calme. 
+Il apprend la pâtisserie? Mais c’est quelque chose avec laquelle il a toujours eu du mal avec les sucreries.
+Je me rappelle qu’à chaque fois que l’on allait dans des salons de thé, il ne commandait jamais de pâtisseries. 
+Alors pourquoi d’un coup il faudrait savoir en faire? Peut-être que…
+
+$> add_character("Maël")
+
+Maël: On y va? 
+
+{{pseudo}}: AAAaaahh ! 
+
+Je ne l’avais pas remarqué. J’étais plongée dans mes pensées. 
+
+{{pseudo}}: Euh oui ! On peut y aller ! 
+
+$> set_location("Rue donnant vue sur la plage" , “soir”)
+
+Maël marche juste à côté de moi. Je sais que ce n’est pas la première fois que j’y pense mais… Il est vraiment grand. 
+Je me sens rassuré avec lui. 
+On se connaît depuis 20 ans maintenant. 
+Ça fait 8 ans depuis notre dispute aussi mais on en a plus jamais parlé. Et il y a 6 ans, j’ai essayé de lui avouer mes sentiments mais il avait une copine à ce moment-là…
+D’ailleurs… Je ne sais pas s’il est encore célibataire…
+Je le regarde pendant que nous marchons. 
+
+- Lui demander directement
+	$> gain_reputation("Maël", 20)
+	{{pseudo}}: Maël, est-ce que tu vois quelqu’un en ce moment? 
+	Maël: Pas en ce moment, non. Pourquoi? 
+	{{pseudo}}: C’est juste que tu es maintenant au courant de ma situation amoureuse donc je voulais juste savoir ce qu’il en était de ton côté. 
+	J’avance un peu plus vite pour qu’il ne voit pas mon sourire. 
+- Tourner autour du pot
+	$> lose_reputation("Maël", 10)
+	{{pseudo}}: Maël, je peux te poser une question? 
+	Maël: Laquelle? 
+	{{pseudo}}: Tu sais… Je t’ai dis il y a une semaine que je m’étais faites larguée et…
+	Maël: Oui. 
+	{{pseudo}}: Donc voilà… Est-ce que tu es en couple? 
+	Maël: Non. 
+	Donc j’ai peut-être une chance. 
+
+$> set_location("Salle de réception de l’hôtel")
+$> add_character("Maël")
+
+Nous finissons par arriver à l’hôtel de ma tante. 
+
+{{pseudo}}: Merci de m’avoir ramenée saine et sauve. 
+Maël: Ce n’est rien, c’est la moindre des choses. 
+
+Il s’apprête à partir. Mais je le retiens en tenant un morceau de sa chemise sans forcément m’en rendre compte. 
+
+Maël: Tu as besoin de quelque chose? 
+
+Je retire ma main et j’évite un peu son regard. 
+
+{{pseudo}}: Est-ce que tu es disponible lundi prochain? Je sais que la guinguette est fermée vu qu’elle est ouverte le dimanche. 
+
+Il prend le temps de réfléchir puis il me fait un léger sourire. 
+
+Maël: Tu me donnes un rencard? 
+
+Je deviens rouge comme une pivoine. 
+
+{{pseudo}}: Mais non ! C’est juste que ça fait longtemps qu’on a pas passé une journée complète ensemble.
+
+Il rit un peu. C’est tellement rare. 
+
+Maël: C’est d’accord. 
+
+{{pseudo}}: C’est vrai? 
+
+Maël: Est-ce que tu m’as déjà entendu dire des choses que je ne pensais pas? 
+
+{{pseudo}}: Non, c’est d’ailleurs une de tes meilleures qualités. 
+
+Maël: Merci. Tu penses quand même passer à la guinguette de temps en temps avant lundi prochain? 
+
+{{pseudo}}: Bien sûr ! La nourriture est délicieuse ! Et le service est parfait !
+
+Maël: Merci, j’en informerai mon équipe. A la prochaine alors. 
+
+Il me caresse la tête puis s’en va. 
+
+$> remove_character("Maël")
+$> set_location("Chambre du personnage”, “soir")
+
+Je me couche l’esprit tranquille.
+Quand soudain, le visage de la pâtissière me revient en tête. 
+Et si Maël avait des vues sur la pâtissière et que c’était pour ça qu’il lui demandait de lui apprendre à faire des sucreries!? 
+Comme ça il peut se rapprocher d’elle.
+Mince… Je vais y penser toute la nuit…
+
 => END
