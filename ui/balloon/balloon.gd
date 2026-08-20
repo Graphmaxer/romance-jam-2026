@@ -154,6 +154,7 @@ func apply_dialogue_line() -> void:
 	dialogue_label.dialogue_line = dialogue_line
 
 	responses_menu.hide()
+	dialogue_line.responses.shuffle()
 	responses_menu.responses = dialogue_line.responses
 
 	# Show our balloon
