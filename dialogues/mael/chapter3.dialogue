@@ -1,11 +1,11 @@
-$> set_location("Guinguette près de la plage" , “soir”)
+$> set_location("Guinguette près de la plage" , "soir")
 
 J’ai presque fini mon livre. Mais il n’y a plus beaucoup de lumière. 
 Je lève la tête et finit par me rendre compte que la nuit commence à tomber. 
 D’ailleurs il ne reste plus aucun client. Je crois que j’étais vraiment plongée dans mon livre. 
 Je me lève et voit qu’il reste de la lumière en cuisine, je m’approche discrètement pour voir qui il reste. 
 
-$> add_character("Maël - travail")
+$> add_character("Maël", "travail")
 
 Je vois une femme en tenue de chef collée à Maël par derrière!!! 
 J’essaie d’avancer discrètement sans faire de bruit pour écouter leur conversation. 
@@ -37,7 +37,7 @@ Je me relève. Je n’ose pas le regarder dans les yeux.
 Maël: Tu veux bien attendre le temps que je ferme tout? 
 
 Je hoche la tête. 
-$> remove_character("Maël - travail")
+$> remove_character("Maël", "travail")
 Je l’attends dehors. J’essaie de reprendre mon calme. 
 Il apprend la pâtisserie? Mais c’est quelque chose avec laquelle il a toujours eu du mal avec les sucreries.
 Je me rappelle qu’à chaque fois que l’on allait dans des salons de thé, il ne commandait jamais de pâtisseries. 
@@ -53,7 +53,7 @@ Je ne l’avais pas remarqué. J’étais plongée dans mes pensées.
 
 {{pseudo}}: Euh oui ! On peut y aller ! 
 
-$> set_location("Rue donnant vue sur la plage" , “soir”)
+$> set_location("Rue donnant vue sur la plage" , "soir")
 
 Maël marche juste à côté de moi. Je sais que ce n’est pas la première fois que j’y pense mais… Il est vraiment grand. 
 Je me sens rassuré avec lui. 
@@ -121,7 +121,7 @@ Maël: Merci, j’en informerai mon équipe. A la prochaine alors.
 Il me caresse la tête puis s’en va. 
 
 $> remove_character("Maël")
-$> set_location("Chambre du personnage”, “soir")
+$> set_location("Chambre du personnage", "soir")
 
 Je me couche l’esprit tranquille.
 Quand soudain, le visage de la pâtissière me revient en tête. 

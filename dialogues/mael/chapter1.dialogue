@@ -49,7 +49,7 @@ Je sors rejoindre Maël.
 
 $> remove_character("Irma")
 
-$> set_location("rue donnant vue sur la plage")
+$> set_location("Rue donnant vue sur la plage")
 $> add_character("Maël")
 
 Cela fait 30 minutes que nous marchons et que Maël accroche des affiches sur certains panneaux et qu’il demande à des commerçants s’il peut les accrocher chez eux. 

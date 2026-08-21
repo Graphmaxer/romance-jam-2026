@@ -2,7 +2,7 @@ $> set_location("Plage")
 
 {{pseudo}} Enfant: Regarde Maël, j’ai encore ramassé un coquillage ! 
 
-$> add_character("Maël enfant")
+$> add_character("Maël", "enfant")
 
 Maël enfant: Il est très joli ! Je crois que c’est un coquillage patelle. 
 
@@ -11,7 +11,7 @@ Maël enfant: Il est très joli ! Je crois que c’est un coquillage patelle.
 Nous rigolons ensemble, puis je vois le temps filer. Nous voilà à l’adolescence.
 
 $> set_location("Rue donnant vue sur la plage")
-$> add_character("Maël adolescent")
+$> add_character("Maël", "adolescent")
 
 {{pseudo}} Ado: Mais reviens ! Pourquoi tu marches à toute vitesse devant moi?
 
@@ -60,7 +60,7 @@ Elle met sa main sur mon front. Je suis très gênée.
 Je m’éloigne d’elle et pars chercher mes affaires avant de partir en trombe. 
 
 $> set_location("Guinguette près de la plage")
-$> add_character("Maël - travail")
+$> add_character("Maël", "travail")
 
 Je n’arrive pas à en croire mes yeux ! 
 
