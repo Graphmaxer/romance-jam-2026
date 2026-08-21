@@ -63,12 +63,13 @@ func _on_discussion_ended(dialogue_ended: DialogueResource) -> void:
 	elif GameState.chapter_number > 0 and GameState.chapter_number <= route.chapters.size():
 		if route.is_last_chapter(GameState.chapter_number):
 			GameState.chapter_number = 0
-			await discussion.show_transition("%s: Fin" % GameState.love_interest)
+			await discussion.start_transition("%s: Fin" % GameState.love_interest)
 			_start_discussion(route.ending)
 		else:
 			GameState.chapter_number += 1
-			await discussion.show_transition(_get_chapter_transition_text())
+			await discussion.start_transition(_get_chapter_transition_text())
 			_start_discussion(route.get_chapter(GameState.chapter_number))
+		await discussion.end_transition()
 	else:
 		GameState.love_interest = ""
 		get_tree().change_scene_to_file("res://main.tscn")

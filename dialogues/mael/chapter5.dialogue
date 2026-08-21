@@ -91,8 +91,9 @@ J’ai du mal à me dire que Maël travaille avec son ex. En plus ils leur arriv
 Pourquoi veut-il savoir en faire d’ailleurs? 
 Pour passer plus de temps avec elle? 
 
-$> show_transition("Le lendemain")
+$> start_transition("Le lendemain")
 $> set_location("Guinguette près de la plage")
+$> end_transition()
 
 J’ai très peu dormi… J’ai mis des lunettes de soleil pour que ça ne se voit pas trop…
 Je ne peux pas m'empêcher de soupirer. 
