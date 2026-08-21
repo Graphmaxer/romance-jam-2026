@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="1_mris7"]
 [ext_resource type="Texture2D" uid="uid://b584vl7okatrw" path="res://assets/backgrounds/house/house_evening.jpg" id="2_o6hln"]
 [ext_resource type="Texture2D" uid="uid://n7h06u4wkdti" path="res://assets/backgrounds/house/house_night.jpg" id="3_f4tfw"]
-[ext_resource type="AudioStream" uid="uid://bajlq7uimiwf7" path="res://assets/audio/Lo-Fi Music Pack/8. The Call of the Night.wav" id="4_o6hln"]
+[ext_resource type="AudioStream" uid="uid://cr3icnhnydfji" path="res://assets/audio/lofi-chill/light-through-the-storm.ogg" id="4_o6hln"]
 
 [resource]
 script = ExtResource("1_mris7")

@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="1_vu3gr"]
 [ext_resource type="Texture2D" uid="uid://do3at3jsnt0gq" path="res://assets/backgrounds/hotel_front_desk/hotel_front_desk_night.jpg" id="2_uma5o"]
 [ext_resource type="Texture2D" uid="uid://gru1g5k4uy1v" path="res://assets/backgrounds/hotel_front_desk/hotel_front_desk_night_light_on.jpg" id="3_ukiuj"]
-[ext_resource type="AudioStream" uid="uid://cgbsdjd4fc2pe" path="res://assets/audio/Lo-Fi Music Pack/7. Jazzroom.wav" id="4_ukiuj"]
+[ext_resource type="AudioStream" uid="uid://dnko12vn35y3e" path="res://assets/audio/calm/verdant-zen.ogg" id="4_ukiuj"]
 
 [resource]
 script = ExtResource("1_vu3gr")

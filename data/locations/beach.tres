@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="1_p4emc"]
 [ext_resource type="Texture2D" uid="uid://b6cu5q3b5b68" path="res://assets/backgrounds/beach/beach_evening.jpg" id="2_1rh0e"]
 [ext_resource type="Texture2D" uid="uid://cn6a4ckrbvqld" path="res://assets/backgrounds/beach/beach_night.jpg" id="3_j8ffp"]
-[ext_resource type="AudioStream" uid="uid://7mq0dl2kn68c" path="res://assets/audio/Lo-Fi Music Pack/1. Blissfull Beginnings.wav" id="4_gdsn4"]
+[ext_resource type="AudioStream" uid="uid://b3npk8prnxk1s" path="res://assets/audio/calm/the-sun-awoke.ogg" id="4_gdsn4"]
 
 [resource]
 script = ExtResource("1_p4emc")

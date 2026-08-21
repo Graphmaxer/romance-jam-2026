@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="1_xoeoi"]
 [ext_resource type="Texture2D" uid="uid://dht58o1wytnqr" path="res://assets/backgrounds/living_room/living_room_evening.jpg" id="2_2jiq0"]
 [ext_resource type="Texture2D" uid="uid://b08asiauxhwwp" path="res://assets/backgrounds/living_room/living_room_night.jpg" id="3_6ysyw"]
-[ext_resource type="AudioStream" uid="uid://d3t4vay5ewjlc" path="res://assets/audio/Lo-Fi Music Pack/10. Silence of Baba Yaga.wav" id="4_2jiq0"]
+[ext_resource type="AudioStream" uid="uid://bves70frw2cmo" path="res://assets/audio/calm/water.ogg" id="4_2jiq0"]
 
 [resource]
 script = ExtResource("1_xoeoi")

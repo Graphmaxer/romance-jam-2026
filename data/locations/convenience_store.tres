@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://bwn6d71q0id00" path="res://assets/backgrounds/convenience_store/convenience_store_daytime.jpg" id="1_ygf0n"]
 [ext_resource type="Texture2D" uid="uid://bve1a1yc0qal0" path="res://assets/backgrounds/convenience_store/convenience_store_evening.jpg" id="2_54b61"]
 [ext_resource type="Texture2D" uid="uid://crw1bn1hya5xc" path="res://assets/backgrounds/convenience_store/convenience_store_night.jpg" id="3_a3nmg"]
-[ext_resource type="AudioStream" uid="uid://0wbcdfpnqnpj" path="res://assets/audio/Lo-Fi Music Pack/3. Astral Dive.wav" id="4_54b61"]
+[ext_resource type="AudioStream" uid="uid://bg7axawmvewnd" path="res://assets/audio/lofi-chill/rendezvous.ogg" id="4_54b61"]
 
 [resource]
 script = ExtResource("1_ibqws")

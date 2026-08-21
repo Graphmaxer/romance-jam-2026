@@ -29,7 +29,8 @@
 ### Audio
 
 - Music (https://fulminisictus.itch.io/visual-novel-audio-pack)
-- BGM (https://void1gaming.itch.io/lo-fi-music-pack)
+- BGM (https://arkeiamusic.itch.io/free-music-pack-14-lo-fi-chill)
+- BGM (https://arkeiamusic.itch.io/free-music-pack-15-calm)
 
 ## Tools
 

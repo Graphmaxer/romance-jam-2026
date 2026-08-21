@@ -4,11 +4,11 @@
 [ext_resource type="Texture2D" uid="uid://dk4odx2dce35t" path="res://assets/backgrounds/sandy_beach/sandy_beach_daytime.jpg" id="1_m8il3"]
 [ext_resource type="Texture2D" uid="uid://7fs5e75fywyp" path="res://assets/backgrounds/sandy_beach/sandy_beach_evening.jpg" id="2_m3kua"]
 [ext_resource type="Texture2D" uid="uid://cdrg13nk2ecnc" path="res://assets/backgrounds/sandy_beach/sandy_beach_night.jpg" id="3_fw3qd"]
-[ext_resource type="AudioStream" uid="uid://cie3ft1tvg45f" path="res://assets/audio/Lo-Fi Music Pack/12. Winning with a Sacrifice.wav" id="4_exeva"]
+[ext_resource type="AudioStream" uid="uid://bves70frw2cmo" path="res://assets/audio/calm/water.ogg" id="4_exeva"]
 
 [resource]
 script = ExtResource("1_3ewnj")
-aliases = Array[String](["Quai bateau", "Rue avec vue sur la mer"])
+aliases = Array[String](["Quai bateau", "Rue avec vue sur la mer", "Rue donnant vue sur la plage"])
 backgrounds = Dictionary[String, Texture2D]({
 "default": ExtResource("1_m8il3"),
 "jour": ExtResource("1_m8il3"),

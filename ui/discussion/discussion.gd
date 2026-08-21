@@ -41,7 +41,7 @@ func set_location(alias: String, time: String = "default") -> void:
 			)
 		else:
 			push_warning("%s background at %s time not found" % [alias, time])
-		if location.music:
+		if location.music and background_stream_player.stream != location.music:
 			background_stream_player.stream = location.music
 			background_stream_player.play()
 	else:

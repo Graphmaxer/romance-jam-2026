@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://b7q5qb2bar1uc" path="res://assets/backgrounds/festival/festival_daytime.jpg" id="1_rmg6m"]
 [ext_resource type="Texture2D" uid="uid://bjv3ipb4pt0n4" path="res://assets/backgrounds/festival/festival_evening.jpg" id="2_me1ih"]
 [ext_resource type="Texture2D" uid="uid://boqw5gmg7xp6v" path="res://assets/backgrounds/festival/festival_night.jpg" id="3_bapcj"]
-[ext_resource type="AudioStream" uid="uid://bcb5481ygvv84" path="res://assets/audio/Lo-Fi Music Pack/4. Piano beside the Firewood.wav" id="4_me1ih"]
+[ext_resource type="AudioStream" uid="uid://c4t8worgvjry8" path="res://assets/audio/lofi-chill/communis-umbra.ogg" id="4_me1ih"]
 
 [resource]
 script = ExtResource("1_4i78p")

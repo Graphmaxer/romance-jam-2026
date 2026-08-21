@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="1_drfhc"]
 [ext_resource type="Texture2D" uid="uid://786bi51y5y5n" path="res://assets/backgrounds/restaurant/restaurant_evening.jpg" id="2_60e4n"]
 [ext_resource type="Texture2D" uid="uid://c46a47jhy0k6v" path="res://assets/backgrounds/restaurant/restaurant_night.jpg" id="3_xme5j"]
-[ext_resource type="AudioStream" uid="uid://cvgskf3703u25" path="res://assets/audio/Lo-Fi Music Pack/11. Flash form the Past.wav" id="4_60e4n"]
+[ext_resource type="AudioStream" uid="uid://db2vguvxxj0ka" path="res://assets/audio/lofi-chill/radio-on.ogg" id="4_60e4n"]
 
 [resource]
 script = ExtResource("1_drfhc")
