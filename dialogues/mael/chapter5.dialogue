@@ -1,5 +1,6 @@
 $> set_location("Rue donnant vue sur la plage")
 $> add_character("Maël")
+$> add_character("Irène")
 
 La pâtissière de la guinguette ! J’ai eu du mal à la reconnaître du premier coup vu qu’elle a un style douce lolita. Et ça lui va vraiment bien, en même temps c’est un ange donc c’est pas si étonnant. 
 Si elle ne portait pas d’artefact on verrait ses ailes mais on voit juste ses oreilles en formes d’ailes. 
@@ -30,6 +31,8 @@ Irène: Tu es venu très souvent à la guinguette et je t’ai vu goûter presqu
 Irène: Je vais vous laisser tranquille, j’ai un planning un peu chargé et je suppose que vous avez plein de choses à faire. 
 Irène: J’espère qu’on se reverra à la guinguette {{pseudo}}. A bientôt.
 
+$> remove_character("Irène")
+
 Elle part en étant de bonne humeur. 
 Je me tourne vers Maël. 
 
@@ -53,8 +56,11 @@ Maël: Et puis si tu te rappelles bien, je n’ai pas beaucoup d’amis dans mon
 
 On a continué de nous promener mais j’avais moins la tête à m’amuser. 
 
-$> show_transition("Fin de l’après-midi")
+$> start_transition("Fin de l’après-midi")
 $> set_location("Parking de l’hôtel")
+$> add_character("Maël")
+$> end_transition()
+
 {{pseudo}}: Merci de m’avoir raccompagné. Tu n’étais pas obligé. 
 
 Maël: C’est normal de s’assurer que la personne qui a passé la journée avec moi rentre saine et sauve. Et puis ça nous a permis d’avoir un supplément pour passer du temps ensemble.
