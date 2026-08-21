@@ -1,4 +1,4 @@
-$> set_location("Chambre du personnage") 
+$> set_location("Chambre du personnage")
 
 Le jour est enfin arrivé ! C’est le dernier jour du festival. Je finis de mettre mon yukata. 
 Avec Kathy nous avons prévu de faire le tour des stands et de se retrouver d’abord à la guinguette. Je lui envoie un message pour lui dire que je suis sur le départ. 
@@ -29,6 +29,7 @@ Kathy: On y va ou tu continues de me dévisager?
 Elle me prit la main et nous partîmes vers les différents stands qui se trouvaient à 10 minutes de la guinguette. 
 
 $> set_location("Festival style japonais avec plusieurs stand")
+$> add_character("Kathy")
 
 Nous avons commencé à faire en premier le stand du chamboule-tout, le panier de basket et la pêche au canard. Nous nous sommes arrêtés devant le stand sur le tir à la carabine. 
 
@@ -59,6 +60,7 @@ Nous avons pris un peu de tout sur les stands \: des takoyaki, des nouilles saut
 
 $> start_transition("Plusieurs heures plus tard, dans la soirée")
 $> set_location("Plage", "nuit")
+$> add_character("Kathy")
 $> end_transition()
 
 Nous marchons le long de la plage. Pour chercher un banc afin de regarder les feux d’artifices. 

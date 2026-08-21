@@ -37,7 +37,7 @@ Je me relève. Je n’ose pas le regarder dans les yeux.
 Maël: Tu veux bien attendre le temps que je ferme tout? 
 
 Je hoche la tête. 
-$> remove_character("Maël", "travail")
+$> remove_character("Maël")
 Je l’attends dehors. J’essaie de reprendre mon calme. 
 Il apprend la pâtisserie? Mais c’est quelque chose avec laquelle il a toujours eu du mal avec les sucreries.
 Je me rappelle qu’à chaque fois que l’on allait dans des salons de thé, il ne commandait jamais de pâtisseries. 
