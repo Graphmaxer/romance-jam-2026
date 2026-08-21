@@ -1,3 +1,4 @@
+~ start
 $> set_location("Guinguette près de la plage" , "soir")
 
 J’ai presque fini mon livre. Mais il n’y a plus beaucoup de lumière. 
@@ -54,6 +55,7 @@ Je ne l’avais pas remarqué. J’étais plongée dans mes pensées.
 {{pseudo}}: Euh oui ! On peut y aller ! 
 
 $> set_location("Rue donnant vue sur la plage" , "soir")
+$> add_character("Maël")
 
 Maël marche juste à côté de moi. Je sais que ce n’est pas la première fois que j’y pense mais… Il est vraiment grand. 
 Je me sens rassuré avec lui. 

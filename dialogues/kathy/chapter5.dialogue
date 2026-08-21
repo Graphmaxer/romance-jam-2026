@@ -36,7 +36,7 @@ Kathy me prend la main et me souris.
 Kathy: Ne t’inquiète pas, ça va bien se passer. Viens on va aller dans la salle des invités. 
 
 $> set_location("Salon des invités à la villa")
-
+$> add_character("Kathy")
 Kathy: Tient, elle n’est pas encore arrivée. Installe-toi, je vais la chercher. Elle est peut-être encore dans son bureau et elle n’a pas vu l’heure. Ou alors ça l’ennuie de passer du temps avec moi…
 $> remove_character("Kathy")
 

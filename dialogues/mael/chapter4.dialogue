@@ -1,3 +1,4 @@
+~ start
 $> set_location("Rue donnant vue sur la plage")
 
 Je suis arrivée 30 minutes en avance. 
@@ -29,16 +30,16 @@ On fait le tour des magasins ensemble. Puis on décide d’aller
 	Oui, j’ai commencé une trilogie. Il me manque le dernier tome, c’est l’occasion de l’acheter
 	Il chercher dans les étagère et trouve ce qu’il cherche
 	Et toi, tu lis toujours des mangas? 
-- Oui, j’aime toujours ça
-	{{pseudo}}: Il n’y a aucune raison pour que je n’en lise plus, il y a tellement de genres différents, c’est difficile de s’en lasser. 
-	Maël: Tu n’as pas changé, ça a un côté rassurant. 
-	{{pseudo}}: Je peux t’en conseiller. Comme lorsqu'on était jeune. 
+	- Oui, j’aime toujours ça
+		{{pseudo}}: Il n’y a aucune raison pour que je n’en lise plus, il y a tellement de genres différents, c’est difficile de s’en lasser. 
+		Maël: Tu n’as pas changé, ça a un côté rassurant. 
+		{{pseudo}}: Je peux t’en conseiller. Comme lorsqu'on était jeune. 
 		Maël: Avec plaisir. 
-- Non, je préfère les romans maintenant
-	{{pseudo}}: Non, je me suis mise à lire des romans, j’aime faire travailler mon imagination. 
-	Maël: Je pourrai t’en prêter si tu veux. 
-	{{pseudo}}: J’en serai ravie. 
-	On continue de parcourir la librairie avant de se rendre compte qu’il est bientôt midi. On passe en caisse puis nous sortons. 
+	- Non, je préfère les romans maintenant
+		{{pseudo}}: Non, je me suis mise à lire des romans, j’aime faire travailler mon imagination. 
+		Maël: Je pourrai t’en prêter si tu veux. 
+		{{pseudo}}: J’en serai ravie. 
+		On continue de parcourir la librairie avant de se rendre compte qu’il est bientôt midi. On passe en caisse puis nous sortons. 
 - Dans une boutique de vêtement
 	$> lose_reputation("Maël", 15)
 	{{pseudo}}: Ça fait longtemps que je n’ai pas fait les magasins de vêtements, en plus il y a des soldes. 
@@ -54,14 +55,14 @@ On fait le tour des magasins ensemble. Puis on décide d’aller
 	Maël: Je te propose de faire une revanche. Tu veux jouer à un jeu de course ou un jeu de combat? 
 	Maël est plus fort sur un jeu de course plutôt qu’à un jeu de combat. Quoi que ça lui arrivait de me battre aussi… Je choisis
 	- Jeu de combat
-	Maël: Ah, j’ai perdu
-	{{pseudo}}: Je te l’avais dit, je suis trop forte pour toi. 
+		Maël: Ah, j’ai perdu
+		{{pseudo}}: Je te l’avais dit, je suis trop forte pour toi. 
 		Maël: Je veux bien une revanche
 		{{pseudo}}: Autant que tu veux
 	- Jeu de course
-	{{pseudo}}: Oh non, j’ai perdu… Comment ça se fait… 
-	Maël: C’est le talent.
-	{{pseudo}}: Frimeur. Je veux ma revanche. 
+		{{pseudo}}: Oh non, j’ai perdu… Comment ça se fait… 
+		Maël: C’est le talent.
+		{{pseudo}}: Frimeur. Je veux ma revanche. 
 		Maël: C’est d’accord.  
 		Nous avons continué à jouer jusqu’à ce qu’il soit l’heure de déjeuner. Nous sommes sorties en rigolant de nos parties. 
 
