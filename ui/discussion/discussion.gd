@@ -30,17 +30,17 @@ func start(dialogue: DialogueResource, dialogue_cue: String) -> void:
 	DialogueManager.show_dialogue_balloon(dialogue, dialogue_cue, [self])
 
 
-func set_location(alias: String, time: String = "default") -> void:
+func set_location(alias: String, variant: String = "default") -> void:
 	var location: Location = story.get_location(alias)
 	if location:
 		_clean_characters()
-		if location.backgrounds.has(time):
+		if location.backgrounds.has(variant):
 			await background_stack.update_background(
-				location.backgrounds[time],
+				location.backgrounds[variant],
 				transition.is_transitioning(),
 			)
 		else:
-			push_warning("%s background at %s time not found" % [alias, time])
+			push_warning("%s background at %s variant not found" % [alias, variant])
 		if location.music and background_stream_player.stream != location.music:
 			background_stream_player.stream = location.music
 			background_stream_player.play()
@@ -73,11 +73,15 @@ func remove_character(firstname: String) -> void:
 
 
 func change_variant(firstname: String, variant: String) -> void:
-	var character_card: CharacterCard = _find_character_card(firstname)
-	if character_card:
-		character_card.change_variant(variant)
+	var character: Character = story.get_character(firstname)
+	if character:
+		var character_card: CharacterCard = _find_character_card(character.firstname)
+		if character_card:
+			character_card.change_variant(variant)
+		else:
+			push_warning("Character to change variant not present: %s" % firstname)
 	else:
-		push_warning("Character to change variant not present: %s" % firstname)
+		push_warning("Character to change variant unkown: %s" % firstname)
 
 
 func show_transition(text: String, wait: float = 1.0) -> void:
