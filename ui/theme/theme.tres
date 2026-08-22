@@ -4,11 +4,13 @@
 [ext_resource type="Texture2D" uid="uid://crvan3g6uusy1" path="res://assets/gui/ui/button_pressed.PNG" id="1_vfm3h"]
 [ext_resource type="Texture2D" uid="uid://m4dyixccweel" path="res://assets/gui/ui/button_normal.PNG" id="2_2tfwj"]
 [ext_resource type="Texture2D" uid="uid://duh4eu88y6daj" path="res://assets/gui/button/choice_hover_background.png" id="3_bipdn"]
-[ext_resource type="Texture2D" uid="uid://r6o4krws8tvi" path="res://assets/gui/overlay/game_menu.png" id="3_q67kw"]
 [ext_resource type="Texture2D" uid="uid://ce4xf3lj3fo4" path="res://assets/gui/textbox.png" id="4_bipdn"]
 [ext_resource type="Texture2D" uid="uid://bmvacq8uii5r5" path="res://assets/gui/button/choice_hover_static_background.png" id="5_2tfwj"]
 [ext_resource type="FontFile" uid="uid://dpqyu8bhbjbf5" path="res://assets/fonts/SummerBeach-Regular.ttf" id="5_4v5r2"]
+[ext_resource type="Texture2D" uid="uid://bpj2w2nx755pe" path="res://assets/gui/slider/horizontal_hover_bar.png" id="6_0pmcw"]
 [ext_resource type="Texture2D" uid="uid://dnyptr54bafl1" path="res://assets/gui/ui/postcard_new.PNG" id="6_2tfwj"]
+[ext_resource type="Texture2D" uid="uid://y23qv0lhwblb" path="res://assets/gui/slider/horizontal_idle_bar.png" id="7_i7twj"]
+[ext_resource type="Texture2D" uid="uid://byvufr0n3popf" path="res://assets/gui/frame.png" id="10_0pmcw"]
 [ext_resource type="Texture2D" uid="uid://baleca8xq10ai" path="res://assets/gui/ui/progressbar_red.PNG" id="11_2tfwj"]
 [ext_resource type="Texture2D" uid="uid://dvs0rbunknwk4" path="res://assets/gui/ui/progressbar_frame.PNG" id="11_qf46q"]
 
@@ -34,7 +36,7 @@ content_margin_right = 16.0
 content_margin_bottom = 12.0
 texture = ExtResource("1_vfm3h")
 
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_yhl4s"]
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ihi2j"]
 content_margin_left = 16.0
 content_margin_top = 12.0
 content_margin_right = 16.0
@@ -85,6 +87,18 @@ content_margin_bottom = 26.0
 texture = ExtResource("3_bipdn")
 modulate_color = Color(0.9008019, 1, 1, 1)
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_fkxu7"]
+texture = ExtResource("6_0pmcw")
+expand_margin_top = 10.0
+expand_margin_bottom = 10.0
+region_rect = Rect2(0, 36, 1000, 60)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_h6m2q"]
+texture = ExtResource("7_i7twj")
+expand_margin_top = 12.0
+expand_margin_bottom = 10.0
+region_rect = Rect2(0, 30, 980, 64)
+
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_41ywq"]
 content_margin_left = 24.0
 content_margin_top = 12.0
@@ -112,20 +126,27 @@ expand_margin_right = 4.0
 expand_margin_bottom = 4.0
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_2afhe"]
-texture = ExtResource("3_q67kw")
+content_margin_left = 33.0
+content_margin_top = 51.0
+texture = ExtResource("10_0pmcw")
+texture_margin_right = 115.0
+texture_margin_bottom = 120.0
+expand_margin_left = 54.0
+expand_margin_top = 43.0
+expand_margin_right = 33.0
+expand_margin_bottom = 27.0
 axis_stretch_horizontal = 1
 axis_stretch_vertical = 1
-modulate_color = Color(1, 1, 1, 0.75000006)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ndxql"]
 content_margin_left = 50.0
 content_margin_top = 24.0
-content_margin_right = 39.0
-content_margin_bottom = 69.0
+content_margin_right = 28.0
+content_margin_bottom = 44.0
 texture = ExtResource("4_bipdn")
-expand_margin_top = 144.0
+expand_margin_top = 126.0
 expand_margin_right = 125.0
-expand_margin_bottom = 24.0
+expand_margin_bottom = 19.0
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_1tu1e"]
 texture = ExtResource("11_qf46q")
@@ -141,7 +162,7 @@ Button/styles/disabled = SubResource("StyleBoxTexture_2tfwj")
 Button/styles/focus = null
 Button/styles/hover = SubResource("StyleBoxTexture_vfm3h")
 Button/styles/hover_pressed = SubResource("StyleBoxTexture_qf46q")
-Button/styles/normal = SubResource("StyleBoxTexture_yhl4s")
+Button/styles/normal = SubResource("StyleBoxTexture_ihi2j")
 Button/styles/pressed = SubResource("StyleBoxTexture_3dnyl")
 ChoiceButton/base_type = &"Button"
 ChoiceButton/colors/font_color = Color(0, 0, 0, 1)
@@ -157,6 +178,9 @@ ChoiceButton/styles/hover = SubResource("StyleBoxTexture_q67kw")
 ChoiceButton/styles/normal = SubResource("StyleBoxTexture_ay84d")
 ChoiceButton/styles/pressed = SubResource("StyleBoxTexture_bipdn")
 HBoxContainer/constants/separation = 16
+HSlider/styles/grabber_area = SubResource("StyleBoxTexture_fkxu7")
+HSlider/styles/grabber_area_highlight = SubResource("StyleBoxTexture_fkxu7")
+HSlider/styles/slider = SubResource("StyleBoxTexture_h6m2q")
 Label/colors/font_color = Color(0, 0, 0, 1)
 Label/font_sizes/font_size = 24
 Label/fonts/font = ExtResource("5_4v5r2")
@@ -164,6 +188,10 @@ LineEdit/colors/caret_color = Color(0, 0, 0, 1)
 LineEdit/colors/font_color = Color(0.5409909, 0.5409904, 0.5409905, 1)
 LineEdit/styles/focus = SubResource("StyleBoxTexture_41ywq")
 LineEdit/styles/normal = SubResource("StyleBoxTexture_1apww")
+MarginContainer/constants/margin_bottom = 16
+MarginContainer/constants/margin_left = 32
+MarginContainer/constants/margin_right = 32
+MarginContainer/constants/margin_top = 16
 Panel/styles/panel = SubResource("StyleBoxTexture_2afhe")
 PanelContainer/styles/panel = SubResource("StyleBoxTexture_ndxql")
 ProgressBar/colors/font_color = Color(1, 1, 1, 1)
@@ -172,8 +200,14 @@ ProgressBar/fonts/font = ExtResource("5_4v5r2")
 ProgressBar/styles/background = SubResource("StyleBoxTexture_1tu1e")
 ProgressBar/styles/fill = SubResource("StyleBoxTexture_8qd52")
 RichTextLabel/colors/default_color = Color(0, 0, 0, 1)
-TextboxMarginContainer/base_type = &"MarginContainer"
-TextboxMarginContainer/constants/margin_bottom = 32
-TextboxMarginContainer/constants/margin_left = 128
-TextboxMarginContainer/constants/margin_right = 128
+SettingsMenuMarginContainer/base_type = &"MarginContainer"
+SettingsMenuMarginContainer/constants/margin_bottom = 64
+SettingsMenuMarginContainer/constants/margin_left = 200
+SettingsMenuMarginContainer/constants/margin_right = 200
+SettingsMenuMarginContainer/constants/margin_top = 64
+TextboxMarginContainer/base_type = &"SettingsMenuMarginContainer"
+TextboxMarginContainer/constants/margin_bottom = 20
+TextboxMarginContainer/constants/margin_left = 160
+TextboxMarginContainer/constants/margin_right = 160
+TextboxMarginContainer/constants/margin_top = 50
 VBoxContainer/constants/separation = 8

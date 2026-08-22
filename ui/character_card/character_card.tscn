@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://bxmnui8xvsga5"]
 
 [ext_resource type="Script" uid="uid://brtoy6gryeqvx" path="res://ui/character_card/character_card.gd" id="1_7qkde"]
-[ext_resource type="Resource" uid="uid://cy7flpa1y68tv" path="res://data/characters/steve.tres" id="2_2afhe"]
-[ext_resource type="Texture2D" uid="uid://cxx7f4vbexrnf" path="res://assets/characters/steve/Steve-neutre.png" id="3_2afhe"]
+[ext_resource type="Resource" uid="uid://dx3vnrd0m510m" path="res://data/characters/kathy.tres" id="2_2afhe"]
+[ext_resource type="Texture2D" uid="uid://7noko8w7fs68" path="res://assets/characters/animals/Cat/cat smile.png" id="3_2afhe"]
 [ext_resource type="Texture2D" uid="uid://cwfcedx4ol36j" path="res://assets/hearts/Royal Heart.png" id="4_2afhe"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8h0mb"]
@@ -54,7 +54,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 script = ExtResource("1_7qkde")
 character = ExtResource("2_2afhe")
-variant = "cat"
+variant = "chat"
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=957569691]
 layout_mode = 1
@@ -73,7 +73,6 @@ theme_override_constants/margin_top = 8
 
 [node name="ReputationBar" type="ProgressBar" parent="VBoxContainer/MarginContainer" unique_id=2067384786]
 unique_name_in_owner = true
-visible = false
 texture_filter = 1
 layout_mode = 2
 size_flags_vertical = 4

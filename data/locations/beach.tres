@@ -8,7 +8,7 @@
 
 [resource]
 script = ExtResource("1_p4emc")
-aliases = Array[String](["Guinguette près de la plage", "Plage"])
+aliases = Array[String](["Plage"])
 backgrounds = Dictionary[String, Texture2D]({
 "default": ExtResource("1_gdsn4"),
 "jour": ExtResource("1_gdsn4"),

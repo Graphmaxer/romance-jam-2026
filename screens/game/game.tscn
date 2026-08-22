@@ -7,7 +7,10 @@
 [ext_resource type="Resource" uid="uid://b0r0pfav6asul" path="res://data/routes/mael_route.tres" id="3_g1ktd"]
 [ext_resource type="Resource" uid="uid://bmngbdq2vbis0" path="res://data/routes/kathy_route.tres" id="3_npd5f"]
 [ext_resource type="PackedScene" uid="uid://4adhsfyh5yhw" path="res://screens/love_interest_selection/love_interest_selection.tscn" id="3_uain1"]
+[ext_resource type="Texture2D" uid="uid://c5eb88jnpq67i" path="res://assets/gui/button/btn_pref_idle.png" id="7_qpol7"]
 [ext_resource type="PackedScene" uid="uid://bllup75vihhpy" path="res://ui/auto_save/auto_save.tscn" id="8_cpxdg"]
+[ext_resource type="Texture2D" uid="uid://vqs5602elrxd" path="res://assets/gui/button/btn_pref_hover.png" id="8_lvnyp"]
+[ext_resource type="PackedScene" uid="uid://beixi7tx28lcc" path="res://screens/settings_menu/settings_menu.tscn" id="9_ou2j6"]
 
 [node name="Game" type="Control" unique_id=2139466926]
 layout_mode = 3
@@ -21,6 +24,10 @@ prologue = ExtResource("2_2v4l3")
 love_interest_selection_scene = ExtResource("3_uain1")
 routes = Array[ExtResource("2_yflor")]([ExtResource("3_g1ktd"), ExtResource("3_npd5f")])
 
+[node name="SettingsMenu" parent="." unique_id=1669687307 instance=ExtResource("9_ou2j6")]
+unique_name_in_owner = true
+visible = false
+
 [node name="Discussion" parent="." unique_id=825360668 instance=ExtResource("2_0iheo")]
 unique_name_in_owner = true
 layout_mode = 1
@@ -30,4 +37,22 @@ unique_name_in_owner = true
 modulate = Color(1, 1, 1, 0)
 layout_mode = 1
 
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=772858804]
+layer = 101
+
+[node name="SettingsButton" type="TextureButton" parent="CanvasLayer" unique_id=131134661]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -52.0
+offset_top = 10.0
+offset_right = -10.0
+offset_bottom = 52.0
+grow_horizontal = 0
+texture_normal = ExtResource("7_qpol7")
+texture_hover = ExtResource("8_lvnyp")
+ignore_texture_size = true
+stretch_mode = 0
+
 [connection signal="ended" from="Discussion" to="." method="_on_discussion_ended"]
+[connection signal="pressed" from="CanvasLayer/SettingsButton" to="." method="_on_settings_button_pressed"]

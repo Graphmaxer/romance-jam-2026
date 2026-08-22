@@ -8,6 +8,7 @@ var love_interest_selection_tween: Tween
 
 @onready var discussion: Discussion = %Discussion
 @onready var auto_save: Control = %AutoSave
+@onready var settings_menu: SettingsMenu = %SettingsMenu
 
 var auto_save_tween: Tween
 
@@ -86,3 +87,7 @@ func _on_love_interest_selection_chosen(firstname: String) -> void:
 		love_interest_selection.queue_free()
 	_start_discussion(route.get_chapter(GameState.chapter_number))
 	await discussion.end_transition()
+
+
+func _on_settings_button_pressed() -> void:
+	settings_menu.open()

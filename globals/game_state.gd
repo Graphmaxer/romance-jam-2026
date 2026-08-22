@@ -37,6 +37,9 @@ func get_save_preview() -> String:
 	if json_dict and json_dict.has('chapter_number'):
 		var saved_chapter_number: int = json_dict['chapter_number']
 		if saved_chapter_number:
+			if json_dict.has("love_interest"):
+				var saved_love_interest: String = json_dict['love_interest']
+				return "%s: Chapitre %d" % [saved_love_interest, json_dict['chapter_number']]
 			return "Chapitre %d" % json_dict['chapter_number']
 		return "Prologue"
 	return ''

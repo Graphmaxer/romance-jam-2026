@@ -31,9 +31,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_constants/margin_left = 8
-theme_override_constants/margin_top = 8
-theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 0
 
 [node name="VBox" type="VBoxContainer" parent="Panel/PanelMargin" unique_id=1059651411]
 layout_mode = 2
@@ -62,7 +60,9 @@ Anniversaire le 10 février"
 [node name="DescriptionLabel" type="Label" parent="Panel/PanelMargin/VBox" unique_id=1336418959]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(100, 0)
+custom_maximum_size = Vector2(400, -1)
 layout_mode = 2
+size_flags_horizontal = 4
 theme_override_font_sizes/font_size = 12
 text = "Ami d’enfance
 Travaille à la guinguette près de la plage qui n’est ouverte qu'en été

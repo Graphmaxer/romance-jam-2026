@@ -30,6 +30,7 @@ grow_vertical = 2
 
 [node name="BackgroundStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=821826129]
 unique_name_in_owner = true
+bus = &"Music"
 
 [node name="Transition" parent="." unique_id=1818611459 instance=ExtResource("3_flpty")]
 unique_name_in_owner = true

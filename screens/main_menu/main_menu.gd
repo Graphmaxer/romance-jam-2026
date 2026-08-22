@@ -3,6 +3,7 @@ extends Control
 @onready var new_game_button: Button = %NewGameButton
 @onready var continue_button: Button = %ContinueButton
 @onready var quit_button: Button = %QuitButton
+@onready var settings_menu: SettingsMenu = %SettingsMenu
 
 
 func _ready() -> void:
@@ -43,3 +44,7 @@ func _on_pseudo_input_text_changed(new_text: String) -> void:
 func _on_continue_button_pressed() -> void:
 	GameState.load_game()
 	start_game()
+
+
+func _on_settings_button_pressed() -> void:
+	settings_menu.open()

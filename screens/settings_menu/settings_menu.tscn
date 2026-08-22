@@ -1,0 +1,81 @@
+[gd_scene format=3 uid="uid://beixi7tx28lcc"]
+
+[ext_resource type="Script" uid="uid://s3pvsx3kkwq6" path="res://screens/settings_menu/settings_menu.gd" id="1_7j0w2"]
+
+[node name="SettingsMenu" type="CanvasLayer" unique_id=1669687307]
+layer = 101
+script = ExtResource("1_7j0w2")
+
+[node name="SettingsContainer" type="MarginContainer" parent="." unique_id=1932577688]
+unique_name_in_owner = true
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_type_variation = &"SettingsMenuMarginContainer"
+
+[node name="Panel" type="Panel" parent="SettingsContainer" unique_id=483220779]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="SettingsContainer/Panel" unique_id=1443211456]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Title" type="Label" parent="SettingsContainer/Panel/MarginContainer" unique_id=727516778]
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_font_sizes/font_size = 64
+text = "Paramètres"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="SettingsContainer/Panel/MarginContainer" unique_id=915308714]
+layout_mode = 2
+theme_override_constants/separation = 14
+alignment = 1
+
+[node name="Global" type="Label" parent="SettingsContainer/Panel/MarginContainer/VBoxContainer" unique_id=2024725107]
+layout_mode = 2
+text = "Volume: Global"
+
+[node name="GlobalSlider" type="HSlider" parent="SettingsContainer/Panel/MarginContainer/VBoxContainer" unique_id=499932520]
+layout_mode = 2
+max_value = 1.0
+step = 0.01
+value = 1.0
+
+[node name="Music" type="Label" parent="SettingsContainer/Panel/MarginContainer/VBoxContainer" unique_id=284158123]
+layout_mode = 2
+text = "Volume: Musique"
+
+[node name="MusicSlider" type="HSlider" parent="SettingsContainer/Panel/MarginContainer/VBoxContainer" unique_id=355755941]
+layout_mode = 2
+max_value = 1.0
+step = 0.01
+value = 1.0
+
+[node name="Effects" type="Label" parent="SettingsContainer/Panel/MarginContainer/VBoxContainer" unique_id=844471083]
+layout_mode = 2
+text = "Volume: Effets"
+
+[node name="EffectsSlider" type="HSlider" parent="SettingsContainer/Panel/MarginContainer/VBoxContainer" unique_id=258993802]
+layout_mode = 2
+max_value = 1.0
+step = 0.01
+value = 1.0
+
+[node name="CloseButton" type="Button" parent="SettingsContainer/Panel/MarginContainer" unique_id=1361718930]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+text = "Fermer"
+
+[connection signal="value_changed" from="SettingsContainer/Panel/MarginContainer/VBoxContainer/GlobalSlider" to="." method="_on_global_slider_value_changed"]
+[connection signal="value_changed" from="SettingsContainer/Panel/MarginContainer/VBoxContainer/MusicSlider" to="." method="_on_music_slider_value_changed"]
+[connection signal="value_changed" from="SettingsContainer/Panel/MarginContainer/VBoxContainer/EffectsSlider" to="." method="_on_effects_slider_value_changed"]
+[connection signal="pressed" from="SettingsContainer/Panel/MarginContainer/CloseButton" to="." method="_on_close_button_pressed"]
