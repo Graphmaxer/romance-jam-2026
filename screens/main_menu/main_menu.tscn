@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://bifowl8eevw26"]
 
-[ext_resource type="Texture2D" uid="uid://qhlhxnxox7hy" path="res://assets/gui/main_menu_background.png" id="2_ay84d"]
 [ext_resource type="Script" uid="uid://sgo5eg1u36cl" path="res://screens/main_menu/main_menu.gd" id="2_kud6f"]
 [ext_resource type="AudioStream" uid="uid://d2xn40sm3awml" path="res://assets/audio/Pieces/ogg/Relax.ogg" id="2_ux20d"]
-[ext_resource type="Texture2D" uid="uid://esblajuukx0x" path="res://assets/gui/main_menu_midground.png" id="3_ux20d"]
-[ext_resource type="Texture2D" uid="uid://cg2w8og70nrtx" path="res://assets/gui/main_menu_foreground.png" id="4_tldqp"]
+[ext_resource type="Texture2D" uid="uid://c5h0xjdug5apr" path="res://assets/backgrounds/menu/fond.jpg" id="3_tldqp"]
+[ext_resource type="Texture2D" uid="uid://dk4ep7cwxlsii" path="res://assets/backgrounds/menu/menu_mid.png" id="4_ux20d"]
+[ext_resource type="Texture2D" uid="uid://coxhtnk64akvj" path="res://assets/backgrounds/menu/menu_foreground.png" id="5_ux20d"]
 
 [sub_resource type="Animation" id="Animation_ay84d"]
 resource_name = "main_menu_beach"
@@ -20,7 +20,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0, 2.5, 7),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
-"values": [Vector2(0, 390), Vector2(0, 90), Vector2(0, 390)]
+"values": [Vector2(-500, 0), Vector2(-20, 0), Vector2(-500, 0)]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -65,11 +65,11 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_ay84d")
+texture = ExtResource("3_tldqp")
 expand_mode = 5
 
 [node name="Midground" type="TextureRect" parent="." unique_id=146860270]
-self_modulate = Color(1, 1, 1, 0.9743688)
+self_modulate = Color(1, 1, 1, 0)
 layout_mode = 1
 anchors_preset = 12
 anchor_top = 1.0
@@ -79,22 +79,20 @@ offset_top = -382.8
 grow_horizontal = 2
 grow_vertical = 0
 offset_transform_enabled = true
-offset_transform_position = Vector2(0, 124)
-texture = ExtResource("3_ux20d")
+offset_transform_position = Vector2(-10, 0)
+texture = ExtResource("4_ux20d")
 expand_mode = 5
 
 [node name="Foreground" type="TextureRect" parent="." unique_id=1739691616]
 layout_mode = 1
-anchors_preset = 12
-anchor_top = 1.0
+anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_top = -715.8
 grow_horizontal = 2
-grow_vertical = 0
+grow_vertical = 2
 offset_transform_enabled = true
-offset_transform_position = Vector2(0, 78.95896)
-texture = ExtResource("4_tldqp")
+offset_transform_position = Vector2(-500, 0)
+texture = ExtResource("5_ux20d")
 expand_mode = 5
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1394489636]
@@ -104,22 +102,24 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -168.5
-offset_top = -131.5
-offset_right = 168.5
-offset_bottom = 131.5
+offset_left = -197.0
+offset_top = -150.0
+offset_right = 197.0
+offset_bottom = 150.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 32
 
 [node name="Label" type="Label" parent="VBoxContainer" unique_id=1895439000]
 layout_mode = 2
-theme_override_colors/font_color = Color(0.18000486, 0.18000486, 0.18000486, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_shadow_color = Color(1, 1, 1, 0.5)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/shadow_offset_x = 2
 theme_override_constants/shadow_offset_y = 1
+theme_override_constants/outline_size = 1
 theme_override_font_sizes/font_size = 64
-text = "Romance Jam 2026"
+text = "Romance sur l'Ile Mystique"
 horizontal_alignment = 1
 vertical_alignment = 1
 

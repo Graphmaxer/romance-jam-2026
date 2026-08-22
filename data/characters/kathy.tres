@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://6krhtnj02fl4" path="res://assets/characters/female/Female_Neutral.png" id="1_kkc2d"]
 [ext_resource type="Script" uid="uid://cddw0vxnb1jna" path="res://data/characters/character.gd" id="2_5w1ni"]
 [ext_resource type="Texture2D" uid="uid://7noko8w7fs68" path="res://assets/characters/animals/Cat/cat smile.png" id="3_5w1ni"]
+[ext_resource type="Texture2D" uid="uid://dki3scnhhjxje" path="res://assets/characters/kathy/kathy_neutral.png" id="3_qif8i"]
 
 [resource]
 script = ExtResource("2_5w1ni")
@@ -15,7 +16,7 @@ Vient d’une famille aisée
 Toujours de bonne humeur mais a un petit côté espiègle"
 variants = Dictionary[String, Texture2D]({
 "chat": ExtResource("3_5w1ni"),
-"default": ExtResource("1_kkc2d"),
+"default": ExtResource("3_qif8i"),
 "neutre": ExtResource("1_kkc2d")
 })
 is_love_interest = true

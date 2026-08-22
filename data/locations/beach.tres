@@ -1,19 +1,19 @@
 [gd_resource type="Resource" script_class="Location" format=3 uid="uid://b10we4ih7e2hh"]
 
-[ext_resource type="Texture2D" uid="uid://dob3cbpuj04ys" path="res://assets/backgrounds/beach/beach_daytime.jpg" id="1_8h7bg"]
+[ext_resource type="Texture2D" uid="uid://djvepingwoq6j" path="res://assets/backgrounds/beach/beach_jour.jpg" id="1_gdsn4"]
 [ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="1_p4emc"]
-[ext_resource type="Texture2D" uid="uid://b6cu5q3b5b68" path="res://assets/backgrounds/beach/beach_evening.jpg" id="2_1rh0e"]
-[ext_resource type="Texture2D" uid="uid://cn6a4ckrbvqld" path="res://assets/backgrounds/beach/beach_night.jpg" id="3_j8ffp"]
+[ext_resource type="Texture2D" uid="uid://dyhwk8ucu2b6r" path="res://assets/backgrounds/beach/beach_nuit.jpg" id="2_twfc2"]
+[ext_resource type="Texture2D" uid="uid://co7ypudngm3u4" path="res://assets/backgrounds/beach/beach_fall.jpg" id="3_bf48u"]
 [ext_resource type="AudioStream" uid="uid://b3npk8prnxk1s" path="res://assets/audio/calm/the-sun-awoke.ogg" id="4_gdsn4"]
 
 [resource]
 script = ExtResource("1_p4emc")
 aliases = Array[String](["Guinguette près de la plage", "Plage"])
 backgrounds = Dictionary[String, Texture2D]({
-"default": ExtResource("1_8h7bg"),
-"jour": ExtResource("1_8h7bg"),
-"nuit": ExtResource("3_j8ffp"),
-"soir": ExtResource("2_1rh0e")
+"default": ExtResource("1_gdsn4"),
+"jour": ExtResource("1_gdsn4"),
+"nuit": ExtResource("2_twfc2"),
+"soir": ExtResource("3_bf48u")
 })
 music = ExtResource("4_gdsn4")
 metadata/_custom_type_script = "uid://djshq1md8tej7"

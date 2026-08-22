@@ -1,8 +1,7 @@
 [gd_resource type="Resource" script_class="Location" format=3 uid="uid://cox18yc44pfp4"]
 
-[ext_resource type="Texture2D" uid="uid://40fivuqkrkk7" path="res://assets/backgrounds/single_room/single_room_daytime.jpg" id="1_slyfw"]
-[ext_resource type="Texture2D" uid="uid://cdunkxemhouft" path="res://assets/backgrounds/single_room/single_room_evening.jpg" id="2_otia8"]
-[ext_resource type="Texture2D" uid="uid://wvvwpv8id37h" path="res://assets/backgrounds/single_room/single_room_night_light_off.jpg" id="3_88r3d"]
+[ext_resource type="Texture2D" uid="uid://btd1c3hwnvhit" path="res://assets/backgrounds/living_room/chambre_prota.jpg" id="1_g426y"]
+[ext_resource type="Texture2D" uid="uid://ikj6ftkxxaml" path="res://assets/backgrounds/living_room/chambre_prota_nuit.jpg" id="2_pn0x8"]
 [ext_resource type="AudioStream" uid="uid://cm6i3q014il0" path="res://assets/audio/lofi-chill/star-reaction.ogg" id="4_pn0x8"]
 [ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="4_u6v3m"]
 
@@ -10,10 +9,9 @@
 script = ExtResource("4_u6v3m")
 aliases = Array[String](["Appartement", "Chambre du personnage"])
 backgrounds = Dictionary[String, Texture2D]({
-"default": ExtResource("1_slyfw"),
-"jour": ExtResource("1_slyfw"),
-"nuit": ExtResource("3_88r3d"),
-"soir": ExtResource("2_otia8")
+"default": ExtResource("1_g426y"),
+"jour": ExtResource("1_g426y"),
+"nuit": ExtResource("2_pn0x8")
 })
 music = ExtResource("4_pn0x8")
 metadata/_custom_type_script = "uid://djshq1md8tej7"
