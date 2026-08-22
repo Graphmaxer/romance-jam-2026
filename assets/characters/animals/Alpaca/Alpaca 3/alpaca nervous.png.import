@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/alpaca nervous.png-b8c89212173e7366871e090f0e
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

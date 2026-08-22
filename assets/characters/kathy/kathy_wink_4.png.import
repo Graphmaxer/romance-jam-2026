@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/kathy_wink_4.png-0c439e9df1aa58671e0e2cd6b9d0
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

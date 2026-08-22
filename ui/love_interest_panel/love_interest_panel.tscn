@@ -56,6 +56,7 @@ layout_mode = 2
 size_flags_horizontal = 4
 text = "26 ans
 Anniversaire le 10 février"
+horizontal_alignment = 1
 
 [node name="DescriptionLabel" type="Label" parent="Panel/PanelMargin/VBox" unique_id=1336418959]
 unique_name_in_owner = true
@@ -63,7 +64,7 @@ custom_minimum_size = Vector2(100, 0)
 custom_maximum_size = Vector2(400, -1)
 layout_mode = 2
 size_flags_horizontal = 4
-theme_override_font_sizes/font_size = 12
+theme_override_font_sizes/font_size = 16
 text = "Ami d’enfance
 Travaille à la guinguette près de la plage qui n’est ouverte qu'en été
 Tempérament calme et discret mais il ne se laisse pas marcher dessus pour autant"

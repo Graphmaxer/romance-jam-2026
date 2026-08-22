@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/Male_Evil.png-59e9deafe1a987a26a8d86b8fadeb7d
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

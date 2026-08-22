@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/kathy_malicieux.png-10816e09a9022b248829c7eea
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

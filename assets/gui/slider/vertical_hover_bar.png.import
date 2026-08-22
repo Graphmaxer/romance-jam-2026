@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/vertical_hover_bar.png-170cbe2c7287515e17cde2
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

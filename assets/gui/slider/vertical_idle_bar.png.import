@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/vertical_idle_bar.png-560fe40099c1e44c15e5340
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

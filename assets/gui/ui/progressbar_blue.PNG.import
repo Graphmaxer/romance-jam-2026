@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/progressbar_blue.PNG-d7a448ac9f91e89ab9830a25
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

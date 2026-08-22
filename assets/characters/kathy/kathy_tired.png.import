@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/kathy_tired.png-03c7f96a70b1efca7f69e4a3da64e
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

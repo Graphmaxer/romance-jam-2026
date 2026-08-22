@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/btn_pref_hover.png-8a4a269d18d98bc06fec76149b
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

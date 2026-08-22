@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/horizontal_hover_thumb.png-2cb3a3a7e5869510b7
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

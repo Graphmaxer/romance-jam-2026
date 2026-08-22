@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/Royal Heart.png-074a8c1c2fdd96e049b7c4bb3fedc
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/unicorn smile.png-3a7889921d7c6e62803f3286c14
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

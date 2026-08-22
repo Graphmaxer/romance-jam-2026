@@ -171,40 +171,6 @@ Maël: Vas-y.
 
 Nous nous embrassons puis nous échangeons un sourire complice. 
 
-if reputations['Maël'] >= 50
-
-	J’ai passé tout l’été aux côtés de Maël. Nous avons eu beaucoup de rencard, que ce soit au centre ville, à la plage et même des séances de spa à l’hôtel. 
-	Le temps est passé si vite qu’il est déjà temps de partir. 
-
-	$> start_transition("Fin des vacances")
-	$> set_location("Quai ile")
-	$> add_character("Maël")
-	$> end_transition()
-	
-
-	Maël: N’oublie pas de m'appeler dès que tu es arrivée. 
-
-	{{pseudo}}: Mais oui, ne t’inquiète pas. 
-
-	Maël: Au fait, j’ai une bonne nouvelle à t’annoncer? 
-
-	{{pseudo}}: Laquelle? 
-
-	Maël: Mes parents envisagent d’ouvrir des restaurants en dehors de l'île donc il y a des chances que l’on se croise plus tôt que tu le penses. 
-
-	{{pseudo}}: Vraiment? C’est super ! 
-
-	Je lui fais un câlin qu’il me rend. 
-
-	Maël: Tu sais que je n’ai pas besoin d’excuse pour te voir, j’ai cumulé pas mal de congés donc si je te manque trop, n’hésite pas à me le dire. 
-
-	{{pseudo}}: Compte sur moi ! 
-
-	Nous nous embrassons puis je monte sur le bâteau. 
-
-	# Normal end
-	=> END
-
 #Si affection = 100
 if reputations['Maël'] == 100
 
@@ -241,3 +207,39 @@ if reputations['Maël'] == 100
 
 	#Perfect end
 	=> END
+
+
+if reputations['Maël'] >= 50
+
+	J’ai passé tout l’été aux côtés de Maël. Nous avons eu beaucoup de rencard, que ce soit au centre ville, à la plage et même des séances de spa à l’hôtel. 
+	Le temps est passé si vite qu’il est déjà temps de partir. 
+
+	$> start_transition("Fin des vacances")
+	$> set_location("Quai ile")
+	$> add_character("Maël")
+	$> end_transition()
+	
+
+	Maël: N’oublie pas de m'appeler dès que tu es arrivée. 
+
+	{{pseudo}}: Mais oui, ne t’inquiète pas. 
+
+	Maël: Au fait, j’ai une bonne nouvelle à t’annoncer? 
+
+	{{pseudo}}: Laquelle? 
+
+	Maël: Mes parents envisagent d’ouvrir des restaurants en dehors de l'île donc il y a des chances que l’on se croise plus tôt que tu le penses. 
+
+	{{pseudo}}: Vraiment? C’est super ! 
+
+	Je lui fais un câlin qu’il me rend. 
+
+	Maël: Tu sais que je n’ai pas besoin d’excuse pour te voir, j’ai cumulé pas mal de congés donc si je te manque trop, n’hésite pas à me le dire. 
+
+	{{pseudo}}: Compte sur moi ! 
+
+	Nous nous embrassons puis je monte sur le bâteau. 
+
+	# Normal end
+	=> END
+

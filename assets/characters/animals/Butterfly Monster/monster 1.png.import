@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/monster 1.png-086d700dd7c9180233bb9e8b7005987
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

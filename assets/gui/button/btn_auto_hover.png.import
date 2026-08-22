@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/btn_auto_hover.png-9f5732c1dfc6bc8449b6f7d72a
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0
