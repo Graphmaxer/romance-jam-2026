@@ -1,11 +1,243 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
-=> END
+$> set_location("Chambre du personnage")
+
+Je crois que j’ai beaucoup trop dormi. On est déjà l’après-midi. 
+Je pense que je vais rester à l'hôtel et aller au spa aujourd’hui. Je voudrais essayer de penser à autre chose aujourd’hui. 
+
+$> show_transition("Le lendemain matin")
+$> set_location("Chambre du personnage")
+
+Je me suis réveillée en étant en pleine forme. 
+J’entends mon téléphone vibrer. 
+
+Maël: “Bonjour {{pseudo}}, j’ai pris ma journée aujourd’hui. Je peux passer te voir dans 30 min?”
+
+Tiens, c’est bizarre. Ce n’est pas le genre de Maël de prendre des congés comme ça. Lui qui est tellement sérieux. Ça m’intrigue. 
+
+{{pseudo}}: “D’accord, je t’attendrai devant l’hôtel”
+
+Je me prépare. Je me demande de quoi il veut me parler. 
+Peut-être qu’il s’est remis avec Irène et il veut m’en parler. 
+Je sors et l’attends. 
+
+$> set_location("Parking de l’hôtel")
+$> add_character("Maël")
+
+{{pseudo}}: Salut Maël. Comment vas-tu? 
+
+Maël: Un peu fatiguée mais sinon ça va. Et toi? 
+
+{{pseudo}}: J’ai passé l’après-midi au spa hier à l’hôtel donc je suis en pleine forme. 
+
+Maël: Super. Un tour sur la plage, ça te tente? 
+
+{{pseudo}}: Pourquoi pas. 
+
+$> set_location("Rue donnant vue sur la plage")
+$> add_character("Maël")
+
+On a commencé à marcher le long de la plage. 
+
+{{pseudo}}: Tu voulais me voir pour discuter de quelque chose en particulier? 
+
+Maël: C’est surtout que ça me faisait bizarre de ne pas te voir hier. Tu venais presque tous les jours donc je voulais m’assurer que tu allais bien. 
+
+Mes joues rougissent un peu, je détourne un peu le visage pour ne pas qu’il le remarque. 
+
+{{pseudo}}: Je vais bien comme tu peux le voir. 
+
+Maël: Je vois ça, c’est rassurant. Surtout qu’il y a deux jours tu n’avais pas l’air dans ton assiette. 
+
+{{pseudo}}: Je sais…. 
+
+Maël: Tu veux en parler? 
+
+{{pseudo}}: Peut-être après. D’abord je voudrais te poser une question. 
+
+Maël: Laquelle? 
+
+{{pseudo}}: Est-ce que Irène…
+
+Les mots restent un peu coincés dans ma gorge. 
+
+Maël: Ah. Oui, elle m’a fait part de ses sentiments. 
+
+{{pseudo}}: Et tu lui a répondu? 
+
+Maël: Je l’ai toujours vu comme une amie donc j’ai refusé, et puis ce serait bizarre après au travail. 
+
+Je soupire de soulagement. 
+
+Maël: C’était quoi ce soupire? 
+
+{{pseudo}}: Euh… Rien du tout. 
+
+Je détourne le regard. 
+
+Maël: La vérité c’était que je voulais te voir pour autre chose. 
+
+Je me tourne vers lui. 
+
+{{pseudo}}: Quoi donc? 
+
+Maël: Tant tes mains et ferme les yeux. 
+
+Je m'exécute. Je sens un sachet avec quelque chose dedans. 
+
+Maël: Tu peux ouvrir les yeux. 
+
+Je les ouvre et voit un sachet rempli de cookies. 
+
+{{pseudo}}: Des cookies? 
+
+Maël: Oui, j’ai appris à les faire. Hier j’ai enfin réussi donc je voulais te les apporter le plus tôt possible. 
+
+{{pseudo}}: Mais pourquoi? 
+
+Maël: Parce que je voulais te remonter le moral et je sais que tu adores les cookies. Cependant ça m’a pris plus de temps que prévu. 
+Maël: A la base c’était pour te remonter le moral sur ta rupture mais plus le temps passait et plus je voyais que tu n’en avais plus besoin pour cette raison. 
+Maël: Mais j’ai continué pour te faire plaisir. Et puis comme tu avais l’air patraque, je me suis dit que ça te ferait plaisir. 
+
+{{pseudo}}: C’est à cause de ça que tu restait avec Irène tard le soir? 
+
+Maël: Oui. Je suis très doué pour les plats salés mais tout ce qui est sucré, j’ai du mal. 
+
+J’en mange un. C’est délicieux. Une larme coule le long de ma joue. 
+Maël panique un peu.
+
+Maël: C’est pas bon? Je pensais que ceux-là étaient réussis. 
+
+{{pseudo}}: Si, c’est très bon. C’est juste que je me suis imaginée des films entre toi et Irène. 
+{{pseudo}}: Mais en fait tu les as fait pour moi et ça me fait vraiment plaisir.
+{{pseudo}}: C’est justement ce qui fait que je t’aime vraiment beaucoup. 
+
+Maël: Beaucoup comme un ami? 
+
+Je secoue la tête pour lui indiquer que non. 
+
+#Si affection < 50
+if reputations['Maël'] < 50
+
+	Maël n’a pas l’air de savoir quoi dire. Il me caresse la tête mais est très gêné. 
+	
+	Maël: Tes sentiments me font très plaisir mais… Je n’envisage pas notre relation sous cet angle. Tu es très importante pour moi, on se connait depuis des années. 
+
+	Je m’en doutais qu’il me dirait ce genre de chose. C’est pour cela que je ne lui avait rien dit des années auparavant. 
+	Je n'aurais peut-être dû rien lui dire mais sa gentillesse m’a faites craquer. 
+
+	Maël: Je suis désolée {{pseudo}}. 
+
+	{{pseudo}}: C’est pas grave. Merci de m’avoir écoutée. 
+
+	$> set_location("Chambre du personnage")
+
+	Je n’ai pas pu m'empêcher d’éviter un peu Maël, il me contactait de temps en temps pour s'assurer que j’allais bien mais le fait qu’il soit aussi attentionnée me faisait un peu mal.  
+	Il me restait une semaine avant de partir de cette île. Je décide de voir Maël avant de partir et il était comme d’habitude mais je n'étais pas encore prête à tourner la page. Ce sera sûrement plus facile l’an prochain. 
+
+# Bad end
+	=> END
+
+# Communs au 2 autres fins
+
+Maël: Moi aussi. 
+
+Je le regarde et vois qu’il rougit un peu au niveau des oreilles. 
+
+{{pseudo}}: C’est vrai? 
+
+Maël: Oui, pourquoi je te mentirai? 
+
+Je lui saute dans les bras et lui fait un câlin. 
+
+{{pseudo}}: Je pensais que tu allais me rejeter parce que tu me considérais comme une petite soeur. 
+
+Maël: C’était le cas quand on était enfant mais ça fait un moment que je ne te vois plus comme ça. 
+
+Je me détache de lui.
+
+{{pseudo}}: Comment ça? 
+
+Maël: A l’adolescence je commençais à te voir un peu différemment. 
+
+Je suis un peu surprise. 
+
+{{pseudo}}: C’est pareil pour moi mais vu qu’après on a été en couple chacun de notre côté, j’essayais de ne pas trop y penser. 
+
+Je m’approche de lui pour l’embrasser puis je m’arrête juste avant. 
+
+{{pseudo}}: Je peux? 
+
+Maël: Vas-y. 
+
+Nous nous embrassons puis nous échangeons un sourire complice. 
+
+if reputations['Maël'] >= 50
+
+	J’ai passé tout l’été aux côtés de Maël. Nous avons eu beaucoup de rencard, que ce soit au centre ville, à la plage et même des séances de spa à l’hôtel. 
+	Le temps est passé si vite qu’il est déjà temps de partir. 
+
+	$> start_transition("Fin des vacances")
+	$> set_location("Quai ile")
+	$> add_character("Maël")
+	$> end_transition()
+	
+
+	Maël: N’oublie pas de m'appeler dès que tu es arrivée. 
+
+	{{pseudo}}: Mais oui, ne t’inquiète pas. 
+
+	Maël: Au fait, j’ai une bonne nouvelle à t’annoncer? 
+
+	{{pseudo}}: Laquelle? 
+
+	Maël: Mes parents envisagent d’ouvrir des restaurants en dehors de l'île donc il y a des chances que l’on se croise plus tôt que tu le penses. 
+
+	{{pseudo}}: Vraiment? C’est super ! 
+
+	Je lui fais un câlin qu’il me rend. 
+
+	Maël: Tu sais que je n’ai pas besoin d’excuse pour te voir, j’ai cumulé pas mal de congés donc si je te manque trop, n’hésite pas à me le dire. 
+
+	{{pseudo}}: Compte sur moi ! 
+
+	Nous nous embrassons puis je monte sur le bâteau. 
+
+	# Normal end
+	=> END
+
+#Si affection = 100
+if reputations['Maël'] == 100
+
+	Nous avons passé tout l’été ensemble. Je suis tellement triste que mon séjour se termine demain. Après Maël a dit qu’il avait une surprise pour moi demain. J’ai vraiment hâte. 
+
+	$> start_transition("Fin des vacances")
+	$> set_location("Quai ile")
+	$> add_character("Maël")
+	$> end_transition()
+
+
+	C’est quoi ces valises Maël? 
+
+	Maël: Je viens avec toi. 
+
+	{{pseudo}}: Comment ça? 
+
+	Maël: J’ai réussi à convaincre mes parents d’ouvrir des restaurants en dehors de l’île, donc j’y vais pour me renseigner et voir ce qu’il en est. 
+	Maël: Ça ne te fait pas plaisir? 
+
+	{{pseudo}}: Si ! Je suis tellement heureuse qu’on reste ensemble! 
+
+	Je lui saute dans les bras et il me caresse la tête en me faisant un baiser sur le front. 
+
+	Maël: Je m’en doutais que ça te ferait plaisir, ces derniers jours tu faisais une mine toute triste à chaque fois qu’on se rapprochait de la date de ton départ. 
+
+	{{pseudo}}: Oui ! Mais la prochaine fois, dis-moi les bonnes nouvelles dès que possible. 
+
+	Maël: Je n’ai vraiment eu leur autorisation qu’hier donc je ne voulais pas te faire de faux espoirs. 
+
+	{{pseudo}}: D’accord, je comprends mieux. Merci Maël. 
+
+	Nous embarquons ensemble sur le bâteau. J’ai tellement hâte que notre vie ensemble commence. 
+
+	#Perfect end
+	=> END

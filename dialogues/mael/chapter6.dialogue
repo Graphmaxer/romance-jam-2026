@@ -1,11 +1,129 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+$> set_location("Guinguette près de la plage")
+
+Un mot d’Irène me demandant de l’attendre pour lui parler? C’est très étrange.
+De quoi veut-elle me parler? 
+Je commence à me ronger un peu les ongles puis je prends une bouchée du gâteau. 
+Si seulement il était mauvais, je pourrais lui en vouloir. Mais c' est délicieux. 
+
+$> set_location("Guinguette près de la plage", "soir")
+$> add_character("Maël")
+
+Maël: {{pseudo}} ? Mais qu’est-ce que tu fais encore là? 
+Maël: Tu m’attendais? 
+
+{{pseudo}}: Ah non, j’attends quelqu'un d’autre. 
+
+Maël: Tu veux que j’attende avec toi? 
+
+{{pseudo}}: Non, ça ira. Je te souhaite une bonne soirée. 
+
+Maël: Merci, à toi aussi. 
+
+Il me caresse la tête puis s’en va. Il avait l’air de vouloir me poser la question mais il a dû voir à ma tête que je n’avais pas envie d’en parler. 
+
+$> remove_character("Maël")
+
+Elle en met du temps. De quoi veut-elle me parler? 
+
+Irène: Hey  ! On y va? J’ai fini de me changer. 
+
+Je sursaute de surprise et je hoche la tête. 
+
+Oui, on peut y aller. 
+
+$> set_location("Rue donnant vue sur la plage" , "soir")
+
+Cela fait plusieurs minutes qu’on marche et elle n’a toujours pas parlé. 
+Je vois bien qu’elle n’est pas méchante, bien au contraire, elle fait en sorte que je sois à l’aise mais c’est justement ça qui me met mal à l’aise. 
+
+Irène: {{pseudo}}, si je voulais te voir ce soir, c’était pour te parler de Maël. Mais je suis sûre que tu t’en doutais. 
+
+{{pseudo}}: Oui, c’est ce que je me disais. 
+
+Irène: Je suppose qu’il t’a dit qu’on était sorti ensemble. 
+
+{{pseudo}}: Effectivement. Il a aussi dit que ça n’avait pas duré longtemps entre vous. 
+
+Irène: Il t’a dit ça? C’est vrai, ça n’a duré que quelques jours. On s’est rendu compte qu’on avait une relation plus amicale plutôt que romantique. 
+
+{{pseudo}}: C’est plus au moins ce que j’avais compris. 
+
+Irène: Mais ces derniers temps on a passé pas mal de temps ensemble et je me suis dit que j’allais à nouveau retenter le coup avec lui. 
+
+Attends… Elle a dit quoi!? Je suis tellement surprise que je n’ose pas dire un mot. 
+
+{{pseudo}}: Et, pourquoi tu m’en parles? 
+
+Irène: Parce que je veux la jouer franc jeu avec toi. Je n’allais pas te cacher mes intentions alors que j’ai clairement vu que tu avais des sentiments pour lui. 
+
+Mon visage s’empourpre, je n’arrive pas à la contredire. 
+
+{{pseudo}}: Mais il ne me voit sûrement que comme une amie d’enfance. Ce n’était pas la peine de m’en parler…
+
+Irène: Je ne crois pas, sinon je ne te l’aurais rien dit. Tu es plus importante à ses yeux que ce que tu crois. Il faut avoir confiance en toi. 
+
+Elle m’encourage sincèrement en me prenant les deux mains. C’est assez perturbant de la part d’une femme qui me considère comme sa rivale en amour. 
+C’est très gênant. 
+
+{{pseudo}}: Euh… Merci? Je suppose…
+
+Irène: De rien, c’est sincère. 
+Irène: J’aurai un service à te demander…
+
+{{pseudo}}: Lequel? 
+
+Irène: J’aimerai pouvoir lui avouer mes sentiments avant que tu ne le fasse. Je t’en prie. C’est important pour moi. 
+
+C’est dur de résister à son regard suppliant. En plus elle est tellement gentille. 
+Et puis, c’est les sentiments de Maël qui importe. Qu’est-ce qui me garantit qu’il n’a pas de sentiments pour elle? Ils ont passé du temps ensemble ces derniers temps. 
+Je m’en voudrai de l’empêcher d’être heureux à cause de moi. 
+
+{{pseudo}}: D’accord…
+
+Irène: Merci . Je te revaudrai ça. Je te laisserai manger tous les gâteaux que tu veux. 
+
+{{pseudo}}: Mais si je fais ça, ça ne te causera pas de problème à la guinguette? 
+
+Irène: Bien sûr que non, je te les offrirai de bon cœur en les payant pour toi. 
+{{pseudo}}: C’est trop gentil. 
+
+Irène: Merci pour cette discussion. On se revoit à la guinguette alors. 
+
+{{pseudo}}: Attends, tu ne m'as pas dit quand tu allais lui dire. 
+
+Irène: Demain soir. Tu n'auras pas à attendre trop longtemps. 
+Irène: Sinon ce serait malhonnête de ma part. 
+Irène: Bonne soirée. 
+
+{{pseudo}}: Bonne soirée…
+
+Elle part en souriant. Cette femme est quand même très étrange….
+
+$> set_location("Chambre du personnage", "soir")
+
+Je me demande comment Maël va répondre à la déclaration d’Irène. 
+Je suis fatiguée, ça fait quelques jours que j’ai du mal à dormir ces derniers jours. Et j’ai mal à la tête. 
+Il faut vraiment que je dorme. 
+
+J’entends mon téléphone vibrer, je regarde et vois que Maël m’a envoyé un message. 
+
+Maël: “{{pseudo}}, est-ce que tu es bien rentrée? J’espère que tu vas bien, tu avais l’air d’être perdu dans tes pensées aujourd’hui en plus d’être fatiguée”
+
+- Ne pas lui répondre, je suis trop fatiguée
+	$> lose_reputation("Maël", 5)
+	J’étais trop fatiguée pour lui répondre. Je lui répondrai plus tard.
+- Lui dire la véritée
+	$> gain_reputation("Maël", 20)
+	{{pseudo}}: “Je suis bien rentrée. Je me sens très fatiguée, je crois que demain je vais rester dans ma chambre me reposer, on se voit à la guinguette après-demain”
+	Maël: “D’accord, repose-toi bien. Bonne nuit”
+	{{pseudo}}: “Bonne nuit”
+- Lui mentir
+	$> lose_reputation("Maël", 20)
+	{{pseudo}}: “Je suis bien arrivée. Je vais très bien, ne t’inquiète pas, c’était sûrement ton imagination.”
+	Maël: “Je ne demande qu'à te croire {{pseudo}}… Dans tous les cas, je te souhaite une bonne nuit.“
+	{{pseudo}}: “Bonne nuit”
+
+J’ai posé mon téléphone sur mon bureau et me suis endormis. 
+
 => END
