@@ -20,6 +20,9 @@ func _ready() -> void:
 			_start_discussion(route.get_chapter(GameState.chapter_number))
 		else:
 			_start_discussion(route.ending)
+	elif GameState.skip_prologue:
+		GameState.skip_prologue = false
+		_display_love_interest_selection()
 	else:
 		_start_discussion(prologue)
 
@@ -43,6 +46,20 @@ func _get_chapter_transition_text() -> String:
 	return "%s: Chapitre %d" % [GameState.love_interest, GameState.chapter_number]
 
 
+func _display_love_interest_selection() -> void:
+	var love_interest_selection: Control = love_interest_selection_scene.instantiate()
+	love_interest_selection.modulate.a = 0
+	love_interest_selection.chosen.connect(_on_love_interest_selection_chosen)
+	add_child(love_interest_selection)
+
+	love_interest_selection_tween = TweenUtils.setup_tween(
+		self,
+		love_interest_selection_tween,
+		Tween.TRANS_SINE,
+	)
+	love_interest_selection_tween.tween_property(love_interest_selection, "modulate:a", 1, 1.0)
+
+
 func _on_discussion_ended(dialogue_ended: DialogueResource) -> void:
 	var route: Route = _get_route(GameState.love_interest)
 	if dialogue_ended == prologue:
@@ -50,17 +67,7 @@ func _on_discussion_ended(dialogue_ended: DialogueResource) -> void:
 			GameState.bad_prologue_ending = false
 			get_tree().change_scene_to_file("res://main.tscn")
 			return
-		var love_interest_selection: Control = love_interest_selection_scene.instantiate()
-		love_interest_selection.modulate.a = 0
-		love_interest_selection.chosen.connect(_on_love_interest_selection_chosen)
-		add_child(love_interest_selection)
-
-		love_interest_selection_tween = TweenUtils.setup_tween(
-			self,
-			love_interest_selection_tween,
-			Tween.TRANS_SINE,
-		)
-		love_interest_selection_tween.tween_property(love_interest_selection, "modulate:a", 1, 1.0)
+		_display_love_interest_selection()
 	elif GameState.chapter_number > 0 and GameState.chapter_number <= route.chapters.size():
 		if route.is_last_chapter(GameState.chapter_number):
 			GameState.chapter_number = 0
@@ -91,3 +98,7 @@ func _on_love_interest_selection_chosen(firstname: String) -> void:
 
 func _on_settings_button_pressed() -> void:
 	settings_menu.open()
+
+
+func _on_home_button_pressed() -> void:
+	get_tree().change_scene_to_file("res://main.tscn")

@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/rendezvous.ogg-6d3304caf0a123fea8b23575585c18
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

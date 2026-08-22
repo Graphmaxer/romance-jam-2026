@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/unbound-space.ogg-ecbe29326f8d94f07a51dcfb967
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

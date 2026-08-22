@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/Relax.ogg-34ca0ccce3bbcaff5cf24e6a5c165d24.og
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

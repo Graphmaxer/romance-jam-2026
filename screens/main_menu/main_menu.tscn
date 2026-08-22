@@ -52,7 +52,7 @@ script = ExtResource("2_kud6f")
 
 [node name="SettingsMenu" parent="." unique_id=591048604 instance=ExtResource("2_tldqp")]
 unique_name_in_owner = true
-layout_mode = 1
+visible = false
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=941780252]
 stream = ExtResource("2_ux20d")
@@ -139,6 +139,11 @@ layout_mode = 2
 placeholder_text = "Pseudo"
 alignment = 1
 
+[node name="PrologueButton" type="CheckButton" parent="VBoxContainer/VBoxContainer" unique_id=1655879912]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Sans Prologue"
+
 [node name="NewGameButton" type="Button" parent="VBoxContainer/VBoxContainer" unique_id=1111990290]
 unique_name_in_owner = true
 layout_mode = 2
@@ -162,6 +167,7 @@ text = "Quitter"
 
 [connection signal="text_changed" from="VBoxContainer/VBoxContainer/PseudoInput" to="." method="_on_pseudo_input_text_changed"]
 [connection signal="text_submitted" from="VBoxContainer/VBoxContainer/PseudoInput" to="." method="_on_pseudo_input_text_submitted"]
+[connection signal="toggled" from="VBoxContainer/VBoxContainer/PrologueButton" to="." method="_on_prologue_button_toggled"]
 [connection signal="pressed" from="VBoxContainer/VBoxContainer/NewGameButton" to="." method="_on_new_game_button_pressed"]
 [connection signal="pressed" from="VBoxContainer/VBoxContainer/ContinueButton" to="." method="_on_continue_button_pressed"]
 [connection signal="pressed" from="VBoxContainer/VBoxContainer/SettingsButton" to="." method="_on_settings_button_pressed"]

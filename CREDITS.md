@@ -31,6 +31,7 @@
 - Music (https://fulminisictus.itch.io/visual-novel-audio-pack)
 - BGM (https://arkeiamusic.itch.io/free-music-pack-14-lo-fi-chill)
 - BGM (https://arkeiamusic.itch.io/free-music-pack-15-calm)
+- BGM (https://honored-season.itch.io/a-smoothie-at-the-beach-bar)
 
 ## Tools
 

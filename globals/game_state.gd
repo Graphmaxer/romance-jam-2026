@@ -5,6 +5,7 @@ var reputations: Dictionary[String, int]
 var chapter_number: int
 var love_interest: String
 var save_datetime: String
+var skip_prologue: bool = false
 var bad_prologue_ending: bool = false
 
 
@@ -36,11 +37,12 @@ func get_save_preview() -> String:
 	var json_dict: Dictionary = _parse_save()
 	if json_dict and json_dict.has('chapter_number'):
 		var saved_chapter_number: int = json_dict['chapter_number']
-		if saved_chapter_number:
-			if json_dict.has("love_interest"):
-				var saved_love_interest: String = json_dict['love_interest']
+		if json_dict.has("love_interest"):
+			var saved_love_interest: String = json_dict['love_interest']
+			if saved_love_interest.length() > 0:
+				if saved_chapter_number == 0:
+					return "%s: Fin" % saved_love_interest
 				return "%s: Chapitre %d" % [saved_love_interest, json_dict['chapter_number']]
-			return "Chapitre %d" % json_dict['chapter_number']
 		return "Prologue"
 	return ''
 

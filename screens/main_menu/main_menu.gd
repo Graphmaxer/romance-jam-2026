@@ -48,3 +48,7 @@ func _on_continue_button_pressed() -> void:
 
 func _on_settings_button_pressed() -> void:
 	settings_menu.open()
+
+
+func _on_prologue_button_toggled(toggled_on: bool) -> void:
+	GameState.skip_prologue = toggled_on

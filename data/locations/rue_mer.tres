@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="1_mi5xt"]
 [ext_resource type="Texture2D" uid="uid://cqhd1dlm801kt" path="res://assets/backgrounds/rue_mer/RueVueMer.jpg" id="1_s83ns"]
 [ext_resource type="Texture2D" uid="uid://dgc87ypsast5d" path="res://assets/backgrounds/rue_mer/RueVueMerNight.jpg" id="2_n6l7q"]
-[ext_resource type="AudioStream" uid="uid://cr3icnhnydfji" path="res://assets/audio/lofi-chill/light-through-the-storm.ogg" id="3_dycvl"]
+[ext_resource type="AudioStream" uid="uid://b5nj8tgu2c2yp" path="res://assets/audio/A Smoothie At The Beach Bar.ogg" id="3_s83ns"]
 
 [resource]
 script = ExtResource("1_mi5xt")
@@ -13,5 +13,5 @@ backgrounds = Dictionary[String, Texture2D]({
 "jour": ExtResource("1_s83ns"),
 "nuit": ExtResource("2_n6l7q")
 })
-music = ExtResource("3_dycvl")
+music = ExtResource("3_s83ns")
 metadata/_custom_type_script = "uid://djshq1md8tej7"

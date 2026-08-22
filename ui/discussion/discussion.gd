@@ -40,6 +40,10 @@ func set_location(alias: String, variant: String = "default") -> void:
 				transition.is_transitioning(),
 			)
 		else:
+			await background_stack.update_background(
+				location.backgrounds["default"],
+				transition.is_transitioning(),
+			)
 			push_warning("%s background at %s variant not found" % [alias, variant])
 		if location.music and background_stream_player.stream != location.music:
 			background_stream_player.stream = location.music
