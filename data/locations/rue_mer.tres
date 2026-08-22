@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://bm35tknkvrk7w"]
+
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="1_mi5xt"]
+[ext_resource type="Texture2D" uid="uid://cqhd1dlm801kt" path="res://assets/backgrounds/rue_mer/RueVueMer.jpg" id="1_s83ns"]
+[ext_resource type="Texture2D" uid="uid://dgc87ypsast5d" path="res://assets/backgrounds/rue_mer/RueVueMerNight.jpg" id="2_n6l7q"]
+[ext_resource type="AudioStream" uid="uid://cr3icnhnydfji" path="res://assets/audio/lofi-chill/light-through-the-storm.ogg" id="3_dycvl"]
+
+[resource]
+script = ExtResource("1_mi5xt")
+aliases = Array[String](["Rue avec vue sur la mer", "Rue donnant vue sur la plage"])
+backgrounds = Dictionary[String, Texture2D]({
+"default": ExtResource("1_s83ns"),
+"jour": ExtResource("1_s83ns"),
+"nuit": ExtResource("2_n6l7q")
+})
+music = ExtResource("3_dycvl")
+metadata/_custom_type_script = "uid://djshq1md8tej7"
