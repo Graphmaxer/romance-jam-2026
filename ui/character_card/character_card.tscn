@@ -54,7 +54,6 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 script = ExtResource("1_7qkde")
 character = ExtResource("2_2afhe")
-variant = "chat"
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=957569691]
 layout_mode = 1
