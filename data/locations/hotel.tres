@@ -8,7 +8,8 @@
 script = ExtResource("3_j8thb")
 aliases = Array[String](["Salle de réception de l’hôtel", "Salle de réception de l'hôtel"])
 backgrounds = Dictionary[String, Texture2D]({
-"default": ExtResource("1_rftsl")
+"default": ExtResource("1_rftsl"),
+"nuit": ExtResource("1_rftsl")
 })
 music = ExtResource("2_fgcls")
 metadata/_custom_type_script = "uid://djshq1md8tej7"

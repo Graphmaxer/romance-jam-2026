@@ -126,7 +126,7 @@ Je réfléchis quelques minutes, je repense à ma rupture et me demande s’il s
 {{pseudo}}: 
 - Jouer aux cartes et aller de l’avant 
 # Fin du chapitre, sauvegarde et affiche les différents love interest, qui est le choix du joueur
-	$> start_transition("Bienvenue sur l’île mystique !\n\nIl s’agit d’une île possédant un portail reliant les créatures de la mythologie et des esprits de différents folklores. Chaque individu possède un artefact qu’il porte sur lui afin de garder une apparence la plus humaine possible. Sans lui, leur véritable forme se révèle. En ces lieux vous rencontrerez des personnages qui pourraient vous aider à surmonter cette rupture.\n\nBon voyage ! ", 10.0)
+	$> start_transition("Bienvenue sur l’île mystique !\n\nIl s’agit d’une île possédant un portail reliant les créatures de la mythologie et des esprits de différents folklores. Chaque individu possède un artefact qu’il porte sur lui afin de garder une apparence la plus humaine possible. Sans lui, leur véritable forme se révèle. En ces lieux vous rencontrerez des personnages qui pourraient vous aider à surmonter cette rupture.\n\nBon voyage ! ", 15.0)
 	=> END
 - Refuser de jouer, le temps fera son oeuvre 
 	{{pseudo}}: Désolée Tatie, je crois que je vais passer mon tour. Je pense que cet été je vais surtout m’occuper de moi et avancer sur un projet dans ma chambre à l’hôtel. 

@@ -2,10 +2,12 @@
 
 ## Team
 
-- Game Dev: Graphmaxer
-- Writing/Scenario: Sakura
+- Game Dev : Graphmaxer
+- Writing/Scenario : Sakura
+- Characters Designer : Pr¼nzy (https://linktr.ee/pr14nzodeljuego)
+- Backgrounds Designer : Natuu (Wookie)
 
-### Assets
+### Free Assets
 
 ### Characters
 
@@ -24,14 +26,13 @@
 
 - Minchirie (https://min-chi.material.jp)
 - Fortune Teller (https://www.deviantart.com/rialynkv/art/Fortune-Teller-Room-962240921)
-- Mansion (https://ebbasuke.itch.io/gloomy-mansion-background-pack)
 
 ### Audio
 
 - Music (https://fulminisictus.itch.io/visual-novel-audio-pack)
-- BGM (https://arkeiamusic.itch.io/free-music-pack-14-lo-fi-chill)
-- BGM (https://arkeiamusic.itch.io/free-music-pack-15-calm)
-- BGM (https://honored-season.itch.io/a-smoothie-at-the-beach-bar)
+- Music (https://arkeiamusic.itch.io/free-music-pack-14-lo-fi-chill)
+- Music (https://arkeiamusic.itch.io/free-music-pack-15-calm)
+- Music (https://honored-season.itch.io/a-smoothie-at-the-beach-bar)
 
 ## Tools
 
