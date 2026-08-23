@@ -23,7 +23,7 @@ $> add_character("Kathy", "yukata")
 
 Je sais que je l’ai déjà vue en yukata quand on essayait d’en chercher un ensemble mais là elle est vraiment adorable. En plus elle s’est fait un chignon, c’est la première fois que je la vois coiffée comme ça. Elle rougit et a un peu transpiré vu qu’elle est venue en courant. 
 #visage gênée
-Kathy: [#gênée] On y va ou tu continues de me dévisager ? 
+Kathy: [#yukata gênée] On y va ou tu continues de me dévisager ? 
 
 {{pseudo}}: Ah oui ! Allons-y. 
 
@@ -34,7 +34,7 @@ $> add_character("Kathy")
 
 Nous avons commencé à faire en premier le stand du chamboule-tout, le panier de basket et la pêche au canard. Nous nous sommes arrêtés devant le stand sur le tir à la carabine. 
 #visage taquin
-Kathy: [#taquin] Et si on faisait un pari sur le tir à la carabine ? 
+Kathy: [#yukata taquin] Et si on faisait un pari sur le tir à la carabine ? 
 
 {{pseudo}}: À quoi penses-tu ? 
 
@@ -49,12 +49,12 @@ Nous nous mettons côte à côte et nous commençons à jouer.
 	Kathy: Bravo ! Mais je suis surprise que tu sois aussi forte.  
 	{{pseudo}}: J’y joue souvent lorsque je vais dans des fêtes foraines ! 
 	#visage râle
-	Kathy: [#rale] Tu ne me l’avais pas dit ça ! 
+	Kathy: [#yukata rale] Tu ne me l’avais pas dit ça ! 
 	{{pseudo}}: Et oui ! Allons acheter à manger ! 
 	Je lui prends la main et nous nous dirigeons vers les stands de nourriture. 
 - J'y joue pour la première fois, c’est difficile
 	#visage sourire
-	Kathy: [#sourire] J’ai réussi ! 
+	Kathy: [#yukata sourire] J’ai réussi ! 
 	{{pseudo}}: Félicitations ! Je ne suis pas aussi douée que toi…
 	Kathy: Ce n’est pas grave, viens on va manger. 
 	Elle me prend la main et nous nous dirigeons vers les stands de nourriture. 
