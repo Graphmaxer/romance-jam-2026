@@ -9,7 +9,7 @@ Si seulement il était mauvais, je pourrais lui en vouloir. Mais c' est délicie
 $> set_location("Guinguette près de la plage", "soir")
 $> add_character("Maël")
 
-Maël: {{pseudo}} ? Mais qu’est-ce que tu fais encore là? 
+Maël: {{pseudo}} ? Mais qu’est-ce que tu fais encore là ? 
 Maël: Tu m’attendais ? 
 
 {{pseudo}}: Ah non, j’attends quelqu'un d’autre. 
@@ -83,7 +83,7 @@ Je m’en voudrais de l’empêcher d’être heureux à cause de moi.
 
 {{pseudo}}: D’accord…
 
-Irène: Merci . Je te revaudrai ça. Je te laisserai manger tous les gâteaux que tu veux. 
+Irène: Merci. Je te revaudrai ça. Je te laisserai manger tous les gâteaux que tu veux. 
 
 {{pseudo}}: Mais si je fais ça, ça ne te causera pas de problème à la guinguette ? 
 
@@ -115,7 +115,7 @@ Maël: “{{pseudo}}, est-ce que tu es bien rentrée ? J’espère que tu vas bi
 - Ne pas lui répondre, je suis trop fatiguée
 	$> lose_reputation("Maël", 5)
 	J’étais trop fatiguée pour lui répondre. Je lui répondrai plus tard.
-- Lui dire la véritée
+- Lui dire la vérité
 	$> gain_reputation("Maël", 20)
 	{{pseudo}}: “Je suis bien rentrée. Je me sens très fatiguée, je crois que demain je vais rester dans ma chambre me reposer, on se voit à la guinguette après-demain”
 	Maël: “D’accord, repose-toi bien. Bonne nuit”

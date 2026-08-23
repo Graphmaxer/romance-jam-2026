@@ -4,7 +4,7 @@ $> set_location("Guinguette près de la plage", "soir")
 J’ai presque fini mon livre. Mais il n’y a plus beaucoup de lumière. 
 Je lève la tête et finis par me rendre compte que la nuit commence à tomber. 
 D’ailleurs il ne reste plus aucun client. Je crois que j’étais vraiment plongée dans mon livre. 
-Je me lève et voit qu’il reste de la lumière en cuisine, je m’approche discrètement pour voir qui il reste. 
+Je me lève et vois qu’il reste de la lumière en cuisine, je m’approche discrètement pour voir qui il reste. 
 
 $> add_character("Maël", "travail")
 
@@ -58,7 +58,7 @@ $> set_location("Rue donnant vue sur la plage", "soir")
 $> add_character("Maël")
 
 Maël marche juste à côté de moi. Je sais que ce n’est pas la première fois que j’y pense mais… Il est vraiment grand. 
-Je me sens rassuré avec lui. 
+Je me sens rassurée avec lui. 
 On se connaît depuis 19 ans maintenant. 
 Ça fait 8 ans depuis notre dispute aussi mais on n'en a plus jamais parlé. Et il y a 6 ans, j’ai essayé de lui avouer mes sentiments mais il avait une copine à ce moment-là…
 D’ailleurs… Je ne sais pas s’il est encore célibataire…

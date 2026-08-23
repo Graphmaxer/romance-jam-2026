@@ -66,16 +66,16 @@ Elle me supplie du regard.
 	{{pseudo}}: D’accord mais d’abord on devrait se voir de temps en temps avant afin de mieux nous connaître. 
 	#visage taquin
 	Kathy: [#taquin] Tu m’invites à plusieurs rencards d’un coup ? 
-	Elle eut un petit sourire en coin. Je me mis à rougir d’un coup. 
+	Elle a eu un petit sourire en coin. Je me suis mise à rougir d’un coup. 
 	{{pseudo}}: Mais pas du tout ! C’est juste qu’il faut que l’on définisse un plan d’attaque avant d’y aller comme ça !
-	Elle se mit à rire. J’étais vraiment gênée. 
+	Elle s'est mise à rire. J’étais vraiment gênée. 
 	Kathy: Mais oui, je plaisante. Excuse-moi. C’était trop tentant. 
 - Refuser
 	$> lose_reputation("Kathy", 10)
 	Elle affiche une mine toute triste en baissant la tête.
 	Kathy: C’est dommage… J’avais vraiment besoin d’aide… Je trouverai bien un moyen d’y arriver seule…
 	La voir dans cet état me fit un petit pincement au cœur. 
-	{{pseudo}}:Très bien, j’accepte. Mais il va falloir qu’on détermine un plan avant d’aller la voir. 
+	{{pseudo}}: Très bien, j’accepte. Mais il va falloir qu’on détermine un plan avant d’aller la voir. 
 	Elle relève la tête et me sourit à nouveau. 
 	Kathy: Merci ! 
 
