@@ -3,18 +3,18 @@ $> set_location("Chambre du personnage")
 
 Il s’est écoulé quelques jours depuis le dîner avec Kathy. Je ne l'ai pas croisée depuis. 
 
-Je decide de descendre voir ma tante une fois habillée. 
+Je décide de descendre voir ma tante une fois habillée. 
 
 # Lieu : Réception de l’hôtel
 $> set_location("Salle de réception de l’hôtel")
 
 $> add_character("Irma")
 
-Irma: Bonjour ma chérie. Bien dormis?
+Irma: Bonjour ma chérie. Bien dormi ?
 
-{{pseudo}}: Oui, merci. Est-ce que tu aurais besoin d’aide pour quoi que ce soit? 
+{{pseudo}}: Oui, merci. Est-ce que tu aurais besoin d’aide pour quoique ce soit? 
 
-Tante Irma réfléchis puis me répond avec un grand sourire. 
+Tante Irma réfléchit puis me répond avec un grand sourire. 
 
 Irma: Je n’ai pas besoin d’aide. Mais merci d’avoir demandé. 
 
@@ -30,7 +30,7 @@ Irma: Tu n’as pas vu les affiches à l’entrée de l’hôtel? Pourtant on le
 
 Je vais voir à l’entrée de l’hôtel et remarque effectivement l’affiche qui indique l’ouverture de la guinguette tout l’été. 
 
-{{pseudo}}: Tu as raison Tatie, je vais aller faire un tour à cette fameuse guinguette. Je vais d’abord prendre mon livre et m’habiller en conséquence au cas où je voudrai aller me baigner ensuite. 
+{{pseudo}}: Tu as raison Tatie, je vais aller faire un tour à cette fameuse guinguette. Je vais d’abord prendre mon livre et m’habiller en conséquence au cas où je voudrais aller me baigner ensuite. 
 
 Irma: Super ! Amuse-toi bien ! 
 
@@ -61,7 +61,7 @@ Elle a vraiment l’air embêtée.
 
 - Se lever et intervenir
 	$> gain_reputation("Kathy", 20)
-	{{pseudo}}: Kathy ! Désolée je suis en retard, tu ne m’a pas trop attendu j’espère. 
+	{{pseudo}}: Kathy ! Désolée je suis en retard, tu ne m’as pas trop attendue j’espère. 
 	Je repousse la main de l’homme qui enlaçait le poignet de Kathy. Je tourne le dos aux deux hommes. Elle est un peu surprise et soupire de soulagement. 
 	Kathy: Non, ça ne fait pas très longtemps…
 	{{pseudo}}: Viens, je nous ai pris une table. Mon livre est posé dessus. 
@@ -73,12 +73,12 @@ Elle a vraiment l’air embêtée.
 	Elle crée une boule de feu dans sa main. Les deux hommes ayant peur des représailles s'enfuient. 
 	Elle se retourne et me vois à la table, elle vient vers moi et s'assoit sur la chaise libre en face de moi. 
 	Kathy: Bonjour, le spectacle t’a plu? 
-	Elle avait l’air fâchée et déçue que je ne sois pas intervenu. 
+	Elle avait l’air fâchée et déçue que je ne sois pas intervenue. 
 	{{pseudo}}: Je suis désolée Kathy, je ne savais pas quoi faire…
 	Kathy: Tant pis, au moins je suis saine et sauve. Et puis je sais me défendre en cas de besoin. 
 	Elle me sourit mais je sens qu’elle m'en veut toujours un peu.
 
-Je tends la carte des boissons à Kathy qui la prend. Elle le feuillette . 
+Je tends la carte des boissons à Kathy qui la prend. Elle la feuillette . 
 {{pseudo}}: Ça fait longtemps qu’on ne s’est pas vu. Je peux t’inviter? 
 
 Kathy: C’est vrai? Merci c’est gentil. Je prendrai un lait à la fraise et une tartelette aux fraises. 

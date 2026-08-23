@@ -3,7 +3,7 @@
 $> set_location("Salle de divination d'Irma")
 $> add_character("Irma")
 
-Ma tante joue au cartes de tarot depuis qu’elle est toute petite. Elle a toujours aimé la magie et l’occultisme. 
+Ma tante joue aux cartes de tarot depuis qu’elle est toute petite. Elle a toujours aimé la magie et l’occultisme. 
 
 Irma: Ne t’inquiète de rien ma chérie. Une bonne étoile veille sur toi depuis longtemps. Tu trouveras le réconfort qu’il te faut sur cette île. 
 
@@ -17,7 +17,7 @@ Maël: Bonjour. Excuse-moi de te déranger Irma mais je n’ai pas trouvé ton m
 
 Il tient des affiches dans les mains. Il regarde ma tante mais ne semble pas encore m’avoir remarqué. 
 
-Irma: Bonjour Maël ! Bien sûr que tu peux les afficher ! Quel est la date d’ouverture? 
+Irma: Bonjour Maël ! Bien sûr que tu peux les afficher ! Quelle est la date d’ouverture? 
 
 Maël: Dans une semaine, je m'occupe des derniers préparatifs. 
 
@@ -27,12 +27,12 @@ Maël: Bonjour {{pseudo}}.
 
 {{pseudo}}: Bonjour Maël. 
 
-Je me sens toujours un peu timide face à Maël. On se voit tous les été depuis mes 6 ans mais à l’adolescence on a commencé à être un peu moins proche. 
-Mais quand je lui parle, il a toujours une attitude nonchalante. Donc peut-être que je fais des films toutes seules. 
+Je me sens toujours un peu timide face à Maël. On se voit tous les étés depuis mes 6 ans mais à l’adolescence on a commencé à être un peu moins proches. 
+Mais quand je lui parle, il a toujours une attitude nonchalante. Donc peut-être que je me fais des films toute seule. 
 
-Irma: Maël, tu pourras lui faire un petit tour à la guinguette. Je sais que ce n’est pas encore ouvert mais ça vous permettrai de vous retrouvez et discutez. 
+Irma: Maël, tu pourras lui faire un petit tour à la guinguette. Je sais que ce n’est pas encore ouvert mais ça vous permettrait de vous retrouver et discuter. 
 
-{{pseudo}}: Tatie ! Désolée Maël, tu dois être occupé. En plus je suis sûr que ça doit t’embêter…
+{{pseudo}}: Tatie ! Désolée Maël, tu dois être occupé. En plus je suis sûre que ça doit t’embêter…
 
 Maël: Pas du tout. Tu peux venir si tu le souhaites. 
 
@@ -41,7 +41,7 @@ $> remove_character("Maël")
 
 Je suis étonnée que cela ne le dérange pas. Tante Irma me pousse doucement vers la sortie. 
 
-Irma: Vas-y ma chérie, ça te changeras les idées. A tout à l’heure. 
+Irma: Vas-y ma chérie, ça te changera les idées. A tout à l’heure. 
 
 {{pseudo}}: A tout à l’heure Tatie. 
 
@@ -53,7 +53,7 @@ $> set_location("Rue donnant vue sur la plage")
 $> add_character("Maël")
 
 Cela fait 30 minutes que nous marchons et que Maël accroche des affiches sur certains panneaux et qu’il demande à des commerçants s’il peut les accrocher chez eux. 
-Il ne m'a pas décroché un seul mot depuis qu’on est parti de l’hôtel ! 
+Il ne m'a pas décroché un seul mot depuis qu’on est partis de l’hôtel ! 
 Je vais finir par m’énerver…
 Et au moment où je m'apprêtais à lui râler dessus, il accroche une affiche sur un panneau et finit enfin par me parler sans me regarder. 
 
@@ -85,26 +85,26 @@ Des larmes commencent à couler mais je me retiens du mieux que je peux, ma voix
 Mes larmes coulent le long de mes joues, j’essaye de les retenir mais ça s’est passé ce matin. C’est trop dur. 
 Puis, je sentis une main sur ma tête. Maël était en train de me caresser la tête. 
 
-- Pleurer à chaude larmes 
+- Pleurer à chaudes larmes 
 	$> gain_reputation("Maël", 10)
 	{{pseudo}}: J’ai l’impression d’avoir perdu 4 ans de ma vie à cause de cet abruti ! 	J’ai tout fait pour lui !
-	Maël: Tu n’as pas perdue 4 ans de ta vie
+	Maël: Tu n’as pas perdu 4 ans de ta vie
 	Je sais qu’il est dos à moi et qu’il a toujours un peu de mal à réconforter les autres mais on dirait qu’il essaie. 
 	Je renifle un peu, il me tend un mouchoir. Je me mouche 
-	Maël: Dis-toi que cette histoire t’as permis d’évoluer et que tu vas pouvoir aller de l’avant en sachant exactement ce que tu veux dans une relation. 
+	Maël: Dis-toi que cette histoire t’a permis d’évoluer et que tu vas pouvoir aller de l’avant en sachant exactement ce que tu veux dans une relation. 
 	Je me retourne et fais face à lui. Je me dis que je dois vraiment avoir une sale tête. Il ouvre un peu ses bras et évite un peu mon regard, il est embarrassé. 
-	Maël:Tu veux un câlin? Comme lorsqu'on était enfants? 
+	Maël: Tu veux un câlin? Comme lorsqu'on était enfants? 
 	Je hoche la tête et vais dans ses bras. J’espère qu’il ne voit pas à quel point je rougis.
 - Retenir ses larmes et essayer de sourire
 	$> gain_reputation("Maël", 20)
 	Maël: Ne t’inquiète pas {{pseudo}}. Tout va s’arranger pour toi. Et puis tu as toujours été une personne pleine de ressources. 
 	{{pseudo}}: Merci, mais c’est quand même difficile à vivre. Je sais bien que ce n’est pas ma première rupture mais c’était ma plus longue relation. 
 	Il continue de me caresser la tête. 
-	Maël: Dis-toi que cette relation t’as permis d’évoluer en tant qu’individu et puis… Je suis sûr que tu étais trop bien pour lui. 
+	Maël: Dis-toi que cette relation t’a permis d’évoluer en tant qu’individu et puis… Je suis sûr que tu étais trop bien pour lui. 
 	Je lève la tête pour le regarder, il me fait un léger sourire. Sa remarque me fait un peu rire. 
 	{{pseudo}}: Je ne pense pas que je te contredirai là-dessus. 
 	Il ouvre un peu ses bras et évite un peu mon regard, il est embarrassé. 
-	Maël:Tu veux un câlin? Comme lorsqu'on était enfants? 
+	Maël: Tu veux un câlin? Comme lorsqu'on était enfants? 
 	Je suis un peu surprise, je hoche la tête et lui laisse me faire un câlin. J’espère qu’il ne me voit pas rougir comme une tomate. 
 
 => END

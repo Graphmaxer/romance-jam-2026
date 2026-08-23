@@ -32,7 +32,8 @@ Je sursaute de surprise et je hoche la tête.
 
 Oui, on peut y aller. 
 
-$> set_location("Rue donnant vue sur la plage" , "soir")
+$> set_location("Rue donnant vue sur la plage", "soir")
+$> add_character("Irène")
 
 Cela fait plusieurs minutes qu’on marche et elle n’a toujours pas parlé. 
 Je vois bien qu’elle n’est pas méchante, bien au contraire, elle fait en sorte que je sois à l’aise mais c’est justement ça qui me met mal à l’aise. 
@@ -41,13 +42,13 @@ Irène: {{pseudo}}, si je voulais te voir ce soir, c’était pour te parler de 
 
 {{pseudo}}: Oui, c’est ce que je me disais. 
 
-Irène: Je suppose qu’il t’a dit qu’on était sorti ensemble. 
+Irène: Je suppose qu’il t’a dit qu’on était sortis ensemble. 
 
 {{pseudo}}: Effectivement. Il a aussi dit que ça n’avait pas duré longtemps entre vous. 
 
 Irène: Il t’a dit ça? C’est vrai, ça n’a duré que quelques jours. On s’est rendu compte qu’on avait une relation plus amicale plutôt que romantique. 
 
-{{pseudo}}: C’est plus au moins ce que j’avais compris. 
+{{pseudo}}: C’est plus ou moins ce que j’avais compris. 
 
 Irène: Mais ces derniers temps on a passé pas mal de temps ensemble et je me suis dit que j’allais à nouveau retenter le coup avec lui. 
 
@@ -61,7 +62,7 @@ Mon visage s’empourpre, je n’arrive pas à la contredire.
 
 {{pseudo}}: Mais il ne me voit sûrement que comme une amie d’enfance. Ce n’était pas la peine de m’en parler…
 
-Irène: Je ne crois pas, sinon je ne te l’aurais rien dit. Tu es plus importante à ses yeux que ce que tu crois. Il faut avoir confiance en toi. 
+Irène: Je ne crois pas, sinon je ne t’aurais rien dit. Tu es plus importante à ses yeux que ce que tu crois. Il faut avoir confiance en toi. 
 
 Elle m’encourage sincèrement en me prenant les deux mains. C’est assez perturbant de la part d’une femme qui me considère comme sa rivale en amour. 
 C’est très gênant. 
@@ -69,15 +70,15 @@ C’est très gênant.
 {{pseudo}}: Euh… Merci? Je suppose…
 
 Irène: De rien, c’est sincère. 
-Irène: J’aurai un service à te demander…
+Irène: J’aurais un service à te demander…
 
 {{pseudo}}: Lequel? 
 
-Irène: J’aimerai pouvoir lui avouer mes sentiments avant que tu ne le fasse. Je t’en prie. C’est important pour moi. 
+Irène: J’aimerais pouvoir lui avouer mes sentiments avant que tu ne le fasses. Je t’en prie. C’est important pour moi. 
 
 C’est dur de résister à son regard suppliant. En plus elle est tellement gentille. 
-Et puis, c’est les sentiments de Maël qui importe. Qu’est-ce qui me garantit qu’il n’a pas de sentiments pour elle? Ils ont passé du temps ensemble ces derniers temps. 
-Je m’en voudrai de l’empêcher d’être heureux à cause de moi. 
+Et puis, c’est les sentiments de Maël qui importent. Qu’est-ce qui me garantit qu’il n’a pas de sentiments pour elle? Ils ont passé du temps ensemble ces derniers temps. 
+Je m’en voudrais de l’empêcher d’être heureux à cause de moi. 
 
 {{pseudo}}: D’accord…
 
@@ -108,7 +109,7 @@ Il faut vraiment que je dorme.
 
 J’entends mon téléphone vibrer, je regarde et vois que Maël m’a envoyé un message. 
 
-Maël: “{{pseudo}}, est-ce que tu es bien rentrée? J’espère que tu vas bien, tu avais l’air d’être perdu dans tes pensées aujourd’hui en plus d’être fatiguée”
+Maël: “{{pseudo}}, est-ce que tu es bien rentrée? J’espère que tu vas bien, tu avais l’air d’être perdue dans tes pensées aujourd’hui en plus d’être fatiguée”
 
 - Ne pas lui répondre, je suis trop fatiguée
 	$> lose_reputation("Maël", 5)
@@ -124,6 +125,6 @@ Maël: “{{pseudo}}, est-ce que tu es bien rentrée? J’espère que tu vas bie
 	Maël: “Je ne demande qu'à te croire {{pseudo}}… Dans tous les cas, je te souhaite une bonne nuit.“
 	{{pseudo}}: “Bonne nuit”
 
-J’ai posé mon téléphone sur mon bureau et me suis endormis. 
+J’ai posé mon téléphone sur mon bureau et me suis endormie. 
 
 => END

@@ -2,7 +2,7 @@
 $> set_location("Chambre du personnage")
 
 Le jour est enfin arrivé ! C’est le dernier jour du festival. Je finis de mettre mon yukata. 
-Avec Kathy nous avons prévu de faire le tour des stands et de se retrouver d’abord à la guinguette. Je lui envoie un message pour lui dire que je suis sur le départ. 
+Avec Kathy nous avons prévu de faire le tour des stands et de nous retrouver d’abord à la guinguette. Je lui envoie un message pour lui dire que je suis sur le départ. 
 
 {{pseudo}}: “Coucou Kathy, j’arrive à la guinguette dans 15 minutes, à tout de suite !”
 
@@ -21,7 +21,7 @@ Kathy: On peut y aller.
 
 $> add_character("Kathy")
 
-Je sais que je l’ai déjà vu en yukata quand on essayait d’en chercher un ensemble mais là elle est vraiment adorable. En plus elle s’est fait un chignon, c’est la première fois que je la vois coiffée comme ça. Elle rougit et a un peu transpiré vu qu’elle est venue en courant. 
+Je sais que je l’ai déjà vue en yukata quand on essayait d’en chercher un ensemble mais là elle est vraiment adorable. En plus elle s’est fait un chignon, c’est la première fois que je la vois coiffée comme ça. Elle rougit et a un peu transpiré vu qu’elle est venue en courant. 
 
 Kathy: On y va ou tu continues de me dévisager? 
 
@@ -53,7 +53,7 @@ Nous nous mettons côte à côte et nous commençons à jouer.
 	Je lui prends la main et nous nous dirigeons vers les stands de nourriture. 
 - J'y joue pour la première fois, c’est difficile
 	Kathy: J’ai réussi ! 
-	{{pseudo}}: Félicitations ! Je ne suis pas aussi doué que toi…
+	{{pseudo}}: Félicitations ! Je ne suis pas aussi douée que toi…
 	Kathy: Ce n’est pas grave, viens on va manger. 
 	Elle me prend la main et nous nous dirigeons vers les stands de nourriture. 
 
@@ -64,25 +64,25 @@ $> set_location("Plage", "nuit")
 $> add_character("Kathy")
 $> end_transition()
 
-Nous marchons le long de la plage. Pour chercher un banc afin de regarder les feux d’artifices. 
-Plusieurs minutes plus tard nous trouvons un banc puis nous avons décidé d’utiliser des senko hanabi. Ce sont des feux d'artifice en bâton d'encens. Nous les avons achetées avant d’aller sur la plage. 
+Nous marchons le long de la plage. Pour chercher un banc afin de regarder les feux d’artifice. 
+Plusieurs minutes plus tard nous trouvons un banc puis nous avons décidé d’utiliser des senko hanabi. Ce sont des feux d'artifice en bâton d'encens. Nous les avons achetés avant d’aller sur la plage. 
 
-Kathy: Est-ce que c’est la première fois que tu utilises ce genre de feux d’artifices? 
+Kathy: Est-ce que c’est la première fois que tu utilises ce genre de feux d’artifice ? 
 
 {{pseudo}}: Oui, je trouve que c’est joli. J’en avais vu pas mal dans les anime et les mangas mais je n’ai jamais osé en acheter. 
 
-Nous nous sommes allumées quelques senko hanabi puis quand vient le moment où les feux d’artifices, nous levons nos têtes et les regardons. Je lui prends la main et j’essaye de la regarder dans les yeux, je sens mes joues devenir toutes rouges. 
+Nous nous sommes allumé quelques senko hanabi puis quand vient le moment des feux d’artifice, nous levons nos têtes et les regardons. Je lui prends la main et j’essaye de la regarder dans les yeux, je sens mes joues devenir toutes rouges. 
 
 {{pseudo}}: Kathy, j’ai quelque chose à te dire…
 
 Kathy: Oui? 
 
-{{pseudo}}: J’ai passé de super moment avec toi. J’ai appris à te connaître à travers nos différentes rencontres. Découvrir des salons de thé en ta compagnie et avoir pu l’occasion de t’aider m’a fait beaucoup plaisir. 
+{{pseudo}}: J’ai passé de super moments avec toi. J’ai appris à te connaître à travers nos différentes rencontres. Découvrir des salons de thé en ta compagnie et avoir eu l’occasion de t’aider m’a fait beaucoup plaisir. 
 {{pseudo}}: Et quand nous n’étions pas ensemble, cela m'angoissait de ne pas avoir de tes nouvelles car je voulais être près de toi. 
 
 J'ai pris une petite pause puis j'ai eu le courage de la regarder dans les yeux. 
 
-{{pseudo}}: Pour faire simplement, je t’aime Kathy. 
+{{pseudo}}: Pour faire simple, je t’aime Kathy. 
 
 #Si affection < 50
 if reputations['Kathy'] < 50
@@ -91,9 +91,9 @@ if reputations['Kathy'] < 50
 
 	Kathy: Je suis désolée  je te vois surtout comme une bonne amie en qui j’ai confiance. Je ne ressens pas la même chose… Je suis désolée…
 
-	Ah, donc je me suis fourvoyée. Je croyais qu’elle avait des sentiments pour moi après notre câlin et le fait que nous nous tenions la main. Mais finalement, elle ne me voyais que comme une amie…
+	Ah, donc je me suis fourvoyée. Je croyais qu’elle avait des sentiments pour moi après notre câlin et le fait que nous nous tenions la main. Mais finalement, elle ne me voyait que comme une amie…
 
-	{{pseudo}}: Ce n’est pas grave, je crois que je me suis imaginée des choses… 
+	{{pseudo}}: Ce n’est pas grave, je crois que je me suis imaginé des choses… 
 	{{pseudo}}: Si tu veux bien m’excuser, je crois que je vais y aller…
 
 	Je pars en essayant de retenir au maximum mes larmes. Je crois entendre Kathy m’appeler mais je n’ai pas encore le courage de lui faire face. 
@@ -101,7 +101,7 @@ if reputations['Kathy'] < 50
 	$> set_location("Chambre du personnage")
 
 	Cela faisait plusieurs jours que j’évitais Kathy. 
-	Il me restait une semaine avant de partir de cette île. Je décide de donner rendez-vous à Kathy. Je ne voulais pas partir avant de lui dire que son amitié était importante pour moi mais elle m’a répondu qu’elle préférait attendre que l’on se voit l’an prochain une fois que mes sentiments amoureux ne seront plus un problème entre nous. 
+	Il me restait une semaine avant de partir de cette île. Je décide de donner rendez-vous à Kathy. Je ne voulais pas partir avant de lui dire que son amitié était importante pour moi mais elle m’a répondu qu’elle préférait attendre que l’on se voie l’an prochain une fois que mes sentiments amoureux ne seront plus un problème entre nous. 
 
 	# Bad end
 	=> END
@@ -110,7 +110,7 @@ if reputations['Kathy'] < 50
 
 
 
-# Communs au 2 autres fins
+# Communs aux 2 autres fins
 
 Kathy est un peu surprise, elle me sourit. Je vois ses joues rougir un peu. Elle enlace ma main. 
 
@@ -122,7 +122,7 @@ Elle me fait un grand sourire.
 
 Kathy: Moi aussi je t’aime {{pseudo}}. 
 
-Nous nous faisons un câlin puis nous nous embrassons tendrement sous les feux d’artifices. 
+Nous nous faisons un câlin puis nous nous embrassons tendrement sous les feux d’artifice. 
 
 $> start_transition("Fin des vacances")
 $> set_location("Quai ile")
@@ -135,7 +135,7 @@ if reputations['Kathy'] == 100
 
 	$> add_character("Kathy")
 
-	Kathy: Je pense que j’ai tout ce qui faut dans mes valises. 
+	Kathy: Je pense que j’ai tout ce qu'il faut dans mes valises. 
 
 	{{pseudo}}: Tu as quand même pris 5 valises avec toi…
 
@@ -164,9 +164,9 @@ if reputations['Kathy'] >= 50
 
 	Kathy: Tu vas tellement me manquer. Surtout n’oublie pas de me contacter le plus souvent possible. 
 
-	Je la sers dans mes bras. 
+	Je la serre dans mes bras. 
 
-	{{pseudo}}: N’oublie pas que tu peux aussi me voir aussi souvent que tu veux. 
+	{{pseudo}}: N’oublie pas que tu peux me voir aussi souvent que tu veux. 
 
 	Kathy: Bien évidemment ! 
 

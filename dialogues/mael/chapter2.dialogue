@@ -18,11 +18,11 @@ $> add_character("Maël", "adolescent")
 
 Maël Ado: Je t’ai entendu dire auprès des autres que je t’empêche d’avoir de potentielles relations de couple. Alors je te laisse de l’espace. 
 
-Il le dit de façon calme et réfléchie mais ces paroles me font mal. 
+Il le dit de façon calme et réfléchie mais ses paroles me font mal. 
 
 {{pseudo}} Ado: Mais… Ce n’est pas ce que tu crois…
 
-Ma voix se faisant petite, je crois qu’il ne m’a pas entendu, je le vois s'éloigner.
+Ma voix se faisant petite, je crois qu’il ne m’a pas entendue, je le vois s'éloigner.
 
 {{pseudo}} Ado: Maël, attends-moi…
 
@@ -34,21 +34,21 @@ $> set_location("Chambre du personnage")
 
 Je me réveille les larmes aux yeux puis je me lève avant de prendre un mouchoir. 
 C’est bizarre, ça fait des années que je n’avais plus pensé à notre première dispute. Surtout que l’année d’après, on a fait comme si rien ne s’était passé. 
-C’est sûrement dû au fait qu’on ne s’est pas revu depuis une semaine depuis la dernière fois où on s’est fait un câlin. 
+C’est sûrement dû au fait qu’on ne s’est pas revus depuis une semaine depuis la dernière fois où on s’est fait un câlin. 
 Mon visage s'empourpre rien que d’y penser. 
-Je m’habille et descend voir ma tante. 
+Je m’habille et descends voir ma tante. 
 
 $> set_location("Salle de réception de l’hôtel")
 $> add_character("Irma")
 
-{{pseudo}}: Bonjour Tatie, bien dormis? 
+{{pseudo}}: Bonjour Tatie, bien dormi ? 
 
 Irma: J’ai passé une excellente nuit. Malheureusement je vois que ça n’a pas été ton cas. 
 {{pseudo}}: Mais si, j’ai juste fait un mauvais rêve. 
 
 Irma: Ma puce, la guinguette a officiellement ouvert, et si tu allais y faire un tour? Prends un livre et détends-toi en écoutant le son des vagues en buvant un thé glacé. 
 
-{{pseudo}}: C’est vrai que dis comme ça, ça donne vraiment envie. 
+{{pseudo}}: C’est vrai que dit comme ça, ça donne vraiment envie. 
 
 En plus je vais pouvoir voir Maël, je n’ai pas pu le voir pendant une semaine car il s’occupait des derniers préparatifs. Je commence à rougir en y pensant. 
 
@@ -67,14 +67,14 @@ Je n’arrive pas à en croire mes yeux !
 
 Femme 1: Excusez-moi, pourriez-vous m’apporter un cola s’il vous plaît?
 
-Femme 2: Et moi j’aimerai une glace pillé.
+Femme 2: Et moi j’aimerais une glace pilée.
 
-Femme 3: Si possible c’est vous que j’aimerai commander…
+Femme 3: Si possible c’est vous que j’aimerais commander…
 
 Les deux autres femmes fusillent la dernière du regard. En même temps je les comprends, quelle garce ! 
 Maël leur répond en souriant et en étant le plus agréable possible. Lui qui sourit rarement d’habitude !
 
-Maël: Je vous apporte tout ça au plus vite. Par contre mademoiselle, je crains ne pouvoir répondre à votre demande. Puis-je vous proposer une tartelette à la framboise à la place? 
+Maël: Je vous apporte tout ça au plus vite. Par contre mademoiselle, je crains de ne pouvoir répondre à votre demande. Puis-je vous proposer une tartelette à la framboise à la place? 
 
 Elle se mit à rougir. 
 
@@ -85,13 +85,12 @@ Il part chercher les commandes et les 3 femmes se mettent à glousser et à parl
 - S’installer en les regardant de travers discrètement
 	$> lose_reputation("Maël", 15)
 	Je n’ai pas pu m’empêcher de les regarder de travers.
-	Sauf que l’une des femme l’a remarqué. 
-	Femme 2: Qu’est ce qu tu as. T’as un problème petite? 
+	Sauf que l’une des femmes l’a remarqué. 
+	Femme 2: Qu’est-ce que tu as ? T’as un problème petite ? 
 	Petite?! Je fais tout de même 1m65, je suis dans la moyenne ! 
 	{{pseudo}}: Non, rien. Désolée d’avoir dérangé votre conversation. 
 - Les ignorer et m’installer
 	$> gain_reputation("Maël", 20)
-	
 
 Je m’installe à une table sur la terrasse et je le regarde. 
 Il travaille vraiment dur. Il fait de son mieux pour diriger son équipe et être présent pour les clients. 

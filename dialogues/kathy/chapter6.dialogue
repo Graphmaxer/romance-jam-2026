@@ -2,13 +2,13 @@
 $> set_location("Chambre du personnage") 
 
 Cela faisait trois jours que je n’avais plus de nouvelles de Kathy depuis le thé avec sa belle-sœur. J’espère que tout se passe bien. 
-Je décide de descendre voir ma tante une fois que j’ai finis de m’habiller. 
+Je décide de descendre voir ma tante une fois que j’ai fini de m’habiller. 
 
 # Lieu : Réception de l’hôtel
 $> set_location("Salle de réception de l’hôtel")
 $> add_character("Irma")
 
-Irma: Bonjour ma chérie ! Tu tombes bien, j’aimerai que tu fasses quelques courses pour moi. 
+Irma: Bonjour ma chérie ! Tu tombes bien, j’aimerais que tu fasses quelques courses pour moi. 
 
 Elle me tend son panier en osier et la liste de courses. 
 
@@ -20,21 +20,21 @@ Irma: Je pense que ça t’aidera à te changer les idées.
 
 Irma: Cela fait trois jours que je te vois avec un air inquiet qui passe sur ton visage de temps en temps. Je n’ai pas besoin de consulter mes cartes pour le voir. 
 
-{{pseudo}}:  Ah, d’accord. Et bien j’y vais. A tout à l’heure. 
+{{pseudo}}:  Ah, d’accord. Eh bien j’y vais. A tout à l’heure. 
 
 Irma: A tout à l’heure ma puce. 
 
 $> set_location("Rue avec superette")
 
 Et voilà, je vérifie une dernière fois que j’ai bien tout. Je n’aimerai pas devoir refaire un aller-retour comme la dernière fois. 
-Quoi que… C’est grâce à cet oubli que j’ai pu croiser Kathy. Je soupire puis prends mon téléphone. Toujours aucun message. 
+Quoique… C’est grâce à cet oubli que j’ai pu croiser Kathy. Je soupire puis prends mon téléphone. Toujours aucun message. 
 
 $> set_location("Salle de réception de l’hôtel")
 $> add_character("Irma")
 
 {{pseudo}}: J’ai fini les courses. 
 
-Merci ma puce, je vois que tu n’as fait aucun oubli. 
+Irma: Merci ma puce, je vois que tu n’as fait aucun oubli. 
 
 Je soupire en repensant au fait que je n’ai toujours pas de nouvelles de Kathy. 
 
@@ -50,7 +50,7 @@ Je tiens mon téléphone dans mes mains. Cela fait plusieurs minutes que j'hési
 
 - Lui envoyer un message
 	$> gain_reputation("Kathy", 20)
-	{{pseudo}}: “Bonjour Kathy, j’espère que tu vas bien. Est-ce que ça te dirait de venir déjeuner avec moi à la guinguette? 
+	{{pseudo}}: “Bonjour Kathy, j’espère que tu vas bien. Est-ce que ça te dirait de venir déjeuner avec moi à la guinguette?” 
 	Quelques minutes plus tard, mon téléphone se met à vibrer 
 	Kathy: “J’en serai ravie, à tout à l’heure ! :)”
 	Je saute de joie dans ma chambre. 
@@ -66,7 +66,7 @@ $> add_character("Kathy")
 
 $> end_transition()
 
-Nous nous sommes installés à la même table que la dernière fois, sur la terrasse de la guinguette. Nous avons commandé et commençons à manger.
+Nous nous sommes installées à la même table que la dernière fois, sur la terrasse de la guinguette. Nous avons commandé et commençons à manger.
 
 Kathy: J’ai une très bonne nouvelle à t’annoncer. 
 
@@ -82,26 +82,26 @@ Kathy: Peut-être mais ça aurait pris plus de temps que prévu et ce ne serait 
 
 Un homme passa près de nous et nous remit une affiche. Il continua son chemin et distribua des affiches. 
 
-{{pseudo}}: C’est pourquoi? 
+{{pseudo}}: C’est pour quoi? 
 
-Kathy: C’est pour le festival qui a lieu dans une semaine. J’ai prévu d'y faire un tour avec ma famille? J’ai vraiment hâte. Est-ce que tu as prévu d’aller y faire un tour? Il dure 3 jours. 
+Kathy: C’est pour le festival qui a lieu dans une semaine. J’ai prévu d'y faire un tour avec ma famille. J’ai vraiment hâte. Est-ce que tu as prévu d’aller y faire un tour? Il dure 3 jours. 
 
-{{pseudo}}: C’est vrai que voir des stands avec des activités serait sympas à faire. 
+{{pseudo}}: C’est vrai que voir des stands avec des activités serait sympa à faire. 
 
 Kathy: On peut y aller ensemble le troisième jour, il y aura des feux d’artifice. 
 
 {{pseudo}}: J’en serai honorée. 
 
-Nous finissons de déjeuner puis discutons de ce que l’on fera ensemble au festival et que ce serait super si nous portions des yukata assorties. 
+Nous finissons de déjeuner puis discutons de ce que l’on fera ensemble au festival et que ce serait super si nous portions des yukata assortis. 
 Depuis la dernière fois qu’elle m'a fait un câlin je n’arrête pas de penser à quel point j’adore Kathy. Mais je pense que c’est plus que de l’amitié. 
 Je crois qu’aller ensemble à ce festival est une bonne occasion pour lui dire ce que je ressens. 
 Nous avons donc été ensemble s’acheter des yukata assortis, la voir aussi heureuse me faisait chaud au cœur. 
 
-La journée est passée à une vitesse folle et il était déjà l’heure de rentrer. J’étais un peu triste de me séparer de Kathy mais j’allais bientôt la revoir le jour du festival
+La journée est passée à une vitesse folle et il était déjà l’heure de rentrer. J’étais un peu triste de me séparer de Kathy mais j’allais bientôt la revoir le jour du festival.
 
 $> set_location("Chambre du personnage", "soir") 
 
-J’avais encore le cœur qui battait la chamade. Je me demandais si je n’avais pas un petit problème car je ne m’en suis rendu compte qu’après qu’elle m'ait fait câlin et qu’on a passé cette journée ensemble. 
+J’avais encore le cœur qui battait la chamade. Je me demandais si je n’avais pas un petit problème car je ne m’en suis rendu compte qu’après qu’elle m'a fait un câlin et qu’on a passé cette journée ensemble. 
 Surtout que ça ne fait même pas 2 mois que je suis de nouveau célibataire. 
 Enfin bref, la nuit porte conseil et je ne la revois pas avant une semaine donc j’ai le temps de mettre mes idées au clair. 
 

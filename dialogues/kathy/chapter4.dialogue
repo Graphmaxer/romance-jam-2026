@@ -14,9 +14,9 @@ Kathy: Tu as donc seulement un an de plus que moi.
 
 {{pseudo}}: C’est un peu curieux que je ne t’ai jamais croisée d’ailleurs. 
 
-Kathy: Pas vraiment. Enfant j’étais souvent malade et mes parents étaient trop protecteur envers moi. Mais maintenant je vais beaucoup mieux. 
+Kathy: Pas vraiment. Enfant j’étais souvent malade et mes parents étaient trop protecteurs envers moi. Mais maintenant je vais beaucoup mieux. 
 
-{{pseudo}}: Il y avait une raison particulière pour que tu sois autant malade étant enfant. 
+{{pseudo}}: Il y avait une raison particulière pour que tu sois aussi malade étant enfant? 
 
 Kathy: C’est parce que je n’arrivais pas à contrôler correctement mes pouvoirs. 
 
@@ -32,9 +32,9 @@ Kathy: Bien sûr. Cependant j’ai un problème avec sa fiancée.
 
 Kathy: Je ne la trouve pas assez bien pour lui. 
 
-Cette phrase me fit rire, elle se retourne d’un coup avec une expression qui semble dire \: "Qu’est-ce qu’il y a de drôle?"
+Cette phrase me fait rire, elle se retourne d’un coup avec une expression qui semble dire \: "Qu’est-ce qu’il y a de drôle?"
 
-{{pseudo}}: C’est juste qu'à tendre on pourrait croire que tu fais un brother complex. 
+{{pseudo}}: C’est juste qu'à t’entendre on pourrait croire que tu as un brother complex. 
 
 Elle rougit, un peu gênée. 
 
@@ -42,7 +42,7 @@ Kathy: Mais pas du tout ! C’est juste que je la trouve un peu sévère par rap
 
 {{pseudo}}: Ah bon? 
 
-Kathy: A chaque fois qu’elle me regarde, elle affiche toujours une tête neutre et on dirait qu’elle me prend de haut. Après c’est pas difficile pour elle, elle mesure 1m75. Du haut de mes 1m60 tout ceux qui sont plus grands peuvent avoir l’air de me regarder de haut. 
+Kathy: A chaque fois qu’elle me regarde, elle affiche toujours une tête neutre et on dirait qu’elle me prend de haut. Après c’est pas difficile pour elle, elle mesure 1m75. Du haut de mes 1m60 tous ceux qui sont plus grands peuvent avoir l’air de me regarder de haut. 
 
 {{pseudo}}: Tu te fais peut-être des idées. Après comme tu l’as dit, c’est peut-être juste une question de perspective. Après pour l’expression de son visage, je n’ai pas d'explication. 
 
@@ -50,13 +50,13 @@ Kathy: J’ai déjà demandé à des amis ce qu’ils en pensaient mais aucun d�
 
 {{pseudo}}: Tu as peut-être besoin d’une approche différente.
 
-Kathy me prends les mains et me regarde dans les yeux. Les siens brillent comme si elle venait d’avoir une idée. 
+Kathy me prend les mains et me regarde dans les yeux. Les siens brillent comme si elle venait d’avoir une idée. 
 
 Kathy: Et si tu venais chez moi prendre le thé avec elle, tu pourrais lui demander ce qu’elle pense de moi au moment où j’irai chercher le thé. 
 
-{{pseudo}}: Hein!? Mais je ne la connaîs pas. Et puis ce n’est que la deuxième fois que l’on se rencontre. 
+{{pseudo}}: Hein!? Mais je ne la connais pas. Et puis ce n’est que la deuxième fois que l’on se rencontre. 
 
-Kathy: S’il te plaît ! Mon frère revient dans quelques jours et j’aimerai lui montrer que je m’entends mieux avec elle ! Il y tient vraiment et j’adore mon frère. 
+Kathy: S’il te plaît ! Mon frère revient dans quelques jours et j’aimerais lui montrer que je m’entends mieux avec elle ! Il y tient vraiment et j’adore mon frère. 
 
 Elle me supplie du regard. 
 
@@ -82,7 +82,7 @@ Nous avons continué à marcher le long de la plage, les pieds dans l’eau. Pui
 $> set_location("Guinguette près de la plage", "soir")
 $> add_character("Kathy")
 
-Kathy: Je te propose que nous nous voyons dans les prochains jours afin de discuter des détails de notre plan pour ma future belle-soeur. 
+Kathy: Je te propose que nous nous voyons dans les prochains jours afin de discuter des détails de notre plan pour ma future belle-sœur. 
 
 {{pseudo}}: D’accord, mais d’abord tu dois lui demander à quelle date elle serait disponible pour le thé. 
 
@@ -100,7 +100,7 @@ Kathy: Et si nous parlions d’autres choses en attendant d’avoir les élémen
 
 {{pseudo}}: C’est vrai qu’on ne se connaît pas encore très bien. Peux-tu me dire ce que tu aimes faire de ton temps libre? 
 
-Kathy: J’aime aller dans des salons de thé où il y a de bonnes pâtisseries. Je connais toutes celles de l’île. Je pourrai te donner les bonnes adresses si tu veux. 
+Kathy: J’aime aller dans des salons de thé où il y a de bonnes pâtisseries. Je connais tous ceux de l’île. Je pourrai te donner les bonnes adresses si tu veux. 
 
 {{pseudo}}: Je vais rarement dans ce genre d’endroits mais ça me ferait très plaisir d’y aller. 
 
@@ -112,7 +112,7 @@ Kathy: A la prochaine {{pseudo}}. Je t’enverrai un message avec le lieu de ren
 
 $> remove_character("Kathy")
 
-Elle partit et je rentra à l’hôtel dîner avec ma tante et son mari. 
+Elle partit et je rentrai à l’hôtel dîner avec ma tante et son mari. 
 $> set_location("Salle de réception de l’hôtel", "nuit")
 Avant que je parte me coucher, tante Irma m’interpelle. 
 $> add_character("Irma")
@@ -123,7 +123,7 @@ Irma: As-tu passé une bonne journée ma chérie?
 
 Irma: Est-ce que tu as rencontré quelqu’un? 
 
-{{pseudo}}: Je crois que je me suis faite une amie. Elle est vraiment adorable. 
+{{pseudo}}: Je crois que je me suis fait une amie. Elle est vraiment adorable. 
 
 Irma: C’est super. Je suis heureuse que ton séjour se passe bien. Bonne nuit ma puce. 
 

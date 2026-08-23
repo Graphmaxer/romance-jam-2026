@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Romance Jam 2026"
+config/name="Romance sur l'Île Mystique"
 run/main_scene="uid://ds2mjmfy10p46"
 config/features=PackedStringArray("4.7", "Forward Plus")
 boot_splash/show_image=false

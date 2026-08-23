@@ -12,13 +12,13 @@ Je lève la tête de mon panier et vois un chat de la couleur de la barbe à pap
 
 Chat: Miaou !!! Miaou !!!
 
-Le pauvre chat essaie tant bien que mal de récupérer le bracelet en sautant mais les enfants se le passe entre eux en le jetant en l’air. 
+Le pauvre chat essaie tant bien que mal de récupérer le bracelet en sautant mais les enfants se le passent entre eux en le jetant en l’air. 
 
 Enfant 1: Tu l’auras pas ! Tu l’auras pas !
 
-Enfant 2: Vas-y ! Envoie-le moi ! 
+Enfant 2: Vas-y ! Envoie-le-moi ! 
 
-Enfant 2: A mon tour ! 
+Enfant 3: A mon tour ! 
 
 Chat: Miaaa !!!
 
@@ -28,22 +28,22 @@ Je décide donc
 - Aider le chat en récupérant le bracelet
 	$> gain_reputation("Kathy", 25)
 	{{pseudo}}: Arrêtez ! 
-	Je prends le bracelet en plein vol avec ma main droite. Les enfants se regroupent et me lance des regards ennuyés. 
+	Je prends le bracelet en plein vol avec ma main droite. Les enfants se regroupent et me lancent des regards ennuyés. 
 	Enfant 1: On ne faisait que s’amuser….
 	Enfant 2: Oui. C’était rien de méchant. 
 	Je mets mes mains sur les hanches. 
 	 {{pseudo}}: Parce que vous pensez que ça amuse ce pauvre chat? Regardez-le.
-	Le chat qui se trouvait à quelques centimètre de moi leur lançais un regard noir.
+	Le chat qui se trouve à quelques centimètres de moi leur lance un regard noir.
 	Enfant 1: Non…
 	Enfant 2: On est désolé…
 	Enfant 3: Venez, on part…
-	Ils partent tous ensemble. Je m’accroupis et regarde le chat. Il a de magnifique yeux vairon, un vert et un doré.   
-	J’approche lentement ma main gauche vers sa tête mais il m’esquive puis me prend le bracelet que j’avais encore dans ma main droite avant de sauter sur une muraille et se sauver. Cependant, en partant le jolie ruban blanc qu’il portait autour du cou se détache. 
+	Ils partent tous ensemble. Je m’accroupis et regarde le chat. Il a de magnifiques yeux vairons, un vert et un doré.   
+	J’approche lentement ma main gauche vers sa tête mais il m’esquive puis me prend le bracelet que j’avais encore dans ma main droite avant de sauter sur une muraille et se sauver. Cependant, en partant le joli ruban blanc qu’il portait autour du cou se détache. 
 
 - Rentrer en vitesse car c’est trop dur à regarder
 	J’ai évité de regarder les enfants et me suis dépêchée de marcher au plus vite jusqu’à l’hôtel de ma tante. Je n’avais que 15 minutes de marche à faire. 
 	J’ai jeté un petit coup d'œil en arrière et ai vu que le chat avait fini par récupérer le bracelet en escaladant une muraille à côté et en sautant pour attraper en plein vol le bracelet lorsque l’un des enfants a voulu le jeter à un de ses camarades. 
-	Il s’est sauvé en escaladant à nouveau la muraille. Je soupire de soulagement en voyant qu’il avait quand même réussi à s’en sortir. Cependant, en partant le jolie ruban blanc qu’il portait autour du cou se détache.
+	Il s’est sauvé en escaladant à nouveau la muraille. Je soupire de soulagement en voyant qu’il avait quand même réussi à s’en sortir. Cependant, en partant le joli ruban blanc qu’il portait autour du cou se détache.
 
 $> remove_character("Kathy")
 
@@ -54,7 +54,7 @@ $> set_location("Salle de réception de l’hôtel")
 
 $> end_transition()
 
-J’entre dans l’hôtel en sirotant une brique de lait à la fraise que j’ai ouverte en chemin. Je termine ma brique puis la jette dans la poubelle à l’entrée de l’hôtel. Ma tante discute avec une de ses emplyées puis vient me rejoindre. 
+J’entre dans l’hôtel en sirotant une brique de lait à la fraise que j’ai ouverte en chemin. Je termine ma brique puis la jette dans la poubelle à l’entrée de l’hôtel. Ma tante discute avec une de ses employées puis vient me rejoindre. 
 
 $> add_character("Irma")
 
@@ -62,7 +62,7 @@ Irma: Coucou ma chérie. Comment se sont passées les courses pour le dîner de 
 
 {{pseudo}}: Je pense que j’ai réussi à tout trouver sur la liste. 
 
-Ma tante prends le panier en osier que j’avais dans les mains et vérifier si tout ce qui avait été noté sur la liste. 
+Ma tante prend le panier en osier que j’avais dans les mains et vérifie si tout ce qui avait été noté sur la liste. 
 
 Irma: Ah ! Je crois que tu as oublié un ingrédient. 
 
@@ -72,7 +72,7 @@ Je regarde à nouveau et me rends compte que j’ai oublié d’acheter l’huil
 
 {{pseudo}}: Oh non… Je prends mon petit sac à dos et j’y retourne. 
 
-Irma: Merci {{pseudo}}.  Mais si tu as un imprévu qui t’empêche de venir dîner ici ce soir, tu n’oublie pas de m’envoyer un message.  
+Irma: Merci {{pseudo}}.  Mais si tu as un imprévu qui t’empêche de venir dîner ici ce soir, tu n’oublies pas de m’envoyer un message.  
 
 {{pseudo}}: Je ne sais pas ce qui m’en empêcherait mais d’accord. 
 
@@ -86,7 +86,7 @@ Je sors de l’hypermarché après avoir mis la bouteille d’huile de sésame d
 
 $> add_character("Kathy")
 
-Nekomusume: Excusez-moi Mademoiselle. J’aurai un service à vous demander. 
+Nekomusume: Excusez-moi Mademoiselle. J’aurais un service à vous demander. 
 
 Je me retourne et vois une jeune femme de 1m60 avec une belle robe. Ses oreilles et ses yeux me font immédiatement penser au chat que j’ai vu plus tôt dans l’après-midi. 
 
