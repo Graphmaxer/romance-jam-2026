@@ -35,7 +35,7 @@ func fade_in_and_wait(text: String, wait: float, perfect_effect: bool) -> void:
 	transition_text.text = text.replace("\\n", "\n")
 	background.modulate.a = 0
 	background.visible = true
-	perfect_particles.emitting = true
+	perfect_particles.emitting = perfect_effect
 
 	state = State.FADING_IN
 	_init_background_tween()
