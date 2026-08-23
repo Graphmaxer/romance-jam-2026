@@ -2,6 +2,20 @@
 
 [ext_resource type="Script" uid="uid://uo4d11t5b3xn" path="res://ui/transition/transition.gd" id="1_1tu1e"]
 
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_h6m2q"]
+particle_flag_disable_z = true
+emission_shape = 1
+emission_sphere_radius = 100.0
+direction = Vector3(20, -20, 0)
+spread = 10.0
+initial_velocity_min = 300.0
+initial_velocity_max = 400.0
+gravity = Vector3(0, 98, 0)
+scale_max = 10.0
+color = Color(0.99999994, 0.2568239, 0.6438843, 1)
+hue_variation_min = -2.2351742e-08
+hue_variation_max = 0.99999994
+
 [node name="Transition" type="CanvasLayer" unique_id=1163005291]
 layer = 101
 script = ExtResource("1_1tu1e")
@@ -40,3 +54,10 @@ Bon voyage !"
 horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 3
+
+[node name="PerfectParticles" type="GPUParticles2D" parent="." unique_id=252289959]
+unique_name_in_owner = true
+position = Vector2(5, 639)
+amount = 50
+lifetime = 5.0
+process_material = SubResource("ParticleProcessMaterial_h6m2q")

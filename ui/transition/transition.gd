@@ -14,6 +14,7 @@ var state: State = State.INACTIVE
 
 @onready var background: ColorRect = %Background
 @onready var transition_text: Label = %TransitionText
+@onready var perfect_particles: GPUParticles2D = %PerfectParticles
 
 
 func _ready() -> void:
@@ -21,12 +22,12 @@ func _ready() -> void:
 	background.visible = false
 
 
-func play(text: String, wait: float) -> void:
-	await fade_in_and_wait(text, wait)
+func play(text: String, wait: float, perfect_effect: bool) -> void:
+	await fade_in_and_wait(text, wait, perfect_effect)
 	await fade_out()
 
 
-func fade_in_and_wait(text: String, wait: float) -> void:
+func fade_in_and_wait(text: String, wait: float, perfect_effect: bool) -> void:
 	if state != State.INACTIVE:
 		push_warning("Invalid state: %s" % State.keys()[state])
 		return
@@ -34,6 +35,7 @@ func fade_in_and_wait(text: String, wait: float) -> void:
 	transition_text.text = text.replace("\\n", "\n")
 	background.modulate.a = 0
 	background.visible = true
+	perfect_particles.emitting = true
 
 	state = State.FADING_IN
 	_init_background_tween()
@@ -41,6 +43,7 @@ func fade_in_and_wait(text: String, wait: float) -> void:
 	await background_tween.finished
 	state = State.ACTIVE
 	await get_tree().create_timer(wait).timeout
+	perfect_particles.emitting = false
 
 
 func fade_out() -> void:

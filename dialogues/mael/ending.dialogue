@@ -135,6 +135,7 @@ if reputations['Maël'] < 50
 	Il me restait une semaine avant de partir de cette île. Je décide de voir Maël avant de partir et il était comme d’habitude mais je n'étais pas encore prête à tourner la page. Ce sera sûrement plus facile l’an prochain. 
 
 # Bad end
+	$> start_transition("Merci d'avoir joué(e) !\n\nVous avez obtenu(e) la mauvaise fin avec Maël", 10.0)
 	=> END
 
 # Communs aux 2 autres fins
@@ -206,6 +207,7 @@ if reputations['Maël'] == 100
 	Nous embarquons ensemble sur le bateau. J’ai tellement hâte que notre vie ensemble commence. 
 
 	#Perfect end
+	$> start_transition("Merci d'avoir joué(e) !\n\nVous avez obtenu(e) la fin parfaite avec Maël !", 10.0, true)
 	=> END
 
 
@@ -241,5 +243,6 @@ if reputations['Maël'] >= 50
 	Nous nous embrassons puis je monte sur le bateau. 
 
 	# Normal end
+	$> start_transition("Merci d'avoir joué(e) !\n\nVous avez obtenu(e) la fin normale avec Maël", 10.0)
 	=> END
 

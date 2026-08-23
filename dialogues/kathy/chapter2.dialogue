@@ -41,9 +41,9 @@ Elle me fait un grand sourire et essaie de remettre le ruban à son poignet gauc
 - La regarder faire
 	Nekomusume: Au fait, je ne me suis pas présentée. Je m'appelle Kathy. Je suis enchantée de faire votre connaissance. 
 
-	{{pseudo}}: Je m'appelle {{pseudo}}. Enchantée également. 
+{{pseudo}}: Je m'appelle {{pseudo}}. Enchantée également. 
 
-	Kathy: Puis-je vous inviter à dîner ce soir ? Je souhaiterais vous remercier. 
+Kathy: Puis-je vous inviter à dîner ce soir ? Je souhaiterais vous remercier. 
 
 - Accepter avec grand plaisir
 	$> gain_reputation("Kathy", 10)

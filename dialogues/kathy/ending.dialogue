@@ -106,6 +106,7 @@ if reputations['Kathy'] < 50
 	Il me restait une semaine avant de partir de cette île. Je décide de donner rendez-vous à Kathy. Je ne voulais pas partir avant de lui dire que son amitié était importante pour moi mais elle m’a répondu qu’elle préférait attendre que l’on se voie l’an prochain une fois que mes sentiments amoureux ne seront plus un problème entre nous. 
 
 	# Bad end
+	$> start_transition("Merci d'avoir joué(e) !\n\nVous avez obtenu(e) la mauvaise fin avec Kathy", 10.0)
 	=> END
 
 
@@ -147,6 +148,7 @@ if reputations['Kathy'] == 100
 	Elle me prend la main et nous embarquons pour notre nouvelle vie ensemble. 
 
 	#Perfect end
+	$> start_transition("Merci d'avoir joué(e) !\n\nVous avez obtenu(e) la fin parfaite avec Kathy !", 10.0, true)
 	=> END
 
 
@@ -175,6 +177,7 @@ if reputations['Kathy'] >= 50
 	Nous nous embrassons une dernière fois puis j’embarque. Elle a un peu les larmes aux yeux mais elle se retient pour m’offrir son plus beau sourire. 
 
 # Normal end
+	$> start_transition("Merci d'avoir joué(e) !\n\nVous avez obtenu(e) la fin normale avec Kathy", 10.0)
 	=> END
 
 

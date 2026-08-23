@@ -87,12 +87,12 @@ func change_variant(firstname_or_alias: String, variant: String) -> void:
 		)
 
 
-func show_transition(text: String, wait: float = 1.0) -> void:
-	await transition.play(text, wait)
+func show_transition(text: String, wait: float = 1.0, perfect_effect: bool = false) -> void:
+	await transition.play(text, wait, perfect_effect)
 
 
-func start_transition(text: String, wait: float = 1.0) -> void:
-	await transition.fade_in_and_wait(text, wait)
+func start_transition(text: String, wait: float = 1.0, perfect_effect: bool = false) -> void:
+	await transition.fade_in_and_wait(text, wait, perfect_effect)
 
 
 func end_transition() -> void:
