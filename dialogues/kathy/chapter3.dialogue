@@ -44,7 +44,7 @@ Je n’ai pas croisé Maël. Il est sûrement débordé avec le monde qu’il y 
 $> show_transition("Une heure plus tard")
 
 J’ai presque fini mon chapitre. Il ne me reste que quelques lignes…
-
+#visage regard noir (pas présente encore)
 Kathy: Laissez-moi tranquille ! 
 
 Je lève la tête et vois deux hommes avec Kathy. L’un d’eux tient son poignet droit.
@@ -52,8 +52,8 @@ Je lève la tête et vois deux hommes avec Kathy. L’un d’eux tient son poign
 $> add_character("Kathy")
 
 Homme 1: Viens t’amuser avec nous. 
-
-Kathy: Je ne peux pas. J’attends quelqu’un. Donc lâchez-moi. 
+#visage regard noir
+Kathy: [#regard noir] Je ne peux pas. J’attends quelqu’un. Donc lâchez-moi. 
 
 Homme 2: Cela fait 20 minutes que tu es toute seule. 
 
@@ -69,10 +69,12 @@ Elle a vraiment l’air embêtée.
 - Regarder si elle va s’en sortir
 	$> lose_reputation("Kathy", 30)
 	Elle repousse la main de l’homme qui lui tient le poignet et marche sur le pied de l’un d’eux. Puis leur lance un regard assassin. 
-	Kathy: Si vous ne me laissez pas tranquille…
+	#visage énervée
+	Kathy: [#énervée] Si vous ne me laissez pas tranquille…
 	Elle crée une boule de feu dans sa main. Les deux hommes ayant peur des représailles s'enfuient. 
 	Elle se retourne et me vois à la table, elle vient vers moi et s'assoit sur la chaise libre en face de moi. 
-	Kathy: Bonjour, le spectacle t’a plu ? 
+	#visage faisant la moue
+	Kathy: [#faisant la moue] Bonjour, le spectacle t’a plu ? 
 	Elle avait l’air fâchée et déçue que je ne sois pas intervenue. 
 	{{pseudo}}: Je suis désolée Kathy, je ne savais pas quoi faire…
 	Kathy: Tant pis, au moins je suis saine et sauve. Et puis je sais me défendre en cas de besoin. 
@@ -80,8 +82,8 @@ Elle a vraiment l’air embêtée.
 
 Je tends la carte des boissons à Kathy qui la prend. Elle la feuillette . 
 {{pseudo}}: Ça fait longtemps qu’on ne s’est pas vu. Je peux t’inviter ? 
-
-Kathy: C’est vrai ? Merci c’est gentil. Je prendrai un lait à la fraise et une tartelette aux fraises. 
+#visage clin d’oeil
+Kathy: [#clin d'oeil] C’est vrai ? Merci c’est gentil. Je prendrai un lait à la fraise et une tartelette aux fraises. 
 
 {{pseudo}}: C’est noté, je vais au comptoir prendre ta commande, je reviens. 
 
@@ -107,16 +109,16 @@ Kathy: Ah oui. Ce sont des réactions que j’ai un peu de mal à contrôler.
 Elle se raidit un peu à ce mot.
 
 {{pseudo}}: J’ai dit quelque chose de mal ? 
-
-Kathy: Non, c’est juste que j’ai un petit problème avec ce mot. “Mignon” est un mot qui me donne l’impression de ne pas être prise au sérieux. 
+#visage ennuyée
+Kathy: [#ennuyée] Non, c’est juste que j’ai un petit problème avec ce mot. “Mignon” est un mot qui me donne l’impression de ne pas être prise au sérieux. 
 
 {{pseudo}}: Pourquoi cela ? 
 
 Kathy: Parce que dans ma famille tout le monde me le dit mais la conséquence de cela c’est qu’ils sont plus occupés à voir mon apparence plutôt que les choses que je dis. Mais bon, au moins c’est pas méchant mais cela me dérange un peu. 
 
 {{pseudo}}: Je peux comprendre. Est-ce que le mot “jolie” te conviendrait mieux ?
-
-Kathy: “Jolie”... C’est d’accord mais n’en abuse pas. 
+#visage sourire
+Kathy: [#sourire] “Jolie”... C’est d’accord mais n’en abuse pas. 
 
 Elle termine sa tartelette et sa boisson. 
 
@@ -127,8 +129,8 @@ Kathy: Est-ce que tu as quelque chose de prévu cet après-midi ?
 Kathy: Serais-tu d’accord pour passer ton temps avec moi ? Comme ça je ne serai plus seule et personne ne viendra m’embêter. 
 
 {{pseudo}}: Pourquoi pas. Cela me fera plaisir de passer du temps avec toi. 
-
-Kathy: Super ! 
+#visage sourire
+Kathy: [#sourire] Super ! 
 
 Elle me prend la main et nous partons de la guinguette ensemble. 
 

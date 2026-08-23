@@ -18,8 +18,8 @@ $> add_character("Kathy")
 Kathy est devant sa voiture sur son téléphone. Je m’approche d’elle. Elle range son téléphone dans son sac.  
 
 {{pseudo}}: Bonjour Kathy. Comment vas-tu ? 
-
-Kathy: Je me sens un peu stressée mais maintenant que tu es là, ça va un peu mieux. Tu peux monter sur le siège passager. 
+#visage embarrassée
+Kathy: [#embarrassée] Je me sens un peu stressée mais maintenant que tu es là, ça va un peu mieux. Tu peux monter sur le siège passager. 
 
 Elle m’ouvre la porte puis je m’installe. 
 
@@ -37,7 +37,10 @@ Kathy: Ne t’inquiète pas, ça va bien se passer. Viens on va aller dans la sa
 
 $> set_location("Salon des invités à la villa")
 $> add_character("Kathy")
-Kathy: Tiens, elle n’est pas encore arrivée. Installe-toi, je vais la chercher. Elle est peut-être encore dans son bureau et elle n’a pas vu l’heure. Ou alors ça l’ennuie de passer du temps avec moi… 
+
+
+#visage ennuyée
+Kathy: [#ennuyée] Tiens, elle n’est pas encore arrivée. Installe-toi, je vais la chercher. Elle est peut-être encore dans son bureau et elle n’a pas vu l’heure. Ou alors ça l’ennuie de passer du temps avec moi… 
 $> remove_character("Kathy")
 
 Kathy part. Je m’installe sur le canapé qui est très confortable. Il s’écoule plusieurs minutes avant que Kathy ne revienne avec Amélia. 
@@ -104,7 +107,7 @@ $> remove_character("Kathy")
 	{{pseudo}}: Promis. 
 	Amélia: En réalité…  Je l’adore, elle est tellement mignonne. Je ne sais pas comment faire. Mon fiancé m’a bien dit de ne pas lui dire en face mais dès que je la regarde, je n’ai qu’une envie, c’est la serrer dans mes bras et lui dire comment je la trouve mignonne ! 
 	Ah. Je ne m’attendais pas du tout à cela. Il faut vraiment que je me retienne de rire, sinon ça ne va pas le faire. 
-- Attendre qu'Amélia parle en premier
+- Attendre que Amélia parle en premier
 	Après quelques minutes de silence, Amélia prit la parole, un peu embarrassée. 
 	Amélia: Est-ce que Kathy vous a déjà un peu parlé de moi ? 
 	{{pseudo}}: Eh bien, oui. 
@@ -139,8 +142,8 @@ Kathy: Alors, qu’a-t-elle dit durant le laps de temps où je me suis absentée
 Kathy: Évidemment ! 
 
 {{pseudo}}: En réalité, elle t’adore. 
-
-Kathy: Comment !? Mais elle n’arrête pas d’éviter de me regarder et de faire comme si je ne l'intéressais pas ! 
+#visage choquée
+Kathy: [#choquée] Comment !? Mais elle n’arrête pas d’éviter de me regarder et de faire comme si je ne l'intéressais pas ! 
 
 {{pseudo}}: Je sais, c’est surprenant non ? 
 
@@ -157,14 +160,14 @@ Kathy: Je comprends mieux la situation. Je vais essayer de lui en parler.
 Kathy: Pas faux. Je vais juste lui demander pourquoi elle m’évite et comme je sais que c’est parce qu’elle m’apprécie, je n'aurai aucun mal à lui en parler. 
 
 Elle me sauta dans les bras, ce geste me surprit un peu. 
-
-Kathy: Merci d’avoir pu obtenir cette information. Je vais pouvoir mieux m’entendre avec elle et mon frère sera ravi lors de son retour. 
+#visage sourire
+Kathy: [#sourire] Merci d’avoir pu obtenir cette information. Je vais pouvoir mieux m’entendre avec elle et mon frère sera ravi lors de son retour. 
 
 {{pseudo}}: Je suis heureuse d'avoir pu t’aider.
 
 Elle me serre fort dans ses bras et mon cœur commence à tambouriner dans ma poitrine. Puis elle se détache de moi, je crois voir qu’elle rougit un peu et elle évite un peu mon regard. 
-
-Kathy: Je vais y aller. Passe une bonne soirée. 
+#visage sourire
+Kathy: [#sourire] Je vais y aller. Passe une bonne soirée. 
 
 {{pseudo}}: Merci, à toi aussi. 
  

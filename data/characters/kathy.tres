@@ -22,6 +22,7 @@
 [ext_resource type="Texture2D" uid="uid://oe2u6l0b1dfr" path="res://assets/characters/kathy/yukata/kathy_yukata_sourire.png" id="20_deomr"]
 [ext_resource type="Texture2D" uid="uid://bmq137po2m6q7" path="res://assets/characters/kathy/yukata/kathy_yukata_surprise.png" id="21_t82ig"]
 [ext_resource type="Texture2D" uid="uid://cqmvw0i7owd0k" path="res://assets/characters/kathy/yukata/kathy_yukata_taquin.png" id="22_2n664"]
+[ext_resource type="Texture2D" uid="uid://bpg0c40l1l7qn" path="res://assets/characters/kathy/kathy_ennuyee.png" id="23_rhd4g"]
 
 [resource]
 script = ExtResource("2_5w1ni")
@@ -34,6 +35,7 @@ description = "Cliente régulière du restaurant près de l’hôtel d’Irma
 Vient d’une famille aisée
 Toujours de bonne humeur mais a un petit côté espiègle"
 variants = Dictionary[String, Texture2D]({
+"": null,
 "chat": ExtResource("2_myl4f"),
 "chat heureux": ExtResource("15_umcjc"),
 "chat triste": ExtResource("16_deomr"),
@@ -41,7 +43,7 @@ variants = Dictionary[String, Texture2D]({
 "clin d'oeil": ExtResource("7_gi0v6"),
 "default": ExtResource("3_sbyio"),
 "embarrassée": ExtResource("8_yeydq"),
-"enervée": ExtResource("9_rraca"),
+"ennuyée": ExtResource("23_rhd4g"),
 "faisant la moue": ExtResource("10_3t0rq"),
 "fatiguée": ExtResource("11_i4bs3"),
 "regard noir": ExtResource("12_x06nq"),
@@ -54,7 +56,8 @@ variants = Dictionary[String, Texture2D]({
 "yukata rale": ExtResource("19_umcjc"),
 "yukata sourire": ExtResource("20_deomr"),
 "yukata surprise": ExtResource("21_t82ig"),
-"yukata taquin": ExtResource("22_2n664")
+"yukata taquin": ExtResource("22_2n664"),
+"énervée": ExtResource("9_rraca")
 })
 is_love_interest = true
 metadata/_custom_type_script = "uid://cddw0vxnb1jna"

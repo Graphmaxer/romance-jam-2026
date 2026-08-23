@@ -5,9 +5,9 @@ $> add_character("Irma")
 
 Ma tante joue aux cartes de tarot depuis qu’elle est toute petite. Elle a toujours aimé la magie et l’occultisme. 
 
-Irma: Ne t’inquiète de rien ma chérie. Une bonne étoile veille sur toi depuis longtemps. Tu trouveras le réconfort qu’il te faut sur cette île. 
+Irma: Ne t’inquiète pas, ma chérie. Une bonne étoile veille sur toi depuis longtemps. Tu trouveras le réconfort qu’il te faut sur cette île. 
 
-Elle m'a fait un grand sourire mais je ne me sentais pas plus rassurée que ça, il manque des détails et je suis sûre qu’elle évite de tout me dire.
+Elle me fait un grand sourire mais je ne me sentais pas plus rassurée que ça, il manque des détails et je suis sûre qu’elle évite de tout me dire.
 
 {{pseudo}}: Merci mais tu pourrais être plus précise ? 
 
@@ -28,7 +28,7 @@ Maël: Bonjour {{pseudo}}.
 {{pseudo}}: Bonjour Maël. 
 
 Je me sens toujours un peu timide face à Maël. On se voit tous les étés depuis mes 6 ans mais à l’adolescence on a commencé à être un peu moins proches. 
-Mais quand je lui parle, il a toujours une attitude nonchalante. Donc peut-être que je me fais des films toute seule. 
+Mais quand je lui parle, il a toujours cette attitude nonchalante. Donc peut-être que je me fais des films toute seule. 
 
 Irma: Maël, tu pourras lui faire un petit tour à la guinguette. Je sais que ce n’est pas encore ouvert mais ça vous permettrait de vous retrouver et discuter. 
 
@@ -90,7 +90,7 @@ Puis, je sens une main sur ma tête. Maël était en train de me caresser la tê
 	{{pseudo}}: J’ai l’impression d’avoir perdu 4 ans de ma vie à cause de cet abruti ! 	J’ai tout fait pour lui !
 	Maël: Tu n’as pas perdu 4 ans de ta vie
 	Je sais qu’il est dos à moi et qu’il a toujours un peu de mal à réconforter les autres mais on dirait qu’il essaie. 
-	Je renifle un peu, il me tend un mouchoir. Je me mouche 
+	Je renifle un peu, il me tend un mouchoir. Je me mouche.
 	Maël: Dis-toi que cette histoire t’a permis d’évoluer et que tu vas pouvoir aller de l’avant en sachant exactement ce que tu veux dans une relation. 
 	Je me retourne et fais face à lui. Je me dis que je dois vraiment avoir une sale tête. Il ouvre un peu ses bras et évite un peu mon regard, il est embarrassé. 
 	#visage embarrassé

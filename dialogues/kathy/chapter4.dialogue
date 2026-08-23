@@ -29,16 +29,17 @@ Kathy: Il y a eu des moments où je pensais même ne pas m’en sortir, mais mon
 Kathy: Bien sûr. Cependant j’ai un problème avec sa fiancée. 
 
 {{pseudo}}: Pourquoi ? 
-
-Kathy: Je ne la trouve pas assez bien pour lui. 
+#visage fatiguée
+Kathy: [#fatiguée] Je ne la trouve pas assez bien pour lui. 
 
 Cette phrase me fait rire, elle se retourne d’un coup avec une expression qui semble dire \: "Qu’est-ce qu’il y a de drôle ?"
 
 {{pseudo}}: C’est juste qu'à t’entendre on pourrait croire que tu as un brother complex. 
 
-Elle rougit, un peu gênée. 
+Elle rougit, un peu gênée.
 
-Kathy: Mais pas du tout ! C’est juste que je la trouve un peu sévère par rapport à lui. 
+#visage embarrassée
+Kathy: [#embarrassée] Mais pas du tout ! C’est juste que je la trouve un peu sévère par rapport à lui. 
 
 {{pseudo}}: Ah bon ? 
 
@@ -63,7 +64,8 @@ Elle me supplie du regard.
 - Accepter
 	$> gain_reputation("Kathy", 20)
 	{{pseudo}}: D’accord mais d’abord on devrait se voir de temps en temps avant afin de mieux nous connaître. 
-	Kathy: Tu m’invites à plusieurs rencards d’un coup ? 
+	#visage taquin
+	Kathy: [#taquin] Tu m’invites à plusieurs rencards d’un coup ? 
 	Elle eut un petit sourire en coin. Je me mis à rougir d’un coup. 
 	{{pseudo}}: Mais pas du tout ! C’est juste qu’il faut que l’on définisse un plan d’attaque avant d’y aller comme ça !
 	Elle se mit à rire. J’étais vraiment gênée. 
@@ -106,8 +108,8 @@ Kathy: J’aime aller dans des salons de thé où il y a de bonnes pâtisseries.
 {{pseudo}}: Je vais rarement dans ce genre d’endroits mais ça me ferait très plaisir d’y aller. 
 
 Nous avons continué à discuter de tout et de rien jusqu’à ce qu’il soit l’heure de rentrer dîner. 
-
-Kathy: À la prochaine {{pseudo}}. Je t’enverrai un message avec le lieu de rendez-vous. 
+#visage clin d’oeil
+Kathy: [#clin d'oeil] À la prochaine {{pseudo}}. Je t’enverrai un message avec le lieu de rendez-vous. 
 
 {{pseudo}}: J’attends ton message avec impatience. 
 

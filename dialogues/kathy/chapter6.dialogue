@@ -67,8 +67,8 @@ $> add_character("Kathy")
 $> end_transition()
 
 Nous nous sommes installées à la même table que la dernière fois, sur la terrasse de la guinguette. Nous avons commandé et commençons à manger.
-
-Kathy: J’ai une très bonne nouvelle à t’annoncer. 
+#visage sourire
+Kathy: [#sourire] J’ai une très bonne nouvelle à t’annoncer. 
 
 {{pseudo}}: Ah oui ? 
 
@@ -87,8 +87,8 @@ Un homme passa près de nous et nous remit une affiche. Il continua son chemin e
 Kathy: C’est pour le festival qui a lieu dans une semaine. J’ai prévu d'y faire un tour avec ma famille. J’ai vraiment hâte. Est-ce que tu as prévu d’aller y faire un tour ? Il dure 3 jours. 
 
 {{pseudo}}: C’est vrai que voir des stands avec des activités serait sympa à faire. 
-
-Kathy: On peut y aller ensemble le troisième jour, il y aura des feux d’artifice. 
+#visage sourire
+Kathy: [#sourire] On peut y aller ensemble le troisième jour, il y aura des feux d’artifice. 
 
 {{pseudo}}: J’en serai honorée. 
 

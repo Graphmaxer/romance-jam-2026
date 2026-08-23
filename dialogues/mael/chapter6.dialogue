@@ -18,8 +18,9 @@ Maël: Tu veux que j’attende avec toi ?
 
 {{pseudo}}: Non, ça ira. Je te souhaite une bonne soirée. 
 
-Maël: Merci, à toi aussi. 
 #Visage pensif
+Maël: [#pensif] Merci, à toi aussi. 
+
 Il me caresse la tête puis s’en va. Il avait l’air de vouloir me poser la question mais il a dû voir à ma tête que je n’avais pas envie d’en parler. 
 
 $> remove_character("Maël")
@@ -99,7 +100,7 @@ Irène: Bonne soirée.
 
 {{pseudo}}: Bonne soirée…
 
-Elle part en souriant. Cette femme est quand même très étrange….
+Elle part en souriant. Cette femme est quand même très étrange…
 
 $> set_location("Chambre du personnage", "soir")
 

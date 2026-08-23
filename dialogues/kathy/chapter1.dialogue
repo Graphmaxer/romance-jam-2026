@@ -9,8 +9,8 @@ Je me suis même pris des briques de lait à la fraise et des bonbons au chocola
 $> add_character("Kathy", "chat")
 
 Je lève la tête de mon panier et vois un chat de la couleur de la barbe à papa en train de se faire embêter par trois enfants. L’un d’eux tient une sorte de bracelet dans ses mains. Il a le bras en hauteur comme s’il narguait ce pauvre chat. 
-
-Chat: Miaou !!! Miaou !!!
+#visage triste
+Chat: [#chat triste] Miaou !!! Miaou !!!
 
 Le pauvre chat essaie tant bien que mal de récupérer le bracelet en sautant mais les enfants se le passent entre eux en le jetant en l’air. 
 
@@ -29,7 +29,7 @@ Je décide donc
 	$> gain_reputation("Kathy", 25)
 	{{pseudo}}: Arrêtez ! 
 	Je prends le bracelet en plein vol avec ma main droite. Les enfants se regroupent et me lancent des regards ennuyés. 
-	Enfant 1: On ne faisait que s’amuser….
+	Enfant 1: On ne faisait que s’amuser…
 	Enfant 2: Oui. C’était rien de méchant. 
 	Je mets mes mains sur les hanches. 
 	 {{pseudo}}: Parce que vous pensez que ça amuse ce pauvre chat ? Regardez-le.
@@ -38,12 +38,12 @@ Je décide donc
 	Enfant 2: On est désolés…
 	Enfant 3: Venez, on part…
 	Ils partent tous ensemble. Je m’accroupis et regarde le chat. Il a de magnifiques yeux vairons, un vert et un doré.   
-	J’approche lentement ma main gauche vers sa tête mais il m’esquive puis me prend le bracelet que j’avais encore dans ma main droite avant de sauter sur une muraille et se sauver. Cependant, en partant le joli ruban blanc qu’il portait autour du cou se détache. 
+	J’approche lentement ma main gauche vers sa tête mais il m’esquive puis me prend le bracelet que j’avais encore dans ma main droite avant de sauter sur une muraille et se sauver. Cependant, en partant, le joli ruban blanc qu’il portait autour du cou se détache. 
 
 - Rentrer en vitesse car c’est trop dur à regarder
 	J’ai évité de regarder les enfants et me suis dépêchée de marcher au plus vite jusqu’à l’hôtel de ma tante. Je n’avais que 15 minutes de marche à faire. 
 	J’ai jeté un petit coup d'œil en arrière et ai vu que le chat avait fini par récupérer le bracelet en escaladant une muraille à côté et en sautant pour attraper en plein vol le bracelet lorsque l’un des enfants a voulu le jeter à un de ses camarades. 
-	Il s’est sauvé en escaladant à nouveau la muraille. Je soupire de soulagement en voyant qu’il avait quand même réussi à s’en sortir. Cependant, en partant le joli ruban blanc qu’il portait autour du cou se détache.
+	Il s’est sauvé en escaladant à nouveau la muraille. Je soupire de soulagement en voyant qu’il avait quand même réussi à s’en sortir. Cependant, en partant, le joli ruban blanc qu’il portait autour du cou se détache.
 
 $> remove_character("Kathy")
 
@@ -86,7 +86,7 @@ Je sors de l’hypermarché après avoir mis la bouteille d’huile de sésame d
 
 $> add_character("Kathy")
 
-Nekomusume: Excusez-moi Mademoiselle. J’aurais un service à vous demander. 
+Nekomusume: Excusez-moi, mademoiselle. J’aurais un service à vous demander. 
 
 Je me retourne et vois une jeune femme de 1m60 avec une belle robe. Ses oreilles et ses yeux me font immédiatement penser au chat que j’ai vu plus tôt dans l’après-midi. 
 
