@@ -9,6 +9,14 @@ var skip_prologue: bool = false
 var bad_prologue_ending: bool = false
 
 
+func reset_game() -> void:
+	GameState.reputations.clear()
+	GameState.chapter_number = 0
+	GameState.love_interest = ""
+	GameState.save_datetime = ""
+	GameState.bad_prologue_ending = false
+
+
 func get_reputation(firstname: String) -> int:
 	if reputations.has(firstname):
 		return reputations[firstname]

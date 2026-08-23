@@ -8,7 +8,6 @@ script = ExtResource("1_gstl3")
 firstname = "Amélia"
 age = 32
 variants = Dictionary[String, Texture2D]({
-"default": ExtResource("2_gdnls"),
-"neutre": ExtResource("2_gdnls")
+"default": ExtResource("2_gdnls")
 })
 metadata/_custom_type_script = "uid://cddw0vxnb1jna"

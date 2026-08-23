@@ -2,13 +2,15 @@
 
 [ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="1_qsrxp"]
 [ext_resource type="Texture2D" uid="uid://bic5v77nkg8gm" path="res://assets/backgrounds/Guinguette.jpg" id="1_vjwxi"]
+[ext_resource type="Texture2D" uid="uid://dw3os44u2exck" path="res://assets/backgrounds/GuinguetteNight.jpg" id="2_ek3sp"]
 [ext_resource type="AudioStream" uid="uid://b3npk8prnxk1s" path="res://assets/audio/calm/the-sun-awoke.ogg" id="2_poeqh"]
 
 [resource]
 script = ExtResource("1_qsrxp")
 aliases = Array[String](["Guinguette près de la plage"])
 backgrounds = Dictionary[String, Texture2D]({
-"default": ExtResource("1_vjwxi")
+"default": ExtResource("1_vjwxi"),
+"soir": ExtResource("2_ek3sp")
 })
 music = ExtResource("2_poeqh")
 metadata/_custom_type_script = "uid://djshq1md8tej7"

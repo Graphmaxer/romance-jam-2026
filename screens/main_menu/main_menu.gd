@@ -19,11 +19,7 @@ func start_game() -> void:
 
 
 func _on_new_game_button_pressed() -> void:
-	GameState.love_interest = ""
-	GameState.chapter_number = 0
-	GameState.reputations.clear()
-	GameState.save_datetime = ""
-	GameState.bad_prologue_ending = false
+	GameState.reset_game()
 	start_game()
 
 
