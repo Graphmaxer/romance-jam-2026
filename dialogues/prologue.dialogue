@@ -31,7 +31,7 @@ Il détourne le regard, comme s’il refusait de me l’avouer. Mais ça faisait
 
 Steve: J'ai rencontré quelqu'un au travail. Je la fréquente depuis quelques semaines maintenant et j’ai plus de points communs avec elle. Et puis tu aurais dû t'en douter, on se voyait et on se parlait de moins en moins. Elle est tellement géniale…
 
-Comment ça, il a rencontré quelqu’un au travail.. ? Dans le travail que je l’ai aidé à décrocher il y a 2 mois ?! Je suis tellement choqué que même s’il continue de parler je n’arrive pas à tout entendre, j’essaie de garder mon calme puis mon regard se porte sur mes cartons qui sont déjà prêts. Je finis par lui couper la parole
+Comment ça, il a rencontré quelqu’un au travail… ? Dans le travail que je l’ai aidé à décrocher il y a 2 mois ?! Je suis tellement choqué que même s’il continue de parler je n’arrive pas à tout entendre, j’essaie de garder mon calme puis mon regard se porte sur mes cartons qui sont déjà prêts. Je finis par lui couper la parole
 
 {{pseudo}}: On allait emménager ensemble… Comment peux-tu me faire ça ?! J'ai déjà mis fin au bail de mon appartement et mes cartons sont prêts.
 
@@ -79,7 +79,7 @@ $> add_character("Irma")
 
 Irma: {{pseudo}} !!!
 
-Elle se jette sur moi et me fait un câlin avant de s'écarter et regarder derrière moi 
+Elle se jette sur moi et me fait un câlin avant de s'écarter et de regarder derrière moi.
 
 Irma: Alors, où est ton fameux copain ? Tu m'as tellement parlé de lui que j'ai hâte.
 
@@ -126,9 +126,9 @@ Je réfléchis quelques minutes, je repense à ma rupture et me demande s’il s
 {{pseudo}}: 
 - Jouer aux cartes et aller de l’avant 
 # Fin du chapitre, sauvegarde et affiche les différents love interest, qui est le choix du joueur
-	$> start_transition("Bienvenue sur l’île mystique !\n\nIl s’agit d’une île possédant un portail reliant les créatures de la mythologie et des esprits de différents folklores. Chaque individu possède un artefact qu’il porte sur lui afin de garder une apparence la plus humaine possible. Sans lui, leur véritable forme se révèle. En ces lieux vous rencontrerez des personnages qui pourraient vous aider à surmonter cette rupture.\n\nBon voyage ! ", 10.0)
+	$> start_transition("Bienvenue sur l’île mystique !\n\nIl s’agit d’une île possédant un portail reliant les créatures de la mythologie et des esprits de différents folklores. Chaque individu possède un artefact qu’il porte sur lui afin de garder une apparence la plus humaine possible. Sans lui, leur véritable forme se révèle. En ces lieux vous rencontrerez des personnages qui pourraient vous aider à surmonter cette rupture.\n\nBon voyage ! ", 15.0)
 	=> END
-- Refuser de jouer, le temps fera son oeuvre 
+- Refuser de jouer, le temps fera son œuvre 
 	{{pseudo}}: Désolée Tatie, je crois que je vais passer mon tour. Je pense que cet été je vais surtout m’occuper de moi et avancer sur un projet dans ma chambre à l’hôtel. 
 	Irma: Eh bien. C’est dommage mais c’est comme tu le sens ma chérie. 
 	Elle est un peu déçue mais je ne me sens vraiment pas en état d’ouvrir mon coeur de sitôt. Je sors de la pièce et monte dans ma chambre. 
