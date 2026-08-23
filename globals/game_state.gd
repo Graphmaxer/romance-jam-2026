@@ -64,7 +64,7 @@ func load_game() -> void:
 						% [key, type_string(typeof(self[key])), type_string(typeof(json_dict[key]))]
 					)
 			else:
-				push_warning("Unkown key %s in save" % key)
+				push_warning("Unknown key %s in save" % key)
 
 
 func _parse_save() -> Dictionary:

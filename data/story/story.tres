@@ -24,9 +24,11 @@
 [ext_resource type="Resource" uid="uid://db51psib3ppe4" path="res://data/locations/villa.tres" id="21_tsnoo"]
 [ext_resource type="Resource" uid="uid://r2gvgc3svp3f" path="res://data/locations/guinguette.tres" id="22_tsnoo"]
 [ext_resource type="Resource" uid="uid://bm35tknkvrk7w" path="res://data/locations/rue_vue_mer.tres" id="23_gt6cx"]
+[ext_resource type="Resource" uid="uid://b1j7h6nmltqmv" path="res://data/locations/appartement.tres" id="24_vkytg"]
+[ext_resource type="Resource" uid="uid://bb4x20twjeafg" path="res://data/locations/centre_ville.tres" id="25_hl670"]
 
 [resource]
 script = ExtResource("15_svq1r")
 characters = Array[ExtResource("1_fx1h1")]([ExtResource("2_vi0yb"), ExtResource("3_rpxeb"), ExtResource("4_56e74"), ExtResource("5_xarb6"), ExtResource("8_tsnoo"), ExtResource("7_h4yfd")])
-locations = Array[ExtResource("8_h4yfd")]([ExtResource("9_tsnoo"), ExtResource("10_gt6cx"), ExtResource("11_3j56a"), ExtResource("12_vkytg"), ExtResource("13_hl670"), ExtResource("14_6w1uv"), ExtResource("15_vi0yb"), ExtResource("16_rpxeb"), ExtResource("17_56e74"), ExtResource("21_gt6cx"), ExtResource("20_h4yfd"), ExtResource("21_tsnoo"), ExtResource("20_ltaft"), ExtResource("22_tsnoo"), ExtResource("23_gt6cx")])
+locations = Array[ExtResource("8_h4yfd")]([ExtResource("9_tsnoo"), ExtResource("10_gt6cx"), ExtResource("11_3j56a"), ExtResource("12_vkytg"), ExtResource("13_hl670"), ExtResource("14_6w1uv"), ExtResource("15_vi0yb"), ExtResource("16_rpxeb"), ExtResource("17_56e74"), ExtResource("21_gt6cx"), ExtResource("20_h4yfd"), ExtResource("21_tsnoo"), ExtResource("20_ltaft"), ExtResource("22_tsnoo"), ExtResource("23_gt6cx"), ExtResource("24_vkytg"), ExtResource("25_hl670")])
 metadata/_custom_type_script = "uid://cv6gh8hv7dau2"

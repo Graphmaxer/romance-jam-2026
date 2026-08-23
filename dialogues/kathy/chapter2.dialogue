@@ -10,7 +10,7 @@ Elle s’est approchée de moi, je crois que ça fait trop longtemps que je la r
 - En quoi puis-je vous aider? 
 	$> gain_reputation("Kathy", 10)
 	{{pseudo}}: Ah oui. Désolée. En quoi puis-je vous aider?
-	Elle me sourit et hocha la tête.
+	Elle me sourit et hoche la tête.
 - Désolée, vous êtes trop mignonne. 
 	$> lose_reputation("Kathy", 15)
 	{{pseudo}}: Désolée, vous êtes tellement mignonne que j’en ai perdu mes mots. Comment puis-je vous aider?
@@ -31,7 +31,7 @@ Elle s’approche de moi et regarde le ruban. Je sens son odeur. Elle sent une a
 
 Nekomusume: Oui, c’est lui. Merci beaucoup.
 
-Elle me fit un grand sourire et essaya de remettre le ruban à son poignet gauche. 
+Elle me fait un grand sourire et essaie de remettre le ruban à son poignet gauche. 
 
 - L’aider à mettre son ruban 
 	$> gain_reputation("Kathy", 10)

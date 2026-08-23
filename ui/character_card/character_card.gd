@@ -32,8 +32,10 @@ func unfocus_character() -> void:
 
 
 func update_reputation(points: int) -> void:
-	var reputation: int = clampi(GameState.get_reputation(name) + points, 0, 100)
-	GameState.reputations[name] = reputation
+	if not character:
+		return
+	var reputation: int = clampi(GameState.get_reputation(character.firstname) + points, 0, 100)
+	GameState.reputations[character.firstname] = reputation
 
 	var reputation_particles: GPUParticles2D
 	if points > 0:
@@ -56,15 +58,16 @@ func update_reputation(points: int) -> void:
 
 
 func _refresh_character() -> void:
-	if character:
-		reputation_bar.visible = character.is_love_interest
-		if not Engine.is_editor_hint():
-			reputation_bar.value = GameState.get_reputation(name)
-		var variant_tex: Texture2D = character.get_variant_tex(variant)
-		if variant_tex:
-			character_tex_rect.texture = variant_tex
-		else:
-			push_warning("Character variant %s not found for %s" % [variant, name])
+	if not character:
+		return
+	reputation_bar.visible = character.is_love_interest
+	if not Engine.is_editor_hint():
+		reputation_bar.value = GameState.get_reputation(character.firstname)
+	var variant_tex: Texture2D = character.get_variant_tex(variant)
+	if variant_tex:
+		character_tex_rect.texture = variant_tex
+	else:
+		push_warning("Character variant %s not found for %s" % [variant, character.firstname])
 
 
 func _modulate_character(color: Color, scale_vec: Vector2) -> void:

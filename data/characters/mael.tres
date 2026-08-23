@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cddw0vxnb1jna" path="res://data/characters/character.gd" id="1_pgqed"]
 [ext_resource type="Texture2D" uid="uid://2hoy8in1or40" path="res://assets/characters/male/Male_Neutral.png" id="1_tcvan"]
+[ext_resource type="Texture2D" uid="uid://m10gsyljn7yt" path="res://assets/characters/mael/travail/mael_travail_neutral.png" id="3_5iwnw"]
 
 [resource]
 script = ExtResource("1_pgqed")
@@ -16,7 +17,7 @@ variants = Dictionary[String, Texture2D]({
 "default": ExtResource("1_tcvan"),
 "enfant": ExtResource("1_tcvan"),
 "neutre": ExtResource("1_tcvan"),
-"travail": ExtResource("1_tcvan")
+"travail": ExtResource("3_5iwnw")
 })
 is_love_interest = true
 metadata/_custom_type_script = "uid://cddw0vxnb1jna"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://b1j7h6nmltqmv"]
+
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="1_1g3gy"]
+[ext_resource type="Texture2D" uid="uid://s5s2kcdnof3n" path="res://assets/backgrounds/Appartement.jpg" id="1_5cf6m"]
+[ext_resource type="AudioStream" uid="uid://b5nj8tgu2c2yp" path="res://assets/audio/A Smoothie At The Beach Bar.ogg" id="2_as24u"]
+
+[resource]
+script = ExtResource("1_1g3gy")
+aliases = Array[String](["Appartement"])
+backgrounds = Dictionary[String, Texture2D]({
+"default": ExtResource("1_5cf6m")
+})
+music = ExtResource("2_as24u")
+metadata/_custom_type_script = "uid://djshq1md8tej7"

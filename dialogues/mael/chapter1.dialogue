@@ -57,7 +57,7 @@ Il ne m'a pas décroché un seul mot depuis qu’on est partis de l’hôtel !
 Je vais finir par m’énerver…
 Et au moment où je m'apprêtais à lui râler dessus, il accroche une affiche sur un panneau et finit enfin par me parler sans me regarder. 
 
-Maël: Au fait, comment ça se passe avec ton copain? Steve c’est ça? 
+Maël: Au fait, comment ça se passe avec ton copain ? Steve c’est ça ? 
 Tu avais dit l’an dernier que tu allais bientôt me le présenter et que j’allais bien m’entendre avec lui. 
 
 Ah, c’est vrai que je lui en avais parlé l’an dernier…
@@ -66,11 +66,11 @@ Ah, c’est vrai que je lui en avais parlé l’an dernier…
 
 Maël: Ah.
 
-{{pseudo}}: Tu veux savoir pourquoi ou tu t’en fiche? 
+{{pseudo}}: Tu veux savoir pourquoi ou tu t’en fiches ? 
 
 Maël: C’est comme tu veux. 
 
-Ah ce qu’il m’énerve ! On dirait que tout ce qu’il m'arrive, il s'en fiche ! Mince, je suis son amie d’enfance, il pourrait faire un effort. Je lui tourne le dos. 
+Ah ce qu’il m’énerve ! On dirait que tout ce qui m'arrive, il s'en fiche ! Mince, je suis son amie d’enfance, il pourrait faire un effort. Je lui tourne le dos. 
 
 {{pseudo}}: Il m’a quitté car il a rencontré quelqu’un à son travail. 
 
@@ -83,7 +83,7 @@ Des larmes commencent à couler mais je me retiens du mieux que je peux, ma voix
 {{pseudo}}: En vérité il voyait déjà quelqu’un d’autre et il a attendu que je me retrouve sans appartement et le jour de notre venue ici pour me larguer…
 
 Mes larmes coulent le long de mes joues, j’essaye de les retenir mais ça s’est passé ce matin. C’est trop dur. 
-Puis, je sentis une main sur ma tête. Maël était en train de me caresser la tête. 
+Puis, je sens une main sur ma tête. Maël était en train de me caresser la tête. 
 
 - Pleurer à chaudes larmes 
 	$> gain_reputation("Maël", 10)

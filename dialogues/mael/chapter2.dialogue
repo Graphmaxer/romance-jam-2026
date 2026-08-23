@@ -87,7 +87,7 @@ Il part chercher les commandes et les 3 femmes se mettent à glousser et à parl
 	Je n’ai pas pu m’empêcher de les regarder de travers.
 	Sauf que l’une des femmes l’a remarqué. 
 	Femme 2: Qu’est-ce que tu as ? T’as un problème petite ? 
-	Petite?! Je fais tout de même 1m65, je suis dans la moyenne ! 
+	Petite ?! Je fais tout de même 1m65, je suis dans la moyenne ! 
 	{{pseudo}}: Non, rien. Désolée d’avoir dérangé votre conversation. 
 - Les ignorer et m’installer
 	$> gain_reputation("Maël", 20)
