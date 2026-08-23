@@ -1,9 +1,8 @@
 [gd_resource type="Resource" script_class="Location" format=3 uid="uid://e4q6iyod3qqw"]
 
 [ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="1_4i78p"]
-[ext_resource type="Texture2D" uid="uid://b7q5qb2bar1uc" path="res://assets/backgrounds/festival/festival_daytime.jpg" id="1_rmg6m"]
-[ext_resource type="Texture2D" uid="uid://bjv3ipb4pt0n4" path="res://assets/backgrounds/festival/festival_evening.jpg" id="2_me1ih"]
-[ext_resource type="Texture2D" uid="uid://boqw5gmg7xp6v" path="res://assets/backgrounds/festival/festival_night.jpg" id="3_bapcj"]
+[ext_resource type="Texture2D" uid="uid://1frpr3cax6ej" path="res://assets/backgrounds/Japanese.jpg" id="1_rmg6m"]
+[ext_resource type="Texture2D" uid="uid://ligc4lrndi2v" path="res://assets/backgrounds/JapaneseNight.jpg" id="2_me1ih"]
 [ext_resource type="AudioStream" uid="uid://c4t8worgvjry8" path="res://assets/audio/lofi-chill/communis-umbra.ogg" id="4_me1ih"]
 
 [resource]
@@ -11,7 +10,7 @@ script = ExtResource("1_4i78p")
 aliases = Array[String](["Festival style japonais avec plusieurs stand", "Festival style japonais avec plusieurs stands"])
 backgrounds = Dictionary[String, Texture2D]({
 "default": ExtResource("1_rmg6m"),
-"nuit": ExtResource("3_bapcj"),
+"nuit": ExtResource("2_me1ih"),
 "soir": ExtResource("2_me1ih")
 })
 music = ExtResource("4_me1ih")

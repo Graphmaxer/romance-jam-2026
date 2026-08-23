@@ -61,6 +61,7 @@ func add_character(firstname: String, variant: String = "default") -> void:
 			var character_card: CharacterCard = CHARACTER_CARD.instantiate()
 			character_card.name = firstname
 			character_card.character = character
+			character_card.initial_variant = variant
 			character_card.variant = variant
 			characters_container.add_child(character_card)
 	else:
@@ -76,16 +77,14 @@ func remove_character(firstname: String) -> void:
 		push_warning("Character to remove not present: %s" % firstname)
 
 
-func change_variant(firstname: String, variant: String) -> void:
-	var character: Character = story.get_character(firstname)
-	if character:
-		var character_card: CharacterCard = _find_character_card(character.firstname)
-		if character_card:
-			character_card.change_variant(variant)
-		else:
-			push_warning("Character to change variant %s not present: %s" % [variant, firstname])
+func change_variant(firstname_or_alias: String, variant: String) -> void:
+	var character_card: CharacterCard = _find_character_card(firstname_or_alias)
+	if character_card:
+		character_card.change_variant(variant)
 	else:
-		push_warning("Character to change variant %s unknown: %s" % [variant, firstname])
+		push_warning(
+			"Character to change variant %s not present: %s" % [variant, firstname_or_alias]
+		)
 
 
 func show_transition(text: String, wait: float = 1.0) -> void:
@@ -127,10 +126,7 @@ func _clean_characters() -> void:
 
 
 func _update_focus(firstname_or_alias: String) -> void:
-	var character: Character = story.get_character(firstname_or_alias)
-	var character_card_to_focus: CharacterCard
-	if character:
-		character_card_to_focus = _find_character_card(character.firstname)
+	var character_card_to_focus: CharacterCard = _find_character_card(firstname_or_alias)
 	for character_card: CharacterCard in characters_container.get_children():
 		if not firstname_or_alias or character_card == character_card_to_focus:
 			character_card.focus_character()
@@ -138,18 +134,23 @@ func _update_focus(firstname_or_alias: String) -> void:
 			character_card.unfocus_character()
 
 
-func _find_character_card(firstname: String) -> CharacterCard:
-	return characters_container.get_node_or_null(firstname)
+func _find_character_card(firstname_or_alias: String) -> CharacterCard:
+	var character: Character = story.get_character(firstname_or_alias)
+	if character:
+		return characters_container.get_node_or_null(character.firstname)
+	return null
 
 
 func _on_got_dialogue(line: DialogueLine) -> void:
 	if not line.character.begins_with(GameState.pseudo):
 		_update_focus(line.character)
-		if line.character and story.get_character(line.character):
+
+		var character_card: CharacterCard = _find_character_card(line.character)
+		if line.character and character_card:
 			if line.tags and line.tags.size() == 1:
 				change_variant(line.character, line.tags[0])
 			else:
-				change_variant(line.character, "default")
+				change_variant(line.character, character_card.initial_variant)
 
 
 func _on_dialogue_ended(dialogue_ended: DialogueResource) -> void:

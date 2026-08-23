@@ -4,6 +4,7 @@ extends Control
 
 @export var character: Character
 @export var variant: String
+var initial_variant: String
 
 var character_tween: Tween
 var reputation_tween: Tween

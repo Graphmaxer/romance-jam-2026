@@ -31,7 +31,7 @@ aliases = Array[String](["Chat", "Nekomusume"])
 age = 24
 birthday = "12 avril"
 true_form = "Nekomusume"
-description = "Cliente régulière du restaurant près de l’hôtel d’Irma
+description = "Adore les salons de thé
 Vient d’une famille aisée
 Toujours de bonne humeur mais a un petit côté espiègle"
 variants = Dictionary[String, Texture2D]({

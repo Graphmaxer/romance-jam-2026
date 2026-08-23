@@ -13,8 +13,7 @@ config_version=5
 config/name="Romance sur l'Île Mystique"
 run/main_scene="uid://ds2mjmfy10p46"
 config/features=PackedStringArray("4.7", "Forward Plus")
-boot_splash/show_image=false
-boot_splash/stretch_mode=3
+boot_splash/stretch_mode=4
 boot_splash/image="uid://tiu0oa1vqe6e"
 config/icon="res://icon.svg"
 

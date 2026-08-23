@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bjv3ipb4pt0n4"
-path="res://.godot/imported/festival_evening.jpg-b45abb15347f5517da14049a88aab253.ctex"
+uid="uid://1frpr3cax6ej"
+path="res://.godot/imported/Japanese.jpg-1b9bb8a1c32f31fe97ab4f64399380a0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/festival/festival_evening.jpg"
-dest_files=["res://.godot/imported/festival_evening.jpg-b45abb15347f5517da14049a88aab253.ctex"]
+source_file="res://assets/backgrounds/Japanese.jpg"
+dest_files=["res://.godot/imported/Japanese.jpg-1b9bb8a1c32f31fe97ab4f64399380a0.ctex"]
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

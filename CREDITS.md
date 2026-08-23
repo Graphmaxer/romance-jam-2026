@@ -3,11 +3,11 @@
 ## Team
 
 - Game Dev : Graphmaxer
-- Writing/Scenario : Sakura
-- Characters Designer : Pr¼nzy (https://linktr.ee/pr14nzodeljuego)
+- Writing/Scenario : Sakura Kurohime
+- Characters Designer : Pr¼nzy
 - Backgrounds Designer : Natuu (Wookie)
 
-### Free Assets
+### Assets Used
 
 ### User Interface
 
@@ -15,20 +15,20 @@
 - Some buttons (https://coda-game.itch.io/cozy-beach-decorations-ui-pixel-art-pack)
 - Hearts (https://in-the-void.itch.io/pixel-hearts-pack)
 
-### Backgrounds
-
-- Minchirie (https://min-chi.material.jp)
-
 ### Audio
 
-- Music (https://fulminisictus.itch.io/visual-novel-audio-pack)
-- Music (https://arkeiamusic.itch.io/free-music-pack-14-lo-fi-chill)
-- Music (https://arkeiamusic.itch.io/free-music-pack-15-calm)
-- Music (https://honored-season.itch.io/a-smoothie-at-the-beach-bar)
+- https://fulminisictus.itch.io/visual-novel-audio-pack
+- https://arkeiamusic.itch.io/free-music-pack-14-lo-fi-chill
+- https://arkeiamusic.itch.io/free-music-pack-15-calm
+- https://honored-season.itch.io/a-smoothie-at-the-beach-bar
 
 ## Tools
 
-### Engine/Addons
+### Engine/Plugins
 
 - Godot (https://godotengine.org)
 - Dialogue Manager (https://dialogue.nathanhoad.net)
+
+### Softwares
+
+- Magma (https://magma.com)

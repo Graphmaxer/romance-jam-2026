@@ -145,6 +145,7 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=849211235]
+texture_filter = 1
 position = Vector2(1101, 593)
 scale = Vector2(3, 3)
 sprite_frames = SubResource("SpriteFrames_h6m2q")

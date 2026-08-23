@@ -67,7 +67,6 @@ custom_minimum_size = Vector2(300, 0)
 layout_mode = 2
 size_flags_horizontal = 4
 theme_override_constants/margin_top = 8
-theme_override_constants/margin_bottom = 0
 
 [node name="ReputationBar" type="ProgressBar" parent="VBoxContainer/MarginContainer" unique_id=2067384786]
 unique_name_in_owner = true
