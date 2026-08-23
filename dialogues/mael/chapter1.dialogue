@@ -41,9 +41,9 @@ $> remove_character("Maël")
 
 Je suis étonnée que cela ne le dérange pas. Tante Irma me pousse doucement vers la sortie. 
 
-Irma: Vas-y ma chérie, ça te changera les idées. A tout à l’heure. 
+Irma: Vas-y ma chérie, ça te changera les idées. À tout à l’heure. 
 
-{{pseudo}}: A tout à l’heure Tatie. 
+{{pseudo}}: À tout à l’heure Tatie. 
 
 Je sors rejoindre Maël. 
 
@@ -93,6 +93,7 @@ Puis, je sens une main sur ma tête. Maël était en train de me caresser la tê
 	Je renifle un peu, il me tend un mouchoir. Je me mouche 
 	Maël: Dis-toi que cette histoire t’a permis d’évoluer et que tu vas pouvoir aller de l’avant en sachant exactement ce que tu veux dans une relation. 
 	Je me retourne et fais face à lui. Je me dis que je dois vraiment avoir une sale tête. Il ouvre un peu ses bras et évite un peu mon regard, il est embarrassé. 
+	#visage embarrassé
 	Maël: Tu veux un câlin ? Comme lorsqu'on était enfants ? 
 	Je hoche la tête et vais dans ses bras. J’espère qu’il ne voit pas à quel point je rougis.
 - Retenir ses larmes et essayer de sourire

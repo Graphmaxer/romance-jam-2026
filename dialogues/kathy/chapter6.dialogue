@@ -20,9 +20,9 @@ Irma: Je pense que ça t’aidera à te changer les idées.
 
 Irma: Cela fait trois jours que je te vois avec un air inquiet qui passe sur ton visage de temps en temps. Je n’ai pas besoin de consulter mes cartes pour le voir. 
 
-{{pseudo}}:  Ah, d’accord. Eh bien j’y vais. A tout à l’heure. 
+{{pseudo}}:  Ah, d’accord. Eh bien j’y vais. À tout à l’heure. 
 
-Irma: A tout à l’heure ma puce. 
+Irma: À tout à l’heure ma puce. 
 
 $> set_location("Rue avec superette")
 
@@ -59,7 +59,7 @@ Je tiens mon téléphone dans mes mains. Cela fait plusieurs minutes que j'hési
 	Kathy: “Bonjour {{pseudo}} est-ce qu’on peut déjeuner ensemble ce midi ? J’ai plein de choses à te dire.” 
 	{{pseudo}}: D’accord, à tout à l’heure. 
 
-$> start_transition("A l’heure du déjeuner")
+$> start_transition("À l’heure du déjeuner")
 
 $> set_location("Guinguette près de la plage")
 $> add_character("Kathy")

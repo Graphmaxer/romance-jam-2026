@@ -29,14 +29,14 @@ Kathy: On y va ou tu continues de me dévisager ?
 
 Elle m'a pris la main et nous sommes parties vers les différents stands qui se trouvaient à 10 minutes de la guinguette. 
 
-$> set_location("Festival style japonais avec plusieurs stand")
+$> set_location("Festival style japonais avec plusieurs stands")
 $> add_character("Kathy")
 
 Nous avons commencé à faire en premier le stand du chamboule-tout, le panier de basket et la pêche au canard. Nous nous sommes arrêtés devant le stand sur le tir à la carabine. 
 
 Kathy: Et si on faisait un pari sur le tir à la carabine ? 
 
-{{pseudo}}: A quoi penses-tu ? 
+{{pseudo}}: À quoi penses-tu ? 
 
 Kathy: La perdante devra acheter ce que nous allons manger. Et je suis très forte dans ce jeu. 
 
@@ -64,7 +64,7 @@ $> set_location("Plage", "nuit")
 $> add_character("Kathy")
 $> end_transition()
 
-Nous marchons le long de la plage. Pour chercher un banc afin de regarder les feux d’artifice. 
+Nous marchons le long de la plage à la recherche d'un banc afin de regarder les feux d’artifice. 
 Plusieurs minutes plus tard nous trouvons un banc puis nous avons décidé d’utiliser des senko hanabi. Ce sont des feux d'artifice en bâton d'encens. Nous les avons achetés avant d’aller sur la plage. 
 
 Kathy: Est-ce que c’est la première fois que tu utilises ce genre de feux d’artifice ? 

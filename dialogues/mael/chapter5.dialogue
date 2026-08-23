@@ -30,7 +30,7 @@ Irène: Tu es venue très souvent à la guinguette et je t’ai vu goûter presq
 	Irène: J’en suis ravie, c’est un vrai plaisir. 
 
 Irène: Je vais vous laisser tranquilles, j’ai un planning un peu chargé et je suppose que vous avez plein de choses à faire. 
-Irène: J’espère qu’on se reverra à la guinguette {{pseudo}}. A bientôt.
+Irène: J’espère qu’on se reverra à la guinguette {{pseudo}}. À bientôt.
 
 $> remove_character("Irène")
 
@@ -70,7 +70,7 @@ Maël: Même si tu affiches une mauvaise tête depuis le début de l’après-mi
 Évidemment qu’il l’avait remarqué, il connaît chacune de mes expressions faciales avec les humeurs qui vont avec. 
 
 {{pseudo}}: Oui, j’en suis désolée, j’ai l’impression d’avoir gâché notre journée. 
-
+#visage sourire
 Maël: Mais non, et puis on s’est quand même bien amusé. 
 
 {{pseudo}}: Merci de me réconforter. 

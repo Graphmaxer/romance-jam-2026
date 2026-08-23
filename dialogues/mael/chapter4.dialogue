@@ -24,8 +24,9 @@ $> add_character("Maël")
 
 On fait le tour des magasins ensemble. Puis on décide d’aller 
 
-- A la bibliothèque
+- À la bibliothèque
 	$> gain_reputation("Maël", 30)
+	#Visage sourire
 	{{pseudo}}: Est-ce que tu lis des livres en ce moment ? 
 	Maël: Oui, j’ai commencé une trilogie. Il me manque le dernier tome, c’est l’occasion de l’acheter
 	Il cherche dans les étagères et trouve ce qu’il cherche
@@ -49,6 +50,7 @@ On fait le tour des magasins ensemble. Puis on décide d’aller
 	Je ne vois pas le temps passer et il est déjà midi. Je prends les quelques vêtements qui me plaisent puis nous sortons. 
 - Dans un cybercafé
 	$> gain_reputation("Maël", 20)
+	#Visage sourire
 	{{pseudo}}: Ça fait longtemps qu’on n'a pas passé de temps dans un cybercafé. 
 	Maël: C’est vrai, je crois que la dernière fois qu’on a joué ensemble, je t’ai battue. 
 	{{pseudo}}: Alors là, ce n’est pas vrai ! J’avais gagné ! 
@@ -78,7 +80,7 @@ $> add_character("Maël")
 Une serveuse nous a installés à une table près de la fenêtre. Maël regarde avec attention le restaurant. Il analyse l’ambiance et le décor. Il regarde attentivement la carte. 
 
 {{pseudo}}: Et si nous prenions des plats différents ? Ainsi à nous deux on pourra goûter plus de plats. 
-
+#Visage pensif
 Maël: C’est une bonne idée. Faisons ça. 
 
 On commande un menu complet chacun. L’un de nous a pris de la viande et l’autre le poisson. 
@@ -89,7 +91,8 @@ Arrivée au dessert, je décide
 	{{pseudo}}: Maël…
 	Je lui tends ma cuillère. Je lui fais un sourire malicieux.
 	{{pseudo}}: Fais “Aaahh” 
-	A ma grande surprise, il me fait un sourire charmeur et prend une bouchée de ma cuillère. 
+	À ma grande surprise, il me fait un sourire charmeur et prend une bouchée de ma cuillère. 
+	#Visage sourire
 	Maël: C’est très bon, merci. 
 	Je deviens toute rouge, je ne m’attendais pas à cette réaction. 
 - d’échanger nos assiettes une fois arrivée à la moitié

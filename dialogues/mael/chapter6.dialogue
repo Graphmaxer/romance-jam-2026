@@ -19,7 +19,7 @@ Maël: Tu veux que j’attende avec toi ?
 {{pseudo}}: Non, ça ira. Je te souhaite une bonne soirée. 
 
 Maël: Merci, à toi aussi. 
-
+#Visage pensif
 Il me caresse la tête puis s’en va. Il avait l’air de vouloir me poser la question mais il a dû voir à ma tête que je n’avais pas envie d’en parler. 
 
 $> remove_character("Maël")
@@ -30,7 +30,7 @@ Irène: Hey  ! On y va ? J’ai fini de me changer.
 
 Je sursaute de surprise et je hoche la tête. 
 
-Oui, on peut y aller. 
+{{pseudo}}: Oui, on peut y aller. 
 
 $> set_location("Rue donnant vue sur la plage", "soir")
 $> add_character("Irène")
