@@ -145,7 +145,7 @@ func _find_character_card(firstname: String) -> CharacterCard:
 func _on_got_dialogue(line: DialogueLine) -> void:
 	if not line.character.begins_with(GameState.pseudo):
 		_update_focus(line.character)
-		if line.character:
+		if line.character and story.get_character(line.character):
 			if line.tags and line.tags.size() == 1:
 				change_variant(line.character, line.tags[0])
 			else:

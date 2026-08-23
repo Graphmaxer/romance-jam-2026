@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://7fs5e75fywyp"
-path="res://.godot/imported/sandy_beach_evening.jpg-c0aa2818bf5294fa1d760c98b384b531.ctex"
+uid="uid://cmwoe6t66q7or"
+path="res://.godot/imported/QuaiBateau.jpg-b7efd03eb4c2314a7c5a6735525d4bfe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/sandy_beach/sandy_beach_evening.jpg"
-dest_files=["res://.godot/imported/sandy_beach_evening.jpg-c0aa2818bf5294fa1d760c98b384b531.ctex"]
+source_file="res://assets/backgrounds/QuaiBateau.jpg"
+dest_files=["res://.godot/imported/QuaiBateau.jpg-b7efd03eb4c2314a7c5a6735525d4bfe.ctex"]
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

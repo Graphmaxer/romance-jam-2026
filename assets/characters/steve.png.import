@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dfiu0akcg7ip3"
-path="res://.godot/imported/empty_island_night.jpg-14b096b45c80e687f96a9575a17108bd.ctex"
+uid="uid://c654n73m5m4ew"
+path="res://.godot/imported/steve.png-aa4e939823470fce10b20232633381e1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/sea_island/empty_island_night.jpg"
-dest_files=["res://.godot/imported/empty_island_night.jpg-14b096b45c80e687f96a9575a17108bd.ctex"]
+source_file="res://assets/characters/steve.png"
+dest_files=["res://.godot/imported/steve.png-aa4e939823470fce10b20232633381e1.ctex"]
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

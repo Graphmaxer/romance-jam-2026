@@ -1,11 +1,11 @@
 [gd_resource type="Resource" script_class="Character" format=3 uid="uid://c6k05o6l82rxs"]
 
-[ext_resource type="Texture2D" uid="uid://6krhtnj02fl4" path="res://assets/characters/female/Female_Neutral.png" id="2_tebt0"]
+[ext_resource type="Texture2D" uid="uid://drijtrbiyk566" path="res://assets/characters/Irma.png" id="2_pqtvd"]
 [ext_resource type="Script" uid="uid://cddw0vxnb1jna" path="res://data/characters/character.gd" id="3_lpive"]
 
 [resource]
 script = ExtResource("3_lpive")
 firstname = "Irma"
 variants = Dictionary[String, Texture2D]({
-"default": ExtResource("2_tebt0")
+"default": ExtResource("2_pqtvd")
 })

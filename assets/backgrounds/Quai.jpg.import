@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c252kidygk16b"
-path="res://.godot/imported/sea_daytime.jpg-7bb55befd272638a950a7f8f57c8661d.ctex"
+uid="uid://bspnim5r5sjhl"
+path="res://.godot/imported/Quai.jpg-4f4d7ce03ab775d190a697e4dfb2cbfb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/sea_island/sea_daytime.jpg"
-dest_files=["res://.godot/imported/sea_daytime.jpg-7bb55befd272638a950a7f8f57c8661d.ctex"]
+source_file="res://assets/backgrounds/Quai.jpg"
+dest_files=["res://.godot/imported/Quai.jpg-4f4d7ce03ab775d190a697e4dfb2cbfb.ctex"]
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

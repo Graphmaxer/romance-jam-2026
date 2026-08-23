@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://326wnl7rqcaw"]
+
+[ext_resource type="Texture2D" uid="uid://cmwoe6t66q7or" path="res://assets/backgrounds/QuaiBateau.jpg" id="1_0bgr2"]
+[ext_resource type="AudioStream" uid="uid://bves70frw2cmo" path="res://assets/audio/calm/water.ogg" id="2_hm1ec"]
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="3_ho2f0"]
+
+[resource]
+script = ExtResource("3_ho2f0")
+aliases = Array[String](["Quai bateau"])
+backgrounds = Dictionary[String, Texture2D]({
+"default": ExtResource("1_0bgr2")
+})
+music = ExtResource("2_hm1ec")
+metadata/_custom_type_script = "uid://djshq1md8tej7"

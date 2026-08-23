@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="Location" format=3 uid="uid://bb4x20twjeafg"]
 
-[ext_resource type="Texture2D" uid="uid://bn4nnxk0t1qdd" path="res://assets/backgrounds/Centre-Ville.jpg" id="1_27ayv"]
+[ext_resource type="Texture2D" uid="uid://bn4nnxk0t1qdd" path="res://assets/backgrounds/CentreVille.jpg" id="1_27ayv"]
 [ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="1_frxel"]
 [ext_resource type="AudioStream" uid="uid://bxx7t72hons6v" path="res://assets/audio/calm/unbound-space.ogg" id="1_scb23"]
 

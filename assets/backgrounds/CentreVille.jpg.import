@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ry2uuox7v2l6"
-path="res://.godot/imported/island_daytime.jpg-2f0b650524fe99a3c14c0e884094aa81.ctex"
+uid="uid://bn4nnxk0t1qdd"
+path="res://.godot/imported/CentreVille.jpg-9e26c970049a9dc7c9f42fa2edcc137a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/sea_island/island_daytime.jpg"
-dest_files=["res://.godot/imported/island_daytime.jpg-2f0b650524fe99a3c14c0e884094aa81.ctex"]
+source_file="res://assets/backgrounds/CentreVille.jpg"
+dest_files=["res://.godot/imported/CentreVille.jpg-9e26c970049a9dc7c9f42fa2edcc137a.ctex"]
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

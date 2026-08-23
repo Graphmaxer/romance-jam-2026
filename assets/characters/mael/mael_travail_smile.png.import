@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bn4nnxk0t1qdd"
-path="res://.godot/imported/Centre-Ville.jpg-f9e52c4dadf29cf4247b3d4973e77f72.ctex"
+uid="uid://gkch7ry3lxjc"
+path="res://.godot/imported/mael_travail_smile.png-ea1c84e1a2b2449808adfefbe87e33df.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/Centre-Ville.jpg"
-dest_files=["res://.godot/imported/Centre-Ville.jpg-f9e52c4dadf29cf4247b3d4973e77f72.ctex"]
+source_file="res://assets/characters/mael/mael_travail_smile.png"
+dest_files=["res://.godot/imported/mael_travail_smile.png-ea1c84e1a2b2449808adfefbe87e33df.ctex"]
 
 [params]
 

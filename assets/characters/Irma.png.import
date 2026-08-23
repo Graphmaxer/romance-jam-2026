@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ckpst6f34b5oq"
-path="res://.godot/imported/island_night.jpg-3c1f433e1c29536ae97981e3ac35febd.ctex"
+uid="uid://drijtrbiyk566"
+path="res://.godot/imported/Irma.png-bd520da0544b2423fb9ebbf4637d12c5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/sea_island/island_night.jpg"
-dest_files=["res://.godot/imported/island_night.jpg-3c1f433e1c29536ae97981e3ac35febd.ctex"]
+source_file="res://assets/characters/Irma.png"
+dest_files=["res://.godot/imported/Irma.png-bd520da0544b2423fb9ebbf4637d12c5.ctex"]
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

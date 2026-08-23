@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://b6blptr16xph4"]
+
+[ext_resource type="Texture2D" uid="uid://bspnim5r5sjhl" path="res://assets/backgrounds/Quai.jpg" id="1_yk5wu"]
+[ext_resource type="AudioStream" uid="uid://cm6i3q014il0" path="res://assets/audio/lofi-chill/star-reaction.ogg" id="2_pm7j4"]
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="3_5nvrm"]
+
+[resource]
+script = ExtResource("3_5nvrm")
+aliases = Array[String](["Quai ile"])
+backgrounds = Dictionary[String, Texture2D]({
+"default": ExtResource("1_yk5wu")
+})
+music = ExtResource("2_pm7j4")
+metadata/_custom_type_script = "uid://djshq1md8tej7"
