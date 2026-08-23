@@ -131,14 +131,14 @@ Je réfléchis quelques minutes, je repense à ma rupture et me demande s’il s
 - Refuser de jouer, le temps fera son œuvre 
 	{{pseudo}}: Désolée Tatie, je crois que je vais passer mon tour. Je pense que cet été je vais surtout m’occuper de moi et avancer sur un projet dans ma chambre à l’hôtel. 
 	Irma: Eh bien. C’est dommage mais c’est comme tu le sens ma chérie. 
-	Elle est un peu déçue mais je ne me sens vraiment pas en état d’ouvrir mon coeur de sitôt. Je sors de la pièce et monte dans ma chambre. 
+	Elle est un peu déçue mais je ne me sens vraiment pas en état d’ouvrir mon cœur de sitôt. Je sors de la pièce et monte dans ma chambre. 
 
 $> show_transition("Des semaines plus tard, à la fin de l’été")
 
 Je suis restée tout l’été dans ma chambre à jouer à des visual novel sur mon ordinateur portable pour oublier la peine qui ne m’a pas quittée durant ce voyage. Je vais un peu mieux mais j’ai le sentiment d’être passée à côté d’une belle histoire.
 J’embarque dans le bateau pour retourner chez mes parents le temps de trouver un nouveau logement et je regarde l’île s’éloigner de plus en plus. 
 
-# Bad ending ; mettre un message à l’attention du joueur : “Vivre une rupture est difficile mais ne fermez pas votre coeur” puis fin de partie, retour à l’écran titre
+# Bad ending ; mettre un message à l’attention du joueur : “Vivre une rupture est difficile mais ne fermez pas votre cœur” puis fin de partie, retour à l’écran titre
 
 $> start_transition("Vivre une rupture est difficile mais une nouvelle histoire pourrait vous aider à tout surmonter", 3.0)
 
