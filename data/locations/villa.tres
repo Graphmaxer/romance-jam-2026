@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://db51psib3ppe4"]
+
+[ext_resource type="Texture2D" uid="uid://dmv1rkrbpbxjf" path="res://assets/backgrounds/Villa.jpg" id="1_f8q84"]
+[ext_resource type="AudioStream" uid="uid://bves70frw2cmo" path="res://assets/audio/calm/water.ogg" id="2_idr0j"]
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="3_hyfn0"]
+
+[resource]
+script = ExtResource("3_hyfn0")
+aliases = Array[String](["Entrée d’une villa"])
+backgrounds = Dictionary[String, Texture2D]({
+"default": ExtResource("1_f8q84")
+})
+music = ExtResource("2_idr0j")
+metadata/_custom_type_script = "uid://djshq1md8tej7"

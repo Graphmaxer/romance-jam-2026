@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bllup75vihhpy"]
 
-[ext_resource type="Texture2D" uid="uid://df7qr6gxl2m23" path="res://assets/Spinning-Floppy-Disk.png" id="1_6e22r"]
+[ext_resource type="Texture2D" uid="uid://df7qr6gxl2m23" path="res://assets/gui/Spinning-Floppy-Disk.png" id="1_6e22r"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fek0b"]
 atlas = ExtResource("1_6e22r")

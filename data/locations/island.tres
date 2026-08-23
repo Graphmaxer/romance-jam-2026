@@ -11,7 +11,6 @@ script = ExtResource("4_yy0kl")
 aliases = Array[String](["Quai ile"])
 backgrounds = Dictionary[String, Texture2D]({
 "default": ExtResource("1_6omss"),
-"jour": ExtResource("1_6omss"),
 "nuit": ExtResource("3_e788b"),
 "soir": ExtResource("2_6omss")
 })

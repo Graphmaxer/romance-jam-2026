@@ -20,16 +20,16 @@ Je me prépare. Je me demande de quoi il veut me parler.
 Peut-être qu’il s’est remis avec Irène et il veut m’en parler. 
 Je sors et l’attends. 
 
-$> set_location("Parking de l’hôtel")
+$> set_location("Parking de l'hôtel")
 $> add_character("Maël")
 
-{{pseudo}}: Salut Maël. Comment vas-tu? 
+{{pseudo}}: Salut Maël. Comment vas-tu ? 
 
-Maël: Un peu fatigué mais sinon ça va. Et toi? 
+Maël: Un peu fatigué mais sinon ça va. Et toi ? 
 
 {{pseudo}}: J’ai passé l’après-midi au spa hier à l’hôtel donc je suis en pleine forme. 
 
-Maël: Super. Un tour sur la plage, ça te tente? 
+Maël: Super. Un tour sur la plage, ça te tente ? 
 
 {{pseudo}}: Pourquoi pas. 
 
@@ -50,11 +50,11 @@ Maël: Je vois ça, c’est rassurant. Surtout qu’il y a deux jours tu n’ava
 
 {{pseudo}}: Je sais…. 
 
-Maël: Tu veux en parler? 
+Maël: Tu veux en parler ? 
 
 {{pseudo}}: Peut-être après. D’abord je voudrais te poser une question. 
 
-Maël: Laquelle? 
+Maël: Laquelle ? 
 
 {{pseudo}}: Est-ce que Irène…
 
@@ -62,13 +62,13 @@ Les mots restent un peu coincés dans ma gorge.
 
 Maël: Ah. Oui, elle m’a fait part de ses sentiments. 
 
-{{pseudo}}: Et tu lui as répondu? 
+{{pseudo}}: Et tu lui as répondu ? 
 
 Maël: Je l’ai toujours vu comme une amie donc j’ai refusé, et puis ce serait bizarre après au travail. 
 
 Je soupire de soulagement. 
 
-Maël: C’était quoi ce soupire? 
+Maël: C’était quoi ce soupire ? 
 
 {{pseudo}}: Euh… Rien du tout. 
 
@@ -78,7 +78,7 @@ Maël: La vérité c’était que je voulais te voir pour autre chose.
 
 Je me tourne vers lui. 
 
-{{pseudo}}: Quoi donc? 
+{{pseudo}}: Quoi donc ? 
 
 Maël: Tends tes mains et ferme les yeux. 
 
@@ -88,17 +88,17 @@ Maël: Tu peux ouvrir les yeux.
 
 Je les ouvre et vois un sachet rempli de cookies. 
 
-{{pseudo}}: Des cookies? 
+{{pseudo}}: Des cookies ? 
 
 Maël: Oui, j’ai appris à les faire. Hier j’ai enfin réussi donc je voulais te les apporter le plus tôt possible. 
 
-{{pseudo}}: Mais pourquoi? 
+{{pseudo}}: Mais pourquoi ? 
 
 Maël: Parce que je voulais te remonter le moral et je sais que tu adores les cookies. Cependant ça m’a pris plus de temps que prévu. 
 Maël: A la base c’était pour te remonter le moral sur ta rupture mais plus le temps passait et plus je voyais que tu n’en avais plus besoin pour cette raison. 
 Maël: Mais j’ai continué pour te faire plaisir. Et puis comme tu avais l’air patraque, je me suis dit que ça te ferait plaisir. 
 
-{{pseudo}}: C’est à cause de ça que tu restais avec Irène tard le soir? 
+{{pseudo}}: C’est à cause de ça que tu restais avec Irène tard le soir ? 
 
 Maël: Oui. Je suis très doué pour les plats salés mais tout ce qui est sucré, j’ai du mal. 
 
@@ -107,7 +107,7 @@ Maël panique un peu.
 
 Maël: C’est pas bon? Je pensais que ceux-là étaient réussis. 
 
-{{pseudo}}: Si, c’est très bon. C’est juste que je me suis imaginé des films entre toi et Irène. 
+{{pseudo}}: Si, c’est très bon. C’est juste que je me suis imaginée des films entre toi et Irène. 
 {{pseudo}}: Mais en fait tu les as fait pour moi et ça me fait vraiment plaisir.
 {{pseudo}}: C’est justement ce qui fait que je t’aime vraiment beaucoup. 
 
@@ -120,7 +120,7 @@ if reputations['Maël'] < 50
 
 	Maël n’a pas l’air de savoir quoi dire. Il me caresse la tête mais est très gêné. 
 	
-	Maël: Tes sentiments me font très plaisir mais… Je n’envisage pas notre relation sous cet angle. Tu es très importante pour moi, on se connait depuis des années. 
+	Maël: Tes sentiments me font très plaisir mais… Je n’envisage pas notre relation sous cet angle. Tu es très importante pour moi, on se connaît depuis des années. 
 
 	Je me doutais qu’il me dirait ce genre de chose. C’est pour cela que je ne lui avais rien dit des années auparavant. 
 	Je n'aurais peut-être dû rien lui dire mais sa gentillesse m’a fait craquer. 
@@ -157,7 +157,7 @@ Je me détache de lui.
 
 {{pseudo}}: Comment ça ? 
 
-Maël: A l’adolescence je commençais à te voir un peu différemment. 
+Maël: A l'adolescence, j'ai commencé à te voir un peu différemment. 
 
 Je suis un peu surprise. 
 

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://c42ojenlqnajn"]
+
+[ext_resource type="Texture2D" uid="uid://cbnt6qe1keiuw" path="res://assets/backgrounds/Parking.jpg" id="1_55fsv"]
+[ext_resource type="Texture2D" uid="uid://cnt0kfdthbsjw" path="res://assets/backgrounds/ParkingNight.jpg" id="2_5brph"]
+[ext_resource type="AudioStream" uid="uid://dnko12vn35y3e" path="res://assets/audio/calm/verdant-zen.ogg" id="4_f7f6g"]
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="5_xfe7n"]
+
+[resource]
+script = ExtResource("5_xfe7n")
+aliases = Array[String](["Parking de l'hôtel"])
+backgrounds = Dictionary[String, Texture2D]({
+"default": ExtResource("1_55fsv"),
+"nuit": ExtResource("2_5brph")
+})
+music = ExtResource("4_f7f6g")
+metadata/_custom_type_script = "uid://djshq1md8tej7"

@@ -10,9 +10,9 @@ Kathy: “Je suis arrivée devant l’hôtel. Je t’attends sur le parking.”
 
 {{pseudo}}: “J’arrive”
 
-Je descends et me dirige vers le parking de l’hôtel. 
+Je descends et me dirige vers le parking de l'hôtel. 
 
-$> set_location("Parking de l’hôtel")
+$> set_location("Parking de l'hôtel")
 $> add_character("Kathy")
 
 Kathy est devant sa voiture sur son téléphone. Je m’approche d’elle. Elle range son téléphone dans son sac.  
@@ -127,7 +127,7 @@ $> add_character("Kathy")
 Une fois Kathy revenue, nous avons conversé sur nos différents hobbys ainsi que des livres et des séries que nous regardons ensemble. Une fois l’après-midi presque terminé, Amélia proposa que je reste dîner mais j’ai poliment refusé car je ne me sentais pas encore prête à rencontrer toute la famille de Kathy ce soir. 
 Kathy me raccompagna devant l’hôtel de ma tante. 
 
-$> set_location("Parking de l’hôtel", "soir")
+$> set_location("Parking de l'hôtel", "soir")
 $> add_character("Kathy")
 
 Nous sommes sorties de la voiture. Puis nous avons commencé à discuter sur le parking. 

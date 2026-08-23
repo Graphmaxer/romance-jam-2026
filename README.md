@@ -1,4 +1,4 @@
-# Romance Jam 2026
+# Romance Jam 2026 : Romance sur l'Île Mystique
 
 Otome game made for https://itch.io/jam/romance-jam-2026
 

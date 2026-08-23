@@ -16,6 +16,11 @@ var state: State = State.INACTIVE
 @onready var transition_text: Label = %TransitionText
 
 
+func _ready() -> void:
+	background.modulate.a = 0
+	background.visible = false
+
+
 func play(text: String, wait: float) -> void:
 	await fade_in_and_wait(text, wait)
 	await fade_out()
@@ -26,7 +31,7 @@ func fade_in_and_wait(text: String, wait: float) -> void:
 		push_warning("Invalid state: %s" % State.keys()[state])
 		return
 
-	transition_text.text = text
+	transition_text.text = text.replace("\\n", "\n")
 	background.modulate.a = 0
 	background.visible = true
 

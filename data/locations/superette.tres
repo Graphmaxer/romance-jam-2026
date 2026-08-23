@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://2oyvgn32ib6c"]
+
+[ext_resource type="Texture2D" uid="uid://dj3015ien7aj3" path="res://assets/backgrounds/Superette.jpg" id="1_3lqvf"]
+[ext_resource type="AudioStream" uid="uid://bg7axawmvewnd" path="res://assets/audio/lofi-chill/rendezvous.ogg" id="2_qe0qx"]
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="3_gpq60"]
+
+[resource]
+script = ExtResource("3_gpq60")
+aliases = Array[String](["Rue avec superette"])
+backgrounds = Dictionary[String, Texture2D]({
+"default": ExtResource("1_3lqvf")
+})
+music = ExtResource("2_qe0qx")
+metadata/_custom_type_script = "uid://djshq1md8tej7"

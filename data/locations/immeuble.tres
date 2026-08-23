@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://c4s4iy7gl5t8q"]
+
+[ext_resource type="Texture2D" uid="uid://drtap015o37if" path="res://assets/backgrounds/Immeuble.jpg" id="1_wtibx"]
+[ext_resource type="AudioStream" uid="uid://bxx7t72hons6v" path="res://assets/audio/calm/unbound-space.ogg" id="2_7wdb6"]
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="3_xfkrb"]
+
+[resource]
+script = ExtResource("3_xfkrb")
+aliases = Array[String](["Arrêt de bus devant immeuble"])
+backgrounds = Dictionary[String, Texture2D]({
+"default": ExtResource("1_wtibx")
+})
+music = ExtResource("2_7wdb6")
+metadata/_custom_type_script = "uid://djshq1md8tej7"

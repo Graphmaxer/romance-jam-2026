@@ -27,7 +27,7 @@ Je me dirige vers la muraille et fouille au niveau des buissons. Je finis par re
 
 Nekomusume: Faites voir ! 
 
-Elle s’approche de moi et regarde le ruban. Je sentis son odeur. Elle sentait une agréable odeur de rose. Elle prit le ruban de ma main et l’examina. 
+Elle s’approche de moi et regarde le ruban. Je sens son odeur. Elle sent une agréable odeur de rose. Elle prend le ruban de ma main et l’examine. 
 
 Nekomusume: Oui, c’est lui. Merci beaucoup.
 
@@ -37,14 +37,12 @@ Elle me fit un grand sourire et essaya de remettre le ruban à son poignet gauch
 	$> gain_reputation("Kathy", 10)
 	{{pseudo}}: Attendez, je vais vous aider. 
 	Elle me tend le ruban puis me montre son poignet gauche. Je l’attache du mieux que je peux en lui faisant un joli nœud. 
-- La regarder faire 
-	$> lose_reputation("Kathy", 0)
+- La regarder faire
+	Nekomusume: Au fait, je ne me suis pas présentée. Je m'appelle Kathy. Je suis enchantée de faire votre connaissance. 
 
-Nekomusume: Au fait, je ne me suis pas présentée. Je m'appelle Kathy. Je suis enchantée de faire votre connaissance. 
+	{{pseudo}}: Je m'appelle {{pseudo}}. Enchantée également. 
 
-{{pseudo}}: Je m'appelle {{pseudo}}. Enchantée également. 
-
-Kathy: Puis-je vous inviter à dîner ce soir? Je souhaiterais vous remercier. 
+	Kathy: Puis-je vous inviter à dîner ce soir? Je souhaiterais vous remercier. 
 
 - Accepter avec grand plaisir
 	$> gain_reputation("Kathy", 10)
@@ -52,7 +50,7 @@ Kathy: Puis-je vous inviter à dîner ce soir? Je souhaiterais vous remercier.
 - Accepter mais insister pour payer sa part 
 	$> gain_reputation("Kathy", 15)
 	{{pseudo}}: Mais ce n’était rien. Je veux bien vous accompagner mais j’insiste pour payer ma part. 
-	Kathy: Je tiens vraiment à vous remercier, ce ruban est important pour moi. Laissez-moi vous offrir un dîner et on sera quittes. 
+	Kathy: Je tiens vraiment à vous remercier, ce ruban est important pour moi. 		Laissez-moi vous offrir un dîner et on sera quittes. 
 - Refuser
 	$> lose_reputation("Kathy", 15)
 	{{pseudo}}: Je suis désolée mais on m’attend déjà ce soir. 
@@ -123,12 +121,12 @@ Kathy: De rien. Vous m’avez aidée à retrouver un objet qui m’est cher donc
 
 Kathy fait quelques pas puis se retourne en souriant. 
 
-Kathy: Est-ce la prochaine fois que l’on se verra, je peux vous tutoyer? 
+Kathy: Est-ce que, la prochaine fois que l’on se verra, je peux vous tutoyer? 
  
 {{pseudo}}: Bien sûr ! Je serais ravie de vous revoir ! 
 
 $> remove_character("Kathy")
 
-Kathy partie le sourire aux lèvres et je marche vers l’hôtel de tante Irma en ayant à l’esprit d’avoir passé une bonne soirée. 
+Kathy part, le sourire aux lèvres et je marche vers l’hôtel de tante Irma en ayant à l’esprit d’avoir passé une bonne soirée. 
 
 => END

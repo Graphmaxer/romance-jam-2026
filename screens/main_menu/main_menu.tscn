@@ -3,9 +3,9 @@
 [ext_resource type="Script" uid="uid://sgo5eg1u36cl" path="res://screens/main_menu/main_menu.gd" id="2_kud6f"]
 [ext_resource type="PackedScene" uid="uid://beixi7tx28lcc" path="res://screens/settings_menu/settings_menu.tscn" id="2_tldqp"]
 [ext_resource type="AudioStream" uid="uid://d2xn40sm3awml" path="res://assets/audio/Pieces/ogg/Relax.ogg" id="2_ux20d"]
-[ext_resource type="Texture2D" uid="uid://c5h0xjdug5apr" path="res://assets/backgrounds/menu/fond.jpg" id="3_tldqp"]
-[ext_resource type="Texture2D" uid="uid://dk4ep7cwxlsii" path="res://assets/backgrounds/menu/menu_mid.png" id="4_ux20d"]
-[ext_resource type="Texture2D" uid="uid://coxhtnk64akvj" path="res://assets/backgrounds/menu/menu_foreground.png" id="5_ux20d"]
+[ext_resource type="Texture2D" uid="uid://c5h0xjdug5apr" path="res://assets/backgrounds/main_menu/menu_background.jpg" id="3_tldqp"]
+[ext_resource type="Texture2D" uid="uid://dk4ep7cwxlsii" path="res://assets/backgrounds/main_menu/menu_mid.png" id="4_ux20d"]
+[ext_resource type="Texture2D" uid="uid://coxhtnk64akvj" path="res://assets/backgrounds/main_menu/menu_foreground.png" id="5_ux20d"]
 
 [sub_resource type="Animation" id="Animation_ay84d"]
 resource_name = "main_menu_beach"

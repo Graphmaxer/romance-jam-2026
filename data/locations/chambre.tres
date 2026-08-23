@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://cox18yc44pfp4"]
+
+[ext_resource type="Texture2D" uid="uid://btd1c3hwnvhit" path="res://assets/backgrounds/Chambre.jpg" id="1_g426y"]
+[ext_resource type="Texture2D" uid="uid://ikj6ftkxxaml" path="res://assets/backgrounds/ChambreNight.jpg" id="2_pn0x8"]
+[ext_resource type="AudioStream" uid="uid://cm6i3q014il0" path="res://assets/audio/lofi-chill/star-reaction.ogg" id="4_pn0x8"]
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="4_u6v3m"]
+
+[resource]
+script = ExtResource("4_u6v3m")
+aliases = Array[String](["Appartement", "Chambre du personnage"])
+backgrounds = Dictionary[String, Texture2D]({
+"default": ExtResource("1_g426y"),
+"nuit": ExtResource("2_pn0x8")
+})
+music = ExtResource("4_pn0x8")
+metadata/_custom_type_script = "uid://djshq1md8tej7"

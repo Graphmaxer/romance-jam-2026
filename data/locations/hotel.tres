@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://bdncph31847pp"]
+
+[ext_resource type="Texture2D" uid="uid://clejmspjkfmsa" path="res://assets/backgrounds/Hotel.jpg" id="1_rftsl"]
+[ext_resource type="AudioStream" uid="uid://dnko12vn35y3e" path="res://assets/audio/calm/verdant-zen.ogg" id="2_fgcls"]
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="3_j8thb"]
+
+[resource]
+script = ExtResource("3_j8thb")
+aliases = Array[String](["Salle de réception de l’hôtel", "Salle de réception de l'hôtel"])
+backgrounds = Dictionary[String, Texture2D]({
+"default": ExtResource("1_rftsl")
+})
+music = ExtResource("2_fgcls")
+metadata/_custom_type_script = "uid://djshq1md8tej7"

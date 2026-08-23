@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://b10we4ih7e2hh"]
+
+[ext_resource type="Texture2D" uid="uid://djvepingwoq6j" path="res://assets/backgrounds/Plage.jpg" id="1_pivql"]
+[ext_resource type="Texture2D" uid="uid://dyhwk8ucu2b6r" path="res://assets/backgrounds/PlageNight.jpg" id="2_fgt4b"]
+[ext_resource type="Texture2D" uid="uid://co7ypudngm3u4" path="res://assets/backgrounds/PlageSoir.jpg" id="3_enmdm"]
+[ext_resource type="AudioStream" uid="uid://b3npk8prnxk1s" path="res://assets/audio/calm/the-sun-awoke.ogg" id="4_ypgat"]
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="5_1j8rb"]
+
+[resource]
+script = ExtResource("5_1j8rb")
+aliases = Array[String](["Plage"])
+backgrounds = Dictionary[String, Texture2D]({
+"default": ExtResource("1_pivql"),
+"nuit": ExtResource("2_fgt4b"),
+"soir": ExtResource("3_enmdm")
+})
+music = ExtResource("4_ypgat")
+metadata/_custom_type_script = "uid://djshq1md8tej7"

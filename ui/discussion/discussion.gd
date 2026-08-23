@@ -85,7 +85,7 @@ func change_variant(firstname: String, variant: String) -> void:
 		else:
 			push_warning("Character to change variant not present: %s" % firstname)
 	else:
-		push_warning("Character to change variant unkown: %s" % firstname)
+		push_warning("Character to change variant unknown: %s" % firstname)
 
 
 func show_transition(text: String, wait: float = 1.0) -> void:

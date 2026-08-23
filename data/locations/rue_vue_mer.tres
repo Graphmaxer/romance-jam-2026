@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://bm35tknkvrk7w"]
+
+[ext_resource type="Texture2D" uid="uid://cqhd1dlm801kt" path="res://assets/backgrounds/RueVueMer.jpg" id="1_fefva"]
+[ext_resource type="Texture2D" uid="uid://dgc87ypsast5d" path="res://assets/backgrounds/RueVueMerNight.jpg" id="2_lwho8"]
+[ext_resource type="AudioStream" uid="uid://b5nj8tgu2c2yp" path="res://assets/audio/A Smoothie At The Beach Bar.ogg" id="3_bl0kb"]
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="4_bmpjk"]
+
+[resource]
+script = ExtResource("4_bmpjk")
+aliases = Array[String](["Rue avec vue sur la mer", "Rue donnant vue sur la plage"])
+backgrounds = Dictionary[String, Texture2D]({
+"default": ExtResource("1_fefva"),
+"nuit": ExtResource("2_lwho8")
+})
+music = ExtResource("3_bl0kb")
+metadata/_custom_type_script = "uid://djshq1md8tej7"
