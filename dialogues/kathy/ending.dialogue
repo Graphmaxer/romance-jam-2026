@@ -63,7 +63,7 @@ Nous avons pris un peu de tout sur les stands \: des takoyaki, des nouilles saut
 
 $> start_transition("Plusieurs heures plus tard, dans la soirée")
 $> set_location("Plage", "nuit")
-$> add_character("Kathy")
+$> add_character("Kathy", "yukata")
 $> end_transition()
 
 Nous marchons le long de la plage à la recherche d'un banc afin de regarder les feux d’artifice. 
@@ -91,7 +91,7 @@ if reputations['Kathy'] < 50
 
 	Kathy est un peu surprise, elle écarte sa main de la mienne puis détourne le regard. 
 	#visage embarrassée
-	Kathy: [#embarrassée] Je suis désolée, je te vois surtout comme une bonne amie en qui j’ai confiance. Je ne ressens pas la même chose… Je suis désolée…
+	Kathy: [#yukata embarrassée] Je suis désolée, je te vois surtout comme une bonne amie en qui j’ai confiance. Je ne ressens pas la même chose… Je suis désolée…
 
 	Ah, donc je me suis fourvoyée. Je croyais qu’elle avait des sentiments pour moi après notre câlin et le fait que nous nous tenions la main. Mais finalement, elle ne me voyait que comme une amie…
 
@@ -117,7 +117,7 @@ if reputations['Kathy'] < 50
 
 Kathy est un peu surprise, elle me sourit. Je vois ses joues rougir un peu. Elle enlace ma main. 
 #visage sourire
-Kathy: [#sourire] Je suis heureuse que tu me fasses une telle déclaration. J’y pensais un peu mais je pensais que je me faisais des idées. 
+Kathy: [#yukata sourire] Je suis heureuse que tu me fasses une telle déclaration. J’y pensais un peu mais je pensais que je me faisais des idées. 
 
 {{pseudo}}: Tu veux dire que…
 
