@@ -4,7 +4,7 @@
 
 - Game Dev : Graphmaxer
 - Writing/Scenario : Sakura Kurohime
-- Characters Designer : Pr¼nzy
+- Characters Designer : Pr¼nzy (https://www.youtube.com/@Prinzodeljuego)
 - Backgrounds Designer : Natuu (Wookie)
 
 ### Assets Used
