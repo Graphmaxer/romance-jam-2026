@@ -58,15 +58,15 @@ J’entre dans l’hôtel en sirotant une brique de lait à la fraise que j’ai
 
 $> add_character("Irma")
 
-Irma: Coucou ma chérie. Comment se sont passées les courses pour le dîner de ce soir?
+Irma: Coucou ma chérie. Comment se sont passées les courses pour le dîner de ce soir ?
 
 {{pseudo}}: Je pense que j’ai réussi à tout trouver sur la liste. 
 
-Ma tante prend le panier en osier que j’avais dans les mains et vérifie si tout ce qui avait été noté sur la liste. 
+Ma tante prend le panier en osier que j’avais dans les mains et vérifie si tout ce qui avait été noté sur la liste y est. 
 
 Irma: Ah ! Je crois que tu as oublié un ingrédient. 
 
-{{pseudo}}: Quoi?
+{{pseudo}}: Quoi ?
 
 Je regarde à nouveau et me rends compte que j’ai oublié d’acheter l’huile de sésame ! 
 

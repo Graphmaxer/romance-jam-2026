@@ -8,7 +8,7 @@ Je me lève et voit qu’il reste de la lumière en cuisine, je m’approche dis
 
 $> add_character("Maël", "travail")
 
-Je vois une femme en tenue de chef collée à Maël par derrière!!! 
+Je vois une femme en tenue de chef collée à Maël par derrière !!! 
 J’essaie d’avancer discrètement sans faire de bruit pour écouter leur conversation. 
 
 Pâtissière: C’est fou à quel point tu es doué pour cuisiner des plats salés mais tout ce qui concerne les gâteaux, c’est une catastrophe. 
@@ -35,18 +35,18 @@ Pâtissière: Il faut que je rentre. Je suis attendue. On se revoit demain matin
 Elle prend son sac à main et s’en va. 
 Je me relève. Je n’ose pas le regarder dans les yeux. 
 
-Maël: Tu veux bien attendre le temps que je ferme tout? 
+Maël: Tu veux bien attendre le temps que je ferme tout ? 
 
 Je hoche la tête. 
 $> remove_character("Maël")
 Je l’attends dehors. J’essaie de reprendre mon calme. 
-Il apprend la pâtisserie? Mais les sucreries ont toujours été difficiles à faire pour lui. En plus, il n'aime pas particulièrement en manger.
+Il apprend la pâtisserie ? Mais les sucreries ont toujours été difficiles à faire pour lui. En plus, il n'aime pas particulièrement en manger.
 Je me rappelle qu’à chaque fois que l’on allait dans des salons de thé, il ne commandait jamais de pâtisseries. 
-Alors pourquoi d’un coup il voudrait savoir en faire? Peut-être que…
+Alors pourquoi d’un coup il voudrait savoir en faire ? Peut-être que…
 
 $> add_character("Maël")
 
-Maël: On y va? 
+Maël: On y va ? 
 
 {{pseudo}}: AAAaaahh ! 
 
@@ -66,17 +66,17 @@ Je le regarde pendant que nous marchons.
 
 - Lui demander directement
 	$> gain_reputation("Maël", 20)
-	{{pseudo}}: Maël, est-ce que tu vois quelqu’un en ce moment? 
-	Maël: Pas en ce moment, non. Pourquoi? 
+	{{pseudo}}: Maël, est-ce que tu vois quelqu’un en ce moment ? 
+	Maël: Pas en ce moment, non. Pourquoi ? 
 	{{pseudo}}: C’est juste que tu es maintenant au courant de ma situation amoureuse donc je voulais juste savoir ce qu’il en était de ton côté. 
 	J’avance un peu plus vite pour qu’il ne voit pas mon sourire. 
 - Tourner autour du pot
 	$> lose_reputation("Maël", 10)
-	{{pseudo}}: Maël, je peux te poser une question? 
-	Maël: Laquelle? 
+	{{pseudo}}: Maël, je peux te poser une question ? 
+	Maël: Laquelle ? 
 	{{pseudo}}: Tu sais… Je t’ai dit il y a une semaine que je m’étais fait larguer et…
 	Maël: Oui. 
-	{{pseudo}}: Donc voilà… Est-ce que tu es en couple? 
+	{{pseudo}}: Donc voilà… Est-ce que tu es en couple ? 
 	Maël: Non. 
 	Donc j’ai peut-être une chance. 
 
@@ -91,31 +91,31 @@ Maël: Ce n’est rien, c’est la moindre des choses.
 
 Il s’apprête à partir. Mais je le retiens en tenant un morceau de sa chemise sans forcément m’en rendre compte. 
 
-Maël: Tu as besoin de quelque chose? 
+Maël: Tu as besoin de quelque chose ? 
 
 Je retire ma main et j’évite un peu son regard. 
 
-{{pseudo}}: Est-ce que tu es disponible lundi prochain? Je sais que la guinguette est fermée vu qu’elle est ouverte le dimanche. 
+{{pseudo}}: Est-ce que tu es disponible lundi prochain ? Je sais que la guinguette est fermée vu qu’elle est ouverte le dimanche. 
 
 Il prend le temps de réfléchir puis il me fait un léger sourire. 
 
-Maël: Tu me donnes un rencard? 
+Maël: Tu me donnes un rencard ? 
 
 Je deviens rouge comme une pivoine. 
 
-{{pseudo}}: Mais non ! C’est juste que ça fait longtemps qu’on a pas passé une journée complète ensemble.
+{{pseudo}}: Mais non ! C’est juste que ça fait longtemps qu’on n'a pas passé une journée complète ensemble.
 
 Il rit un peu. C’est tellement rare. 
 
 Maël: C’est d’accord. 
 
-{{pseudo}}: C’est vrai? 
+{{pseudo}}: C’est vrai ? 
 
-Maël: Est-ce que tu m’as déjà entendu dire des choses que je ne pensais pas? 
+Maël: Est-ce que tu m’as déjà entendu dire des choses que je ne pensais pas ? 
 
 {{pseudo}}: Non, c’est d’ailleurs une de tes meilleures qualités. 
 
-Maël: Merci. Tu penses quand même passer à la guinguette de temps en temps avant lundi prochain? 
+Maël: Merci. Tu penses quand même passer à la guinguette de temps en temps avant lundi prochain ? 
 
 {{pseudo}}: Bien sûr ! La nourriture est délicieuse ! Et le service est parfait !
 

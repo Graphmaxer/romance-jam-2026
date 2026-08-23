@@ -13,9 +13,9 @@ Maël: Bonjour {{pseudo}}, tu es arrivée en avance, je ne t’attendais pas de 
 
 Il fait un léger sourire. Il est trop craquant. Il me regarde et approche sa main de ma joue. 
 
-Maël: Tu as du mal à dormir ces derniers temps? 
+Maël: Tu as du mal à dormir ces derniers temps ? 
 
-{{pseudo}}: Hein… Non, je vais bien, merci de t’en inquiéter. On y va? 
+{{pseudo}}: Hein… Non, je vais bien, merci de t’en inquiéter. On y va ? 
 
 Je lui tourne le dos, j’ai le visage en feu. Il faut que je me calme. 
 
@@ -26,10 +26,10 @@ On fait le tour des magasins ensemble. Puis on décide d’aller
 
 - A la bibliothèque
 	$> gain_reputation("Maël", 30)
-	{{pseudo}}: Est-ce que tu lis des livres en ce moment? 
+	{{pseudo}}: Est-ce que tu lis des livres en ce moment ? 
 	Maël: Oui, j’ai commencé une trilogie. Il me manque le dernier tome, c’est l’occasion de l’acheter
 	Il cherche dans les étagères et trouve ce qu’il cherche
-	Maël: Et toi, tu lis toujours des mangas? 
+	Maël: Et toi, tu lis toujours des mangas ? 
 	- Oui, j’aime toujours ça
 		{{pseudo}}: Il n’y a aucune raison pour que je n’en lise plus, il y a tellement de genres différents, c’est difficile de s’en lasser. 
 		Maël: Tu n’as pas changé, ça a un côté rassurant. 
@@ -49,10 +49,10 @@ On fait le tour des magasins ensemble. Puis on décide d’aller
 	Je ne vois pas le temps passer et il est déjà midi. Je prends les quelques vêtements qui me plaisent puis nous sortons. 
 - Dans un cybercafé
 	$> gain_reputation("Maël", 20)
-	{{pseudo}}: Ça fait longtemps qu’on a pas passé de temps dans un cybercafé. 
+	{{pseudo}}: Ça fait longtemps qu’on n'a pas passé de temps dans un cybercafé. 
 	Maël: C’est vrai, je crois que la dernière fois qu’on a joué ensemble, je t’ai battue. 
 	{{pseudo}}: Alors là, ce n’est pas vrai ! J’avais gagné ! 
-	Maël: Je te propose de faire une revanche. Tu veux jouer à un jeu de course ou un jeu de combat? 
+	Maël: Je te propose de faire une revanche. Tu veux jouer à un jeu de course ou un jeu de combat ? 
 	Maël est plus fort sur un jeu de course plutôt qu’à un jeu de combat. Quoique ça lui arrivait de me battre aussi… Je choisis
 	- Jeu de combat
 		Maël: Ah, j’ai perdu
@@ -66,7 +66,7 @@ On fait le tour des magasins ensemble. Puis on décide d’aller
 		Maël: C’est d’accord.  
 		Nous avons continué à jouer jusqu’à ce qu’il soit l’heure de déjeuner. Nous sommes sortis en rigolant de nos parties. 
 
-Maël: J’ai pris l’initiative de réserver un restaurant pour étudier leur carte et ce qui fait leur succès. J’espère que ça ne te dérange pas? 
+Maël: J’ai pris l’initiative de réserver un restaurant pour étudier leur carte et ce qui fait leur succès. J’espère que ça ne te dérange pas ? 
 
 {{pseudo}}: Pas du tout, du moment qu’on y mange bien. 
 
@@ -77,7 +77,7 @@ $> add_character("Maël")
 
 Une serveuse nous a installés à une table près de la fenêtre. Maël regarde avec attention le restaurant. Il analyse l’ambiance et le décor. Il regarde attentivement la carte. 
 
-{{pseudo}}: Et si nous prenions des plats différents? Ainsi à nous deux on pourra goûter plus de plats. 
+{{pseudo}}: Et si nous prenions des plats différents ? Ainsi à nous deux on pourra goûter plus de plats. 
 
 Maël: C’est une bonne idée. Faisons ça. 
 
@@ -93,6 +93,7 @@ Arrivée au dessert, je décide
 	Maël: C’est très bon, merci. 
 	Je deviens toute rouge, je ne m’attendais pas à cette réaction. 
 - d’échanger nos assiettes une fois arrivée à la moitié
+# Rien de spécial se passe, choix neutre
 
 Une fois le repas terminé, nous allons à la caisse régler notre déjeuner. J’allais payer mais Maël avait déjà tout payé. 
 Nous sortons du restaurant. 

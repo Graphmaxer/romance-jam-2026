@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Location" format=3 uid="uid://branlkgfa6csk"]
+
+[ext_resource type="Texture2D" uid="uid://dyhohujab2jj6" path="res://assets/backgrounds/SalleIrma.jpg" id="1_god31"]
+[ext_resource type="AudioStream" uid="uid://bves70frw2cmo" path="res://assets/audio/calm/water.ogg" id="2_so3m5"]
+[ext_resource type="Script" uid="uid://djshq1md8tej7" path="res://data/locations/location.gd" id="3_r4dv7"]
+
+[resource]
+script = ExtResource("3_r4dv7")
+aliases = Array[String](["Divination", "Salle de divination d'Irma"])
+backgrounds = Dictionary[String, Texture2D]({
+"default": ExtResource("1_god31")
+})
+music = ExtResource("2_so3m5")
+metadata/_custom_type_script = "uid://djshq1md8tej7"

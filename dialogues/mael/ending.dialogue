@@ -10,7 +10,7 @@ $> set_location("Chambre du personnage")
 Je me suis réveillée en étant en pleine forme. 
 J’entends mon téléphone vibrer. 
 
-Maël: “Bonjour {{pseudo}}, j’ai pris ma journée aujourd’hui. Je peux passer te voir dans 30 min?”
+Maël: “Bonjour {{pseudo}}, j’ai pris ma journée aujourd’hui. Je peux passer te voir dans 30 min ?”
 
 Tiens, c’est bizarre. Ce n’est pas le genre de Maël de prendre des congés comme ça. Lui qui est tellement sérieux. Ça m’intrigue. 
 
@@ -38,7 +38,7 @@ $> add_character("Maël")
 
 On a commencé à marcher le long de la plage. 
 
-{{pseudo}}: Tu voulais me voir pour discuter de quelque chose en particulier? 
+{{pseudo}}: Tu voulais me voir pour discuter de quelque chose en particulier ? 
 
 Maël: C’est surtout que ça me faisait bizarre de ne pas te voir hier. Tu venais presque tous les jours donc je voulais m’assurer que tu allais bien. 
 
@@ -105,13 +105,13 @@ Maël: Oui. Je suis très doué pour les plats salés mais tout ce qui est sucr�
 J’en mange un. C’est délicieux. Une larme coule le long de ma joue. 
 Maël panique un peu.
 
-Maël: C’est pas bon? Je pensais que ceux-là étaient réussis. 
+Maël: C’est pas bon ? Je pensais que ceux-là étaient réussis. 
 
 {{pseudo}}: Si, c’est très bon. C’est juste que je me suis imaginée des films entre toi et Irène. 
 {{pseudo}}: Mais en fait tu les as fait pour moi et ça me fait vraiment plaisir.
 {{pseudo}}: C’est justement ce qui fait que je t’aime vraiment beaucoup. 
 
-Maël: Beaucoup comme un ami? 
+Maël: Beaucoup comme un ami ? 
 
 Je secoue la tête pour lui indiquer que non. 
 
@@ -143,7 +143,7 @@ Maël: Moi aussi.
 
 Je le regarde et vois qu’il rougit un peu au niveau des oreilles. 
 
-{{pseudo}}: C’est vrai? 
+{{pseudo}}: C’est vrai ? 
 
 Maël: Oui, pourquoi je te mentirais ? 
 
@@ -165,7 +165,7 @@ Je suis un peu surprise.
 
 Je m’approche de lui pour l’embrasser puis je m’arrête juste avant. 
 
-{{pseudo}}: Je peux? 
+{{pseudo}}: Je peux ? 
 
 Maël: Vas-y. 
 
@@ -189,9 +189,9 @@ if reputations['Maël'] == 100
 	{{pseudo}}: Comment ça ? 
 
 	Maël: J’ai réussi à convaincre mes parents d’ouvrir des restaurants en dehors de l’île, donc j’y vais pour me renseigner et voir ce qu’il en est. 
-	Maël: Ça ne te fait pas plaisir? 
+	Maël: Ça ne te fait pas plaisir ? 
 
-	{{pseudo}}: Si ! Je suis tellement heureuse qu’on reste ensemble! 
+	{{pseudo}}: Si ! Je suis tellement heureuse qu’on reste ensemble ! 
 
 	Je lui saute dans les bras et il me caresse la tête en me faisant un baiser sur le front. 
 
@@ -226,11 +226,11 @@ if reputations['Maël'] >= 50
 
 	Maël: Au fait, j’ai une bonne nouvelle à t’annoncer.
 
-	{{pseudo}}: Laquelle? 
+	{{pseudo}}: Laquelle ? 
 
 	Maël: Mes parents envisagent d’ouvrir des restaurants en dehors de l'île donc il y a des chances que l’on se croise plus tôt que tu le penses. 
 
-	{{pseudo}}: Vraiment? C’est super ! 
+	{{pseudo}}: Vraiment ? C’est super ! 
 
 	Je lui fais un câlin qu’il me rend. 
 

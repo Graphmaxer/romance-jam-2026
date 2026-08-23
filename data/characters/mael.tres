@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://2hoy8in1or40" path="res://assets/characters/male/Male_Neutral.png" id="1_tcvan"]
 [ext_resource type="Texture2D" uid="uid://cnp1fatjh5b27" path="res://assets/characters/mael/mael_neutral.png" id="3_1h383"]
 [ext_resource type="Texture2D" uid="uid://m10gsyljn7yt" path="res://assets/characters/mael/travail/mael_travail_neutral.png" id="3_5iwnw"]
+[ext_resource type="Texture2D" uid="uid://b676lf5bvyvnm" path="res://assets/characters/mael/mael_ombre.png" id="5_7vtll"]
 
 [resource]
 script = ExtResource("1_pgqed")
@@ -18,6 +19,7 @@ variants = Dictionary[String, Texture2D]({
 "adolescent": ExtResource("1_tcvan"),
 "default": ExtResource("3_1h383"),
 "enfant": ExtResource("1_tcvan"),
+"shadow": ExtResource("5_7vtll"),
 "travail": ExtResource("3_5iwnw")
 })
 is_love_interest = true

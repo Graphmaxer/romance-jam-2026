@@ -6,7 +6,7 @@ $> add_character("Irène")
 La pâtissière de la guinguette ! J’ai eu du mal à la reconnaître du premier coup vu qu’elle a un style sweet lolita. Et ça lui va vraiment bien, en même temps c’est un ange donc c’est pas si étonnant. 
 Si elle ne portait pas d’artefact on verrait ses ailes mais on voit juste ses oreilles en forme d’ailes. 
 
-Maël: Bonjour Irène, tu profites bien de ton lundi? 
+Maël: Bonjour Irène, tu profites bien de ton lundi ? 
 
 Irène: Bonjour Maël, il fait vraiment beau donc je profite du beau temps. Je vois que tu as un rencard. 
 
@@ -15,9 +15,9 @@ Je ne l’ai pas reconnue les fois d’avant parce qu’elle avait un style goth
 
 Maël: {{pseudo}}, Irène t’a posé une question…
 
-{{pseudo}}: Hein ! Ah oui, quelle est la question? 
+{{pseudo}}: Hein ! Ah oui, quelle est la question ? 
 
-Irène: Tu es venue très souvent à la guinguette et je t’ai vu goûter presque tous les gâteaux. Est-ce qu’ils t'ont plu? 
+Irène: Tu es venue très souvent à la guinguette et je t’ai vu goûter presque tous les gâteaux. Est-ce qu’ils t'ont plu ? 
 
 - Ils étaient plutôt moyens
 	$> lose_reputation("Maël", 10)
@@ -40,11 +40,11 @@ Je me tourne vers Maël.
 {{pseudo}}: Je n’avais pas du  tout reconnu Irène…
 
 Maël: Je me disais bien que tu ne l’avais pas reconnue.
-{{pseudo}}: Ah oui? 
+{{pseudo}}: Ah oui ? 
 
 Maël: Oui, tu n’as fait aucune remarque sur le fait que je travaillais avec mon ex. 
 
-{{pseudo}}: Alors pourquoi tu ne me l’as pas dit clairement? 
+{{pseudo}}: Alors pourquoi tu ne me l’as pas dit clairement ? 
 
 Maël: Parce qu’en l’état actuel des choses, je n’ai aucun compte à te rendre et puis Irène et moi, en plus de n’avoir pas duré longtemps, ça fait des années maintenant. 
 
@@ -77,20 +77,20 @@ Maël: Mais non, et puis on s’est quand même bien amusé.
 
 - Lui faire un câlin
 	$> gain_reputation("Maël", 10)
-	{{pseudo}}: On se revoit bientôt? 
+	{{pseudo}}: On se revoit bientôt ? 
 	Maël: Tu peux passer quand tu veux à mon travail. 
 	Sa réponse me fait sourire. On se détache l’un de l’autre puis il part.  
 - L’embrasser sur la joue
 	$> gain_reputation("Maël", 20)
-	{{pseudo}}: Merci encore pour cette superbe journée. On se revoit à ton travail? 
+	{{pseudo}}: Merci encore pour cette superbe journée. On se revoit à ton travail ? 
 	Maël: Avec plaisir. 
 	Il m’embrasse sur le front puis s’en va. 
 $> set_location("Chambre du personnage")
 
 Après avoir dîné avec ma tante, je suis partie me coucher. 
-J’ai du mal à me dire que Maël travaille avec son ex. En plus il leur arrive de passer du temps ensemble après le travail parce que Maël veut savoir faire des cookies. 
-Pourquoi veut-il savoir en faire d’ailleurs? 
-Pour passer plus de temps avec elle? 
+J’ai du mal à me dire que Maël travaille avec son ex. En plus, il leur arrive de passer du temps ensemble après le travail parce que Maël veut savoir faire des cookies. 
+Pourquoi veut-il savoir en faire d’ailleurs ? 
+Pour passer plus de temps avec elle ? 
 
 $> start_transition("Le lendemain")
 $> set_location("Guinguette près de la plage")

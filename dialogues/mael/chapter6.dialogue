@@ -1,8 +1,8 @@
 ~ start
 $> set_location("Guinguette près de la plage")
 
-Un mot d’Irène me demandant de l’attendre pour lui parler? C’est très étrange.
-De quoi veut-elle me parler? 
+Un mot d’Irène me demandant de l’attendre pour lui parler ? C’est très étrange.
+De quoi veut-elle me parler ? 
 Je commence à me ronger un peu les ongles puis je prends une bouchée du gâteau. 
 Si seulement il était mauvais, je pourrais lui en vouloir. Mais c' est délicieux. 
 
@@ -10,11 +10,11 @@ $> set_location("Guinguette près de la plage", "soir")
 $> add_character("Maël")
 
 Maël: {{pseudo}} ? Mais qu’est-ce que tu fais encore là? 
-Maël: Tu m’attendais? 
+Maël: Tu m’attendais ? 
 
 {{pseudo}}: Ah non, j’attends quelqu'un d’autre. 
 
-Maël: Tu veux que j’attende avec toi? 
+Maël: Tu veux que j’attende avec toi ? 
 
 {{pseudo}}: Non, ça ira. Je te souhaite une bonne soirée. 
 
@@ -24,9 +24,9 @@ Il me caresse la tête puis s’en va. Il avait l’air de vouloir me poser la q
 
 $> remove_character("Maël")
 
-Elle en met du temps. De quoi veut-elle me parler? 
+Elle en met du temps. De quoi veut-elle me parler ? 
 
-Irène: Hey  ! On y va? J’ai fini de me changer. 
+Irène: Hey  ! On y va ? J’ai fini de me changer. 
 
 Je sursaute de surprise et je hoche la tête. 
 
@@ -46,7 +46,7 @@ Irène: Je suppose qu’il t’a dit qu’on était sortis ensemble.
 
 {{pseudo}}: Effectivement. Il a aussi dit que ça n’avait pas duré longtemps entre vous. 
 
-Irène: Il t’a dit ça? C’est vrai, ça n’a duré que quelques jours. On s’est rendu compte qu’on avait une relation plus amicale plutôt que romantique. 
+Irène: Il t’a dit ça ? C’est vrai, ça n’a duré que quelques jours. On s’est rendu compte qu’on avait une relation plus amicale plutôt que romantique. 
 
 {{pseudo}}: C’est plus ou moins ce que j’avais compris. 
 
@@ -54,7 +54,7 @@ Irène: Mais ces derniers temps on a passé pas mal de temps ensemble et je me s
 
 Attends… Elle a dit quoi !? Je suis tellement surprise que je n’ose pas dire un mot. 
 
-{{pseudo}}: Et, pourquoi tu m’en parles? 
+{{pseudo}}: Et, pourquoi tu m’en parles ? 
 
 Irène: Parce que je veux la jouer franc jeu avec toi. Je n’allais pas te cacher mes intentions alors que j’ai clairement vu que tu avais des sentiments pour lui. 
 
@@ -67,24 +67,24 @@ Irène: Je ne crois pas, sinon je ne t’aurais rien dit. Tu es plus importante 
 Elle m’encourage sincèrement en me prenant les deux mains. C’est assez perturbant de la part d’une femme qui me considère comme sa rivale en amour. 
 C’est très gênant. 
 
-{{pseudo}}: Euh… Merci? Je suppose…
+{{pseudo}}: Euh… Merci ? Je suppose…
 
 Irène: De rien, c’est sincère. 
 Irène: J’aurais un service à te demander…
 
-{{pseudo}}: Lequel? 
+{{pseudo}}: Lequel ? 
 
 Irène: J’aimerais pouvoir lui avouer mes sentiments avant que tu ne le fasses. Je t’en prie. C’est important pour moi. 
 
 C’est dur de résister à son regard suppliant. En plus elle est tellement gentille. 
-Et puis, c’est les sentiments de Maël qui importent. Qu’est-ce qui me garantit qu’il n’a pas de sentiments pour elle? Ils ont passé du temps ensemble ces derniers temps. 
+Et puis, ce sont les sentiments de Maël qui importent. Qu’est-ce qui me garantit qu’il n’a pas de sentiments pour elle ? Ils ont passé du temps ensemble ces derniers temps. 
 Je m’en voudrais de l’empêcher d’être heureux à cause de moi. 
 
 {{pseudo}}: D’accord…
 
 Irène: Merci . Je te revaudrai ça. Je te laisserai manger tous les gâteaux que tu veux. 
 
-{{pseudo}}: Mais si je fais ça, ça ne te causera pas de problème à la guinguette? 
+{{pseudo}}: Mais si je fais ça, ça ne te causera pas de problème à la guinguette ? 
 
 Irène: Bien sûr que non, je te les offrirai de bon cœur en les payant pour toi. 
 {{pseudo}}: C’est trop gentil. 
@@ -109,7 +109,7 @@ Il faut vraiment que je dorme.
 
 J’entends mon téléphone vibrer, je regarde et vois que Maël m’a envoyé un message. 
 
-Maël: “{{pseudo}}, est-ce que tu es bien rentrée? J’espère que tu vas bien, tu avais l’air d’être perdue dans tes pensées aujourd’hui en plus d’être fatiguée”
+Maël: “{{pseudo}}, est-ce que tu es bien rentrée ? J’espère que tu vas bien, tu avais l’air d’être perdue dans tes pensées aujourd’hui en plus d’être fatiguée”
 
 - Ne pas lui répondre, je suis trop fatiguée
 	$> lose_reputation("Maël", 5)

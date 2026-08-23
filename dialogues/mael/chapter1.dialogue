@@ -9,7 +9,7 @@ Irma: Ne t’inquiète de rien ma chérie. Une bonne étoile veille sur toi depu
 
 Elle m'a fait un grand sourire mais je ne me sentais pas plus rassurée que ça, il manque des détails et je suis sûre qu’elle évite de tout me dire.
 
-{{pseudo}}: Merci mais tu pourrais être plus précise? 
+{{pseudo}}: Merci mais tu pourrais être plus précise ? 
 
 $> add_character("Maël")
 
@@ -17,7 +17,7 @@ Maël: Bonjour. Excuse-moi de te déranger Irma mais je n’ai pas trouvé ton m
 
 Il tient des affiches dans les mains. Il regarde ma tante mais ne semble pas encore m’avoir remarqué. 
 
-Irma: Bonjour Maël ! Bien sûr que tu peux les afficher ! Quelle est la date d’ouverture? 
+Irma: Bonjour Maël ! Bien sûr que tu peux les afficher ! Quelle est la date d’ouverture ? 
 
 Maël: Dans une semaine, je m'occupe des derniers préparatifs. 
 
@@ -93,7 +93,7 @@ Puis, je sens une main sur ma tête. Maël était en train de me caresser la tê
 	Je renifle un peu, il me tend un mouchoir. Je me mouche 
 	Maël: Dis-toi que cette histoire t’a permis d’évoluer et que tu vas pouvoir aller de l’avant en sachant exactement ce que tu veux dans une relation. 
 	Je me retourne et fais face à lui. Je me dis que je dois vraiment avoir une sale tête. Il ouvre un peu ses bras et évite un peu mon regard, il est embarrassé. 
-	Maël: Tu veux un câlin? Comme lorsqu'on était enfants? 
+	Maël: Tu veux un câlin ? Comme lorsqu'on était enfants ? 
 	Je hoche la tête et vais dans ses bras. J’espère qu’il ne voit pas à quel point je rougis.
 - Retenir ses larmes et essayer de sourire
 	$> gain_reputation("Maël", 20)
@@ -104,7 +104,7 @@ Puis, je sens une main sur ma tête. Maël était en train de me caresser la tê
 	Je lève la tête pour le regarder, il me fait un léger sourire. Sa remarque me fait un peu rire. 
 	{{pseudo}}: Je ne pense pas que je te contredirai là-dessus. 
 	Il ouvre un peu ses bras et évite un peu mon regard, il est embarrassé. 
-	Maël: Tu veux un câlin? Comme lorsqu'on était enfants? 
+	Maël: Tu veux un câlin ? Comme lorsqu'on était enfants ? 
 	Je suis un peu surprise, je hoche la tête et lui laisse me faire un câlin. J’espère qu’il ne me voit pas rougir comme une tomate. 
 
 => END

@@ -14,7 +14,6 @@ func reset_game() -> void:
 	GameState.chapter_number = 0
 	GameState.love_interest = ""
 	GameState.save_datetime = ""
-	GameState.skip_prologue = false
 	GameState.bad_prologue_ending = false
 
 

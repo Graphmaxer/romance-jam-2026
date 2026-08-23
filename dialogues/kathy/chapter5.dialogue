@@ -17,7 +17,7 @@ $> add_character("Kathy")
 
 Kathy est devant sa voiture sur son téléphone. Je m’approche d’elle. Elle range son téléphone dans son sac.  
 
-{{pseudo}}: Bonjour Kathy. Comment vas-tu? 
+{{pseudo}}: Bonjour Kathy. Comment vas-tu ? 
 
 Kathy: Je me sens un peu stressée mais maintenant que tu es là, ça va un peu mieux. Tu peux monter sur le siège passager. 
 
@@ -55,11 +55,11 @@ Amélia: Bonjour, je suis enchantée de faire votre connaissance. Je m’appelle
 - Etre froide
 	$> lose_reputation("Kathy", 20)
 	{{pseudo}}: Bonjour. Je suis {{pseudo}}. J’ai entendu parler de vous. 
-	Kathy me regarde surprise, l’air de dire \: “Qu’est-ce qui te prend d’être froide?”
+	Kathy me regarde surprise, l’air de dire \: “Qu’est-ce qui te prend d’être froide ?”
 
 Un employé de la villa arrive avec du thé et un plateau contenant des sucreries avant de repartir. 
 
-Kathy: Puis-je te servir une tasse de thé belle-sœur? 
+Kathy: Puis-je te servir une tasse de thé belle-sœur ? 
 
 Amélia: Oui, je te remercie. 
 
@@ -69,9 +69,9 @@ Amélia: Comment avez-vous rencontré Kathy ?
 
 {{pseudo}}: Je l’ai aidée à retrouver un ruban qu’elle avait perdu près d’une supérette. 
 
-Amélia: Tu avais perdu le ruban offert par ton frère? Heureusement que vous étiez là. Elle tient tellement à ce ruban, ça fait des années qu’elle l’a et qu’elle ne veut pas s’en séparer. 
+Amélia: Tu avais perdu le ruban offert par ton frère ? Heureusement que vous étiez là. Elle tient tellement à ce ruban, ça fait des années qu’elle l’a et qu’elle ne veut pas s’en séparer. 
 
-{{pseudo}}: Vous êtes au courant? 
+{{pseudo}}: Vous êtes au courant ? 
 
 Amélia: Bien sûr, en réalité, c’est moi qui avais suggéré à son frère de lui offrir un cadeau en revenant du travail. Nous n’étions pas encore ensemble à ce moment mais je crois que l’avoir vu chercher un cadeau qui fera plaisir à sa sœur m’a un peu émue. 
 Amélia: Étant sa secrétaire depuis ses débuts dans le monde du travail, je l’ai toujours vu être très sérieux mais il perd tous ses moyens quand il s’agit de sa sœur. 
@@ -80,7 +80,7 @@ Elle sourit tout du long et Kathy est un peu surprise, elle me murmure de sorte 
 
 Kathy: C’est la première fois qu’elle m’en parle. 
 
-{{pseudo}}: Ah bon? 
+{{pseudo}}: Ah bon ? 
 
 Kathy veut se resservir du thé mais remarque que l’eau a refroidi.
 
@@ -94,7 +94,7 @@ $> remove_character("Kathy")
 	{{pseudo}}: Kathy m’a un peu parlé de vous. 
 	Amélia a l’air surprise puis elle affiche un air un peu triste
 	Amélia: Je suppose que ce n’était pas en bien…
-	{{pseudo}}: Pourquoi dites-vous cela? 
+	{{pseudo}}: Pourquoi dites-vous cela ? 
 	Amélia: Parce que j’ai du mal à lui faire face et à discuter avec elle. De ce fait, son frère pense qu’on ne s’entend pas…
 	{{pseudo}}: Mais pourquoi avez-vous autant de mal à lui faire face
 	Elle met ses mains devant son visage en étant très embarrassée
@@ -106,25 +106,25 @@ $> remove_character("Kathy")
 	Ah. Je ne m’attendais pas du tout à cela. Il faut vraiment que je me retienne de rire, sinon ça ne va pas le faire. 
 - Attendre qu'Amélia parle en premier
 	Après quelques minutes de silence, Amélia prit la parole, un peu embarrassée. 
-	Amélia: Est-ce que Kathy vous a déjà un peu parlé de moi? 
+	Amélia: Est-ce que Kathy vous a déjà un peu parlé de moi ? 
 	{{pseudo}}: Eh bien, oui. 
-	Amélia: Est-ce qu’elle vous a dit que notre relation était un peu tendue? 
+	Amélia: Est-ce qu’elle vous a dit que notre relation était un peu tendue ? 
 	{{pseudo}}: Effectivement…
 	Elle soupira et prit un macaron sur le plateau. Elle le mâcha lentement puis me regarda avec un regard un peu fuyant. 
 	Amélia: En réalité, j’aime beaucoup Kathy. C’est la petite sœur de mon fiancé. Cependant j’ai un problème…
-	{{pseudo}}: Quel est-il? 
+	{{pseudo}}: Quel est-il ? 
 	Amélia: Promettez-moi de ne pas vous moquer. 
 	{{pseudo}}: Je vous le promets. 
 	Amélia: J’ai un faible pour tout ce qui est mignon. 
 	Ah, je ne m’attendais pas à cette réponse. 
-	{{pseudo}}: Et donc? 
-	Amélia: Et donc… Vous avez vu comment Kathy est trop mignonne? J’ai du mal à me retenir à chaque fois que je la vois. Cependant son frère m’a dit qu’elle faisait toujours un air renfrogné quand on le lui dit et je ne voudrais pas qu’elle me déteste. 
+	{{pseudo}}: Et donc ? 
+	Amélia: Et donc… Vous avez vu comment Kathy est trop mignonne ? J’ai du mal à me retenir à chaque fois que je la vois. Cependant son frère m’a dit qu’elle faisait toujours un air renfrogné quand on le lui dit et je ne voudrais pas qu’elle me déteste. 
 
 La porte de la pièce s’ouvre à nouveau et Kathy revient avec une théière avec de l’eau chaude. Je regarde Amélia qui a de suite repris son sérieux. 
 
 $> add_character("Kathy")
 
-Une fois Kathy revenue, nous avons conversé sur nos différents hobbys ainsi que des livres et des séries que nous regardons ensemble. Une fois l’après-midi presque terminé, Amélia proposa que je reste dîner mais j’ai poliment refusé car je ne me sentais pas encore prête à rencontrer toute la famille de Kathy ce soir. 
+Une fois Kathy revenue, nous avons conversé sur nos différents hobbies ainsi que des livres et des séries que nous regardons ensemble. Une fois l’après-midi presque terminé, Amélia proposa que je reste dîner mais j’ai poliment refusé car je ne me sentais pas encore prête à rencontrer toute la famille de Kathy ce soir. 
 Kathy me raccompagna devant l’hôtel de ma tante. 
 
 $> set_location("Parking de l'hôtel", "soir")
@@ -132,19 +132,19 @@ $> add_character("Kathy")
 
 Nous sommes sorties de la voiture. Puis nous avons commencé à discuter sur le parking. 
 
-Kathy: Alors, qu’a-t-elle dit durant le laps de temps où je me suis absentée? 
+Kathy: Alors, qu’a-t-elle dit durant le laps de temps où je me suis absentée ? 
 
 {{pseudo}}: Promets-moi de ne pas lui dire. 
 
-Kathy: Évidemment! 
+Kathy: Évidemment ! 
 
 {{pseudo}}: En réalité, elle t’adore. 
 
 Kathy: Comment !? Mais elle n’arrête pas d’éviter de me regarder et de faire comme si je ne l'intéressais pas ! 
 
-{{pseudo}}: Je sais, c’est surprenant non? 
+{{pseudo}}: Je sais, c’est surprenant non ? 
 
-Kathy: Comment cela se fait-il? 
+Kathy: Comment cela se fait-il ? 
 
 {{pseudo}}: C’est parce qu’elle te trouve trop mignonne mais ton frère l’a prévenue que tu n’aimais pas qu’on te le dise donc elle se retient pour éviter que tu ne la détestes. 
 

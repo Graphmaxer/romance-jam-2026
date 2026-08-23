@@ -4,16 +4,16 @@ $> add_character("Kathy")
 
 Une nekomusume ! Ou une fille chat couramment appelée dans le folklore japonais. Elle a vraiment de magnifiques yeux vairons. On dirait une jeune femme de bonne famille. 
 
-Nekomusume: Mademoiselle? 
+Nekomusume: Mademoiselle ? 
 
 Elle s’est approchée de moi, je crois que ça fait trop longtemps que je la regarde sans dire un mot. Il faut que je réponde ! 
-- En quoi puis-je vous aider? 
+- En quoi puis-je vous aider ? 
 	$> gain_reputation("Kathy", 10)
-	{{pseudo}}: Ah oui. Désolée. En quoi puis-je vous aider?
+	{{pseudo}}: Ah oui. Désolée. En quoi puis-je vous aider ?
 	Elle me sourit et hoche la tête.
 - Désolée, vous êtes trop mignonne. 
 	$> lose_reputation("Kathy", 15)
-	{{pseudo}}: Désolée, vous êtes tellement mignonne que j’en ai perdu mes mots. Comment puis-je vous aider?
+	{{pseudo}}: Désolée, vous êtes tellement mignonne que j’en ai perdu mes mots. Comment puis-je vous aider ?
 	Au mot “mignonne” elle affiche un air gêné avec un léger sourire en coin qui laisse à penser que ce mot ne lui plaît pas. 
 
 Nekomusume: Merci. En fait j’ai perdu mon ruban blanc. Je le portais au poignet tout à l’heure et j’ai quelques difficultés à le retrouver. 
@@ -23,7 +23,7 @@ Nekomusume: Merci. En fait j’ai perdu mon ruban blanc. Je le portais au poigne
 Je l’aide à chercher. Je jette des petits coups d'œil vers elle. Je remarque qu’elle porte un bracelet de cheville. Il me dit étrangement quelque chose…
 Je me dirige vers la muraille et fouille au niveau des buissons. Je finis par retrouver le ruban sous des feuilles, accroché à des branches. 
 
-{{pseudo}}: Je crois que je l’ai trouvé. Est-ce que c’est bien votre ruban? 
+{{pseudo}}: Je crois que je l’ai trouvé. Est-ce que c’est bien votre ruban ? 
 
 Nekomusume: Faites voir ! 
 
@@ -42,7 +42,7 @@ Elle me fait un grand sourire et essaie de remettre le ruban à son poignet gauc
 
 	{{pseudo}}: Je m'appelle {{pseudo}}. Enchantée également. 
 
-	Kathy: Puis-je vous inviter à dîner ce soir? Je souhaiterais vous remercier. 
+	Kathy: Puis-je vous inviter à dîner ce soir ? Je souhaiterais vous remercier. 
 
 - Accepter avec grand plaisir
 	$> gain_reputation("Kathy", 10)
@@ -60,7 +60,7 @@ Elle me fait un grand sourire et essaie de remettre le ruban à son poignet gauc
 $> set_location("Restaurant un peu chic")
 $> add_character("Kathy")
 
-Comment ai-je pu me retrouver dans un restaurant chic? En plus je ne suis pas habillée pour l’occasion. Et Kathy a vraiment l’air dans son élément. Et les prix ne sont pas vraiment donnés. Je n’ai pas de difficulté financière mais si j’allais trop souvent dans ce genre d’endroit, je n'aurais rapidement plus rien. 
+Comment ai-je pu me retrouver dans un restaurant chic ? En plus je ne suis pas habillée pour l’occasion. Et Kathy a vraiment l’air dans son élément. Et les prix ne sont pas vraiment donnés. Je n’ai pas de difficulté financière mais si j’allais trop souvent dans ce genre d’endroit, je n'aurais rapidement plus rien. 
 
 J’ai envoyé un message à ma tante discrètement puis je regarde à nouveau la carte. Un serveur finit par arriver. 
 
@@ -81,7 +81,7 @@ Kathy: Merci d’avoir accepté mon invitation. J’ai horreur d’avoir des det
 
 Je regarde le ruban à son poignet. 
 
-{{pseudo}}: Pourriez-vous m’expliquer pourquoi vous tenez tant à ce ruban s’il vous plaît? 
+{{pseudo}}: Pourriez-vous m’expliquer pourquoi vous tenez tant à ce ruban s’il vous plaît ? 
 
 Kathy: Oui bien sûr. Il s’agit d’un cadeau de mon grand frère. Je le vois rarement. La plupart du temps il est en voyage d’affaires dans le royaume des esprits. Il revient trois à quatre fois par an dans le monde des humains. Ce ruban a été fait avec un tissu que l’on ne trouve que là-bas. Il est impossible de le déchirer. 
 
@@ -89,7 +89,7 @@ Kathy: Oui bien sûr. Il s’agit d’un cadeau de mon grand frère. Je le vois 
 
 Kathy: Je sais qu’il m’en aurait ramené un autre si je lui avais demandé mais il aurait fallu que j’attende qu’il revienne pour lui demander et attendre à nouveau avant qu’il m’en ramène un. 
 
-{{pseudo}}: Vous ne pouvez pas l’appeler? 
+{{pseudo}}: Vous ne pouvez pas l’appeler ? 
 
 Kathy: Les communications sont difficiles entre le monde des esprits et celui des humains, sinon il faudrait que je lui envoie une lettre mais je n’aime pas le déranger. 
 
@@ -103,7 +103,7 @@ Je savoure chacune des bouchées du plat.
 
 Une fois le plat terminé, je m'essuie la bouche. 
 
-Kathy: Voulez-vous prendre un dessert? 
+Kathy: Voulez-vous prendre un dessert ? 
 
 {{pseudo}}: Non merci, je pense que j’ai assez mangé pour ce soir. 
 
@@ -121,7 +121,7 @@ Kathy: De rien. Vous m’avez aidée à retrouver un objet qui m’est cher donc
 
 Kathy fait quelques pas puis se retourne en souriant. 
 
-Kathy: Est-ce que, la prochaine fois que l’on se verra, je peux vous tutoyer? 
+Kathy: Est-ce que, la prochaine fois que l’on se verra, je peux vous tutoyer ? 
  
 {{pseudo}}: Bien sûr ! Je serais ravie de vous revoir ! 
 

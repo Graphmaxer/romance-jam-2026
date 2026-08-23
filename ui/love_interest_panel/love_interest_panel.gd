@@ -21,7 +21,8 @@ func _ready() -> void:
 			character.true_form,
 		]
 		description_label.text = character.description
-		character_tex_rect.texture = character.get_variant_tex()
+		character_tex_rect.texture = character.get_variant_tex("shadow")
+		character_tex_rect.update_minimum_size()
 
 
 func _on_choose_button_pressed() -> void:

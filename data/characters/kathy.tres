@@ -1,8 +1,10 @@
 [gd_resource type="Resource" script_class="Character" format=3 uid="uid://dx3vnrd0m510m"]
 
 [ext_resource type="Script" uid="uid://cddw0vxnb1jna" path="res://data/characters/character.gd" id="2_5w1ni"]
-[ext_resource type="Texture2D" uid="uid://7noko8w7fs68" path="res://assets/characters/animals/Cat/cat smile.png" id="3_5w1ni"]
+[ext_resource type="Texture2D" uid="uid://bip7klfbi0itn" path="res://assets/characters/kathy/chat/kathy_chat.png" id="2_qif8i"]
 [ext_resource type="Texture2D" uid="uid://dki3scnhhjxje" path="res://assets/characters/kathy/kathy_neutral.png" id="3_qif8i"]
+[ext_resource type="Texture2D" uid="uid://dghepfdgm8j6r" path="res://assets/characters/kathy/yukata/kathy_yukata.png" id="4_qif8i"]
+[ext_resource type="Texture2D" uid="uid://dvk51rgkmokgf" path="res://assets/characters/kathy/kathy_ombre.png" id="5_myl4f"]
 
 [resource]
 script = ExtResource("2_5w1ni")
@@ -15,8 +17,10 @@ description = "Cliente régulière du restaurant près de l’hôtel d’Irma
 Vient d’une famille aisée
 Toujours de bonne humeur mais a un petit côté espiègle"
 variants = Dictionary[String, Texture2D]({
-"chat": ExtResource("3_5w1ni"),
-"default": ExtResource("3_qif8i")
+"chat": ExtResource("2_qif8i"),
+"default": ExtResource("3_qif8i"),
+"shadow": ExtResource("5_myl4f"),
+"yukata": ExtResource("4_qif8i")
 })
 is_love_interest = true
 metadata/_custom_type_script = "uid://cddw0vxnb1jna"

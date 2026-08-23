@@ -19,24 +19,24 @@ Elle met du temps, j’espère que tout va bien. Je sors mon téléphone. Quand 
 Kathy: Hey {{pseudo}} ! Je suis là, désolée, j’ai mis un peu de temps, j’avais un truc à faire en urgence. 
 Kathy: On peut y aller. 
 
-$> add_character("Kathy")
+$> add_character("Kathy", "yukata")
 
 Je sais que je l’ai déjà vue en yukata quand on essayait d’en chercher un ensemble mais là elle est vraiment adorable. En plus elle s’est fait un chignon, c’est la première fois que je la vois coiffée comme ça. Elle rougit et a un peu transpiré vu qu’elle est venue en courant. 
 
-Kathy: On y va ou tu continues de me dévisager? 
+Kathy: On y va ou tu continues de me dévisager ? 
 
 {{pseudo}}: Ah oui ! Allons-y. 
 
-Elle me prit la main et nous partîmes vers les différents stands qui se trouvaient à 10 minutes de la guinguette. 
+Elle m'a pris la main et nous sommes parties vers les différents stands qui se trouvaient à 10 minutes de la guinguette. 
 
 $> set_location("Festival style japonais avec plusieurs stand")
 $> add_character("Kathy")
 
 Nous avons commencé à faire en premier le stand du chamboule-tout, le panier de basket et la pêche au canard. Nous nous sommes arrêtés devant le stand sur le tir à la carabine. 
 
-Kathy: Et si on faisait un pari sur le tir à la carabine? 
+Kathy: Et si on faisait un pari sur le tir à la carabine ? 
 
-{{pseudo}}: A quoi penses-tu? 
+{{pseudo}}: A quoi penses-tu ? 
 
 Kathy: La perdante devra acheter ce que nous allons manger. Et je suis très forte dans ce jeu. 
 
@@ -71,11 +71,11 @@ Kathy: Est-ce que c’est la première fois que tu utilises ce genre de feux d�
 
 {{pseudo}}: Oui, je trouve que c’est joli. J’en avais vu pas mal dans les anime et les mangas mais je n’ai jamais osé en acheter. 
 
-Nous nous sommes allumé quelques senko hanabi puis quand vient le moment des feux d’artifice, nous levons nos têtes et les regardons. Je lui prends la main et j’essaye de la regarder dans les yeux, je sens mes joues devenir toutes rouges. 
+Nous avons allumé quelques senko hanabi puis quand vient le moment des feux d’artifice, nous levons nos têtes et les regardons. Je lui prends la main et j’essaye de la regarder dans les yeux, je sens mes joues devenir toutes rouges. 
 
 {{pseudo}}: Kathy, j’ai quelque chose à te dire…
 
-Kathy: Oui? 
+Kathy: Oui ? 
 
 {{pseudo}}: J’ai passé de super moments avec toi. J’ai appris à te connaître à travers nos différentes rencontres. Découvrir des salons de thé en ta compagnie et avoir eu l’occasion de t’aider m’a fait beaucoup plaisir. 
 {{pseudo}}: Et quand nous n’étions pas ensemble, cela m'angoissait de ne pas avoir de tes nouvelles car je voulais être près de toi. 

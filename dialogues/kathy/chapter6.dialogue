@@ -50,13 +50,13 @@ Je tiens mon téléphone dans mes mains. Cela fait plusieurs minutes que j'hési
 
 - Lui envoyer un message
 	$> gain_reputation("Kathy", 20)
-	{{pseudo}}: “Bonjour Kathy, j’espère que tu vas bien. Est-ce que ça te dirait de venir déjeuner avec moi à la guinguette?” 
+	{{pseudo}}: “Bonjour Kathy, j’espère que tu vas bien. Est-ce que ça te dirait de venir déjeuner avec moi à la guinguette ?” 
 	Quelques minutes plus tard, mon téléphone se met à vibrer 
 	Kathy: “J’en serai ravie, à tout à l’heure ! :)”
 	Je saute de joie dans ma chambre. 
 - Attendre encore
 	Au bout de trente minutes à hésiter, je reçois un message. 
-	Kathy: “Bonjour {{pseudo}} est-ce qu’on peut déjeuner ensemble ce midi? J’ai plein de choses à te dire.” 
+	Kathy: “Bonjour {{pseudo}} est-ce qu’on peut déjeuner ensemble ce midi ? J’ai plein de choses à te dire.” 
 	{{pseudo}}: D’accord, à tout à l’heure. 
 
 $> start_transition("A l’heure du déjeuner")
@@ -70,7 +70,7 @@ Nous nous sommes installées à la même table que la dernière fois, sur la ter
 
 Kathy: J’ai une très bonne nouvelle à t’annoncer. 
 
-{{pseudo}}: Ah oui? 
+{{pseudo}}: Ah oui ? 
 
 Kathy: Je m’entends très bien avec Amélia, en vrai c’est une femme tendre et affectueuse. Et tout cela c’est grâce à toi. 
 
@@ -82,9 +82,9 @@ Kathy: Peut-être mais ça aurait pris plus de temps que prévu et ce ne serait 
 
 Un homme passa près de nous et nous remit une affiche. Il continua son chemin et distribua des affiches. 
 
-{{pseudo}}: C’est pour quoi? 
+{{pseudo}}: C’est pour quoi ? 
 
-Kathy: C’est pour le festival qui a lieu dans une semaine. J’ai prévu d'y faire un tour avec ma famille. J’ai vraiment hâte. Est-ce que tu as prévu d’aller y faire un tour? Il dure 3 jours. 
+Kathy: C’est pour le festival qui a lieu dans une semaine. J’ai prévu d'y faire un tour avec ma famille. J’ai vraiment hâte. Est-ce que tu as prévu d’aller y faire un tour ? Il dure 3 jours. 
 
 {{pseudo}}: C’est vrai que voir des stands avec des activités serait sympa à faire. 
 

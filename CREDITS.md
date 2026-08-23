@@ -13,7 +13,6 @@
 
 - Male (https://minttydrops.itch.io/alphonse-pack)
 - Female (https://minttydrops.itch.io/sylvia-pack)
-- Animals (https://lunarmoonstudios.itch.io/animal-pack)
 - Avatars (https://charat.me)
 
 ### User Interface
@@ -25,7 +24,6 @@
 ### Backgrounds
 
 - Minchirie (https://min-chi.material.jp)
-- Fortune Teller (https://www.deviantart.com/rialynkv/art/Fortune-Teller-Room-962240921)
 
 ### Audio
 

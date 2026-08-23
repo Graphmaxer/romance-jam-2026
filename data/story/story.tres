@@ -10,7 +10,7 @@
 [ext_resource type="Resource" uid="uid://bcliexkdocern" path="res://data/characters/amelia.tres" id="8_tsnoo"]
 [ext_resource type="Resource" uid="uid://b10we4ih7e2hh" path="res://data/locations/plage.tres" id="9_tsnoo"]
 [ext_resource type="Resource" uid="uid://cox18yc44pfp4" path="res://data/locations/chambre.tres" id="10_gt6cx"]
-[ext_resource type="Resource" uid="uid://branlkgfa6csk" path="res://data/locations/fortune_teller.tres" id="11_3j56a"]
+[ext_resource type="Resource" uid="uid://branlkgfa6csk" path="res://data/locations/divination.tres" id="11_3j56a"]
 [ext_resource type="Resource" uid="uid://c4s4iy7gl5t8q" path="res://data/locations/immeuble.tres" id="12_vkytg"]
 [ext_resource type="Resource" uid="uid://b6blptr16xph4" path="res://data/locations/island.tres" id="13_hl670"]
 [ext_resource type="Resource" uid="uid://326wnl7rqcaw" path="res://data/locations/sandy_beach.tres" id="14_6w1uv"]
