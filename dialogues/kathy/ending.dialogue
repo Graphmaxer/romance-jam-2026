@@ -30,7 +30,7 @@ Kathy: [#yukata gênée] On y va ou tu continues de me dévisager ?
 Elle m'a pris la main et nous sommes parties vers les différents stands qui se trouvaient à 10 minutes de la guinguette. 
 
 $> set_location("Festival style japonais avec plusieurs stands")
-$> add_character("Kathy")
+$> add_character("Kathy", "yukata")
 
 Nous avons commencé à faire en premier le stand du chamboule-tout, le panier de basket et la pêche au canard. Nous nous sommes arrêtés devant le stand sur le tir à la carabine. 
 #visage taquin

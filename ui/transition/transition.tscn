@@ -58,6 +58,7 @@ autowrap_mode = 3
 [node name="PerfectParticles" type="GPUParticles2D" parent="." unique_id=252289959]
 unique_name_in_owner = true
 position = Vector2(5, 639)
+emitting = false
 amount = 50
 lifetime = 5.0
 process_material = SubResource("ParticleProcessMaterial_h6m2q")
