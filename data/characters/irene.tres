@@ -7,7 +7,6 @@
 script = ExtResource("1_eq1fy")
 firstname = "Irène"
 age = 26
-birthday = "?"
 variants = Dictionary[String, Texture2D]({
 "default": ExtResource("2_ns6mj")
 })

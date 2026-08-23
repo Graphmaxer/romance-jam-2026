@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://c53gujcqghksv" path="res://ui/love_interest_panel/love_interest_panel.gd" id="1_pjeh4"]
 [ext_resource type="Resource" uid="uid://0yjvxu057fqg" path="res://data/characters/mael.tres" id="2_x387c"]
-[ext_resource type="Texture2D" uid="uid://2hoy8in1or40" path="res://assets/characters/male/Male_Neutral.png" id="3_x387c"]
+[ext_resource type="Texture2D" uid="uid://cnp1fatjh5b27" path="res://assets/characters/mael/mael_neutral.png" id="3_x387c"]
 
 [node name="LoveInterestPanel" type="Control" unique_id=945331029]
 layout_mode = 3
@@ -48,7 +48,7 @@ text = "Choisir"
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 4
-theme_override_font_sizes/font_size = 26
+theme_override_font_sizes/font_size = 28
 text = "Maël"
 horizontal_alignment = 1
 vertical_alignment = 1

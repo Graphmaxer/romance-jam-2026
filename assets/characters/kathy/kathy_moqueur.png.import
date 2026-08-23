@@ -17,7 +17,7 @@ dest_files=["res://.godot/imported/kathy_moqueur.png-a0c200945c963f62c9b157420ee
 
 compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.7
+compress/lossy_quality=0.9
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1

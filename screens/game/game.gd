@@ -6,11 +6,11 @@ extends Control
 
 var love_interest_selection_tween: Tween
 
+var auto_save_tween: Tween
+
 @onready var discussion: Discussion = %Discussion
 @onready var auto_save: Control = %AutoSave
 @onready var settings_menu: SettingsMenu = %SettingsMenu
-
-var auto_save_tween: Tween
 
 
 func _ready() -> void:
@@ -68,6 +68,7 @@ func _on_discussion_ended(dialogue_ended: DialogueResource) -> void:
 			get_tree().change_scene_to_file("res://main.tscn")
 			return
 		_display_love_interest_selection()
+		discussion.end_transition()
 	elif GameState.chapter_number > 0 and GameState.chapter_number <= route.chapters.size():
 		if route.is_last_chapter(GameState.chapter_number):
 			GameState.chapter_number = 0

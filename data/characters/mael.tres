@@ -10,6 +10,7 @@ script = ExtResource("1_pgqed")
 firstname = "Maël"
 age = 26
 birthday = "10 février"
+true_form = "Léviathan"
 description = "Ami d’enfance
 Travaille à la guinguette près de la plage qui n’est ouverte qu'en été
 Tempérament calme et discret mais il ne se laisse pas marcher dessus pour autant"

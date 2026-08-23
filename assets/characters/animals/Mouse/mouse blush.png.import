@@ -17,7 +17,7 @@ dest_files=["res://.godot/imported/mouse blush.png-bb9fe2cb0dca5e5d9f8d130384eb4
 
 compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.7
+compress/lossy_quality=0.9
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1

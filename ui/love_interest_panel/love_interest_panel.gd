@@ -15,7 +15,11 @@ signal chosen
 func _ready() -> void:
 	if character:
 		firstname_label.text = character.firstname
-		infos_label.text = "%d ans\nAnniversaire le %s" % [character.age, character.birthday]
+		infos_label.text = "%d ans\nAnniversaire le %s\nVraie forme : %s" % [
+			character.age,
+			character.birthday,
+			character.true_form,
+		]
 		description_label.text = character.description
 		character_tex_rect.texture = character.get_variant_tex()
 
