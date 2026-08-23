@@ -83,9 +83,9 @@ func change_variant(firstname: String, variant: String) -> void:
 		if character_card:
 			character_card.change_variant(variant)
 		else:
-			push_warning("Character to change variant not present: %s" % firstname)
+			push_warning("Character to change variant %s not present: %s" % [variant, firstname])
 	else:
-		push_warning("Character to change variant unknown: %s" % firstname)
+		push_warning("Character to change variant %s unknown: %s" % [variant, firstname])
 
 
 func show_transition(text: String, wait: float = 1.0) -> void:
