@@ -1,11 +1,14 @@
 [gd_resource type="Resource" script_class="Character" format=3 uid="uid://0yjvxu057fqg"]
 
 [ext_resource type="Script" uid="uid://cddw0vxnb1jna" path="res://data/characters/character.gd" id="1_pgqed"]
-[ext_resource type="Texture2D" uid="uid://bruiuwir8m7gy" path="res://assets/characters/mael/mael_adolescent.png" id="2_soifo"]
-[ext_resource type="Texture2D" uid="uid://cnp1fatjh5b27" path="res://assets/characters/mael/mael_neutral.png" id="3_1h383"]
-[ext_resource type="Texture2D" uid="uid://m10gsyljn7yt" path="res://assets/characters/mael/travail/mael_travail_neutral.png" id="3_5iwnw"]
-[ext_resource type="Texture2D" uid="uid://bf4ydm73xmlf0" path="res://assets/characters/mael/mael_enfant.png" id="4_owfee"]
-[ext_resource type="Texture2D" uid="uid://b676lf5bvyvnm" path="res://assets/characters/mael/mael_ombre.png" id="5_7vtll"]
+[ext_resource type="Texture2D" uid="uid://bruiuwir8m7gy" path="res://assets/characters/mael/ombres/mael_adolescent.png" id="2_soifo"]
+[ext_resource type="Texture2D" uid="uid://bij5yt55nuwng" path="res://assets/characters/mael/mael_neutre.png" id="3_soifo"]
+[ext_resource type="Texture2D" uid="uid://bf4ydm73xmlf0" path="res://assets/characters/mael/ombres/mael_enfant.png" id="4_owfee"]
+[ext_resource type="Texture2D" uid="uid://b676lf5bvyvnm" path="res://assets/characters/mael/ombres/mael_ombre.png" id="5_7vtll"]
+[ext_resource type="Texture2D" uid="uid://gkch7ry3lxjc" path="res://assets/characters/mael/mael_travail_sourire.png" id="6_owfee"]
+[ext_resource type="Texture2D" uid="uid://cq6jll47caxyj" path="res://assets/characters/mael/mael_sourire.png" id="7_owfee"]
+[ext_resource type="Texture2D" uid="uid://bb3r7ki631wg5" path="res://assets/characters/mael/mael_pensif.png" id="8_5c5qr"]
+[ext_resource type="Texture2D" uid="uid://civp7uv1vk42u" path="res://assets/characters/mael/mael_embarrasse.png" id="9_ogyim"]
 
 [resource]
 script = ExtResource("1_pgqed")
@@ -18,10 +21,13 @@ Travaille à la guinguette près de la plage qui n’est ouverte qu'en été
 Tempérament calme et discret mais il ne se laisse pas marcher dessus pour autant"
 variants = Dictionary[String, Texture2D]({
 "adolescent": ExtResource("2_soifo"),
-"default": ExtResource("3_1h383"),
+"default": ExtResource("3_soifo"),
+"embarrassé": ExtResource("9_ogyim"),
 "enfant": ExtResource("4_owfee"),
+"pensif": ExtResource("8_5c5qr"),
 "shadow": ExtResource("5_7vtll"),
-"travail": ExtResource("3_5iwnw")
+"sourire": ExtResource("7_owfee"),
+"travail": ExtResource("6_owfee")
 })
 is_love_interest = true
 metadata/_custom_type_script = "uid://cddw0vxnb1jna"

@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/Plage.jpg-f612cfac94cb062f849658f71151d3a5.ct
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.9
 compress/uastc_level=0

@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/Spinning-Floppy-Disk.png-0fad0140665d1f9628c3
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://drijtrbiyk566"
-path="res://.godot/imported/Irma.png-bd520da0544b2423fb9ebbf4637d12c5.ctex"
+path="res://.godot/imported/irma.png-edcf7eaa841e632e61e36e5c2bc4de3b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/characters/Irma.png"
-dest_files=["res://.godot/imported/Irma.png-bd520da0544b2423fb9ebbf4637d12c5.ctex"]
+source_file="res://assets/characters/irma.png"
+dest_files=["res://.godot/imported/irma.png-edcf7eaa841e632e61e36e5c2bc4de3b.ctex"]
 
 [params]
 

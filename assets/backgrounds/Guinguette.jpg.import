@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/Guinguette.jpg-6c3c4fa514025859eafba9a7e8845d
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.9
 compress/uastc_level=0

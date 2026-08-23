@@ -1,10 +1,27 @@
 [gd_resource type="Resource" script_class="Character" format=3 uid="uid://dx3vnrd0m510m"]
 
 [ext_resource type="Script" uid="uid://cddw0vxnb1jna" path="res://data/characters/character.gd" id="2_5w1ni"]
-[ext_resource type="Texture2D" uid="uid://bip7klfbi0itn" path="res://assets/characters/kathy/chat/kathy_chat.png" id="2_qif8i"]
-[ext_resource type="Texture2D" uid="uid://dki3scnhhjxje" path="res://assets/characters/kathy/kathy_neutral.png" id="3_qif8i"]
-[ext_resource type="Texture2D" uid="uid://dghepfdgm8j6r" path="res://assets/characters/kathy/yukata/kathy_yukata.png" id="4_qif8i"]
+[ext_resource type="Texture2D" uid="uid://ca58giek5hfgc" path="res://assets/characters/kathy/chat/kathy_chat_neutre.png" id="2_myl4f"]
+[ext_resource type="Texture2D" uid="uid://xpe6xo1byxjy" path="res://assets/characters/kathy/kathy_neutre.png" id="3_sbyio"]
 [ext_resource type="Texture2D" uid="uid://dvk51rgkmokgf" path="res://assets/characters/kathy/kathy_ombre.png" id="5_myl4f"]
+[ext_resource type="Texture2D" uid="uid://bjj404ovhxd7b" path="res://assets/characters/kathy/yukata/kathy_yukata_neutre.png" id="5_sbyio"]
+[ext_resource type="Texture2D" uid="uid://cxby8wftuhyf3" path="res://assets/characters/kathy/kathy_choquee.png" id="6_sbyio"]
+[ext_resource type="Texture2D" uid="uid://cxjjrgasfnuto" path="res://assets/characters/kathy/kathy_clin_doeil.png" id="7_gi0v6"]
+[ext_resource type="Texture2D" uid="uid://c460jwbii8hyu" path="res://assets/characters/kathy/kathy_embarrassee.png" id="8_yeydq"]
+[ext_resource type="Texture2D" uid="uid://c7lcqa3qoekce" path="res://assets/characters/kathy/kathy_enervee.png" id="9_rraca"]
+[ext_resource type="Texture2D" uid="uid://dra5al6dpmpts" path="res://assets/characters/kathy/kathy_faisant_la_moue.png" id="10_3t0rq"]
+[ext_resource type="Texture2D" uid="uid://bwypoh700dbyo" path="res://assets/characters/kathy/kathy_fatiguee.png" id="11_i4bs3"]
+[ext_resource type="Texture2D" uid="uid://cdd2no2p0fkgu" path="res://assets/characters/kathy/kathy_regard_noir.png" id="12_x06nq"]
+[ext_resource type="Texture2D" uid="uid://0gmuvomee306" path="res://assets/characters/kathy/kathy_sourire.png" id="13_yeydq"]
+[ext_resource type="Texture2D" uid="uid://b0vwpfkjs3dch" path="res://assets/characters/kathy/kathy_taquin.png" id="14_rhd4g"]
+[ext_resource type="Texture2D" uid="uid://cv7fse3v0cgtv" path="res://assets/characters/kathy/chat/kathy_chat_heureux.png" id="15_umcjc"]
+[ext_resource type="Texture2D" uid="uid://cxvlewtt648if" path="res://assets/characters/kathy/chat/kathy_chat_triste.png" id="16_deomr"]
+[ext_resource type="Texture2D" uid="uid://c1nhxpx70soyy" path="res://assets/characters/kathy/yukata/kathy_yukata_genee.png" id="18_rhd4g"]
+[ext_resource type="Texture2D" uid="uid://0ug7axyoq3gu" path="res://assets/characters/kathy/yukata/kathy_yukata_embarrassee.png" id="18_umcjc"]
+[ext_resource type="Texture2D" uid="uid://bu7e1mt0x2ivj" path="res://assets/characters/kathy/yukata/kathy_yukata_rale.png" id="19_umcjc"]
+[ext_resource type="Texture2D" uid="uid://oe2u6l0b1dfr" path="res://assets/characters/kathy/yukata/kathy_yukata_sourire.png" id="20_deomr"]
+[ext_resource type="Texture2D" uid="uid://bmq137po2m6q7" path="res://assets/characters/kathy/yukata/kathy_yukata_surprise.png" id="21_t82ig"]
+[ext_resource type="Texture2D" uid="uid://cqmvw0i7owd0k" path="res://assets/characters/kathy/yukata/kathy_yukata_taquin.png" id="22_2n664"]
 
 [resource]
 script = ExtResource("2_5w1ni")
@@ -17,10 +34,27 @@ description = "Cliente régulière du restaurant près de l’hôtel d’Irma
 Vient d’une famille aisée
 Toujours de bonne humeur mais a un petit côté espiègle"
 variants = Dictionary[String, Texture2D]({
-"chat": ExtResource("2_qif8i"),
-"default": ExtResource("3_qif8i"),
+"chat": ExtResource("2_myl4f"),
+"chat heureux": ExtResource("15_umcjc"),
+"chat triste": ExtResource("16_deomr"),
+"choquée": ExtResource("6_sbyio"),
+"clin d'oeil": ExtResource("7_gi0v6"),
+"default": ExtResource("3_sbyio"),
+"embarrassée": ExtResource("8_yeydq"),
+"enervée": ExtResource("9_rraca"),
+"faisant la moue": ExtResource("10_3t0rq"),
+"fatiguée": ExtResource("11_i4bs3"),
+"regard noir": ExtResource("12_x06nq"),
 "shadow": ExtResource("5_myl4f"),
-"yukata": ExtResource("4_qif8i")
+"sourire": ExtResource("13_yeydq"),
+"taquin": ExtResource("14_rhd4g"),
+"yukata": ExtResource("5_sbyio"),
+"yukata embarrassée": ExtResource("18_umcjc"),
+"yukata gênée": ExtResource("18_rhd4g"),
+"yukata rale": ExtResource("19_umcjc"),
+"yukata sourire": ExtResource("20_deomr"),
+"yukata surprise": ExtResource("21_t82ig"),
+"yukata taquin": ExtResource("22_2n664")
 })
 is_love_interest = true
 metadata/_custom_type_script = "uid://cddw0vxnb1jna"

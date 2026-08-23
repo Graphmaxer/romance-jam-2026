@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="Character" format=3 uid="uid://c6k05o6l82rxs"]
 
-[ext_resource type="Texture2D" uid="uid://drijtrbiyk566" path="res://assets/characters/Irma.png" id="2_pqtvd"]
+[ext_resource type="Texture2D" uid="uid://drijtrbiyk566" path="res://assets/characters/irma.png" id="2_pqtvd"]
 [ext_resource type="Script" uid="uid://cddw0vxnb1jna" path="res://data/characters/character.gd" id="3_lpive"]
 
 [resource]

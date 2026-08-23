@@ -1,8 +1,6 @@
 [gd_scene format=3 uid="uid://65l8l7vxaijq"]
 
 [ext_resource type="Script" uid="uid://c53gujcqghksv" path="res://ui/love_interest_panel/love_interest_panel.gd" id="1_pjeh4"]
-[ext_resource type="Resource" uid="uid://0yjvxu057fqg" path="res://data/characters/mael.tres" id="2_x387c"]
-[ext_resource type="Texture2D" uid="uid://cnp1fatjh5b27" path="res://assets/characters/mael/mael_neutral.png" id="3_x387c"]
 
 [node name="LoveInterestPanel" type="Control" unique_id=945331029]
 layout_mode = 3
@@ -14,7 +12,6 @@ grow_vertical = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 script = ExtResource("1_pjeh4")
-character = ExtResource("2_x387c")
 
 [node name="Panel" type="Panel" parent="." unique_id=1121587726]
 custom_maximum_size = Vector2(600, -1)
@@ -85,7 +82,6 @@ custom_minimum_size = Vector2(0, 200)
 layout_mode = 2
 size_flags_horizontal = 6
 size_flags_vertical = 3
-texture = ExtResource("3_x387c")
 expand_mode = 3
 
 [connection signal="pressed" from="Panel/PanelMargin/VBox/ChooseButton" to="." method="_on_choose_button_pressed"]
