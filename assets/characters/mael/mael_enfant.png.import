@@ -2,22 +2,22 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cvm6x1bvy8tdq"
-path="res://.godot/imported/Male_Surprised.png-be87ce07893126d71154643c198e3253.ctex"
+uid="uid://bf4ydm73xmlf0"
+path="res://.godot/imported/mael_enfant.png-26f818c545ef547fbc5cce694d74f822.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/characters/male/Male_Surprised.png"
-dest_files=["res://.godot/imported/Male_Surprised.png-be87ce07893126d71154643c198e3253.ctex"]
+source_file="res://assets/characters/mael/mael_enfant.png"
+dest_files=["res://.godot/imported/mael_enfant.png-26f818c545ef547fbc5cce694d74f822.ctex"]
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
-compress/lossy_quality=0.9
+compress/lossy_quality=0.7
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1

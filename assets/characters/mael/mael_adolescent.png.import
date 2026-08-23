@@ -2,22 +2,22 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d4chvmw8fphgl"
-path="res://.godot/imported/Male_Evil.png-59e9deafe1a987a26a8d86b8fadeb7d8.ctex"
+uid="uid://bruiuwir8m7gy"
+path="res://.godot/imported/mael_adolescent.png-3cef1bf884dcf9ecf92d5de5ad33cc2f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/characters/male/Male_Evil.png"
-dest_files=["res://.godot/imported/Male_Evil.png-59e9deafe1a987a26a8d86b8fadeb7d8.ctex"]
+source_file="res://assets/characters/mael/mael_adolescent.png"
+dest_files=["res://.godot/imported/mael_adolescent.png-3cef1bf884dcf9ecf92d5de5ad33cc2f.ctex"]
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
-compress/lossy_quality=0.9
+compress/lossy_quality=0.7
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1

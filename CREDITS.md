@@ -9,12 +9,6 @@
 
 ### Free Assets
 
-### Characters
-
-- Male (https://minttydrops.itch.io/alphonse-pack)
-- Female (https://minttydrops.itch.io/sylvia-pack)
-- Avatars (https://charat.me)
-
 ### User Interface
 
 - OtokeNeko (https://otojang.itch.io/beach-theme-vn-gui-pack)
